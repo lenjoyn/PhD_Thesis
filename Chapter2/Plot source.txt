@@ -1,0 +1,75 @@
+
+ATLAS
+https://www.researchgate.net/publication/48410331_Studies_of_the_performance_of_the_ATLAS_detector_using_cosmic-ray_muons
+
+Bunch
+https://www.lhc-closer.es/taking_a_closer_look_at_lhc/0.buckets_and_bunches
+
+Pseudorapidity
+wikipedia-pseudorapidity
+
+pre-acceleration
+https://stfc.ukri.org/research/particle-physics-and-particle-astrophysics/large-hadron-collider/cern-accelerator-complex/
+
+ID
+https://arxiv.org/pdf/1704.07983.pdf
+
+magnet
+http://www.jetgoodson.com/images/thesisImages/magnetSystems.png
+http://atlas-magnet-dfs.web.cern.ch/atlas-magnet-dfs/ma/papers/slides/UU-20061208.pdf
+The Large Hadron Collider: Harvest of Run 1 (chapter 3)
+
+
+LAr mechanism
+http://people.na.infn.it/~elly/TesiAtlas/SeminariAtlas/Detector/IengoAtlasCalo.pdf
+
+recording efficiency
+https://atlas.web.cern.ch/Atlas/GROUPS/DATAPREPARATION/PublicPlots/2018/DataSummary/figs/intlumivsyear.png
+
+other reference:
+ibl : https://arxiv.org/pdf/1610.01994.pdf
+
+gas leak
+https://cds.cern.ch/record/2139567/files/ATL-INDET-PROC-2016-001.pdf
+
+LAr TDR
+http://inspirehep.net/record/432394/files/CERN-LHCC-96-41.pdf
+
+forward tdr
+http://iopscience.iop.org/article/10.1088/1748-0221/3/02/P02010/pdf
+
+muon spectrometer
+https://www.nikhef.nl/pub/services/biblio/theses_pdf/thesis_J_Snuverink.pdf
+
+trigger menu
+https://twiki.cern.ch/twiki/bin/view/Atlas/LowestUnprescaled
+
+Tracks 
+  KF https://www.bzarg.com/p/how-a-kalman-filter-works-in-pictures/
+  https://arxiv.org/pdf/1704.07983.pdf
+
+Electrons
+ general reconstruction
+ https://cds.cern.ch/record/2157687
+ http://cds.cern.ch/record/1449796
+ clustering
+ ATLAS-CONF-2016-024 ATL-LARG-PUB-2008-002  
+ track
+ http://iopscience.iop.org/article/10.1088/1742-6596/119/3/032013/meta
+
+Muon
+ https://cds.cern.ch/record/2059849/files/ATL-PHYS-PROC-2015-121.pdf
+
+Jet
+ http://iopscience.iop.org/article/10.1088/1748-0221/12/06/C06038/pdf
+ lcW https://cds.cern.ch/record/1112035
+https://indico.cern.ch/event/367368/contributions/1783356/attachments/730376/1002150/HEPP2015_Presentation.pdf
+jvt: https://cds.cern.ch/record/1700870/files/ATLAS-CONF-2014-018.pdf
+
+
+b-jet
+https://cds.cern.ch/record/2037697/files/ATL-PHYS-PUB-2015-022.pdf
+
+simulation
+https://indico.cern.ch/event/770644/contributions/3201562/attachments/1749166/2833407/Simulation_in_ATLAS.pdf
+https://arxiv.org/abs/1005.4568

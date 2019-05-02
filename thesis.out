@@ -1,0 +1,44 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction and Motivation}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Standard Model}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Electroweak Symmetry Breaking}{chapter.1}% 3
+\BOOKMARK [1][-]{section.1.3}{Unsolved Problems in SM}{chapter.1}% 4
+\BOOKMARK [1][-]{section.1.4}{Thesis Overview}{chapter.1}% 5
+\BOOKMARK [0][-]{chapter.2}{Experimental Setup}{}% 6
+\BOOKMARK [1][-]{section.2.1}{Large Hadron Collider}{chapter.2}% 7
+\BOOKMARK [1][-]{section.2.2}{ATLAS Detector}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.2.1}{Inner Detector \(ID\)}{section.2.2}% 9
+\BOOKMARK [2][-]{subsection.2.2.2}{Calorimeter}{section.2.2}% 10
+\BOOKMARK [2][-]{subsection.2.2.3}{Muon Spectrometer}{section.2.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.4}{Trigger System}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.5}{Run 2 Operation Overview}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{Object Reconstruction}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.4}{Simulation}{chapter.2}% 15
+\BOOKMARK [0][-]{chapter.3}{Resonance Searching Strategy}{}% 16
+\BOOKMARK [1][-]{section.3.1}{Signal Models}{chapter.3}% 17
+\BOOKMARK [1][-]{section.3.2}{Simulation Samples and Derivation}{chapter.3}% 18
+\BOOKMARK [1][-]{section.3.3}{Physical Object Definition}{chapter.3}% 19
+\BOOKMARK [1][-]{section.3.4}{Event Selection}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.4.1}{Trigger}{section.3.4}% 21
+\BOOKMARK [2][-]{subsection.3.4.2}{Event Cleaning and Preselection}{section.3.4}% 22
+\BOOKMARK [2][-]{subsection.3.4.3}{Parameter of Interest, mWV}{section.3.4}% 23
+\BOOKMARK [2][-]{subsection.3.4.4}{VBF Event Selection}{section.3.4}% 24
+\BOOKMARK [2][-]{subsection.3.4.5}{Boosted Event Selection}{section.3.4}% 25
+\BOOKMARK [2][-]{subsection.3.4.6}{Resolved Event Selection}{section.3.4}% 26
+\BOOKMARK [2][-]{subsection.3.4.7}{Multijet Background Estimation}{section.3.4}% 27
+\BOOKMARK [1][-]{section.3.5}{Data Background Comparison}{chapter.3}% 28
+\BOOKMARK [0][-]{chapter.4}{Interpretation for Resonance Analysis}{}% 29
+\BOOKMARK [1][-]{section.4.1}{Systematic Uncertainties}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.2}{Simultaneous Fitting}{chapter.4}% 31
+\BOOKMARK [2][-]{subsection.4.2.1}{Conclusion and Result}{section.4.2}% 32
+\BOOKMARK [2][-]{subsection.4.2.2}{Combination of al}{section.4.2}% 33
+\BOOKMARK [0][-]{chapter.5}{Non-Resonance Searching Strategy}{}% 34
+\BOOKMARK [1][-]{section.5.1}{Signal Simulation Samples}{chapter.5}% 35
+\BOOKMARK [2][-]{subsection.5.1.1}{Standard Model Vector Boson Scattering}{section.5.1}% 36
+\BOOKMARK [2][-]{subsection.5.1.2}{Anomalous Quadratic Coupling \(aQGC\)}{section.5.1}% 37
+\BOOKMARK [1][-]{section.5.2}{Event Selection}{chapter.5}% 38
+\BOOKMARK [2][-]{subsection.5.2.1}{Batman Veto}{section.5.2}% 39
+\BOOKMARK [2][-]{subsection.5.2.2}{VBS Event Selection}{section.5.2}% 40
+\BOOKMARK [2][-]{subsection.5.2.3}{Boosted \046 Resolved Event Selection}{section.5.2}% 41
+\BOOKMARK [1][-]{section.5.3}{Multivariate Analysis}{chapter.5}% 42
+\BOOKMARK [1][-]{section.5.4}{Background Modeling}{chapter.5}% 43
+\BOOKMARK [2][-]{subsection.5.4.1}{VBS mjj Modelling}{section.5.4}% 44

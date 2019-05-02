@@ -1,0 +1,38 @@
+VBS theory
+
+Upper Bounds on the Values of Masses in Unified Gauge Theories 
+Duane A. Dicus and Vishnu S. Mathur
+Phys. Rev. D 7, 3111 – Published 15 May 1973
+
+Trasverse polarized boson
+https://arxiv.org/pdf/1807.02512.pdf
+
+cross-section plot
+https://arxiv.org/pdf/0806.4145.pdf
+
+divergence with heavy higgs
+https://arxiv.org/pdf/0910.5068.pdf
+
+Equations derivation
+http://inspirehep.net/record/296747
+
+M. Chanowitz, M. Golden, and H. Georgi. Low-Energy Theorems for Strongly
+Interacting W’s and Z’s.
+Phys. Rev.
+, D36(5):1490–1499, 1987.
+
+XS plot of Heavy Higgs
+https://cds.cern.ch/record/2000941/files/CERN-THESIS-2014-281-rev.pdf
+
+coupling magnitude 
+http://www.roma1.infn.it/~dionisi/docs_specialistica/capitoli-2013/vincoli-massa-higgs.pdf
+
+EFT
+https://arxiv.org/pdf/1610.08420.pdf
+
+
+
+
+
+
+

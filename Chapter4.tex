@@ -1,0 +1,58 @@
+\chapter{Interpretation for Resonance Analysis}
+\label{Ch:resonance_stat}
+After having the $m_{WV}$ distribution from both control and signal regions, the statistic interpretation is needed to verify whether any signal signature is captured in this analysis. It will be going through the following steps:
+
+\begin{itemize}
+	\item{Variation on Histograms}: the systematic uncertainties contributed from the background modelling and experiments are applied in the analysis, and each of them vary the $m_{WV}$ distribution in histograms. They are taken as the inputs with the nominal histogram for the background fitting in the next step.
+
+	\item{Control Region Fitting}: a binned maximum-likelihood fitting is performed in control region histograms to rescale the W+jet and $t\bar{t}$ backgrounds for data-background agreement. The scale factors are then taken as the ratio of post-fit to pre-fit histograms in each bin. This procedure is conducted in W+jet and top control region simultaneously with the null hypothesis. (no signal in control regions.)
+
+	\item{Signal Region Fitting}: the scale factor from background fitting is applied in signal regions, and the fitting to the signals is also performed with the signal samples of varied mass points. ($300MeV-5TeV$ with steps of $100GeV$).
+
+	\item{Signal Verification}: the signal interpretation is through the CLs method by quantifying the agreement between data and background in signal regions after signal fitting. The result will be presented as the exclusion on the mass regions at $95\%$ confidence level.
+\end{itemize}
+The details of each step will be discussed in the following sections with the results from this analysis. 
+\section{Systematic Uncertainties}
+No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties from this source could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent this mistake, both systematic and statistic uncertainties are brought into the consideration for both background fitting and signal interpretation.
+\\
+\\The following are the systematic uncertainties considered in this analysis and how they are taken into the $m_{WV}$ histograms.
+\begin{itemize}
+	\item{\bf Luminosity Measurement}: the given luminosity of the dataset collected in 2015 and 2016 is accompanied by the uncertainty of $2.1\%$. It is applied in the histograms from simulation by scaling up and donw the total yield of each bin by $2.1\%$
+
+	\item{\bf Selection and Reconstruction Efficiency}: the object reconstruction and selection efficiency of physical objects is not consistent between data and simulation like the trigger efficiency shown in Subsec. \ref{Subsec:Trigger_resonance}. The uncertainty of this source is induced by the uncertainties in the variables used in tag and probe method. To estimated the impact, the tag and probe criteria are tightened and loosened for scale factor re-estimation, and they replace the nominal scale factors to obtain the new histograms. This uncertainty comes from the efficiencies of trigger, lepton isolation, lepton identification, jet b-tagging, fat jet boson-tagging, and all physical object reconstruction. 
+
+	\item{\bf Energy Scale and Resolution}: the energy measurement is based on the pulse shapes from the calorimeter cells, but it is not precise enough due to different responses of layers or varied granularity of the calorimeter. The uncertainty estimation of this source for electrons and muons are via the $Z$ boson mass reconstruction in dedicated analysis as a function of $p_{T}$. In the case of jets, they are estimated via the comparison of the truth and reconstructed $E_{T}$ from dijet simulation samples. It also has the impact on $E^{miss}_{T}$ reconstruction, and the variation on jet energy scale is the dominant contribution for its uncertainty. The variation from the uncertainty is applied as fluctuation on object $E_T$ in the analysis to get the new $m_{WV}$ histograms.
+
+	\item{\bf Simulation Modelling}: The tuning and modelling parameters are different for generators and showering models due to the varied preference of theoretical approximation. To take this variation into the uncertainty contribution, simulated samples are regenerated with another simulation set (different generator or tuning parameters), and the same events selections is applied. The new histogram is then obtained after the normalization to the nominal sample. This is contributed from $W+jet$, $t\bar{t}$ and signal simulation. As other backgrounds have minor contribution, the effect is taken negligible.
+
+	\item{\bf Multijet Background Modelling}: multijet modelling is sensitive to the lepton isolation criteria and the jet topology. To estimate the uncertainty of this contribution, the fake factor was re-evaluated with loosened and tightened isolation on leptons, and the new fake factors are applied to get new multijet $m_{WV}$ distribution.
+\end{itemize}
+\section{Simultaneous Fitting}
+A simultaneous fitting is conducted to adjust the background to agree well with the data in the $m_{WV}$ histogram which is in the binning of:
+\begin{equation}
+m_{WV}={}
+\end{equation}
+\\
+\\It is performed with a maximum likelihood method presented in the full form as:
+ \begin{eqnarray}
+ \mathcal{L}(\mu, \mbox{\boldmath $\theta$}) = \displaystyle\prod_{k} \left\{
+ \displaystyle\prod_{i=1}^{N_{{\rm bins},k}^{SR}}P(N_{ki}^{SR}|\mu s_{ki}^{SR} + \mu_{t\bar{t},k} b_{t\bar{t},ki}^{SR} + \mu_{W,k} b_{W,ki}^{SR} + b_{{\rm others},i}^{SR})
+ \times \right. \nonumber \\
+ \displaystyle\prod_{l=1}^{N_{{\rm bins},k}^{TR}}P(N_{kl}^{TR}|\mu s_{kl}^{TR} + \mu_{t\bar{t},k} b_{t\bar{t},kl}^{TR} + \mu_{W,k} b_{W,kl}^{TR} + b_{{\rm others},m}^{TR})
+ \times \nonumber \\
+ \left. \displaystyle\prod_{m=1}^{N_{{\rm bins},k}^{WR}}P(N_{km}^{WR}|\mu s_{km}^{WR} + \mu_{t\bar{t},k} b_{t\bar{t},km}^{WR} + \mu_{W,k} b_{W,km}^{WR} + b_{{\rm others},m}^{WR})
+ \right\} \nonumber \\
+ \times\displaystyle\prod_{j=1}^{N_{\theta}}{\rm Nuis}(\tilde{\theta_j}|\theta_j),
+ \label{Eq:likelihood}
+ \end{eqnarray}
+where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$ is the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation and , and it is shared between control and signal regions (simultaneously). 
+\\
+\\{\bf Nuisance Parameters}
+\\
+\\The last term in Eq. \ref{Eq:likelihood} is to taking the consideration of uncertainties mentioned in the last 
+
+\subsection{Conclusion and Result}
+\subsection{Combination of al}
+\subsubsection{Statistical Method}
+\subsubsection{Combination Strategy}
+\subsubsection{Conclusion}

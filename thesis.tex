@@ -1,0 +1,75 @@
+%% For Cambridge soft-bound version
+\documentclass[hyperpdf,bindnopdf]{hepthesis}
+
+%% For Cambridge hard-bound version (must be one-sided)
+%\documentclass[hyperpdf,oneside]{hepthesis}
+
+%% Load special font packages here if you wish
+%\usepackage{lmodern}
+\usepackage{mathpazo}
+\usepackage{enumerate}
+\usepackage{tabularx}
+
+%\usepackage{euler}
+
+%% Put package includes etc. into preamble.tex for convenience
+\input{preamble}
+
+%% You can set the line spacing this way
+%\setallspacing{double}
+%% or a section at a time like this
+%\setfrontmatterspacing{double}
+
+
+%% Define the thesis title and author
+\title{Search for Diboson New Physics in Semileptonic Final States with the ATLAS Detector at $\sqrt{s}=13TeV$ pp collision}
+\author{Chiao-Ying Lin}
+%\maketitle
+%% Doc-specific PDF metadata
+\makeatletter
+\@ifpackageloaded{hyperref}{%
+	\hypersetup{%
+		pdftitle = {Search for New Physics with the ATLAS Detector with Resonance and Non-Resonance Signatures at $\sqrt{s}=13TeV$ pp collision},
+		pdfsubject = {Chiao-Ying Lin's PhD thesis},
+		pdfkeywords = {ATLAS, Diboson, electroweak, exotics, Standard Model, DAQ, Trigger, L1Calo},
+		pdfauthor = {\textcopyright\ Chiao-Ying}
+}}{}
+\makeatother
+
+
+%% Start the document
+\begin{document}
+
+	%% Define the un-numbered front matter (cover pages, rubrik and table of contents)
+%\begin{frontmatter}
+%    \input{frontmatter}
+%\end{frontmatter}
+	
+	%% Start the content body of the thesis
+\begin{mainmatter}
+	\begin{spacing}{1.4}
+	\include{Chapter1}
+	\include{Chapter2}
+    \input{Chapter2_2}
+ 	\include{Chapter3}
+ 	\input{Chapter3_2}
+ 	\input{regions_mj}
+ 	\include{Chapter4}
+ 	\include{Chapter5}
+ 	\end{spacing}
+\end{mainmatter}
+	
+	%% Produce the appendices
+%	\begin{appendices}
+%		\input{appendices}
+%	\end{appendices}
+	
+	%% Produce the un-numbered back matter (e.g. colophon,
+	%% bibliography, tables of figures etc., index...)
+%	\begin{backmatter}
+%		\input{backmatter}
+%	\end{backmatter}
+	
+	%% Close
+\end{document}
+
