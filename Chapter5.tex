@@ -240,7 +240,7 @@ In general, Decision tree has the advantage of being handy for use, easy to unde
 \\
 \\Due to the insufficiency of decision tree, the approach called ``boost'' is applied into the sample events after each tree is grown up. The process is determined by deviation of the predicted value from the truth value with a ``Loss Function'' defined as:
 \begin{equation}
-L(F(x_{i}), y_{i}) = \sum_{i}^{n}\ln(1+\exp{-2F(x_i)y_{i}})
+L(F(x_{i}), y_{i}) = \sum_{i}^{n}\ln(1+\exp{(-2F(x_i)y_{i})})
 \end{equation} 
 where $F(x_{i})$ is the predicted value from the outcome of decision trees for the $i$th event, and $y_{i}$ is its truth value. The training process is then conducted in the following steps:
 \begin{enumerate}[(a)]

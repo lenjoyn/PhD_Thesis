@@ -45,12 +45,25 @@ m_{WV}={}
  \times\displaystyle\prod_{j=1}^{N_{\theta}}{\rm Nuis}(\tilde{\theta_j}|\theta_j),
  \label{Eq:likelihood}
  \end{eqnarray}
-where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$ is the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation and , and it is shared between control and signal regions (simultaneously). 
+where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$ is the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation and , and it is shared between control and signal regions (simultaneously). The final fitting with the scaling factors is then determined by the logarithm maximum likelihood, $\log{\mathcal{L}}$:
 \\
 \\{\bf Nuisance Parameters}
 \\
-\\The last term in Eq. \ref{Eq:likelihood} is to taking the consideration of uncertainties mentioned in the last 
-
+\\The last term in Eq. \ref{Eq:likelihood} is to take in the consideration of uncertainties mentioned in the last section. They are called ``nuisance parameters'' in the scope of statistics, as they only have the impact on the shape of likelihood which is of the second interest. Our primary parameter of interest (POI) is $\mu$, the scale factor for signal events.
+\\
+\\There are three types of nuisance parameters based on their impact on the distribution of $m_{WV}$. The following is the treatments to them.
+\begin{itemize}
+	\item Statistical Uncertainty: with the limited event numbers of background estimation, the statistical uncertainties in each bin are taken as extra nuisance parameters. A light Beeston-Barlow method is applied which introduces a new scale factor, $\theta$, on each bin with the constraint of a Gaussian distribution with the default value as 1. These nuisance parameters are then contributed to the likelihood in this expression:
+	\begin{equation}
+	Nuis(\theta|\tilde{\theta}) = \displaystyle\prod_{j}\exp{\left[\frac{(\theta_{ji}-1)^2}{2\sigma^{2}_{ji}}\right]}
+	\end{equation} 
+    Here, j is the index for different background contributions, while $\mu_{ij}$ and $\sigma_{ij}$ are the background scale factor and the statistical uncertainty, while i is the index for bins. The statistical uncertainty is the quadrature sum of all the background contribution in a bin. 
+	\item Overall Normalization: this type of nuisance parameters has the equally sided uncertainties, and they just scale up and down the total yields of histograms. They are contributed by uncertainties from the scaling factors and luminosity measurement. The treatment is simply taking a Gaussian distribution as the constraint. It can be presented in the likelihood as:
+	\begin{equation}
+	Nuis(\theta|\tilde{\theta})=\exp\left[\frac{(\theta-\tilde{\theta})}{2\sigma^2}\right]
+	\end{equation}
+	\item Shape
+\end{itemize}
 \subsection{Conclusion and Result}
 \subsection{Combination of al}
 \subsubsection{Statistical Method}
