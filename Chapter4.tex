@@ -1,40 +1,45 @@
 \chapter{Interpretation for Resonance Analysis}
 \label{Ch:resonance_stat}
-After having the $m_{WV}$ distribution from both control and signal regions, the statistic interpretation is needed to verify whether any signal signature is captured in this analysis. It will be going through the following steps:
+After having the $m_{WV}$ distributions from both control and signal regions, the statistic interpretation is applied to verify whether any signal signature is captured in this analysis. It will be going through the following steps:
 
 \begin{itemize}
 	\item{Variation on Histograms}: the systematic uncertainties contributed from the background modelling and experiments are applied in the analysis, and each of them vary the $m_{WV}$ distribution in histograms. They are taken as the inputs with the nominal histogram for the background fitting in the next step.
 
-	\item{Control Region Fitting}: a binned maximum-likelihood fitting is performed in control region histograms to rescale the W+jet and $t\bar{t}$ backgrounds for data-background agreement. The scale factors are then taken as the ratio of post-fit to pre-fit histograms in each bin. This procedure is conducted in W+jet and top control region simultaneously with the null hypothesis. (no signal in control regions.)
-
-	\item{Signal Region Fitting}: the scale factor from background fitting is applied in signal regions, and the fitting to the signals is also performed with the signal samples of varied mass points. ($300MeV-5TeV$ with steps of $100GeV$).
-
-	\item{Signal Verification}: the signal interpretation is through the CLs method by quantifying the agreement between data and background in signal regions after signal fitting. The result will be presented as the exclusion on the mass regions at $95\%$ confidence level.
+	\item{Control Region Fitting}: a binned maximum-likelihood fitting is performed in control and signal region histograms simultaneously to rescale the backgrounds and signal for a proper agreement to the data. The scale factors are then taken as the ratio of post-fit to pre-fit histograms in each bin. 
+	
+	\item{Signal Verification}: the signal interpretation is through the CLs method by quantifying the agreement between data and background in signal regions after signal fitting. The result will be presented as the exclusion on the mass regions at $95\%$ confidence level or the discovery with a corresponding ``p-value''.
 \end{itemize}
 The details of each step will be discussed in the following sections with the results from this analysis. 
 \section{Systematic Uncertainties}
-No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties from this source could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent this mistake, both systematic and statistic uncertainties are brought into the consideration for both background fitting and signal interpretation.
+No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent this mistake, both systematic and statistic uncertainties are brought into the consideration for the ground fitting and signal interpretation.
 \\
 \\The following are the systematic uncertainties considered in this analysis and how they are taken into the $m_{WV}$ histograms.
 \begin{itemize}
-	\item{\bf Luminosity Measurement}: the given luminosity of the dataset collected in 2015 and 2016 is accompanied by the uncertainty of $2.1\%$. It is applied in the histograms from simulation by scaling up and donw the total yield of each bin by $2.1\%$
+	\item{\bf Luminosity Measurement}: the given luminosity of the dataset collected in 2015 and 2016 is accompanied by the uncertainty of $2.1\%$. It is applied in the histograms from simulations by scaling up and down the total yield of each bin by $2.1\%$
 
-	\item{\bf Selection and Reconstruction Efficiency}: the object reconstruction and selection efficiency of physical objects is not consistent between data and simulation like the trigger efficiency shown in Subsec. \ref{Subsec:Trigger_resonance}. The uncertainty of this source is induced by the uncertainties in the variables used in tag and probe method. To estimated the impact, the tag and probe criteria are tightened and loosened for scale factor re-estimation, and they replace the nominal scale factors to obtain the new histograms. This uncertainty comes from the efficiencies of trigger, lepton isolation, lepton identification, jet b-tagging, fat jet boson-tagging, and all physical object reconstruction. 
+	\item{\bf Selection and Reconstruction Efficiency}: the object reconstruction and selection efficiency of physical objects are not consistent between data and simulation like the trigger efficiency shown in Subsec. \ref{Subsec:Trigger_resonance}. The uncertainty of this source is induced by the uncertainties in the variables used in tag and probe method. To estimated the impact, the tag and probe criteria are tightened and loosened for scale factor re-estimation, and they replace the nominal scale factors to obtain the new histograms. This uncertainty comes from the efficiencies of trigger, lepton isolation, lepton identification, jet b-tagging, fat jet boson-tagging, and all physical object reconstruction. 
 
-	\item{\bf Energy Scale and Resolution}: the energy measurement is based on the pulse shapes from the calorimeter cells, but it is not precise enough due to different responses of layers or varied granularity of the calorimeter. The uncertainty estimation of this source for electrons and muons are via the $Z$ boson mass reconstruction in dedicated analysis as a function of $p_{T}$. In the case of jets, they are estimated via the comparison of the truth and reconstructed $E_{T}$ from dijet simulation samples. It also has the impact on $E^{miss}_{T}$ reconstruction, and the variation on jet energy scale is the dominant contribution for its uncertainty. The variation from the uncertainty is applied as fluctuation on object $E_T$ in the analysis to get the new $m_{WV}$ histograms.
+	\item{\bf Energy Scale and Resolution}: the energy measurement is based on the pulse shapes from the calorimeter cells, but it is not precise enough due to different responses of layers or varied granularity of the calorimeter. The uncertainty estimation of this source for electrons and muons are via the $Z$ boson mass reconstruction in dedicated analysis as a function of $p_{T}$. In the case of jets, they are estimated via the comparison of the truth and reconstructed $E_{T}$ from dijet simulation samples. It also has the impact on $E^{miss}_{T}$ reconstruction, and the variation on jet energy scale is the dominant contribution for $E^{miss}_{T}$ uncertainty. The variation from the uncertainty is applied as the variations on object $E_T$ in the analysis to get the new $m_{WV}$ histograms.
 
-	\item{\bf Simulation Modelling}: The tuning and modelling parameters are different for generators and showering models due to the varied preference of theoretical approximation. To take this variation into the uncertainty contribution, simulated samples are regenerated with another simulation set (different generator or tuning parameters), and the same events selections is applied. The new histogram is then obtained after the normalization to the nominal sample. This is contributed from $W+jet$, $t\bar{t}$ and signal simulation. As other backgrounds have minor contribution, the effect is taken negligible.
+	\item{\bf Simulation Modelling}: The tuning and modelling parameters are different for generators and showering models due to the varied preference of theoretical approximation. To take this variation into the uncertainty contribution, simulated samples are regenerated with another simulation sets (a different generator or tuning parameters), and the same events selections is applied. The new histogram is then obtained after the normalization to the nominal sample. This is contributed from $W+jet$, $t\bar{t}$ and signal simulation. As other backgrounds have minor contribution, the effect is taken negligible.
 
-	\item{\bf Multijet Background Modelling}: multijet modelling is sensitive to the lepton isolation criteria and the jet topology. To estimate the uncertainty of this contribution, the fake factor was re-evaluated with loosened and tightened isolation on leptons, and the new fake factors are applied to get new multijet $m_{WV}$ distribution.
+	\item{\bf Multijet Background Modelling}: multijet modelling is sensitive to the lepton isolation criteria and the jet topology. To estimate the uncertainty of this contribution, the fake factors were re-evaluated with loosened and tightened isolations on leptons as well as in the single b-jet control region, and the new fake factors are applied to get the new multijet $m_{WV}$ distribution.
 \end{itemize}
 \section{Simultaneous Fitting}
-A simultaneous fitting is conducted to adjust the background to agree well with the data in the $m_{WV}$ histogram which is in the binning of:
+A simultaneous fitting is conducted to adjust the background and signal to agree well with the data in the $m_{WV}$ histogram which is in the binnings of boosted and resolved channels:
+
+\begin{multline}
+m^{Boosted}_{WV}= 500, 575, 660, 755, 860, 975, 1100, 1235, 1380, 1535, 1700,\\ 1875, 2060, 2255, 2460, 2675, 2900, 3135, 3380, 3800, 6000
+\end{multline}
+\noindent
 \begin{equation}
-m_{WV}={}
+m^{Resolved}_{WV}= 300, 360, 420, 500, 575, 660, 755, 860, 975, 1100, 1500, 2000
 \end{equation}
-\\
-\\It is performed with a maximum likelihood method presented in the full form as:
+
+\noindent
+It is performed with a maximum likelihood method presented in the full form as:
  \begin{eqnarray}
+ \label{Eq. ML_all}
  \mathcal{L}(\mu, \mbox{\boldmath $\theta$}) = \displaystyle\prod_{k} \left\{
  \displaystyle\prod_{i=1}^{N_{{\rm bins},k}^{SR}}P(N_{ki}^{SR}|\mu s_{ki}^{SR} + \mu_{t\bar{t},k} b_{t\bar{t},ki}^{SR} + \mu_{W,k} b_{W,ki}^{SR} + b_{{\rm others},i}^{SR})
  \times \right. \nonumber \\
@@ -55,15 +60,23 @@ where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to obse
 \begin{itemize}
 	\item Statistical Uncertainty: with the limited event numbers of background estimation, the statistical uncertainties in each bin are taken as extra nuisance parameters. A light Beeston-Barlow method is applied which introduces a new scale factor, $\theta$, on each bin with the constraint of a Gaussian distribution with the default value as 1. These nuisance parameters are then contributed to the likelihood in this expression:
 	\begin{equation}
-	Nuis(\theta|\tilde{\theta}) = \displaystyle\prod_{j}\exp{\left[\frac{(\theta_{ji}-1)^2}{2\sigma^{2}_{ji}}\right]}
+	Nuis(\theta) = \displaystyle\prod_{i}\exp{\left[\frac{(\theta_{i}-1)^2}{2\sigma^{2}_{i}}\right]}
 	\end{equation} 
-    Here, j is the index for different background contributions, while $\mu_{ij}$ and $\sigma_{ij}$ are the background scale factor and the statistical uncertainty, while i is the index for bins. The statistical uncertainty is the quadrature sum of all the background contribution in a bin. 
-	\item Overall Normalization: this type of nuisance parameters has the equally sided uncertainties, and they just scale up and down the total yields of histograms. They are contributed by uncertainties from the scaling factors and luminosity measurement. The treatment is simply taking a Gaussian distribution as the constraint. It can be presented in the likelihood as:
+	$\theta$ is the ratio of the scale event number to the unscaled (raw) event number in the prediction. The likelihood is then further constrained by the Gaussian distribution of $\theta$ which has the width of $\sigma$ from quadratic sum of all the background contributions. i is still the index of each bin.    
+ 
+	\item Overall Normalization: this type of nuisance parameters has the equally sided uncertainties, and they just scale up and down the total yields of histograms without changing the shape of distribution. They are contributed by uncertainties from the scaling factors and luminosity measurement. The treatment is simply taking a Gaussian distribution as the constraint. It can be presented in the likelihood as:
 	\begin{equation}
-	Nuis(\theta|\tilde{\theta})=\exp\left[\frac{(\theta-\tilde{\theta})}{2\sigma^2}\right]
+	Nuis(\theta)=\exp\left[\frac{(\theta-N)^2}{2\sigma^2}\right]
 	\end{equation}
-	\item Shape
+	In this expression, the Gaussian distribution has the mean of observed event number with the width of observed uncertainty for luminosity. In the case of uncertainties for scale factors, the sigma is assigned to  
+	\item Shape Related Uncertainty: for the uncertainties which are not equally sided ($\sigma_{+}\neq\sigma_{-}$), a procedure called ``morphing'' is applied which could be presented as:
+    \begin{equation}
+    n &= n_0+ \alpha(\sigma_{+}-n_0) \quad \alpha>0 \\
+      &= n_0+ \alpha(n_0-\sigma_{-}) \quad \alpha<0
+    \end{equation}
+    Here, n is the scaled event number, while $n_0$ is the raw event number. Then, scaled factor is constrained by $\alpha$ which is under a Gaussian distribution constrained by $\sigma_{\pm}$. 
 \end{itemize}
+
 \subsection{Conclusion and Result}
 \subsection{Combination of al}
 \subsubsection{Statistical Method}
