@@ -1,0 +1,252 @@
+\chapter{Interpretation for Resonance Analysis}
+\label{Ch:resonance_stat}
+After having the $m_{WV}$ distributions from both control and signal regions, the statistic interpretation is applied to verify whether any signal signature is captured in this analysis. It will be going through the following steps:
+
+\begin{itemize}
+	\item{Variation on Histograms}: the systematic uncertainties contributed from the background modelling and experiments are applied in the analysis, and each of them vary the $m_{WV}$ distribution in histograms. They are taken as the inputs with the nominal histogram for the background fitting in the next step.
+
+	\item{Control Region Fitting}: a binned maximum-likelihood fitting is performed in control and signal region histograms simultaneously to rescale the backgrounds and signal for a proper agreement to the data. The scale factors are then taken as the ratio of post-fit to pre-fit histograms in each bin. 
+	
+	\item{Signal Verification}: the signal interpretation is through the CLs method by quantifying the agreement between data and background in signal regions after signal fitting. The result will be presented as the exclusion on the mass regions at $95\%$ confidence level or the discovery with a corresponding ``p-value''.
+\end{itemize}
+The details of each step will be discussed in the following sections with the results from this analysis. 
+\section{Systematic Uncertainties}
+No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent this mistake, both systematic and statistic uncertainties are brought into the consideration for the ground fitting and signal interpretation.
+\\
+\\The following are the systematic uncertainties considered in this analysis and how they are taken into the $m_{WV}$ histograms.
+\begin{itemize}
+	\item{\bf Luminosity Measurement}: the given luminosity of the dataset collected in 2015 and 2016 is accompanied by the uncertainty of $2.1\%$. It is applied in the histograms from simulations by scaling up and down the total yield of each bin by $2.1\%$
+
+	\item{\bf Selection and Reconstruction Efficiency}: the object reconstruction and selection efficiency of physical objects are not consistent between data and simulation like the trigger efficiency shown in Subsec. \ref{Subsec:Trigger_resonance}. The uncertainty of this source is induced by the uncertainties in the variables used in tag and probe method. To estimated the impact, the tag and probe criteria are tightened and loosened for scale factor re-estimation, and they replace the nominal scale factors to obtain the new histograms. This uncertainty comes from the efficiencies of trigger, lepton isolation, lepton identification, jet b-tagging, fat jet boson-tagging, and all physical object reconstruction. 
+
+	\item{\bf Energy Scale and Resolution}: the energy measurement is based on the pulse shapes from the calorimeter cells, but it is not precise enough due to different responses of layers or varied granularity of the calorimeter. The uncertainty estimation of this source for electrons and muons are via the $Z$ boson mass reconstruction in dedicated analysis as a function of $p_{T}$. In the case of jets, they are estimated via the comparison of the truth and reconstructed $E_{T}$ from dijet simulation samples. It also has the impact on $E^{miss}_{T}$ reconstruction, and the variation on jet energy scale is the dominant contribution for $E^{miss}_{T}$ uncertainty. The variation from the uncertainty is applied as the variations on object $E_T$ in the analysis to get the new $m_{WV}$ histograms.
+
+	\item{\bf Simulation Modelling}: The tuning and modelling parameters are different for generators and showering models due to the varied preference of theoretical approximation. To take this variation into the uncertainty contribution, simulated samples are regenerated with another simulation sets (a different generator or tuning parameters), and the same events selections is applied. The new histogram is then obtained after the normalization to the nominal sample. This is contributed from $W+jet$, $t\bar{t}$ and signal simulation (for signal, the tuning is to consider the events for which there are the jets from the initial or final state radiation (ISR and FSR)). As other backgrounds have minor contribution, the effect is taken negligible. 
+
+	\item{\bf Multijet Background Modelling}: multijet modelling is sensitive to the lepton isolation criteria and the jet topology. To estimate the uncertainty of this contribution, the fake factors were re-evaluated with loosened and tightened isolations on leptons as well as in the single b-jet control region, and the new fake factors are applied to get the new multijet $m_{WV}$ distribution.
+\end{itemize}
+\section{Likelihood Construction $\&$ Fitting}
+A simultaneous fitting is conducted to adjust the background and signal to agree well with the data in the $m_{WV}$ histogram which is in the binnings of boosted and resolved channels:
+
+\begin{multline}
+m^{Boosted}_{WV}= 500, 575, 660, 755, 860, 975, 1100, 1235, 1380, 1535, 1700,\\ 1875, 2060, 2255, 2460, 2675, 2900, 3135, 3380, 3800, 6000
+\end{multline}
+\noindent
+\begin{equation}
+m^{Resolved}_{WV}= 300, 360, 420, 500, 575, 660, 755, 860, 975, 1100, 1500, 2000
+\end{equation}
+\noindent
+For the VBF category, the bins with higher $m_{WV}$ have the statistics too low for the MC samples, so there is only one bin  for  $m_{WV}>1535~GeV$($1100~GeV$) for the boosted (resolved) region. Then, a maximum likelihood method is performed for the fitting which could be presented in the full form as:
+ \begin{eqnarray}
+ \label{Eq. ML_all}
+ \mathcal{L}(\mu, \mbox{\boldmath $\theta$}) = \displaystyle\prod_{k} \left\{
+ \displaystyle\prod_{i=1}^{N_{{\rm bins},k}^{SR}}P(N_{ki}^{SR}|\mu s_{ki}^{SR} + \mu_{t\bar{t},k} b_{t\bar{t},ki}^{SR} + \mu_{W,k} b_{W,ki}^{SR} + b_{{\rm others},i}^{SR})
+ \times \right. \nonumber \\
+ \displaystyle\prod_{l=1}^{N_{{\rm bins},k}^{TR}}P(N_{kl}^{TR}|\mu s_{kl}^{TR} + \mu_{t\bar{t},k} b_{t\bar{t},kl}^{TR} + \mu_{W,k} b_{W,kl}^{TR} + b_{{\rm others},m}^{TR})
+ \times \nonumber \\
+ \left. \displaystyle\prod_{m=1}^{N_{{\rm bins},k}^{WR}}P(N_{km}^{WR}|\mu s_{km}^{WR} + \mu_{t\bar{t},k} b_{t\bar{t},km}^{WR} + \mu_{W,k} b_{W,km}^{WR} + b_{{\rm others},m}^{WR})
+ \right\} \nonumber \\
+ \times\displaystyle\prod_{j=1}^{N_{\theta}}{\rm Nuis}(\theta_j),
+ \label{Eq:likelihood}
+ \end{eqnarray}
+where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$s are the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation , and they shared between control and signal regions (simultaneously). The $\mu$ to rescale the signal events is also called signal strength which is the primary parameter of interest in the statistical interpretation. The k index in this formula corresponding to the event categories: ggF merged HP, ggF merged LP, ggF resolved, VBF merged HP, VBF merged LP, and VBF resolved regions, and their likelihoods are constructed independent from each other.
+\\
+\\{\bf Nuisance Parameters}
+\\
+\\The last term in Eq. \ref{Eq:likelihood} is to take in the consideration of uncertainties mentioned in the last section. They are called ``nuisance parameters'' in the scope of statistics, as they only have the impact on the shape of likelihood which is of the second interest. Our primary parameter of interest (POI) is $\mu$, the scale factor for signal events.
+\\
+\\There are three types of nuisance parameters based on their impact on the distribution of $m_{WV}$. The following are the treatments to them mostly with the constraint of a Gaussian distribution in this analysis, although the other p.d.f. options are also available. 
+\begin{itemize}
+	\item Statistical Uncertainty: with the limited event numbers of background estimation, the statistical uncertainties in each bin are taken as extra nuisance parameters. A light Beeston-Barlow method is applied which introduces a new scale factor, $\theta$, on each bin with the constraint of a Gaussian distribution with the default value as 1. These nuisance parameters are then contributed to the likelihood in this expression:
+	\begin{equation}
+	Nuis(\theta) = \displaystyle\prod_{i}\exp{\left[\frac{(\theta_{i}-1)^2}{2\sigma^{2}_{i}}\right]}
+	\end{equation} 
+	$\theta$ is the ratio of the scaled event number to the unscaled (raw) event number in the prediction. The likelihood is then further constrained by the Gaussian distribution of $\theta$ which has the width of $\sigma$ from quadratic sum of all the background contributions. i is still the index of each bin.    
+ 
+	\item Overall Normalization: this type of nuisance parameters has the equally sided uncertainties, and they just scale up and down the total yields of histograms without changing the shape of distribution. They are contributed by uncertainties from the scaling factors and luminosity measurement. The treatment is simply taking a Gaussian distribution as the constraint if it is needed. It can be presented in the likelihood as:
+	\begin{equation}
+	Nuis(\theta)=\exp\left[\frac{(\theta-N)^2}{2\sigma^2}\right]
+	\end{equation}
+	In this expression, the Gaussian distribution has the mean of observed event number with the width of observed uncertainty for luminosity. In the case of uncertainties for scale factors, Tab. \ref{Tab:constaints} is the summary for constraints applied on different background contributions.    For $t\bar{t}$ and W+jets backgrounds, no constraint is set, and the deviation of $\theta$ from 1 for the scale factors is always taken as 1$\sigma$.  
+	
+	\begin{table}[h]
+		\caption{The constraints on scaling factors for SM backgrounds}
+		\renewcommand{\arraystretch}{1.3}
+		\centering
+		\begin{tabular}{| c | c | c | c | }
+			\hline
+			\hline
+			Background      &     Constraint     & Upper Limit ($\sigma_{+}$)  &  Lower Limit ($\sigma_{-}$)  \\
+			\hline
+			W+jets          &     Free           & 2                           &  0                          \\
+			\hline
+			$t\bar{t}$      &     Free           & 2                           &  0                          \\
+			\hline
+			single top      &     Gaussian       & 1.11                        &  0.89                       \\
+			\hline
+			WW+WZ           &     Gaussian       & 1.3                         &  0.7                        \\
+			\hline
+			Z+jets          &     Gaussian       & 1.11                        &  0.89                       \\
+			\hline
+		\end{tabular}
+	\label{Tab:constaints}
+    \end{table}
+
+	\item Shape Related Uncertainty: for the uncertainties which are not equally sided ($\sigma_{+}\neq\sigma_{-}$), a procedure called ``morphing'' is applied which could be presented as:
+    \begin{equation}
+    n =
+    \begin{cases}
+    n_0+ \theta(\sigma_{+}-n_0) & \theta>0 \\
+    n_0+ \theta(n_0-\sigma_{-}) & \theta<0
+    \end{cases}
+    \end{equation}
+    Here, n is the scaled event number, while $n_0$ is the raw event number. Then, scaled factor is constrained by $\theta$ which is under a Gaussian distribution constraint ($G(\mu, \sigma)=G(0,1)$). 
+\end{itemize}
+\noindent
+{\bf Quality of Fitting}
+\\
+\\To find the maximum of likelihood in Eq. \ref{Eq. ML_all}, the logarithmic form, $\log{\mathcal{L}}$, is used. The extreme value is then found when:
+\begin{equation}
+-\frac{\partial}{\partial\mu}\log{\mathcal{L}} = 0
+\end{equation}
+However, the phase space of the likelihood is complex constructed with multiple dimensions of the scale factors, so the MINUIT2 method with Hessian matrix is performed under the framework of RooFit. The maximized likelihood is denoted as: $\mathcal{L}(\hat{\mu}, \hat{\theta})$
+\\
+\\To verify the quality of the process of fitting with the likelihood equation, two properties of the results are verified: 
+\begin{itemize}
+	\item {\bf Pull} The pull is defined as the deviation of nuisance parameters from the expected mean number:
+	\begin{equation}
+	pull=\frac{\hat{\theta}-\theta_0}{\sigma_{\theta}}
+	\end{equation}
+	with $\theta_0$ as the mean of $\theta$, while the uncertainty of nuisance parameters are taken from the likelihood phase space. The pull result is verified by the comparison to ``Asimov data'' which took the expected event number as the observed data. (so the Asimov data has the pull as 0.)  The proper fitting should have all the pulls within the $1\sigma$ variation with the reasonable uncertainty, or that indicates a huge discrepancy between the background estimation and the observed data. 
+	\item {\bf Nuisance Parameter Correlation} The phase space of likelihood is constructed under the assumption that all the nuisance parameters are decorrelated, but it still needs to be verified. The correlation matrix is then used for this verification which has the elements defined as:
+	\begin{equation}
+	Cov(\theta_i, \theta_j) = \frac{\partial^2\log(\mathcal{L})}{\partial\theta_i \partial\theta_j}|_{\theta=\hat{\theta}}
+	\end{equation}
+	This variable, $Cov(\theta_i, \theta_j)$, should be close to 0 if $i\neq j$.
+\end{itemize}
+The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boosted and resolved categories which are presented in Fig. \ref{Fig:pull_HVT} with signal strength (signal scale factor) as 0 in control regions. Fig. \ref{Fig:Cor_HVT} is the correlation matrix of the nuisance parameters applied in the ggF HP boosted region. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.81\textwidth]{Chapter4/NuiPull_ggFHVT2000.png}
+	 \vspace{5mm}
+	\includegraphics[width=0.81\textwidth]{Chapter4/NuiPull_ggFHVT500.png}
+	\centering
+	\begin{center}
+		\caption{The pulls for the fitting with input signal of ggF 2$~TeV$ (up) and  500$~GeV$ (down) W' bosons for the boosted and resolved categories respectively.}
+		\label{Fig:pull_HVT}            
+	\end{center}
+\end{figure} 
+\begin{figure}[!h]
+	\includegraphics[width=1.0\textwidth]{Chapter4/CorrMatrix_WW_HP_ggF.eps}
+	\begin{center}
+		\caption{The correlation matrix of boosted high purity region with the ggF event selection}
+		\label{Fig:Cor_HVT}
+	\end{center}
+\end{figure}
+\noindent
+{\bf Combination}
+\\
+\\This analysis contains several categories (merged and resolved, or VBF and ggF production), and a combination of them could help to increase the sensitivity to set a more stringent limit by the decrease of distribution width in the test statistics p.d.f. (this will be discussed in the next section). The combination procedure is to simply multiply the likelihoods constructed from different event categories:
+\begin{equation}
+\mathcal{L}=\displaystyle\prod_{i=1}^{N_{categories}} \mathcal{L}_{i}(\mu, \theta_i)
+\end{equation}
+The signal strength,$\mu$, would be common across the likelihoods. For the nuisance parameter terms, if they are from the same source like the uncertainty in object energy measurements, they are also the same among the event categories. In this case, those nuisance parameters are ``correlated''. For the other case, when the nuisance parameters are from an independent source which is not considered in the other category like the multijet uncertainties in the resolved category, it would only make the constraint on the likelihood of this category, and they are called ``decorrelated''.  
+\section{Conclusion and Result}
+After the fitting, the agreement between data and background+signal expectation event numbers should be verified to test whether the ``hypothesis'' of existence or exclusion of signal is correct. The final interpretation is conduced in two ways: the exclusion for setting limits and the significance of a discovery. 
+\\
+\\{\bf Methodology for a Discovery (p-Value)}
+\\
+\\This is a counting analysis for which the property we want to measure is to see where a signal bump could be spotted in the dibosom mass spectrum, so a profile likelihood with the likelihood built in the last session is formulated (for the case of a precision measurement, the ``Neyman–Pearson lemma'' is preferred in the format of $\lambda=\mathcal{L}(H_{1})/\mathcal{L}(H_0)$) to simplify the phase space to verify the varied signal strength:
+\begin{equation}
+\lambda(\mu) = \frac{\mathcal{L}(\mu,\hat{\hat{\theta}})}{\mathcal{L}(\hat{\mu},\hat{\theta})}
+\end{equation}
+where $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with $\hat{\mu}$ and $\hat{\theta}$, while $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with a specific $\mu$ by giving $\hat{\hat{\theta}}$. The test statistics is then constructed as $-2\ln{\lambda(\mu)}$. Following by this, a test statistics is built which is given the form:
+\begin{equation}
+\label{Eq:testPvalue}
+q_{0} = 
+\begin{cases}
+-2 \ln \lambda(0) & 0 \le \hat{\mu} \\
+0 & \hat{\mu} < 0 \\
+\end{cases}
+\end{equation}
+\noindent
+For the second case of $\hat{\mu}<0$, this is not to reject the background only hypothesis. However, the derivation of a p.d.f. for the test statistics is computationally expensive, so an asymptotic approach is applied. The first step is to apply the Wald approximation, and the test statistics could be simplified to:
+\begin{equation}
+\label{Eq:Wald_thr}
+-2\ln(\lambda(\mu))=(\frac{\mu-\hat{\mu}}{\sigma})^2+\mathcal{O}(1/N)
+\end{equation}
+with $\sigma$ taken as the uncertainty in the likelihood phase space along the $\mu$ direction and N is the observed event number. However, to evaluate $\sigma$ is computationally expensive, so, in this analysis, the Asimov data is used. With Eq. \ref{Eq:Wald_thr}, $\sigma$ could be evaluated as:
+\begin{equation}
+\sigma^2 = \frac{\mu-\hat{\mu}}{-2\ln(\lambda(\mu))}
+\end{equation}
+With an enough event number, the last term in Eq. \ref{Eq:Wald_thr} is negligible. From Wilks theorem, if a hypothesized $\mu'$ is true, the probability of measuring a specific $\hat{\mu}$ should follow a Gaussian distribution:
+\begin{equation}
+\hat{\mu}\sim Gaus(\mu',\sigma)
+\end{equation}
+Then, the probability distribution of the test statistics would be in a ``chi-suqare distribution'' which is written as $f(q_{\mu}|\mu')$ with the non-central parameter as:
+\begin{equation}
+\Lambda=(\frac{\mu-\mu'}{\sigma})^2
+\end{equation}
+For a discovery with the test statistics in Eq. \ref{Eq:testPvalue}, $\mu'$ is set to 0, and a ``p-value'' is then defined as:
+\begin{equation}
+p_{0}=\int_{q_{0,obs}}^{\infty}f(q_{0}|\mu'=0)\operatorname{d}q_{0}
+\end{equation}	 
+where $q_{0,obs}$ is taken at the $\mu$ value which gives the observed event yield. This is indicating the possibility that the null hypothesis ($\mu'=0$) is wrong, and it shows great disagreement to data. p-value would also be interpreted into the discovery significance:
+\begin{equation}
+Z=\Phi^{-1}(1-p_{0})
+\end{equation}
+where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a standard Gaussian. Fig. \ref{Fig:pvalue_hvt} shows the p-value and discovery significance for the ggF HVT signal combined with both resolved and boosted regions. The best significance is given at $800~GeV$ for less than $3\sigma$. In particle physics, the discovery of a new particle could only be claimed with an excess of $5\sigma$ which is tight to avoid the so-called ``type-I error'' defined as making a false discovery.
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{Chapter4/VVM_p0_HVTWZ_ggF.eps}
+	\caption{The observed p-value and significance for the W' boson from the ggF production with the combined data of both resolved and merge channels }
+	\label{Fig:pvalue_hvt}
+\end{figure}
+\noindent
+\\
+\\{\bf Methodology for an Exclusion (Confidence Interval at $95\%$ Confidence Level)}
+\\
+\\Without a significant result ($Z<3\sigma$), an exclusion limit is then set to conclude that a specific range of theoretical hypotheses (i.e. new particles of varied mass range) has no signal which is within the analysis sensitivity (i.e. the particle production cross-section is significant to be measured). 
+\\
+\\In the case of an exclusion, an alternative test statistics is formulated as:
+\begin{equation}
+\tilde{q}_{\mu} = 
+\begin{cases}
+-2 \ln \lambda(\mu) & 0 \le \hat{\mu} \le \mu \\
+0 & \hat{\mu} > \mu \\
+-2 \ln \lambda(0) & \hat{\mu} < 0 \\
+\end{cases}
+\end{equation}
+For the three cases in the expression, the bottom one is to keep $\mu$ positive to have physical meaning, when $\hat{\mu}$ is smaller than 0. For the other two cases, it is just to have the $\mu$ hypothesis at one side for $\mu>\hat{\mu}$ which is to set the exclusion limit. 
+\\
+\\Then, the asymptotic approach is applied again. Under this case, $\tilde{q}_{\mu}^{*}$ is chosen with the Asimov data to make:
+\begin{equation}
+p_{\mu}=\int_{\tilde{q}_{\mu}^{*}}^{\infty}f(\tilde{q}_{\mu}|\mu=0)\operatorname{d}\tilde{q}_{\mu}=0.05
+\end{equation}
+\noindent
+This is meaning that if the signal exists with a specific signal strength, $\mu^*$, the null hypothesis would be rejected at $95\%$ confidence level (CL). Followed by that, $\mu^*$ is taken as the median value for the new p.d.f., $f(\tilde{q}_{\mu}|\mu=\mu^*)$, and also the expected upper limit of sensitivity to measure the signal. Then, the observed sensitivity is estimated to be the $\mu$ in this new p.d.f. corresponding to the observed event yield. 
+\\
+\\The final result is then interpreted by converting the evaluated $\mu$ into the production cross-section and the decay branch ratio:
+\begin{equation}
+\sigma\times BR=\frac{N^{evt}}{\mathcal{L}\times\mu}
+\end{equation}  
+with $\mathcal{L}$ as the luminosity
+\\
+\\The results with the combination of all the signal regions are presented  in Fig. \ref{Fig:limit_ggF} for the ggF category with theoretical cross-section overlaid together , and Fig. \ref{Fig:limit_VBF} for the VBF category. For the W' boson, Z' boson, and the RS graviton, the theoretical cross-section is overlaid together with the expect and observed limits from the experiment. 
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWHVT.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWZHVT.eps}}\\
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWNWA.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWRSG.eps}}
+	\caption{The limits for the BSM particles via ggF/qqF production. (a) and (b) are for the HVT Z' and W' bosons, while (c) is for the NWA scalar boson, and (d) is for the RS graviton.}
+	\label{Fig:limit_ggF}
+\end{figure}
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWHVT.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWZHVT.eps}}\\
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWNWA.eps}}
+	\caption{}
+	\label{Fig:limit_VBF}
+\end{figure}
+
+\input{TexFiles/Combination}

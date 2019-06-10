@@ -1,0 +1,105 @@
+\section{Combination of VV/VH/$\ell\ell$/$\ell\nu$}
+As mentioned before, the combination of multiple signal regions would help to increase the statistics and improve the measured sensitivity.  In addition to the final state this analysis is interested in($pp\to WV \to \ell\nu qq$), there are also other analyses which are aiming for the same exotic particles. Therefore, a combination across all the possible final states of those searches was conducted to have a further improvement in the final result. The proposed scheme is to combined the diboson analyses for which the final states of VV ($V=W or Z boson$) decay are considered to search for the scalar boson, the HVT, and the RS graviton. And, to have a further understanding of the HVT coupling to the SM particles, the dilepton ($\ell\ell$ and $\ell\nu$) and VH ($H\to bb$) channels are also taken into the combination. 
+\subsection{Combination Strategy}
+The combination scheme could be seen in Fig. \ref{Fig:Comb_scheme}, and the considered analyses with a brief event selection summary is presented in Tab. \ref{tab:signatures}.
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.9\textwidth]{Chapter4/Comb_scheme.png}}
+	\caption{The scheme for combination of VV, VH, and dilepton analyses with their final states.}
+	\label{Fig:Comb_scheme}
+\end{figure}
+
+
+\begin{table}[t]
+	\caption{}
+	\begin{center}
+		\begin{tabular}{l l c c c c c c}
+			\hline
+			Channel            & Diboson state & \multicolumn{4}{c}{~~~~~~Selection}       & VBF cat. & Reference \\
+			&               & Leptons       & $E^{miss}_T$  & Jets   & $b$-tags &          &           \\
+			\hline
+			$qq qq$            & $WW/WZ/ZZ$    & 0             & veto  & 2J     & $-$      & $-$      & \cite{EXOT-2016-19} \\
+			$\nu\nu qq$        & $WZ/ZZ$       & 0             & yes   & 1J     & $-$      & yes      & \cite{EXOT-2016-29} \\
+			$\ell\nu qq$       & $WW/WZ$       & $1e, 1\mu$    & yes   & 2j, 1J & $-$      & yes      & \cite{EXOT-2016-28} \\
+			$\ell\ell qq$      & $WZ/ZZ$       & $2e, 2\mu$    & $-$   & 2j, 1J & $-$      & yes      & \cite{EXOT-2016-29} \\
+			$\ell\ell\nu\nu$   & $ZZ$          & $2e, 2\mu$    & yes   & $-$    & 0        & yes      & \cite{HIGG-2016-19} \\
+			$\ell\nu\ell\nu$   & $WW$          & $1e$+$1\mu$   & yes   & $-$    & 0        & yes      & \cite{HIGG-2016-31} \\
+			$\ell\nu\ell\ell$  & $WZ$          & $3e$, $2e$+$1\mu$, $1e$+$2\mu$, $3\mu$ & yes & $-$ & 0 & yes & \cite{EXOT-2016-11} \\
+			$\ell\ell\ell\ell$ & $ZZ$          & $4e$, $2e$+$2\mu$, $4\mu$ & $-$ & $-$ & $-$ & yes    & \cite{HIGG-2016-19} \\
+			\hline
+			$qq bb$            & $WH/ZH$       & 0             & veto  & 2J     & 1, 2     & $-$      & \cite{EXOT-2016-12} \\
+			$\nu\nu bb$        & $ZH$          & 0             & yes   & 2j, 1J & 1, 2     & $-$      & \cite{EXOT-2016-10} \\
+			$\ell\nu bb$       & $WH$          & $1e, 1\mu$    & yes   & 2j, 1J & 1, 2     & $-$      & \cite{EXOT-2016-10} \\
+			$\ell\ell bb$      & $ZH$          & $2e, 2\mu$    & veto  & 2j, 1J & 1, 2     & $-$      & \cite{EXOT-2016-10} \\
+			\hline
+			$\ell\nu$          & $-$           & $1e, 1\mu$    & yes   & $-$    & $-$      & $-$      & \cite{EXOT-2016-06} \\
+			$\ell\ell$         & $-$           & $2e, 2\mu$    & $-$   & $-$    & $-$      & $-$      & \cite{EXOT-2016-05} \\
+			\hline
+		\end{tabular}
+		\label{tab:signatures}
+	\end{center}
+\end{table}
+
+
+\noindent
+\\With the number of involved analyses, the likelihood construction of all the final state would be too complicated, so the procedure was conducted step by step. It started from the same medium states of WW, WZ, or ZZ bosons with their fermionic final states, and then, they are integrated into the VV combination. At this stage, the statistic interpretations on RS graviton and NWA scalar boson are completed. Following by that, the VV channels are combined together with VH and dilepton channels to set the limit on mass of W' and Z' bosons as well as the coupling strength between the HVT and SM particles.  
+\\
+\\{\bf Orthogonality }
+\\
+\\Within VV and VH channels, the category orthogonality was kept by the cuts on lepton number, $E^{miss}_T$, and b-jet numbers. However, to have the selection on the boson decayed jets, the mass windows were overlapped, so some events went into both VV and VH signal regions. Tab. \ref{Tab:VVVH_masswindow} shows the mass windows used in the hadronically decayed bosons. In this case, the events would be given higher priority to go into the VV category and get removed from the VH channels. With the comparison to the original event selection, the expected sensitivity doesn't have significant change which could be seen in Fig. \ref{Fig:limits_Hbb}. 
+\begin{table}
+	\caption{The mass windows for the selection on hadronically decayed bosons in VV and VH events}
+	\label{Tab:VVVH_masswindow}
+	\begin{tabular}{c|c|c|c|c}
+		\hline
+		channel                                    & Jet Topo  & W       &    Z     &  H \\
+		\hline
+		\hline
+		\multirow{ 2}{*}{$qqqq$}                   & resolved  & - & - &  - \\
+		\cline{2-5}
+                                                   & merged    & [65,95] & [76,106] &  - \\
+		\hline
+		\multirow{ 2}{*}{$\ell\ell qq$}            & resolved  & [62,97] & [70,105] &  - \\
+		\cline{2-5}
+                                                   & merged    & [65,95] & [76,106] &  - \\
+		\hline 
+		\multirow{ 2}{*}{$\ell\nu qq$}             & resolved  & [66,94] & [82,106] &  - \\
+		\cline{2-5}
+                                                   & merged    & [64,104](LP) & [69,114](LP) &  - \\
+		\hline
+		\multirow{ 2}{*}{$\nu\nu qq$}              & resolved  & - & - &  - \\
+		\cline{2-5}
+                                                   & merged    & [65,95] & [76,106] &  - \\
+		\hline 
+		\multirow{ 2}{*}{$qqbb$}                   & resolved  & - & - &  - \\
+		\cline{2-5}
+                                                   & merged    & - & [70,110] (HP) &  [75,145] \\
+		\hline 
+		\multirow{ 2}{*}{$\ell\nu bb$/$\nu\nu bb$} & resolved  & \multicolumn{3}{c}{[110,140]} \\
+		\cline{2-5}
+                                                   & merged    & \multicolumn{3}{c}{[75,145]} \\
+	    \hline
+		\multirow{ 2}{*}{$\ell\ell bb$}            & resolved  & \multicolumn{3}{c}{[100,145]} \\
+        \cline{2-5}
+                                                   & merged    & \multicolumn{3}{c}{[75,145]} \\
+        \hline
+	\end{tabular}
+\end{table} 
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/vvbb_limit.png}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/lvbb_limit.png}}\\	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/llbb_limit.png}}
+	\caption{The change in expected limits in the VH channels for (a)$VH\to\nu\nu bb$ (b)$VH\to\ell\nu bb$ and (c) $VH\to\ell\ell bb$ }
+	\label{Fig:limits_Hbb}
+\end{figure}
+\noindent
+\\
+\\{\bf Nuisance Parameter Correlation}
+\\
+\\For each individual analysis, more than 100 nuisance parameters are considered. Some of them are commonly applied across the analyses, but there are also the ones which only made the contribution to the dedicated analyses. The following is the list of nuisance parameters which are decorrelated from the other analyses:
+\begin{itemize}
+	\item[] {\bf Jet Uncertainties}: The measurement of jets actually have 81 sources of uncertainties, but most of analyses just deploy the simplified schemes for which the 81 sources are combined into 21 or 3 uncertainties. For the analyses using different simplified uncertainty schemes, their jet uncertainties are decorrelated ($VV\to\ell\nu\ell\ell\&\ell\ell\nu\nu$)
+	\item[] {\bf Electron ID Uncertainty}: The  $VV\to\ell\nu\ell\nu$ analysis has deployed different identification working points in the electron selection, so the related uncertainty is decorrelated. 
+	\item[] {\bf Signal and Background Modelling Uncertainties}: The scale factors for the SM background in the likelihood reconstructions are decorrelated as they have different kinematic properties for varied final states. Furthermore, the uncertainties arising from the data-driven estimation are also decorrelated. Furthermore, as the ISR/FSR effect was not considered in the fully leptonically decayed channels, they are decorrelated as well.  
+\end{itemize}
+\subsection{Conclusion}
