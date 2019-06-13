@@ -150,7 +150,7 @@ The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boos
 \mathcal{L}=\displaystyle\prod_{i=1}^{N_{categories}} \mathcal{L}_{i}(\mu, \theta_i)
 \end{equation}
 The signal strength,$\mu$, would be common across the likelihoods. For the nuisance parameter terms, if they are from the same source like the uncertainty in object energy measurements, they are also the same among the event categories. In this case, those nuisance parameters are ``correlated''. For the other case, when the nuisance parameters are from an independent source which is not considered in the other category like the multijet uncertainties in the resolved category, it would only make the constraint on the likelihood of this category, and they are called ``decorrelated''.  
-\section{Conclusion and Result}
+\section{Result}
 After the fitting, the agreement between data and background+signal expectation event numbers should be verified to test whether the ``hypothesis'' of existence or exclusion of signal is correct. The final interpretation is conduced in two ways: the exclusion for setting limits and the significance of a discovery. 
 \\
 \\{\bf Methodology for a Discovery (p-Value)}
@@ -215,7 +215,7 @@ where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a stand
 -2 \ln \lambda(0) & \hat{\mu} < 0 \\
 \end{cases}
 \end{equation}
-For the three cases in the expression, the bottom one is to keep $\mu$ positive to have physical meaning, when $\hat{\mu}$ is smaller than 0. For the other two cases, it is just to have the $\mu$ hypothesis at one side for $\mu>\hat{\mu}$ which is to set the exclusion limit. 
+For the three cases in the expression, the bottom one is to keep $\mu$ positive to have physical meaning, when $\hat{\mu}$ is smaller than 0. For the other two cases, it is to have the $\mu$ hypothesis at one side for $\mu>\hat{\mu}$ which is to set the exclusion upper limit on the cross-section, and the lower limit is ignored. 
 \\
 \\Then, the asymptotic approach is applied again. Under this case, $\tilde{q}_{\mu}^{*}$ is chosen with the Asimov data to make:
 \begin{equation}
@@ -230,7 +230,7 @@ This is meaning that if the signal exists with a specific signal strength, $\mu^
 \end{equation}  
 with $\mathcal{L}$ as the luminosity
 \\
-\\The results with the combination of all the signal regions are presented  in Fig. \ref{Fig:limit_ggF} for the ggF category with theoretical cross-section overlaid together , and Fig. \ref{Fig:limit_VBF} for the VBF category. For the W' boson, Z' boson, and the RS graviton, the theoretical cross-section is overlaid together with the expect and observed limits from the experiment. 
+\\The results with the combination of all the signal regions are presented  in Fig. \ref{Fig:limit_ggF} for the ggF category with theoretical cross-section overlaid together , and Fig. \ref{Fig:limit_VBF} for the VBF category. For the W' boson, Z' boson, and the RS graviton, the theoretical cross-section is overlaid together with the expect and observed limits from the experiment. And, Fig. \ref{Fig:limit_comp_lvqq} shows the comparison of power to set a limit on the HVT Z' boson between resolved, merged, and combined channels. For the range of low mass, resolved channel has dominated the sensitivity, while for $m_{WV}>800$, merged channel has made better performance in terms of the the sensitivity. 
 \begin{figure}[ht]
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWHVT.eps}}
@@ -245,8 +245,13 @@ with $\mathcal{L}$ as the luminosity
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWHVT.eps}}
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWZHVT.eps}}\\
 	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWNWA.eps}}
-	\caption{}
+	\caption{The limits for the BSM particles via ggF/qqF production. (a) and (b) are for the HVT Z' and W' bosons, while (c) is for the NWA scalar boson. For the RS graviton, the VBF production is not considered}
 	\label{Fig:limit_VBF}
 \end{figure}
-
+\begin{figure}[ht]
+	\centering
+	\includegraphics[width=0.8\textwidth]{Chapter4/limit_ResMerComb.png}
+    \caption{The limit comparison between the merged, resolved, and combined channels.}
+    \label{Fig:limit_comp_lvqq}
+\end{figure}
 \input{TexFiles/Combination}

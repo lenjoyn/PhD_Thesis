@@ -1,5 +1,9 @@
 \section{Combination of VV/VH/$\ell\ell$/$\ell\nu$}
-As mentioned before, the combination of multiple signal regions would help to increase the statistics and improve the measured sensitivity.  In addition to the final state this analysis is interested in($pp\to WV \to \ell\nu qq$), there are also other analyses which are aiming for the same exotic particles. Therefore, a combination across all the possible final states of those searches was conducted to have a further improvement in the final result. The proposed scheme is to combined the diboson analyses for which the final states of VV ($V=W or Z boson$) decay are considered to search for the scalar boson, the HVT, and the RS graviton. And, to have a further understanding of the HVT coupling to the SM particles, the dilepton ($\ell\ell$ and $\ell\nu$) and VH ($H\to bb$) channels are also taken into the combination. 
+As mentioned before, the combination of multiple signal regions would help to increase the statistics and improve the measured sensitivity.  In addition to the final state this analysis is interested in($pp\to WV \to \ell\nu qq$), there are also other analyses which are aiming for the same exotic particles. Therefore, a combination across all the possible final states of those searches was conducted to have a further improvement in the final result. The proposed scheme is to combined the diboson analyses for which the final states of VV ($V=W or Z boson$) decay are considered to search for the scalar boson, the HVT, and the RS graviton. And, to have a further understanding of the HVT coupling to the SM particles, the dilepton ($\ell\ell$ and $\ell\nu$) and VH ($H\to bb$) channels are also taken into the combination.
+\\
+\\The discriminant used in the combination is the fully reconstructed mass, $m_{WV}$, and the transverse mass, $m_{T}$ is taken when the mass could not be fully reconstructed. (like $VV\to\nu\nu\ell\ell$ or $X\to\ell\nu$).
+\\
+\\In terms of the interference, as discussed in the last chapter, the signal configuration was set to have a narrow resonance mass window, so its effect on the cross-section is smaller than $15\%$ in the VV and VH channels. Therefore, it is taken negligible. For the dilepton channel, a cut on the resonance (transverse) mass is applied to mitigate the effect. 
 \subsection{Combination Strategy}
 The combination scheme could be seen in Fig. \ref{Fig:Comb_scheme}, and the considered analyses with a brief event selection summary is presented in Tab. \ref{tab:signatures}.
 \begin{figure}[ht]
@@ -46,7 +50,7 @@ The combination scheme could be seen in Fig. \ref{Fig:Comb_scheme}, and the cons
 \\
 \\{\bf Orthogonality }
 \\
-\\Within VV and VH channels, the category orthogonality was kept by the cuts on lepton number, $E^{miss}_T$, and b-jet numbers. However, to have the selection on the boson decayed jets, the mass windows were overlapped, so some events went into both VV and VH signal regions. Tab. \ref{Tab:VVVH_masswindow} shows the mass windows used in the hadronically decayed bosons. In this case, the events would be given higher priority to go into the VV category and get removed from the VH channels. With the comparison to the original event selection, the expected sensitivity doesn't have significant change which could be seen in Fig. \ref{Fig:limits_Hbb}. 
+\\Within VV and VH channels, the category orthogonality was kept by the cuts on lepton number, $E^{miss}_T$, and b-jet numbers. However, to have the selection on the boson decayed jets, the mass windows were overlapped between W/Z and Higgs bosons, so some events went into both VV and VH signal regions. Tab. \ref{Tab:VVVH_masswindow} shows the mass windows used in the hadronically decayed bosons. In this case, the events are given higher priority to go into the VV category and get removed from the VH channels, if the selected dijet system has the mass in the overlapped region. With the comparison to the original event selection, the expected sensitivity doesn't have significant change ($<10\%$) which could be seen in Fig. \ref{Fig:limits_Hbb}. 
 \begin{table}
 	\caption{The mass windows for the selection on hadronically decayed bosons in VV and VH events}
 	\label{Tab:VVVH_masswindow}
@@ -87,8 +91,8 @@ The combination scheme could be seen in Fig. \ref{Fig:Comb_scheme}, and the cons
 \end{table} 
 \begin{figure}[ht]
 	\centering
-	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/vvbb_limit.png}}
-	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/lvbb_limit.png}}\\	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/llbb_limit.png}}
+	\subfloat[]{\includegraphics[width=0.34\textwidth]{Chapter4/vvbb_limit.png}}
+	\subfloat[]{\includegraphics[width=0.34\textwidth]{Chapter4/lvbb_limit.png}}	\subfloat[]{\includegraphics[width=0.34\textwidth]{Chapter4/llbb_limit.png}}
 	\caption{The change in expected limits in the VH channels for (a)$VH\to\nu\nu bb$ (b)$VH\to\ell\nu bb$ and (c) $VH\to\ell\ell bb$ }
 	\label{Fig:limits_Hbb}
 \end{figure}
@@ -102,4 +106,63 @@ The combination scheme could be seen in Fig. \ref{Fig:Comb_scheme}, and the cons
 	\item[] {\bf Electron ID Uncertainty}: The  $VV\to\ell\nu\ell\nu$ analysis has deployed different identification working points in the electron selection, so the related uncertainty is decorrelated. 
 	\item[] {\bf Signal and Background Modelling Uncertainties}: The scale factors for the SM background in the likelihood reconstructions are decorrelated as they have different kinematic properties for varied final states. Furthermore, the uncertainties arising from the data-driven estimation are also decorrelated. Furthermore, as the ISR/FSR effect was not considered in the fully leptonically decayed channels, they are decorrelated as well.  
 \end{itemize}
-\subsection{Conclusion}
+\subsection{Result}
+The combination is aiming for two kind of results: the limit on the mass of exotic partices (NWA scalar boson, HVT W' and Z' bosons, and RS gravtion), and the limit on the coupling strength between the HVT and SM particles. The first result will follow the asymptotic methodology which was discuss in the last section with a cross-check from the toy model\footnote{as running the toy model is computationally expensive, it it only performed on the mass points of 1, 2, 3, 4, and 5 TeV}, and , for the second result, a similar likelihood would be constructed by the parameter of interest would be the coupling constant, $\vec{g}$, instead of the signal strength, $\mu$. The detail will be coming later. 
+\\
+\\{\bf the Limit on Mass}
+\\
+\\The cross-section limits are set with the ggF/DY and VBF productions respective. For the VBF category, not all analyses have this channel, but they are still combined to provide the upper limit, and the results are shown in Fig.~\ref{Fig:limit_VBF_comb}. Here, a new benchmark for the HVT model is applied with $g_{H}=1$ and $g_{f}=0$, and this means the production of W' and Z' bosons could only be via VBF. With model c, the sensitivity is set as the inclusive (W' + Z' bosons) cross-section upper limit ratio between the expectation (observation) and theory.  
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWWZHVT_COMB.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/VBFWWZZNWA_COMB.eps}}
+	\caption{The cross-section upper limit for (a) the HVT model boson (as a ratio to the theoretical one) (b) and the NWA scalar boson }
+	\label{Fig:limit_VBF_comb}
+\end{figure}
+\noindent
+\\
+\\For the ggF result, the VV channel is combined with VH and dilepton channels for the HVT interpretation, while the limits on models of RS graviton and NWA scalar boson are only set with the VV channel. The HVT interpretation is shown in Fig.~\ref{Fig:limit_GGFHVT_comb} as the ratio to the theoretically predicted cross-section. And, the limits on RS graviton and NWA scalar bosons are in Fig.~\ref{Fig:limit_GGF_comb}.
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFALLHVTW_COMB.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFALLHVTZ_COMB.eps}}
+	\caption{The cross-section upper limit ratio to the HVT model theoretical prediction for (a) the W' boson (b) the Z' boson }
+	\label{Fig:limit_GGFHVT_comb}
+\end{figure}
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWZZNWA_COMB.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/GGFWWZZRSG_COMB.eps}}
+	\caption{The cross-section upper limit ratio to the (a) NWA scalar boson (b) RS graviton}
+	\label{Fig:limit_GGF_comb}
+\end{figure}
+\\And, Fig.~\ref{Fig:limit_GGFHVTV_compare} is presenting the comparison of the sensitivities from the VV+VH and dilepton channels. 
+\begin{figure}[ht]
+	\centering
+    \includegraphics[width=0.5\textwidth]{Chapter4/GGFALLHVTV_compare.eps}
+    \caption{The comparison on the limits on the HVT V' bosons set by different channels}
+	\label{Fig:limit_GGFHVTV_compare}
+\end{figure}
+\noindent
+\\{\bf the Limit on Couplings}
+\\
+\\The limits of the HVT couplings are set on a two-dimensional plane with which two pairs of parameters are used:
+\begin{itemize}
+  \item[] {\bf $g_{H}$ and $g_{f}$}: they are corresponding to the couplings to the SM bosons (W, Z, and H) and fermions. For the simplicity, the fermionic coupling is set equal between quarks and leptons. 
+  \item[] {\bf $g_{l}$ and $g_{q}$}: they are corresponding to the couplings to the leptons and quarks with the coupling to SM bosons set at 0.56 (model A).
+\end{itemize}
+\noindent
+\\For the estimation of the couplings, the same method in the last section is applied with the profile likelihood and asymptotic formulae, but the likelihood is constructed with the coupling strengths:
+\begin{equation}
+\lambda(\vec{\mathcal{G}}) = \frac{\mathcal{L}(\vec{\mathcal{G}},\hat{\hat{\theta}})}{\mathcal{L}(\hat{\vec{\mathcal{G}}},\hat{\theta})}
+\end{equation}
+Then, the event yields (signal strength) would be parametrized into the couplings, and the following procedure would be same as what was discussed.
+\\
+\\The final results are shown in Fig.~\ref{Fig:limit_coupling} on which the region outside dotted lines are excluded, and the results from the electroweak precision measurement are also overlaid as the coloured exclusion region.   
+\begin{figure}[ht]
+	\centering
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/Coupling_hf_all.eps}}
+	\subfloat[]{\includegraphics[width=0.5\textwidth]{Chapter4/Coupling_lg_all.eps}}
+	\caption{The limits on coupling strength from the full combination with (a) {$g_H, g_f$} and (b) {$g_l, g_q$} planes }
+	\label{Fig:limit_coupling}
+\end{figure}
