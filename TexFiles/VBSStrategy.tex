@@ -1,4 +1,4 @@
-\chapter{Non-Resonance Searching Strategy}
+\chapter{Search with Non-Resonance Signatures (Vector Boson Scattering)}
 In addition to the physics with resonance particles, the unknown couplings between SM particles is also a portal to new physics. Its signature would be similar to SM, but it might enhance or reduce (interference) the occurrence rate (cross section) for the physical process of interest. However, the deviation from SM prediction would be marginal, so the test on precision measurement could only be achieved with great amount of data. 
 \\
 \\This analysis is aiming for the phenomenology with ``vector boson scattering'' (VBS) which has the signature like VBF with one back-to-back high-mass jet pair accompanied by two SM gauge bosons ($qq \to VVqq$). The phenomenon was predicted by SM and measured in ATLAS Run1 data analysis (2009-2012) with the search for the anomalous quadratic gauge coupling (aQGC), but it doesn't give a promising result ($5\sigma$ excess in comparison to null hypothesis) for the existence. This analysis is to extend the search with greater luminosity of data collected in 2015 and 2016 for $36.1fb_{-1}$, and the final state of the dibson system is chosen to be semileptonic.  This analysis will focus on one lepton channel ($WV \to l\nu qq$) just like the the resonance search , and the result will be combined with other two semileptonical final states ($ZV \to \nu\nu qq/llqq$) for the statistic interpretation.
@@ -36,7 +36,7 @@ Under SM, the vector boson scattering is through the coupling to a variety of bo
 	\end{center}
 \end{figure} 
 
-
+\noindent
 For those interactions, only the longitudinal component of bosons is considered, while the transverse one has relatively low coupling strength, so it is neglected. When the Higgs boson is not involved in the interactions (Fig. \ref{Fig:feynmanVBS} (a)-(c)), the coupling magnitude could be presented in Mandelstam variables as:
 \begin{equation}
 |\mathcal{M}|=\frac{g^2}{4m_{W}^{2}}\left[s+t\right]
@@ -91,9 +91,8 @@ Then, the choice on 4 of them (the same component could be chosen multiple times
     \item{combination of the electroweak fields}: the operators have $\hat{W}_{\mu\nu}$ and $B_{\mu\nu}$ which are denoted as $\mathcal{O}_{T}^i$ with the free parameters, $f_T^i$. The index has the range from 0 to 9. 
 \end{itemize}
 \noindent
-{\bf Signal Production}
-\\
-\\it is impossible to investigate all the possible operators, so only one operator of each category is chosen in the signal, which are $O_{S}^0$, $O_{M}^0$, and $O_{T}^0$ with the free parameter, $f^0_{S}$, $f^0_{M}$,  $f_T^0$, while the other operators are tuned to 0.  The chosen coupling strength for the free parameters in the simulation is summarized in Tab. \ref{Tab:Eboli}.
+\subsection{Signal Production}
+It is impossible to investigate all the possible operators, so only one operator of each category is chosen in the signal, which are $O_{S}^0$, $O_{M}^0$, and $O_{T}^0$ with the free parameter, $f^0_{S}$, $f^0_{M}$,  $f_T^0$, while the other operators are tuned to 0.  The chosen coupling strength for the free parameters in the simulation is summarized in Tab. \ref{Tab:Eboli}.
 \\
 \\Similar to the SM VBS signal, the production is also via \textsc{MADGRAPH5\_aMC@NLO v2.3.3} interfaced by \textsc{PYTHIA8} with the PDF set of NNPDF30LO. 
 \begin{table}[h]
@@ -112,6 +111,37 @@ Then, the choice on 4 of them (the same component could be chosen multiple times
 		\end{tabular}
 	\end{center}
 \end{table}
+\noindent
+\subsection{Interference Effect on the Signal}
+The simulation on the signal and backgrounds are done respectively, so the interference effect is not taken into account for the cross-section estimation. Under the Standard Model, the interference on the VBS cross-section would come from the QCD processes which is via the same process, $qq\to VVjj$, under the order of coupling, $\alpha_{EW}^4\alpha_{EW}^2$. The QCD interactions could be seen in Fig.~\ref{Fig:feynmanQCD}.
+\begin{figure}[tbp]
+	\begin{center}
+		\subfloat[]{
+			\includegraphics[width=0.3\textwidth,keepaspectratio]{Chapter5/feynQCD2.pdf}
+		}
+		\subfloat[]{
+			\includegraphics[width=0.3\textwidth,keepaspectratio]{Chapter5/feynQCD3.pdf}
+		}\\
+		\subfloat[]{
+			\includegraphics[width=0.3\textwidth,keepaspectratio]{Chapter5/feynQCD4.pdf}
+		}
+		\subfloat[]{
+			\includegraphics[width=0.3\textwidth,keepaspectratio]{Chapter5/feynQCD1.pdf}
+		}
+		\subfloat[]{
+			\includegraphics[width=0.3\textwidth,keepaspectratio]{Chapter5/feynQCD5.pdf}
+		}
+		\caption{
+			Here are the Feynman diagrams which contribute to the SM VBS signal. The dashed line in figure (b) and (d) are the Higgs boson which couples the interactions. Those interactions are of the order $\alpha_{EW}^6$ involving the consideration of the decays of the two scattered bosons into fermions. 
+		}
+		\label{Fig:feynmanQCD}
+	\end{center}
+\end{figure}
+The effect on the cross-section estimation could be presented with the matrix elements, $\mathcal{M}$: 
+\begin{equation}
+|\mathcal{M}|^2=|\mathcal{M}_1+\mathcal{M}_2|^2 = |\mathcal{M}_1|^2+|\mathcal{M}_2|^2+2Re(\mathcal{M}_1\mathcal{M}_2)
+\end{equation}
+with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal{M}_2$ are the amplitude from the QED and QCD processes. The last term is showing the interference effect on the total cross-section. With the estimation with MadGraph5\_aMC@NLO v2.3.3, this effect is less around $1\%$ for the VBS signal, so it is taken negligible.
 \section{Event Selection}
 In general, the event selection in this analysis has the same scheme as the resonance search including both trigger and event cleaning. However, as the optimization is conducted with SM VBS signal, some cuts are looser due to the similar kinematic properties with respect to the background. For the same reason, the cuts on topological variables employed in resonance search would also remove significant signal, so they are dropped in this analysis.
 \\
@@ -420,3 +450,7 @@ As the discrepancy was only seen in $m_{jj}^{VBS}$, the validation was performed
 		Comparison of $m_{jj}^{VBS}$ and $m_{VV}$ distributions before and after the $m_{jj}^{VBS}$ reweighting for events in the resolved (top) and boosted (bottom) W+jets control regions 
 	}
 \end{figure}
+\section{Statistical Interpretation}
+The statistical treatment has been following the same strategy as the resonance searches, but the BDT score is taken as the discriminant as the input for the fitting. The parameter of primary interest is still the signal strength, $\mu$.
+\\
+\\ 
