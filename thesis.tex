@@ -9,7 +9,7 @@
 \usepackage{mathpazo}
 \usepackage{enumerate}
 \usepackage{tabularx}
-
+\usepackage{notoccite}
 %\usepackage{euler}
 
 %% Put package includes etc. into preamble.tex for convenience
@@ -36,7 +36,6 @@
 }}{}
 \makeatother
 
-
 %% Start the document
 \begin{document}
 
@@ -47,10 +46,10 @@
 	
 	%% Start the content body of the thesis
 \begin{mainmatter}
-	\begin{spacing}{1.4}
+	\begin{spacing}{1.5}
     \include{TexFiles/Introduction}
     \let\cleardoublepage\clearpage
-	\include{TexFiles/Experiment}
+    \include{TexFiles/Experiment}
 	\let\cleardoublepage\clearpage
  	\include{TexFiles/ResonStrategy}
  	\let\cleardoublepage\clearpage
@@ -67,9 +66,9 @@
 	
 	%% Produce the un-numbered back matter (e.g. colophon,
 	%% bibliography, tables of figures etc., index...)
-%	\begin{backmatter}
-%		\input{backmatter}
-%	\end{backmatter}
+	\begin{backmatter}
+		\input{backmatter}
+	\end{backmatter}
 	
 	%% Close
 \end{document}

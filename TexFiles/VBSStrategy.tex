@@ -141,7 +141,7 @@ The effect on the cross-section estimation could be presented with the matrix el
 \begin{equation}
 |\mathcal{M}|^2=|\mathcal{M}_1+\mathcal{M}_2|^2 = |\mathcal{M}_1|^2+|\mathcal{M}_2|^2+2Re(\mathcal{M}_1\mathcal{M}_2)
 \end{equation}
-with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal{M}_2$ are the amplitude from the QED and QCD processes. The last term is showing the interference effect on the total cross-section. With the estimation with MadGraph5\_aMC@NLO v2.3.3, this effect is less around $1\%$ for the VBS signal, so it is taken negligible.
+with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal{M}_2$ are the amplitudes from the VBS and QCD contributions. The last term is showing the interference effect on the total cross-section. With the estimation by MadGraph5\_aMC@NLO v2.3.3, this effect is less around $1\%$ for the VBS signal, so it is taken negligible, but it is still taken as one contribution of systematic uncertainty.
 \section{Event Selection}
 In general, the event selection in this analysis has the same scheme as the resonance search including both trigger and event cleaning. However, as the optimization is conducted with SM VBS signal, some cuts are looser due to the similar kinematic properties with respect to the background. For the same reason, the cuts on topological variables employed in resonance search would also remove significant signal, so they are dropped in this analysis.
 \\
@@ -384,7 +384,7 @@ Tab~\ref{Tab:BDTinput1lepranking} is presenting the variable importance for BDT 
 \section{Background Modeling}
 The  modelling strategy is similar to the resonance search. The two dominant background interactions, $t\bar{t}$ and W+jets, are constrained using dedicated control regions, while the other subtle contributions are without constraint in the signal region fitting. However, to achieve higher precision measurement, some of the cuts are loosened. In this case, if the mismodelling of $m^{VBS}_{jj}$ is taken into the normalization fitting, it leads to huge uncertainty and degrade the sensitivity to measurement. Therefore, an extra event reweighting is applied on the W+jet MC events in the control region.
 \\
-\\The multijet background contribution in the non-resonance search is higher than the resonance analysis due to the lack of anti-QCD cuts from the topological variables. It is also estimated with the same fake factor from resonance search, because the distribution shape is supposed to remain the same with similar final state. The comparison between data and background (pre-fit) will be presented in next chapter along with the post-fit distribution. 
+\\The multijet background contribution in the non-resonance search is higher than the resonance analysis due to the lack of anti-QCD cuts from the topological variables. It is also estimated with the same fake factor from resonance search, because the distribution shape is supposed to remain the same with similar final state. The comparison between data and background (pre-fit) will be presented in next section along with the post-fit distribution. 
 \subsection{VBS $m_{jj}$ Modelling}
 As what was observed in the resonance search, an unknown issue is underlying in the simulation for W+jet events with Sherpa. With the comparison to data, a slope could be seen on the ratio of data to simulation in $m_{jj}^{VBS}$ distribution shown in Fig.~\ref{Fig:mtagmis}, and Madgraph sample gives better agreement. However, Sherpa sample has more events for statistics, so it is chosen for the estimation on W+jets background. 
 \begin{figure}
@@ -451,6 +451,41 @@ As the discrepancy was only seen in $m_{jj}^{VBS}$, the validation was performed
 	}
 \end{figure}
 \section{Statistical Interpretation}
-The statistical treatment has been following the same strategy as the resonance searches, but the BDT score is taken as the discriminant as the input for the fitting. The parameter of primary interest is still the signal strength, $\mu$.
+The statistical interpretation of the non-resonance search is following the same strategy as the resonance one: likelihood construction (it has the same structure as Eq.~\ref{Eq. ML_all}), fitting, and then the final result. However, as the main focus of this analysis is to spot the vector boson scattering in the semileptonical ($qq\to VVjj \to \ell\ell qq/\ell\nu qq/\nu\nu qq +jj$), so the exclusion interpretation is not performed. 
+
+\subsection{Fitting}
+The fitting procedure is conducted as the resonance search for which the two dominant backgrounds, W+jets and top, are constrained by the dedicated control regions by a Gaussian distribution. Before having the final result of the signal strength, the background only fitting is performed to test the background modelling and the nuisance parameter effect on the fitting quality.
 \\
-\\ 
+\\{\bf Post-fit and Pre-fit Distributions} 
+\\
+\\The background and data agreement is presented here to verify the background modelling before the fitting. The post-fit plots are presented together to show the effect of fitting on the histograms. This fitting procedure has applied the background only hypothesis ($\mu=0$).
+\\
+\\Fig.~\ref{Fig:data_mc_vbs_wcr} and \ref{Fig:data_mc_vbs_tcr} are the results in w+jet and top control regions respectively. 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_HP_WCR_prefit.pdf}	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_HP_WCR_postfit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_LP_WCR_prefit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_LP_WCR_postfit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_res_WCR_prefit.pdf}
+    \includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_res_WCR_postfit.pdf}	
+	\caption{\label{Fig:data_mc_vbs_wcr}
+		Comparison of the BDT score distributions before and after the fitting in the  
+		Boosted HP (top), Boosted LP (middle), resolved (bottom) W+jet control regions. The left and right are the plots for pre-fit and post-fit (with the post-fit over pre-fit ratio) results. 
+	}
+\end{figure}
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_HP_CRTop_prefit.pdf}	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_HP_CRTop_postfit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_LP_CRTop_prefit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_LP_CRTop_postfit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_res_CRTop_prefit.pdf}
+	\includegraphics[width=0.42\textwidth]{Chapter5/BDT_1lep_res_CRTop_postfit.pdf}	
+	\caption{\label{Fig:data_mc_vbs_tcr}
+             Comparison of the BDT score distributions before and after the fitting in the  
+             Boosted HP (top), Boosted LP (middle), resolved (bottom) top control regions. The left and right are the plots for pre-fit and post-fit (with the post-fit over pre-fit ratio) results. 
+	}
+\end{figure}
+\noindent
+\\{\bf Fitting Quality}
+\\
+\\The fitting quality is also verified in this analysis with the pulls and the correlation matrix. 

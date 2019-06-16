@@ -1,0 +1,189 @@
+\babel@toc {english}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 1.1}{\ignorespaces Relation between quarks are determined by CKM matrix.\relax }}{3}{figure.caption.1}
+\contentsline {figure}{\numberline {\relax 1.2}{\ignorespaces Elementary particles and properties\relax }}{8}{figure.caption.3}
+\contentsline {figure}{\numberline {\relax 1.3}{\ignorespaces Scalar potential with $\mymath {\@Oldmu }\xspace ^2 > 0$\relax }}{9}{figure.caption.4}
+\contentsline {figure}{\numberline {\relax 1.4}{\ignorespaces Scalar potential with $\mymath {\@Oldmu }\xspace ^2 < 0$\relax }}{10}{figure.caption.5}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 2.1}{\ignorespaces The hydrogen plasma is separated into electrons (red) and protons (blue)\relax }}{17}{figure.caption.6}
+\contentsline {figure}{\numberline {\relax 2.2}{\ignorespaces Before the LHC, protons go through several boosting facilities\relax }}{18}{figure.caption.7}
+\contentsline {figure}{\numberline {\relax 2.3}{\ignorespaces The protons are formed into a bunch in the EM wave\relax }}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {\relax 2.4}{\ignorespaces The diagram of the ATLAS detector\relax }}{20}{figure.caption.9}
+\contentsline {figure}{\numberline {\relax 2.5}{\ignorespaces The coordinate system used in the ATLAS detector\relax }}{21}{figure.caption.10}
+\contentsline {figure}{\numberline {\relax 2.6}{\ignorespaces The Psedorapidity varied with $\mymath {\@Oldtheta }\xspace $\relax }}{22}{figure.caption.11}
+\contentsline {figure}{\numberline {\relax 2.7}{\ignorespaces The diagram for the ATLAS inner detector\relax }}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {\relax 2.8}{\ignorespaces The magnetic field inside the solenoid \relax }}{25}{figure.caption.13}
+\contentsline {figure}{\numberline {\relax 2.9}{\ignorespaces The calorimeter system of the ATLAS detector\relax }}{26}{figure.caption.14}
+\contentsline {figure}{\numberline {\relax 2.10}{\ignorespaces The interaction between an electron and the LAr calorimeter\relax }}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {\relax 2.11}{\ignorespaces The ATLAS trigger system\relax }}{31}{figure.caption.17}
+\contentsline {figure}{\numberline {\relax 2.12}{\ignorespaces The ATLAS recording efficiency and luminosity\relax }}{33}{figure.caption.18}
+\contentsline {figure}{\numberline {\relax 2.13}{\ignorespaces The full procedure of the ATLAS simulation\relax }}{46}{figure.caption.21}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 3.1}{\ignorespaces The Feynman diagrams of different production mechanisms for particle X which decays into two SM bosons.\relax }}{48}{figure.caption.22}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Drell-Yan Process}}}{48}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {gluon-gluon Fusion}}}{48}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Vector Boson Fusion}}}{48}{subfigure.1.3}
+\contentsline {figure}{\numberline {\relax 3.2}{\ignorespaces The Feynman diagrams of three channels for single top production.\relax }}{55}{figure.caption.23}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {t-channel}}}{55}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wt-channel}}}{55}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {s-channel}}}{55}{subfigure.2.3}
+\contentsline {figure}{\numberline {\relax 3.3}{\ignorespaces The jet mass resolution as a function of jet $\p _{T}$ for jets produced from boosted $W$ boson\cite {ATLAS-CONF-2016-035}. Three different jet mass reconstruction algorithms are displayed: the calo-jet mass ($m^{{calo}}$), the track-assisted mass ($m^{{TA}}$), and the combined TA+calo mass ($m^{{comb}}$).\relax }}{62}{figure.caption.29}
+\contentsline {figure}{\numberline {\relax 3.4}{\ignorespaces The thresholds of the mass window cut (a) and the upper cut on $D^{\mymath {\@Oldbeta }\xspace =1}_2$ (b) as a function of $p_{T}$ used in this analysis. The cuts for $W$-($Z$)-boson tagging is shown by red (blue) lines.\relax }}{63}{figure.caption.30}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{63}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{63}{subfigure.4.2}
+\contentsline {figure}{\numberline {\relax 3.5}{\ignorespaces Illustration of how to combine the SR/CRs in this analysis.\relax }}{65}{figure.caption.31}
+\contentsline {figure}{\numberline {\relax 3.6}{\ignorespaces The upper plot is $p_{T}(\mymath {\@Oldmu }\xspace \mymath {\@Oldnu }\xspace )$ distribution of tagged (real) and probed events in boosted channel for data (a) and $t\mathaccentV {bar}416{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mymath {\@Oldmu }\xspace \mymath {\@Oldnu }\xspace )$\relax }}{66}{figure.caption.33}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{66}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{66}{subfigure.6.2}
+\contentsline {figure}{\numberline {\relax 3.7}{\ignorespaces The upper plot is $p_{T}(\mymath {\@Oldmu }\xspace \mymath {\@Oldnu }\xspace )$ distribution of tagged (real) and probed events in resolved channel for data (a) and $t\mathaccentV {bar}416{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mymath {\@Oldmu }\xspace \mymath {\@Oldnu }\xspace )$\relax }}{67}{figure.caption.34}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{67}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{67}{subfigure.7.2}
+\contentsline {figure}{\numberline {\relax 3.8}{\ignorespaces The $p_{z}^\mymath {\@Oldnu }\xspace $ resolution with absolute values of the solutions, bigger and smaller one. \relax }}{69}{figure.caption.35}
+\contentsline {figure}{\numberline {\relax 3.9}{\ignorespaces $m_{WV}$ distributions for $gg \rightarrow H \rightarrow WW$ signals at $m=300GeV$ (solid), 500GeV (dashed) and 700GeV (dot), with (red) and without (blue) $W$-mass constraint to $W \rightarrow jj$ system.\relax }}{69}{figure.caption.36}
+\contentsline {figure}{\numberline {\relax 3.10}{\ignorespaces The signal significance for the VBF $WW$ signal as a function of the VBF cuts $\Delta \mymath {\@Oldeta }\xspace (j_1,j_2)$ and $m(jj)$ for signal mass 700GeV (right). The black outlined bins are those whose values vary from the maximum by less than 5\%.\relax }}{71}{figure.caption.37}
+\contentsline {figure}{\numberline {\relax 3.11}{\ignorespaces Definitions of signal region (SR) and $W$+jets control region (WR) for the event with the large-R jet of $\pt =1\tmspace +\thinmuskip {.1667em}\ensuremath {\@text {\tera \ensuremath {\@text {\electronvolt \xspace }}}}$ based on fat jet boson tagging and number of b-tagged jets \relax }}{73}{figure.caption.39}
+\contentsline {figure}{\numberline {\relax 3.12}{\ignorespaces The $m_{WV}$ distributions in the HP signal region for (a) electron and (b) muon channel, with the integrated luminosity of $36.5fb^{-1}$. The HVT $WZ$ signals with $m=1.0TeV$, $1.5TeV$, $2.0TeV$, $2.6TeV$ and $3.0TeV$ are overlaid scaled to $100 ~\times $ cross section\relax }}{74}{figure.caption.40}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{74}{subfigure.12.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{74}{subfigure.12.2}
+\contentsline {figure}{\numberline {\relax 3.13}{\ignorespaces The $m_{WV}$ distribution in the LP signal region for (a) electron and (b) muon channel, with the integrated luminosity of $36.5fb^{-1}$.The HVT $WZ$ signals with $m=1.0TeV$, $1.5TeV$, $2.0TeV$, $2.6TeV$ and $3.0TeV$ are overlaid scaled to $100 ~\times $ cross section.\relax }}{74}{figure.caption.41}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{74}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{74}{subfigure.13.2}
+\contentsline {figure}{\numberline {\relax 3.14}{\ignorespaces The $m_{WV}$ distribution in the resolved signal region for (a) ggF and (b) VBF channel, with the integrated luminosity of $36.5fb^{-1}$.The HVT $WZ$ signals with $m=300GeV$ (red), $500GeV$ (violet) and $700GeV$ (blue) are overlaid scaled to $100 ~\times $ cross section.\relax }}{76}{figure.caption.43}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{76}{subfigure.14.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{76}{subfigure.14.2}
+\contentsline {figure}{\numberline {\relax 3.15}{\ignorespaces Fake factors for the corresponding binnings (shown in text) in electron (a) and muon (b) channels\relax }}{79}{figure.caption.46}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{subfigure.15.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{79}{subfigure.15.2}
+\contentsline {figure}{\numberline {\relax 3.16}{\ignorespaces Fake factors for high $p_T$ electrons\relax }}{79}{figure.caption.47}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{79}{subfigure.16.1}
+\contentsline {figure}{\numberline {\relax 3.17}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$ and $\Delta \mymath {\@Oldphi }\xspace $(e,$E_{T}^{miss}$) in dijet fake control region with inversed lepton for electron channel. The inconsistency is thought to be comprised of multijet events without applying electroweak subtraction.\relax }}{81}{figure.caption.49}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{81}{subfigure.17.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{81}{subfigure.17.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{81}{subfigure.17.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{81}{subfigure.17.4}
+\contentsline {figure}{\numberline {\relax 3.18}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$ and $\Delta \mymath {\@Oldphi }\xspace $($\mymath {\@Oldmu }\xspace $,$E_{T}^{miss}$) in dijet fake control region with inversed lepton for muon channel. The inconsistency is thought to be comprised of multijet events without applying electroweak subtraction.\relax }}{82}{figure.caption.50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{82}{subfigure.18.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{82}{subfigure.18.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{82}{subfigure.18.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{82}{subfigure.18.4}
+\contentsline {figure}{\numberline {\relax 3.19}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$, $\Delta \mymath {\@Oldphi }\xspace $(e,$E_{T}^{miss}$), $m_{WV}$in validation region with $p_{T}(l\mymath {\@Oldnu }\xspace )>150 GeV$ in electron channel with multijet background\relax }}{83}{figure.caption.53}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{83}{subfigure.19.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{83}{subfigure.19.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{83}{subfigure.19.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{83}{subfigure.19.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{83}{subfigure.19.5}
+\contentsline {figure}{\numberline {\relax 3.20}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$, $\Delta \mymath {\@Oldphi }\xspace $(e,$E_{T}^{miss}$), $m_{WV}$ and BDT in validation region with $p_{T}(l\mymath {\@Oldnu }\xspace )<150 GeV$ in electron channel with multijet background\relax }}{84}{figure.caption.54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{84}{subfigure.20.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{84}{subfigure.20.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{84}{subfigure.20.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{84}{subfigure.20.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{84}{subfigure.20.5}
+\contentsline {figure}{\numberline {\relax 3.21}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$, $\Delta \mymath {\@Oldphi }\xspace $($\mymath {\@Oldmu }\xspace $,$E_{T}^{miss}$), $m_{WV}$ and BDT in validation region with $p_{T}(l\mymath {\@Oldnu }\xspace )>150 GeV$ in muon channel with multijet background\relax }}{85}{figure.caption.55}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{85}{subfigure.21.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{85}{subfigure.21.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{85}{subfigure.21.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{85}{subfigure.21.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{85}{subfigure.21.5}
+\contentsline {figure}{\numberline {\relax 3.22}{\ignorespaces The distribution of lepton $p_{T}$,$\mymath {\@Oldeta }\xspace $, $E_{T}^{miss}$, $\Delta \mymath {\@Oldphi }\xspace $($\mymath {\@Oldmu }\xspace $,$E_{T}^{miss}$), $m_{WV}$ and BDT in validation region with $p_{T}(l\mymath {\@Oldnu }\xspace )<150 GeV$ in muon channel with multijet background\relax }}{86}{figure.caption.56}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{86}{subfigure.22.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{86}{subfigure.22.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{86}{subfigure.22.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{86}{subfigure.22.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{86}{subfigure.22.5}
+\contentsline {figure}{\numberline {\relax 3.23}{\ignorespaces The distribution of $m_{WV}$ in ggF high purity (top), low purity (middle), and resolved (bottom) W+jet control region for electron (left) and muon (right) channels respectively\relax }}{88}{figure.caption.57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{88}{subfigure.23.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{88}{subfigure.23.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{88}{subfigure.23.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{88}{subfigure.23.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{88}{subfigure.23.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{88}{subfigure.23.6}
+\contentsline {figure}{\numberline {\relax 3.24}{\ignorespaces The distribution of $m_{WV}$ in ggF high purity (top), low purity (middle), and resolved (bottom) top control region for electron (left) and muon (right) channels respectively\relax }}{89}{figure.caption.58}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{89}{subfigure.24.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{89}{subfigure.24.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{89}{subfigure.24.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{89}{subfigure.24.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{89}{subfigure.24.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{89}{subfigure.24.6}
+\contentsline {figure}{\numberline {\relax 3.25}{\ignorespaces The distribution of $m_{WV}$ in VBF high purity (top), low purity (middle), and resolved (bottom) W+jet control region for electron (left) and muon (right) channels respectively\relax }}{90}{figure.caption.59}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{90}{subfigure.25.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{90}{subfigure.25.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{90}{subfigure.25.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{90}{subfigure.25.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{90}{subfigure.25.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{90}{subfigure.25.6}
+\contentsline {figure}{\numberline {\relax 3.26}{\ignorespaces The distribution of $m_{jj}^{VBF}$ in VBF high purity (top), low purity (middle), and resolved (bottom) W+jet control region for electron (left) and muon (right) channels respectively\relax }}{91}{figure.caption.60}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{91}{subfigure.26.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{91}{subfigure.26.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{91}{subfigure.26.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{91}{subfigure.26.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{91}{subfigure.26.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{91}{subfigure.26.6}
+\contentsline {figure}{\numberline {\relax 3.27}{\ignorespaces The distribution of $m_{WV}$ in VBF high purity (top), low purity (middle), and resolved (bottom) top control region for electron (left) and muon (right) channels respectively\relax }}{92}{figure.caption.61}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{92}{subfigure.27.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{92}{subfigure.27.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{92}{subfigure.27.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{92}{subfigure.27.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{92}{subfigure.27.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{92}{subfigure.27.6}
+\contentsline {figure}{\numberline {\relax 3.28}{\ignorespaces The distribution of $m_{jj}^{VBF}$ in VBF high purity (top), low purity (middle), and resolved (bottom) top control region for electron (left) and muon (right) channels respectivelyy\relax }}{93}{figure.caption.62}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{93}{subfigure.28.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{93}{subfigure.28.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{93}{subfigure.28.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{93}{subfigure.28.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{93}{subfigure.28.5}
+\contentsline {subfigure}{\numberline {(f)}{\ignorespaces {}}}{93}{subfigure.28.6}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 4.1}{\ignorespaces The pulls for the fitting with input signal of ggF 2$~TeV$ (up) and 500$~GeV$ (down) W' bosons for the boosted and resolved categories respectively.\relax }}{101}{figure.caption.64}
+\contentsline {figure}{\numberline {\relax 4.2}{\ignorespaces The correlation matrix of boosted high purity region with the ggF event selection\relax }}{102}{figure.caption.65}
+\contentsline {figure}{\numberline {\relax 4.3}{\ignorespaces The observed p-value and significance for the W' boson from the ggF production with the combined data of both resolved and merge channels \relax }}{105}{figure.caption.66}
+\contentsline {figure}{\numberline {\relax 4.4}{\ignorespaces The limits for the BSM particles via ggF/qqF production. (a) and (b) are for the HVT Z' and W' bosons, while (c) is for the NWA scalar boson, and (d) is for the RS graviton.\relax }}{108}{figure.caption.67}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{108}{subfigure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{108}{subfigure.4.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{108}{subfigure.4.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{108}{subfigure.4.4}
+\contentsline {figure}{\numberline {\relax 4.5}{\ignorespaces The limits for the BSM particles via ggF/qqF production. (a) and (b) are for the HVT Z' and W' bosons, while (c) is for the NWA scalar boson. For the RS graviton, the VBF production is not considered\relax }}{109}{figure.caption.68}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{109}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{109}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{109}{subfigure.5.3}
+\contentsline {figure}{\numberline {\relax 4.6}{\ignorespaces The limit comparison between the merged, resolved, and combined channels.\relax }}{110}{figure.caption.69}
+\contentsline {figure}{\numberline {\relax 4.7}{\ignorespaces The scheme for combination of VV, VH, and dilepton analyses with their final states.\relax }}{111}{figure.caption.70}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{111}{subfigure.7.1}
+\contentsline {figure}{\numberline {\relax 4.8}{\ignorespaces The change in expected limits in the VH channels for (a)$VH\to \mymath {\@Oldnu }\xspace \mymath {\@Oldnu }\xspace bb$ (b)$VH\to \ell \mymath {\@Oldnu }\xspace bb$ and (c) $VH\to \ell \ell bb$ \relax }}{111}{figure.caption.73}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{111}{subfigure.8.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{111}{subfigure.8.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{111}{subfigure.8.3}
+\contentsline {figure}{\numberline {\relax 4.9}{\ignorespaces The cross-section upper limit for (a) the HVT model boson (as a ratio to the theoretical one) (b) and the NWA scalar boson \relax }}{114}{figure.caption.74}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{114}{subfigure.9.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{114}{subfigure.9.2}
+\contentsline {figure}{\numberline {\relax 4.10}{\ignorespaces The cross-section upper limit ratio to the HVT model theoretical prediction for (a) the W' boson (b) the Z' boson \relax }}{115}{figure.caption.75}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{115}{subfigure.10.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{115}{subfigure.10.2}
+\contentsline {figure}{\numberline {\relax 4.11}{\ignorespaces The cross-section upper limit ratio to the (a) NWA scalar boson (b) RS graviton\relax }}{115}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{115}{subfigure.11.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{115}{subfigure.11.2}
+\contentsline {figure}{\numberline {\relax 4.12}{\ignorespaces The comparison on the limits on the HVT V' bosons set by different channels\relax }}{116}{figure.caption.77}
+\contentsline {figure}{\numberline {\relax 4.13}{\ignorespaces The limits on coupling strength from the full combination with (a) {$g_H, g_f$} and (b) {$g_l, g_q$} planes \relax }}{117}{figure.caption.78}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{117}{subfigure.13.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{117}{subfigure.13.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {\relax 5.1}{\ignorespaces Here are the Feynman diagrams which contribute to the SM VBS signal. The dashed line in figure (b) and (d) are the Higgs boson which couples the interactions. Those interactions are of the order $\mymath {\@Oldalpha }\xspace _{EW}^6$ involving the consideration of the decays of the two scattered bosons into fermions. \relax }}{120}{figure.caption.79}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{120}{subfigure.1.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{120}{subfigure.1.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{120}{subfigure.1.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{120}{subfigure.1.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{120}{subfigure.1.5}
+\contentsline {figure}{\numberline {\relax 5.2}{\ignorespaces The cross-section of vector boson scattering between gauge bosons with Higgs boson of $125GeV$ and $10^{10}GeV$ as a function of $\sqrt {s}$.\relax }}{122}{figure.caption.80}
+\contentsline {figure}{\numberline {\relax 5.3}{\ignorespaces Here are the Feynman diagrams which contribute to the SM VBS signal. The dashed line in figure (b) and (d) are the Higgs boson which couples the interactions. Those interactions are of the order $\mymath {\@Oldalpha }\xspace _{EW}^6$ involving the consideration of the decays of the two scattered bosons into fermions. \relax }}{125}{figure.caption.82}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {}}}{125}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {}}}{125}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {}}}{125}{subfigure.3.3}
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {}}}{125}{subfigure.3.4}
+\contentsline {subfigure}{\numberline {(e)}{\ignorespaces {}}}{125}{subfigure.3.5}
+\contentsline {figure}{\numberline {\relax 5.4}{\ignorespaces The jet $\mymath {\@Oldeta }\xspace $ distribution before (left) and after (right) the problematic event removal\relax }}{127}{figure.caption.83}
+\contentsline {figure}{\numberline {\relax 5.5}{\ignorespaces The scheme of a decision tree. The nodes are where the decision are made by whether the event could pass the cut on $x_i$, $x_j$, and $x_k$. The bottom nodes are the final outcomes labeled as S for more signal events categorized into the node, and B for more background events\relax }}{130}{figure.caption.86}
+\contentsline {figure}{\numberline {\relax 5.8}{\ignorespaces Fit of $m^{VBS}_{jj}$ slope in W+jets resolved CRs, in different slices of $m^{V}_{jj}$. \relax }}{140}{figure.caption.92}
+\contentsline {figure}{\numberline {\relax 5.9}{\ignorespaces Fit of $m^{VBS}_{jj}$ slope in W+jets boosted CRs, in different slices of $m^{V}_{J}$. \relax }}{141}{figure.caption.93}
+\contentsline {figure}{\numberline {\relax 5.10}{\ignorespaces Comparison of $m_{jj}^{VBS}$ and $m_{VV}$ distributions before and after the $m_{jj}^{VBS}$ reweighting for events in the resolved (top) and boosted (bottom) W+jets control regions \relax }}{142}{figure.caption.94}
+\contentsline {figure}{\numberline {\relax 5.11}{\ignorespaces Comparison of the BDT score distributions before and after the fitting in the Boosted HP (top), Boosted LP (middle), resolved (bottom) W+jet control regions. The left and right are the plots for pre-fit and post-fit (with the post-fit over pre-fit ratio) results. \relax }}{143}{figure.caption.95}
+\contentsline {figure}{\numberline {\relax 5.12}{\ignorespaces Comparison of the BDT score distributions before and after the fitting in the Boosted HP (top), Boosted LP (middle), resolved (bottom) top control regions. The left and right are the plots for pre-fit and post-fit (with the post-fit over pre-fit ratio) results. \relax }}{144}{figure.caption.96}
