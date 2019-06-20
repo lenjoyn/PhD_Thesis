@@ -1,26 +1,26 @@
 \chapter{Experimental Setup}
 \label{chap:exp}
 The accelerators are utilized to recreate the high energy environment rich in new physics like the hot early universe. In this thesis, Large Hadron Collider (LHC) is used for this purpose, and the ATLAS detector (A Toroidal LHC ApparatuS) is taken to probe the potential signatures of new physics. 
-\section{Large Hadron Collider }
-LHC is a circular collider with diameter of 27km for hadrons (it could be either proton or lead ion) hosted by CERN at the border of France and Switzerland in the depth varied between 50m to 175m. It accelerates protons (lead ions) to the speed of Lorentz Factor of 10540 (32) and smashes them together to recreate the ``hot'' environment right after the big bang which corresponds to 6.5TeV (2.5TeV) energy. However, before a proton reaches the targeted energy, it has a long way to go.
+\section{Large Hadron Collider\cite{LHC}}
+LHC is a circular collider with a diameter of 27km for hadrons (it could be either protons or lead ions) hosted by CERN at the border of France and Switzerland in the depth varied between 50m to 175m. It accelerates protons (lead ions) to the speed of Lorentz Factor of 10540 (32) and smashes them together to recreate the ``hot'' environment right after the big bang which corresponds to 6.5TeV (2.5TeV) energy. However, before a proton reaches the targeted energy, it has a long way to go.
 \\
 \\{\bf Ionization}
 \\
 \\At the beginning, hydrogen is released from a tank and ionized into the state of proton-electron plasma. It then experiences the electric field to separate electrons as well as protons like Fig. \ref{Fig:ionization}. The protons are then taken out and sent into the LINAC2, a linear accelerator. After reaching the energy of $450MeV$, the protons are fed into circular accelerators in the order of the PSB, PS and SPS to further increase the energy until they reach 450$GeV$ (Fig. \ref{Fig:boost}). By this stage, the protons are ready to be injected into the LHC.
 \begin{figure}[!h]                
-	\includegraphics[width=0.25\textwidth]{Chapter2/ionization.png}
+	\includegraphics[width=0.8\textwidth]{Chapter2/ionization.png}
 	\centering
 	\begin{center}
-		\caption{The hydrogen plasma is separated into electrons (red) and protons (blue)}
+		\caption{The hydrogen plasma is separated into electrons (red) and protons (blue), and the protons are injected into LINAC2. This image is taken from \cite{Ionization}.}
 		\label{Fig:ionization}            
 	\end{center}
 \end{figure}
 \\
 \begin{figure}[!h]                
-	\includegraphics[width=0.86\textwidth]{Chapter2/pre-acceleration.jpg}
+	\includegraphics[width=0.95\textwidth]{Chapter2/pre-acceleration.jpg}
 	\centering
 	\begin{center}
-		\caption{Before the LHC, protons go through several boosting facilities}
+		\caption{Before the LHC, protons go through several boosting facilities. This material is taken from \cite{Mobs:2197559}}
 		\label{Fig:boost}            
 	\end{center}
 \end{figure}
@@ -28,34 +28,45 @@ LHC is a circular collider with diameter of 27km for hadrons (it could be either
 \\
 \\While accelerating the protons, they  would repel each other due to the same electric charge they are carrying, so the quadrupole magnets are implemented in LHC to focus them by the effect of magnetic lens. In addition to the quadrupole magnets, the other magnet system in LHC is the superconducting dipole magnets working to bend the protons to keep them staying in the circular pipe of the LHC. The dipole system was upgraded between 2012 and 2015 to provide a 8.3T magnetic field to bend the proton beam at an energy of 6.5TeV.
 \\
-\\{\bf Radiofrequency Cavity}  
+\\{\bf Radiofrequency Cavity\cite{Radiofrequency:1997424}}  
 \\
 \\The ``radiofrequency cavity'' (RF cavity) is in charge of the acceleration. Protons would experience electric field when going through RF cavities which are installed in the LHC like beads along a string. The field is induced by an alternating current of a frequency of $400~MHz$ and resonates as a standing wave in the cavity. This wave decelerates faster protons and accelerates slower ones, which makes the protons squeeze into bunches as demonstrated in Fig. \ref{Fig:bunch}., until they reach the targeted energy. When the beams are kept in the same speed, they are called ``stable beams'' and ready for the collision. 
 \begin{figure}[!h]                
 	\includegraphics[width=0.3\textwidth]{Chapter2/bunch.png}
 	\centering
 	\begin{center}
-		\caption{The protons are formed into a bunch in the EM wave}
+		\caption{The protons are formed into a bunch in the EM wave. This image is taken from \cite{Baird:1017689}}
 		\label{Fig:bunch}            
 	\end{center}
 \end{figure}
-Each LHC beam could have up to 3564 bunches with $\mathcal{O}^{12}$ protons in each bunch for a spacing of 25ns, but not all of them are filled. For the LHC 2018 operation, the ``filling scheme''  has around 1000-2500 bunches filled, while the remaining ones are left empty (filling scheme most of time is constrained due to technical issues). A series of continuous bunches is called a ``bunch train''. This scheme would then be used to configure the trigger and data acquisition system for the active window of detector operation.
+\noindent
+\\
+\\Each LHC beam could have up to 3564 bunches with $\mathcal{O}^{12}$ protons in each bunch for a spacing of 25~ns, but not all of them are filled. For the LHC 2018 operation, the ``filling scheme''  has around 1000-2500 bunches filled, while the remaining ones are left empty (filling scheme most of time is constrained due to technical issues). A series of continuous bunches is called a ``bunch train''. This scheme would then be used to configure the trigger and data acquisition system for the active window of detector operation.
 \\  
 \\{\bf Collision}
 \\
-\\The LHC has two beams going in opposite directions with the same configuration (bunch structure, luminosity and energy), and the two beams cross at locations where four detectors are sited: ALICE, ATLAS, CMS, and LHCb. Before stable beams, the two beams pass each other where they are supposed to cross. When both of the beams are ready, the two beams are slightly shifted to target on each other for the collisions .  The crossing angle between the two beams plays an important role in detector performance. It should not be too big, or it would have an impact on physical object reconstruction (see section. \ref{sec:obj rec}) which assumed a zero crossing angle. However, it also should not be too small, or the two beams would interfere with each other. The crossing angle is kept optimized during LHC operation even when the detectors are taking data for physics.
+\\The LHC has two beams going in opposite directions with the same configuration (bunch structure, luminosity and energy), and the two beams cross at locations where four detectors are sited: ALICE\cite{alicetdr}, ATLAS\cite{atlastdr}, CMS\cite{cmstdr}, and LHCb\cite{lhcbtdr}. Before stable beams, the two beams pass each other where they are supposed to cross. When both of the beams are ready, the two beams are slightly shifted to target on each other for the collisions .  The crossing angle between the two beams plays an important role in detector performance. It should not be too big, or it would have an impact on physical object reconstruction (see section. \ref{sec:obj rec}) which assumed a zero crossing angle. However, it also should not be too small, or the two beams would interfere with each other. The crossing angle is kept optimized during LHC operation even when the detectors are taking data for physics.
 \\
-\\When collisions happen, the two crossed bunches usually have more than one pair of interacting protons. In physics, only the most energetic one gets the attention for study, while the other ones are the background contribution called "pile-up events". For ATLAS 2018 operation, the pile-up events could number up to 70 per bunch crossing, and it is now a major challenge of analyses to suppress this type of background.  
+\\When collisions happen, the two crossed bunches usually have more than one pair of interacting protons. In physics, only the most energetic one gets the attention for study, while the other ones are the background contribution called "pile-up events". For ATLAS 2018 operation, the pile-up events could number up to 70 per bunch crossing, and it is now a major challenge of analyses to suppress this type of background.
+\\
+\\The collisions are then taken as ``instant luminosity'' for the measurement on the amount of data:
+\begin{equation}
+\mathcal{L}_{inst} = \frac{N}{t\times S^{eff}}
+\end{equation}
+with N as the number of collisions and $S^{eff}$ as the effect area of the LHC beams for the collisions \footnote{$S^{eff}=4\times\pi\times(1.6\times 10^{-5})^2[m^2]$ for the LHC configuration.}. Then, the total collected data with time is presented as:
+\begin{equation}
+\mathcal{L} = \int \mathcal{L}_{inst}dt
+\end{equation} 
 \section{ATLAS Detector}
-The ATLAS detector (A Toroidal LHC ApparatuS) is designed as a general purpose detector\footnote{The other general purpose detector hosted by LHC is Compact Muon Solenoid (CMS). The discovery of any new physics shall be verified by both the ATLAS and CMS collaborations} aiming for most high energy physics physics topics in the energy scale LHC provides like SM precision measurement and searches for new physics.
+The ATLAS detector (A Toroidal LHC ApparatuS) \cite{Airapetian:391176} is designed as a general purpose detector\footnote{The other general purpose detector hosted by LHC is Compact Muon Solenoid (CMS). The discovery of any new physics shall be verified by both the ATLAS and CMS collaborations} aiming for most high energy physics physics topics in the energy scale LHC provides like SM precision measurement and searches for new physics.
 
-The ATLAS detector is in a cylinder shape with dimensions of 44m in length and 25m in diameter. Its inner structure is like an onion with multiple layers from the inner most tracking system to the outer part of muon spectrometer functioning to capture different physical objects which will be explained in the following. In the purpose of measuring the particle mass and charge, ATLAS also has two magnetic systems (a solenoid and a toroid) located outside inner tracking system and muon spectrometer. The diagram of the whole ATLAS detector is shown in Fig. \ref{Fig:ATLAS}.
+The ATLAS detector is in a cylinder shape with dimensions of 44m in length and 25m in diameter. Its inner structure is like an onion with multiple layers from the inner most tracking system to the outer part of muon spectrometer functioning to capture different physical objects which will be explained in the following. In the purpose of measuring the particle mass and charge, ATLAS also has two magnetic systems (a solenoid and a toroid) located outside inner tracking system and muon spectrometer. The diagram of the whole ATLAS detector is shown in Fig. \ref{Fig:ATLAS} with the two minimum bias trigger scintillators (MBTS) at both ends.
 
 \begin{figure}[!h]                
 	\includegraphics[width=0.8\textwidth]{Chapter2/ATLAS.jpg}
 	\centering
 	\begin{center}
-		\caption{The diagram of the ATLAS detector}
+		\caption{The diagram of the ATLAS detector taken from \cite{Collaboration_2008}}
 		\label{Fig:ATLAS}            
 	\end{center}
 \end{figure}
@@ -81,12 +92,12 @@ For the same $\Delta R$, the separation would be actually larger in the high $\e
 	\includegraphics[width=0.4\textwidth]{Chapter2/pseudorapidity.png}
 	\centering
 	\begin{center}
-		\caption{The Psedorapidity varied with $\theta$}
+		\caption{The Psedorapidity varied with $\theta$ from \cite{pseudorapidity_wiki}}
 		\label{Fig:pseudorapidity}            
 	\end{center}
 \end{figure}
 
-\subsection{Inner Detector (ID)}
+\subsection{Inner Detector (ID) \cite{CERN-LHCC-97-016}}
 %remember to mention MBTS
 The design of a general detector usually consists of two types of system: ``trackers'' and ``calorimeters''. The tracker is used to record the particle trajectories inside the detector with the lowest disturbance on its energy, while calorimeters trap the particles to measure its total energy sum, $E$. 
 \\
@@ -96,7 +107,7 @@ The design of a general detector usually consists of two types of system: ``trac
 	\includegraphics[width=0.7\textwidth]{Chapter2/ID.png}
 	\centering
 	\begin{center}
-		\caption{The diagram for the ATLAS inner detector}
+		\caption{The diagram for the ATLAS inner detector from \cite{PERF-2015-08}}
 		\label{Fig:ID}            
 	\end{center}
 \end{figure}
@@ -107,11 +118,11 @@ Each layer has cells of well-defined granularity. When particles are passing thr
 \end{equation}
 with a and b, the coefficients, depending on track quality and $\eta$. From MC simulation for the track with lease seven hits (a track crossing all layers from pixel and SCT) within $0.25<|\eta|<0.5$, a and b are estimated to be 0.00034 $GeV^{-1}$ and $0.0015$ respectively.
 \\
-\\{\bf Pixel}
+\\{\bf Pixel\cite{Collaboration:2285585}}
 \\
 \\The pixel detector is the innermost system of ATLAS, and it has the structure of three concentric barrels enclosed by three disks at each end, so all the particles coming out from the collision must pass through all the layers (giving three hits). It provides the best position resolution in the ATLAS detector with a granularity of $50\mu m\times 400\mu m$  for each cell in the $r\Delta \phi \times z$ plane with the coverage of $|\eta|<2.5$ which is used to define the barrel region which has a spatial resolution of $14\mu m\times 115\mu m$
 \\
-\\In 2014, a new layer of pixel detector called insertable b-layer (IBL) was installed at $3.3cm$ to the beam pipe in addition to the original three layers. Its design is aiming to assist with measurements of short-live particles (like the b quarks whose lifetime is $~10^{-12}s$), so it has an even better granularity of $50\mu m\times 250\mu m$ with extended coverage to $|\eta|<3$. The improved granularity also helps to reduce the uncertainty on impact parameter of collisions.
+\\In 2014, a new layer of pixel detector called insertable b-layer (IBL) \cite{Miucci_2014} was installed at $3.3cm$ to the beam pipe in addition to the original three layers. Its design is aiming to assist with measurements of short-live particles (like the b quarks whose lifetime is $~10^{-12}s$), so it has an even better granularity of $50\mu m\times 250\mu m$ with extended coverage to $|\eta|<3$. The improved granularity also helps to reduce the uncertainty on impact parameter of collisions.
 \\
 \\{\bf Semiconductor Tracker}
 \\
@@ -119,18 +130,18 @@ with a and b, the coefficients, depending on track quality and $\eta$. From MC s
 \\
 \\{\bf Transition Radiation Tracker}
 \\
-\\The last part of the inner detector is the TRT detector. It doesn't have a multiple layer structure as the pixel or SCT detectors but just a single thick layer stacked of straw drift tubes. Each straw has the diameter of 4mm (with the drift time correction, the spatial resolution from each measurement is $130\mu m$) and is filled with the gas mixture of $Xe$, $CO_{2}$ and $O_{2}$. The gas mixture is used to optimize the absorption of transition radiation. (Due to the gas leaking problem found in the ATLAS operation from 2009 to 2012, part of the gas was replaced by cheaper $Ar$-based gas.) When a charge particle passes through the gas, the emitted photon (transition radiation) induces a ``charge avalanche''. This detector allows to the distinguish between electrons and charged pions (because light particles emit more transition radiation).
+\\The last part of the inner detector is the TRT detector. It doesn't have a multiple layer structure as the pixel or SCT detectors but just a single thick layer stacked of straw drift tubes. Each straw has the diameter of 4mm (with the drift time correction, the spatial resolution from each measurement is $130\mu m$) and is filled with the gas mixture of $Xe$, $CO_{2}$ and $O_{2}$. The gas mixture is used to optimize the absorption of transition radiation. (Due to the gas leaking problem found in the ATLAS operation from 2009 to 2012 \cite{Mindur:2139567}, part of the gas was replaced by cheaper $Ar$-based gas.) When a charge particle passes through the gas, the emitted photon (transition radiation) induces a ``charge avalanche''. This detector allows to the distinguish between electrons and charged pions (because light particles emit more transition radiation).
 \\
 \\{\bf Magnets}
 \\
-\\ The ATLAS detector has two superconducting magnet systems different from the CMS experiment with only one solenoid magnet. The inner one is the solenoid magnet located between the TRT detector and the calorimeter, while the toroid magnet is situated in the muon spectrometer system. The advantage of this design is to have the light material (solenoid) inside the detector for transparency, and the toroid still provides the magnetic field to further improve the resolution of momentum measurement.  
+\\ The ATLAS detector has two superconducting magnet systems different from the CMS experiment with only one solenoid magnet. The inner one is the solenoid magnet located between the TRT detector and the calorimeter, while the toroid magnet is situated in the muon spectrometer system. The advantage of this design is to have the light material (solenoid) inside the detector for transparency, and the toroid still provides the magnetic field to further improve the resolution of momentum measurement\cite{magnets}.  
 \\
 \\The solenoid magnet is with a diameter of $2.56m$ and length of $5.8m$.  The magnetic field inside the solenoid is almost uniform of 2T along the z-axis as shown in Fig.~\ref{Fig:bfield} to give the momentum and charge measurement in the inner detector. 
 \begin{figure}[!h]                
 	\includegraphics[width=0.6\textwidth]{Chapter2/bfield}
 	\centering
 	\begin{center}
-		\caption{The magnetic field inside the solenoid }
+		\caption{The magnetic field inside the solenoid taken from \cite{Aleksa_2008}}
 		\label{Fig:bfield}            
 	\end{center}
 \end{figure}
@@ -142,7 +153,7 @@ Outside the inner detector is the calorimeter, an energy sampling system. In the
 	\includegraphics[width=0.85\textwidth]{Chapter2/calorimeter}
 	\centering
 	\begin{center}
-		\caption{The calorimeter system of the ATLAS detector}
+		\caption{The calorimeter system of the ATLAS detector from \cite{Aad:2008zzm}}
 		\label{Fig:calorimeter}            
 	\end{center}
 \end{figure}
@@ -154,12 +165,12 @@ where a, b, and c are the coefficients. The first term is due to the electronic 
 \\
 \\{\bf Electromagnetic Calorimeter}
 \\
-\\In ATLAS, the ECAL is made up of the LAr detector each module of which has one absorber and one electrode, and liquid argon is the medium between them. When a particle hits the absorber, it induces the shower, and the shower electrons ionize liquid argon atoms. All the electrons from the interactions would then be collected by the electrodes. The measured current is used to estimate the energy of the incoming particle. The process could be seen in Fig. \ref{Fig:larshower}.\\
+\\In ATLAS, the ECAL is made up of the LAr detector\cite{ATLAS:1996ab} each module of which has one absorber and one electrode, and liquid argon is the medium between them. When a particle hits the absorber, it induces the shower, and the shower electrons ionize liquid argon atoms. All the electrons from the interactions would then be collected by the electrodes. The measured current is used to estimate the energy of the incoming particle. The process could be seen in Fig. \ref{Fig:larshower}.\\
 \begin{figure}[!h]                
 	\includegraphics[width=0.35\textwidth]{Chapter2/LArshower}
 	\centering
 	\begin{center}
-		\caption{The interaction between an electron and the LAr calorimeter}
+		\caption{The interaction between an electron and the LAr calorimeter taken from \cite{LArwork}}
 		\label{Fig:larshower}            
 	\end{center}
 \end{figure}
@@ -171,12 +182,12 @@ where a, b, and c are the coefficients. The first term is due to the electronic 
 \\
 \\In the endcap region ($1.7<|\eta|<3.1$), another type of LAr detector with copper absorber is used as the HCAL. It contains four layers which have the same granularity for $0.1 \times 0.1$ ($\Delta \eta \times \Delta \phi$) in the region, $1.7<|\eta|<2.5$, and $0.2 \times 0.2$ in $2.5<|\eta|<3.1$
 \\
-\\{\bf Forward Calorimeter}
+\\{\bf Forward Calorimeter \cite{Artamonov_2008}}
 \\
 \\In contract to the inner detector, the calorimeter should capture as many particles as possible, so the missing energy carried by invisible particles could be estimated by energy conservation within the detector. Therefore, a forward detector is installed at $3.1<|\eta|<4.9$, and it has the best rapidity coverage among the ATLAS subsystems. 
 \\
 \\The type of detector used here is the third type of LAr detector with tungsten absorber. It has three layers with the first one for ECAL and the last two for HCAL with the same depth of $10\lambda$ (ECAL+HCAL).  
-\subsection{Muon Spectrometer}
+\subsection{Muon Spectrometer\cite{MS_all}}
 The outermost detector is the muon spectrometer (MS). Because of their large mass and lack of strong interactions, only muons could travel through the calorimeter and leave signatures here. The muon spectrometer is composed of four types of detectors: thin gap chamber (TGC), resistive plate chamber (RPC), monitored drift tubes (MDT), and cathode strip chamber (CSC) with the toroid magnet system.  
 \\
 \\In this subsystem, the MDT and CSC are the two detectors providing the tracking measurement with a three-layer structure. In the coverage of $|\eta|<2.0$, all the three layers are composed of the MDT detector, while the innermost layer is replaced by the CSC detector in the extent of $2.0<|\eta|<2.7$ for the effectiveness of high particle density environment. The overall tracking measurement has the spatial resolution of $35 \mu m$
@@ -213,7 +224,7 @@ The LHC has the collision rate at $~40MHz$, which leads to the data rate over $6
 	\includegraphics[width=0.8\textwidth]{Chapter2/Trigger.png}
 	\centering
 	\begin{center}
-		\caption{The ATLAS trigger system}
+		\caption{The ATLAS trigger system from \cite{trigger_str}}
 		\label{Fig:trigger}            
 	\end{center}
 \end{figure}
@@ -241,6 +252,6 @@ where the numbers are the trigger thresholds in the unit of $GeV$, while the $lh
 \\The defined triggers would then be made into ``streams'' where the events are categorized for different purposes. Physics analyses shall use the triggers contained in the ``$physics\_main$'' stream, and there are also the dedicated streams composed of ``prescaled'' triggers for hardware calibrations. Those calibration triggers usually have lower thresholds in contract with the ones in $physics\_main$. A random sampling is applied to only pick a fraction of events passing those triggers, which makes them unsuitable for physics analysis. The total allowed output rate from all streams is $5kHz$ with $1kHz$ for $physics\_main$. 
 
 \subsection{Run 2 Operation Overview}
-For the ATLAS operation from 2015 to 2018 which is called Run 2 (with respect to Run 1 from 2009 to 2013), the average data recording efficiency is around $95\%$ with respect to LHC delivery efficiency. From the measurement with the Lminosity  Cherenkov  Integrating  Detector (LUCID, one of the forward detectors of the ATLAS), the integrated luminosity is $\sim~36fb^{-1}$ for 2015 and 2016, $\sim46~fb^{-1}$ for 2017 and $\sim63~fb^{-1}$ for 2018 which gives the total data of $140 fb^{-1}$. The performance from 2011 to 2018 is summarized in Fig. \ref{Fig:recefficiency}
-\input{TexFiles/Objrec}
+For the ATLAS operation from 2015 to 2018 which is called Run 2 (with respect to Run 1 from 2009 to 2013), the average data recording efficiency is around $95\%$ with respect to LHC delivery efficiency. From the measurement with the Lminosity  Cherenkov  Integrating  Detector (LUCID, one of the forward detectors of the ATLAS)\cite{Bruschi:2025000, ATLAS:2019pzw}, the integrated luminosity is $\sim~36fb^{-1}$ for 2015 and 2016, $\sim46~fb^{-1}$ for 2017 and $\sim63~fb^{-1}$ for 2018 which gives the total data of $140 fb^{-1}$. The performance from 2011 to 2018 is summarized in Fig. \ref{Fig:recefficiency}
+\input{TexFiles/Objrec}.
 

@@ -1,16 +1,16 @@
 \chapter{Search with Non-Resonance Signatures (Vector Boson Scattering)}
 In addition to the physics with resonance particles, the unknown couplings between SM particles is also a portal to new physics. Its signature would be similar to SM, but it might enhance or reduce (interference) the occurrence rate (cross section) for the physical process of interest. However, the deviation from SM prediction would be marginal, so the test on precision measurement could only be achieved with great amount of data. 
 \\
-\\This analysis is aiming for the phenomenology with ``vector boson scattering'' (VBS) which has the signature like VBF with one back-to-back high-mass jet pair accompanied by two SM gauge bosons ($qq \to VVqq$). The phenomenon was predicted by SM and measured in ATLAS Run1 data analysis (2009-2012) with the search for the anomalous quadratic gauge coupling (aQGC), but it doesn't give a promising result ($5\sigma$ excess in comparison to null hypothesis) for the existence. This analysis is to extend the search with greater luminosity of data collected in 2015 and 2016 for $36.1fb_{-1}$, and the final state of the dibson system is chosen to be semileptonic.  This analysis will focus on one lepton channel ($WV \to l\nu qq$) just like the the resonance search , and the result will be combined with other two semileptonical final states ($ZV \to \nu\nu qq/llqq$) for the statistic interpretation.
+\\This analysis is aiming for the phenomenology with ``vector boson scattering'' (VBS) which has the signature like VBF with one back-to-back high-mass jet pair accompanied by two SM gauge bosons ($qq \to VVqq$). The phenomenon was predicted by SM and measured in ATLAS Run1 data analysis (2009-2012) with the search for the anomalous quadratic gauge coupling (aQGC), but it doesn't give a promising result\cite{STDM-2014-05} for the existence. This analysis is to extend the search with greater luminosity of data collected in 2015 and 2016 for $36.1fb_{-1}$, and the final state of the dibson system is chosen to be semileptonic. This analysis will focus on one lepton channel ($WV \to l\nu qq$) just like the the resonance search , and the result will be combined with other two semileptonical final states ($ZV \to \nu\nu qq/llqq$) for the statistic interpretation.
 \\
-\\With the same final state, the object definition was inherited from the resonance search, and the simulation sample and dataset are also reused. However, because the search is aiming for different signal, the optimization was repeated for the threshold of object and event selection.  The most significant change in this analysis is that although $m_{WV}$ is still reconstructed, it cannot be taken as the discriminant because of no resonance particle in the process. Instead, an algorithm of boosted decision tree (BDT) is performed on the detector variables, and it would give the output of ``BDT score'' for signal and background separation.
+\\With the same final state, the object definition was inherited from the resonance search, and the simulation sample and dataset are also reused. However, because the search is aiming for different signal, the optimization was repeated for the thresholds of object and event selection.  The most significant change in this analysis is that although $m_{WV}$ is still reconstructed, it cannot be taken as the discriminant because of no resonance particle in the process. Instead, an algorithm of boosted decision tree (BDT) is performed on the physical object observables, and it would give the output of ``BDT score'' for the discrimination of signal and background.
 \\ 
 \\To maximize the sensitivity, the event categorization employs the same strategy to have boosted HP, boosted LP, and resolved regions for signal, W+jet and $t\bar{t}$ control regions for VBS category only, and the event priority is the same as the resonance search.
 \section{Signal Simulation Samples}
 Two types of signal signature were generated: SM VBS scattering and anomalous quadratic coupling. As this analysis is a general search for the coupling signature, a couple of physical physical processes are involved as the signal. In this case, an approximation of effective field theory (EFT) is applied to simplify the simulation. 
 
 \subsection{Standard Model Vector Boson Scattering}
-Under SM, the vector boson scattering is through the coupling to a variety of bosons including W/Z boson, photon, or Higgs boson. The coupling strength is constrained by Higgs mass, so the measurement could be another test on Higgs naturalness and  Brout-Englert-Higgs Mechanism. The interactions considered in this analysis are shown in Fig. \ref{Fig:feynmanVBS}  with the order of $\alpha_{EW}^6$ which also considers the decays of bosons into fermions. 
+Under SM, the vector boson scattering is through the coupling to a variety of bosons including W/Z boson, photon, or Higgs boson. The coupling strength is constrained by Higgs mass, so the measurement could be another test on Higgs naturalness and  Brout-Englert-Higgs Mechanism\cite{PhysRevD.7.3111}. The interactions considered in this analysis are shown in Fig. \ref{Fig:feynmanVBS}  with the order of $\alpha_{EW}^6$ which also considers the decays of bosons into fermions. 
 
 \begin{figure}[tbp]
 	\begin{center}
@@ -37,7 +37,7 @@ Under SM, the vector boson scattering is through the coupling to a variety of bo
 \end{figure} 
 
 \noindent
-For those interactions, only the longitudinal component of bosons is considered, while the transverse one has relatively low coupling strength, so it is neglected. When the Higgs boson is not involved in the interactions (Fig. \ref{Fig:feynmanVBS} (a)-(c)), the coupling magnitude could be presented in Mandelstam variables as:
+For those interactions, only the longitudinal component of bosons is considered, while the transverse one has relatively low coupling strength, so it is neglected\cite{Brass:2018hfw}. When the Higgs boson is not involved in the interactions (Fig. \ref{Fig:feynmanVBS} (a)-(c)), the coupling magnitude\cite{Barger:1990py} could be presented in Mandelstam variables as:
 \begin{equation}
 |\mathcal{M}|=\frac{g^2}{4m_{W}^{2}}\left[s+t\right]
 \end{equation}
@@ -45,23 +45,23 @@ with the consideration of only the coupling to W boson for simplicity. This impl
 \begin{equation}
 |\mathcal{M}|=\frac{g^2m_{H}^2}{4m_{W}^{2}}\left[\frac{t}{t-m_{H}^{2}}+\frac{s}{s-m_{H}^{2}}\right]
 \end{equation} 
-This expression is only valid at the tree level, and the perturbative terms are neglected with the light Higgs boson. However, the high order terms would remain if the Higgs mass is above $1.2TeV$ with $\lambda > 4\pi$:
+This expression is only valid at the tree level, and the perturbative terms are neglected with the light Higgs boson\cite{Rindani:2009gm}. However, the high order terms would remain if the Higgs mass is above $1.2TeV$ with $\lambda > 4\pi$:
 \begin{equation}
 m^2_{H}=2\lambda\nu^2 > 1.2TeV
 \end{equation}
-with $\nu$ as $246GeV$ measured from the experiments. This would then make the cross-section diverge again which is shown in Fig. \ref{Fig:VBSXS_heavyhiggs}. 
+with $\nu$ as $246GeV$ measured from the experiments. This would then make the cross-section diverge again which is shown in Fig. \ref{Fig:VBSXS_heavyhiggs}. Therefore, the cross-section measurement of the SM vector boson scattering could be another verification of the existence of high-mass Higgs boson.  
 
 \begin{figure}[tbp]
 	\begin{center}
 		\includegraphics[width=0.8\textwidth,keepaspectratio]{Chapter5/VBSXS_heavyhiggs.png}
-		\caption{The cross-section of vector boson scattering between gauge bosons with Higgs boson of $125GeV$ and $10^{10}GeV$ as a function of $\sqrt{s}$.}
+		\caption{The cross-section of vector boson scattering between gauge bosons with Higgs boson of $125GeV$ and $10^{10}GeV$ as a function of $\sqrt{s}$.\cite{Schnoor:2000941}}
 		\label{Fig:VBSXS_heavyhiggs}
 	\end{center}
 \end{figure} 
 \noindent
 {\bf Sample Production}
 \\
-\\The signal samples are produced with the setting under SM with Higgs boson mass at $125GeV$. \textsc{MADGRAPH5\_aMC@NLO v2.3.3} is the chosen generator interfaced by \textsc{PYTHIA8} for the fragmentation with the PDF set of NNPDF30LO. The two outcome bosons are required to be on-shell with mass pole from PDG. 
+\\The signal samples are produced with the setting under SM with Higgs boson mass at $125GeV$. \textsc{MADGRAPH5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca} is the chosen generator interfaced by \textsc{PYTHIA8}\cite{Sjostrand:2007gs} for the fragmentation with the PDF set of \textsc{NNPDF30LO}\cite{Ball:2012cx}. The two outcome bosons are required to be on-shell with mass pole from PDG. 
 \\
 \\As the generation command in the generator is $pp \to VVjj$, so some of the unwanted interaction would also go into the signal samples. Their coupling is still at the order of $\alpha_{EW}^6$, but no VBS interaction is involved. With the VBS requirement on event selection, the contribution is well-suppressed. 
 \noindent
@@ -74,7 +74,7 @@ With the light mass of the discovered SM Higgs boson, the Higgs naturalness turn
 \end{equation}
 where the extended term, $\sum_{i}\frac{\mathcal{C}_i}{\Lambda_{i}^{d-4}}\mathcal{O}^{d}_{i}$, is contributed from the anomalous couplings. It is constructed by 3 components: $\Lambda$ as the energy scale for where the coupling is significant, $C_{i}$ as the coefficient of this interaction and $O^{d}_i$ is the operator. $d$ is used as the number of dimensions of this coupling. With the constraint of $\Lambda$ in the power of $d-4$\footnote{$d-4$ is applied on the energy scale to keep the dimension consistent in the Lagrangian}, the interactions of higher order could be neglected due to small contribution. When $\Lambda$ goes to $\infty$, that would mean the new physics is unapproachable, and SM would be the only observable phenomenon. This approach has been proven working well to have theoretical agreement to experimental data with the example from Fermi theory. 
 \\
-\\The new physics operator, $\mathcal{O}$, considered here is based on Eboli model which formulates the new interactions with the components:
+\\The new physics operator, $\mathcal{O}$, considered here is based on Eboli model\cite{Eboli:2000ad} which formulates the new interactions with the components:
 \begin{itemize}
 	\item{Higgs Field Covariant Derivative}: $D_{\mu}\Phi =(\partial_\mu + igW^j_{\mu}\frac{\sigma^{j}}{2}+ig'B_\mu\frac{1}{2})\Phi $
 	\item{Electroweak W Field Covariant Derivative}: $\hat{W}_{\mu\nu}=\sum_{i}(\partial_\mu W_\nu^i - \partial_\nu W_\mu^i)\frac{\sigma^i}{2}$
@@ -94,7 +94,7 @@ Then, the choice on 4 of them (the same component could be chosen multiple times
 \subsection{Signal Production}
 It is impossible to investigate all the possible operators, so only one operator of each category is chosen in the signal, which are $O_{S}^0$, $O_{M}^0$, and $O_{T}^0$ with the free parameter, $f^0_{S}$, $f^0_{M}$,  $f_T^0$, while the other operators are tuned to 0.  The chosen coupling strength for the free parameters in the simulation is summarized in Tab. \ref{Tab:Eboli}.
 \\
-\\Similar to the SM VBS signal, the production is also via \textsc{MADGRAPH5\_aMC@NLO v2.3.3} interfaced by \textsc{PYTHIA8} with the PDF set of NNPDF30LO. 
+\\Similar to the SM VBS signal, the production is also via \textsc{MADGRAPH5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca} interfaced by \textsc{PYTHIA8}\cite{Sjostrand:2007gs} with the PDF set of NNPDF30LO\cite{Ball:2012cx}. 
 \begin{table}[h]
 	\caption{Set-up of parameters in Eboli Model for this analysis} \label{Tab:Eboli}
 	\begin{center}
@@ -141,7 +141,7 @@ The effect on the cross-section estimation could be presented with the matrix el
 \begin{equation}
 |\mathcal{M}|^2=|\mathcal{M}_1+\mathcal{M}_2|^2 = |\mathcal{M}_1|^2+|\mathcal{M}_2|^2+2Re(\mathcal{M}_1\mathcal{M}_2)
 \end{equation}
-with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal{M}_2$ are the amplitudes from the VBS and QCD contributions. The last term is showing the interference effect on the total cross-section. With the estimation by MadGraph5\_aMC@NLO v2.3.3, this effect is less around $1\%$ for the VBS signal, so it is taken negligible, but it is still taken as one contribution of systematic uncertainty.
+with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal{M}_2$ are the amplitudes from the VBS and QCD contributions. The last term is showing the interference effect on the total cross-section. With the estimation by \textsc{MadGraph5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca}, this effect is less around $1\%$ for the VBS signal, so it is taken negligible, but it is still taken as one contribution of systematic uncertainty.
 \section{Event Selection}
 In general, the event selection in this analysis has the same scheme as the resonance search including both trigger and event cleaning. However, as the optimization is conducted with SM VBS signal, some cuts are looser due to the similar kinematic properties with respect to the background. For the same reason, the cuts on topological variables employed in resonance search would also remove significant signal, so they are dropped in this analysis.
 \\
@@ -234,7 +234,7 @@ Tab. \ref{tab:SRdefinitionsVBS} and \ref{Tab:SRdefinitions_resolvedVBS} are show
 	\end{center}
 \end{table}
 \section{Multivariate Analysis}
-When the new physics and SM interactions have similar kinematics, their detector signatures would have marginal difference. In this case, no individual variable could be taken as the discriminant to distinguish signal from backgrounds. And, this is why the multivariate analysis is taken into the analysis.
+When the new physics and SM interactions have similar kinematics, their detector signatures would have marginal difference. In this case, no individual variable could be taken as the discriminant to distinguish signal from backgrounds. And, this is why the multivariate analysis is taken into the analysis, and it is based on the framework of TMVA\cite{Hocker:2007ht}.
 \\
 \\Two candidate algorithms were considered: adaptive and gradient decision tree. However, the outcome of adaptive decision tree is not robust to prevent overtraining. This means the outcome might only have the distinguishing power to the training sample, but the appliance outside is less powerful. Therefore, gradient boost decision (GBDT) is chosen to be used in this analysis.
 \\
@@ -452,6 +452,30 @@ As the discrepancy was only seen in $m_{jj}^{VBS}$, the validation was performed
 \end{figure}
 \section{Statistical Interpretation}
 The statistical interpretation of the non-resonance search is following the same strategy as the resonance one: likelihood construction (it has the same structure as Eq.~\ref{Eq. ML_all}), fitting, and then the final result. However, as the main focus of this analysis is to spot the vector boson scattering in the semileptonical ($qq\to VVjj \to \ell\ell qq/\ell\nu qq/\nu\nu qq +jj$), so the exclusion interpretation is not performed. 
+\\
+\\The likelihood construction was using two discriminant: the BDT distribution for signal region (first line in Eq.~\ref{Eq. ML_all}) and the $m^{VBS}_{jj}$ for W+jet control region (third line in Eq.~\ref{Eq. ML_all}). The top control region was just taking one bin for the fitting normalization (second line in Eq.~\ref{Eq. ML_all}). They are summarized in Tab.~\label{tab:fitregions_1lep}. This choice is to make the constraint of $m^{VBS}_{jj}$ reweighting systematic uncertainty constrained by $m^{VBS}_{jj}$ distribution shape in the W+jet control region. 
+\begin{table}[htb!]
+	\centering
+	\begin{tabular}{lccc}
+		\toprule\midrule
+		\multirow{2}{*}{Regions} & \multicolumn{3}{c}{1lep channel fit model} \\
+		\cmidrule{2-4}
+		& Merged high-purity & Merged low-purity & Resolved \\
+		\midrule
+		%SR     & \checkmark & \checkmark & \checkmark \\
+		%WCR    & \checkmark & \checkmark & \checkmark \\
+		SR     & BDT & BDT & BDT \\
+		WCR    & $m^{VBS}_{jj}$& $m^{VBS}_{jj}$ & $m^{VBS}_{jj}$ \\
+		%TopCR  & \checkmark & \checkmark & \checkmark \\
+		TopCR  & One bin & One bin & One bin \\
+		\midrule
+		\bottomrule
+	\end{tabular}
+	\caption{\label{tab:fitregions_1lep} Summary of the regions from 1lep channel entering the likelihood of the fit models. 
+		``One bin'' implies that a single bin without any shape information is used in the corresponding fit region.}
+\end{table}
+
+For the systematic uncertainties, the set from the resonance search is also applied. However, as the analysis employs the $m^{VBS}_{jj}$ reweight, the additional systematic uncertainty is taken in for the statistic uncertainty from this sources. The other addition systematic uncertainty arises from the interference between the QCD interactions and the VBS process, and it is taken into the uncertainty of signal modelling. 
 
 \subsection{Fitting}
 The fitting procedure is conducted as the resonance search for which the two dominant backgrounds, W+jets and top, are constrained by the dedicated control regions by a Gaussian distribution. Before having the final result of the signal strength, the background only fitting is performed to test the background modelling and the nuisance parameter effect on the fitting quality.
@@ -486,6 +510,21 @@ The fitting procedure is conducted as the resonance search for which the two dom
 	}
 \end{figure}
 \noindent
+\\
 \\{\bf Fitting Quality}
 \\
-\\The fitting quality is also verified in this analysis with the pulls and the correlation matrix. 
+\\The fitting quality is also verified in this analysis with the pulls and the correlation matrix. The combined results of merged and resolved channels in Fig.~\ref{Fig:fit_quality} with a reduced scheme presenting only the NPs with significant correlation or pulls on the fitting. There are a coupling of NPs like $m^{VBS}_{jj}$ reweighting which are highly constrained and pulls, and that is due to the strong impact of the systematic uncertainties on the distribution shape of the BDT score. 
+\begin{figure}[!ht]
+	\centering
+	\includegraphics[width=0.56\textwidth]{Chapter5/ranking_data_1lepCR.pdf}	
+	\includegraphics[width=0.68\textwidth]{Chapter5/corr_data_1lepCR.pdf}	
+	\caption{\label{Fig:fit_quality} The fitting quality is verified by the pulls(up) and variable correlation(bottom). They are in the reduced scheme to show off the notable ones.  
+	}
+\end{figure}
+\subsection{Results}
+This analysis is aiming to provide the vector boson scattering measurement which has been predicted by the SM, so the interpretation has the two parts: a) the discovery significance b) the cross-section in the intended final states in the fiducial region.
+\\
+\\The results will be showing the combination of all the three semileptonical channels through the combination procedure which was discussed in the last chapter. Most of the systematic uncertainties are correlated, but the ones for normalization factors and the multijet background (only in the $\ell\nu qq$ channel) are taken decorrelated. 
+\\
+\\{\bf Discovery Significance}
+\\The asymptotic formulae is applied here for the 
