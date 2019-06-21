@@ -413,6 +413,17 @@ Glen Cowan.
 John Conway.
 \newblock Nuisance parameters in likelihoods for searches, 2011.
 
+\bibitem{minuit}
+F.~James.
+\newblock Minuit tutorial on function minimization.
+\newblock 1972.
+
+\bibitem{Moneta:2010pm}
+Lorenzo Moneta, Kevin Belasco, Kyle~S. Cranmer, S.~Kreiss, Alfio Lazzaro,
+  Danilo Piparo, Gregory Schott, Wouter Verkerke, and Matthias Wolf.
+\newblock {The RooStats Project}.
+\newblock {\em PoS}, ACAT2010:057, 2010.
+
 \bibitem{asymptotics}
 Glen Cowan, Kyle Cranmer, Eilam Gross, and Ofer Vitells.
 \newblock Asymptotic formulae for likelihood-based tests of new physics.

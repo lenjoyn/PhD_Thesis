@@ -109,7 +109,7 @@ where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to obse
 \begin{equation}
 -\frac{\partial}{\partial\mu}\log{\mathcal{L}} = 0
 \end{equation}
-However, the phase space of the likelihood is complex constructed with multiple dimensions of the scale factors, so the MINUIT2 method with Hessian matrix is performed under the framework of RooFit. The maximized likelihood is denoted as: $\mathcal{L}(\hat{\mu}, \hat{\theta})$
+However, the phase space of the likelihood is complex constructed with multiple dimensions of the scale factors, so the MINUIT2\cite{minuit} method with Hessian matrix\footnote{Hessian matrix is a square matrix of second-order partial derivatives of a scalar-valued(i.e. the likelihood) function} is performed under the framework of RooStat\cite{Moneta:2010pm}. The maximized likelihood is denoted as: $\mathcal{L}(\hat{\mu}, \hat{\theta})$
 \\
 \\To verify the quality of the process of fitting with the likelihood equation, two properties of the results are verified: 
 \begin{itemize}
@@ -124,7 +124,7 @@ However, the phase space of the likelihood is complex constructed with multiple 
 	\end{equation}
 	This variable, $Cov(\theta_i, \theta_j)$, should be close to 0 if $i\neq j$.
 \end{itemize}
-The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boosted and resolved categories which are presented in Fig. \ref{Fig:pull_HVT} with signal strength (signal scale factor) as 0 and only taking in the control regions. Fig. \ref{Fig:Cor_HVT} is the correlation matrix of the nuisance parameters applied in the ggF HP boosted region. The normalization factors could be seen over-constrained and over-pulled in the fitting, as the scaling factors are allowed to be pulled to the extreme for better data-background agreement after the fitting. And, it could be observed that the resolved channel has the NPs pulled and constrained much more than the merged channel, and this is due to the fact that the $m_{WV}$ shape was significantly affected by those variations in the resolved event category, and this could also be seen in Tab. \ref{Tab:lvqq_fittedsf}that the scale factors in the resolved regions have larged deviation from one with respect to the two merged regions. 
+The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boosted and resolved categories which are presented in Fig. \ref{Fig:pull_HVT} with signal strength (signal scale factor) as 0. Fig. \ref{Fig:Cor_HVT} is the correlation matrix of the nuisance parameters applied in the ggF HP boosted region. The normalization factors could be seen over-constrained and over-pulled in the fitting, as the scaling factors are allowed to be pulled to the extreme for better data-background agreement after the fitting. And, it could also be observed that the resolved channel has the NPs pulled and constrained much more than the merged channel, and this is due to the fact that the $m_{WV}$ shape was significantly affected by those variations in the resolved event category, and this could also be seen in Tab. \ref{Tab:lvqq_fittedsf} that the scale factors in the resolved regions have larger deviation from one with respect to the two merged regions. The final yields for the background only fitting are then shown in Tab.~\ref{tab:yields_WW}(WW) and Tab.~\ref{tab:yields_WZ}(WZ) for the ggF/DY event category, and the VBF ones are shown in Tab.~\ref{tab:yields_VBFWW}(WW) and Tab.~\ref{tab:yields_VBFWZ}(WZ). It could be noted that the total uncertainties in event yields are smaller than the ones shown in Sec.~\label{Sec:data_bkg_compar}. The difference here is that the uncertainties in Sec.~\label{Sec:data_bkg_compar} was derived as the quadratic sum over all the uncertainties, but the ones presented in the yields tables are the uncertainties along the statistical uncertainty in the phases space of the likelihood.  
 \begin{figure}[!h]                
 	\includegraphics[width=0.81\textwidth]{Chapter4/NuiPull_ggFHVT2000.png}
 	 \vspace{5mm}
@@ -147,7 +147,7 @@ The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boos
    	\resizebox{\textwidth}{!}{
    		 \begin{tabular}{|l|c|c|c|c|c|}
    		 	\hline
-   		 	\multicolumn{2}{|l|}{\multirow{2}{*}{Control regions}} & \multicolumn{2}{c|}{WW}  &  \multicolumn{2}{c|}{$W$ WZ} \\
+   		 	\multicolumn{2}{|l|}{\multirow{2}{*}{Control regions}} & \multicolumn{2}{c|}{WW}  &  \multicolumn{2}{c|}{WZ} \\
    		 	\cline{3-6}
    		 	\multicolumn{2}{|l|}{} & ggF & VBF & ggF & VBF \\
    		 	\hline
@@ -166,11 +166,136 @@ The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boos
    		 	
    		 \end{tabular}
    }
-   \caption{The scale factors for the top and W+jet backgrounds for the fitting in only the control regions with signal strength, $\mu$, set at 0}
+   \caption{The scale factors for the top and W+jet backgrounds for the fitting with the signal strength, $\mu$, set at 0}
    \label{Tab:lvqq_fittedsf}
    \end{center}
-
 \end{table}
+
+\begin{table}[tbp]
+	\renewcommand{\arraystretch}{1.25}
+	\caption{Expected and observed yields in signal and control regions for the ggF/DY $WW$ signal hypothesis.  Yields and uncertainties are evaluated after a background-only fit to the data in all regions indicated above.}
+	\begin{center}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{| c | c@{\ $\pm$\ }c c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c |}
+				\hline
+				\hline
+				&\multicolumn{6}{c|}{Boosted, High Purity}  &\multicolumn{6}{c|}{Boosted, Low Purity}  &\multicolumn{6}{c|}{Resolved}   \\
+				\cline{1-19}
+				&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{    Signal Region}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}\\
+				\hline
+				$W$+jets&                   3116 &         165&                   6848 &         206&                    540 &          60&                  10790 &         251&                  10972 &         255&                   1424 &         167&                  61537 &        1826&                 165656 &        2722&                   7951 &         925\\
+				$t\bar{t}$&                   2043 &         142&                   2920 &         180&                   6883 &         138&                   2648 &         187&                   3790 &         222&                   8738 &         235&                  23287 &        1633&                  31110 &        2050&                  78354 &        1262\\
+				Single-$t$&                    374 &          44&                    487 &          57&                    704 &          84&                    493 &          56&                    553 &          64&                    819 &          97&                   3822 &         436&                   4675 &         539&                   5631 &         669\\
+				SM Diboson&                    353 &          94&                    167 &          45&                     51 &          14&                    431 &         118&                    201 &          55&                     70 &          20&                   2413 &         656&                   1500 &         408&                    274 &          77\\
+				$Z$+jets&                     49 &           6&                    143 &          17&                     15 &           3&                    205 &          25&                    215 &          27&                     54 &           9&                   1748 &         273&                   4298 &         640&                    275 &          62\\
+				Multijet&\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &                   3601 &         720&                   7627 &        1671&                    799 &         137\\
+				\hline
+				Total&                   5935 &          70&                  10565 &          96&                   8192 &          87&                  14566 &         120&                  15730 &         124&                  11105 &         104&                  96409 &         310&                 214866 &         468&                  93283 &         307\\
+				\hline
+				Observed&\multicolumn{2}{c}{5885}             &\multicolumn{2}{c}{10619}             &\multicolumn{2}{c|}{8178}             &\multicolumn{2}{c}{14566}             &\multicolumn{2}{c}{15707}             &\multicolumn{2}{c|}{11133}             &\multicolumn{2}{c}{96459}             &\multicolumn{2}{c}{214838}             &\multicolumn{2}{c|}{93257}             \\
+				\hline
+				\hline
+			\end{tabular}
+		}
+		\label{tab:yields_WW}
+	\end{center}
+\end{table}
+
+
+
+\begin{table}[tbp]
+	\renewcommand{\arraystretch}{1.25}
+	\caption{Expected and observed yields in signal and control regions for the $WZ$ signal hypothesis.  Yields and uncertainties are evaluated after a background-only fit to the data in all regions indicated above.}
+	\begin{center}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{| c | c@{\ $\pm$\ }c c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c |}
+				\hline
+				\hline
+				&\multicolumn{6}{c|}{Boosted, High Purity}  &\multicolumn{6}{c|}{Boosted, Low Purity}  &\multicolumn{6}{c|}{Resolved}   \\
+				\cline{1-19}
+				&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{    Signal Region}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}\\
+				\hline
+				$W$+jets&                   3679 &         173&                   6958 &         191&                    556 &          61&                  13356 &         299&                  11091 &         247&                   1496 &         173&                  49052 &        1294&                 164656 &        2692&                   8066 &         921\\
+				$t\bar{t}$&                   2283 &         146&                   2812 &         167&                   6842 &         141&                   3447 &         233&                   3681 &         218&                   8611 &         241&                  24376 &        1272&                  30589 &        1955&                  78012 &        1269\\
+				Single-$t$&                    410 &          50&                    485 &          57&                    749 &          90&                    655 &          75&                    556 &          65&                    854 &         102&                   3499 &         399&                   4743 &         549&                   5762 &         685\\
+				SM Diboson&                    356 &          98&                    162 &          44&                     51 &          14&                    498 &         138&                    193 &          53&                     71 &          21&                   1672 &         470&                   1466 &         404&                    267 &          78\\
+				$Z$+jets&                     56 &           7&                    148 &          18&                     15 &           3&                    244 &          31&                    212 &          26&                     55 &           9&                   1475 &         259&                   4406 &         659&                    282 &          64\\
+				Multijet&\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &                   2650 &         533&                   8965 &        1878&                    895 &         153\\
+				\hline
+				Total&                   6784 &          76&                  10564 &          96&                   8211 &          88&                  18201 &         136&                  15733 &         124&                  11087 &         104&                  82722 &         285&                 214824 &         505&                  93284 &         308\\
+				\hline
+				Observed&\multicolumn{2}{c}{6751}             &\multicolumn{2}{c}{10619}             &\multicolumn{2}{c|}{8178}             &\multicolumn{2}{c}{18188}             &\multicolumn{2}{c}{15707}             &\multicolumn{2}{c|}{11133}             &\multicolumn{2}{c}{82740}             &\multicolumn{2}{c}{214838}             &\multicolumn{2}{c|}{93257}             \\
+				\hline
+				\hline
+			\end{tabular}
+		}
+		\label{tab:yields_WZ}
+	\end{center}
+\end{table}
+
+
+\begin{table}[tbp]
+	\renewcommand{\arraystretch}{1.25}
+	\caption{Expected and observed yields in signal and control regions for the VBF $WW$ signal hypothesis.  Yields and uncertainties are evaluated after a background-only fit to the data in all regions indicated above.}
+	\begin{center}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{| c | c@{\ $\pm$\ }c c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c |}
+				\hline
+				\hline
+				&\multicolumn{6}{c|}{Boosted, High Purity}  &\multicolumn{6}{c|}{Boosted, Low Purity}  &\multicolumn{6}{c|}{Resolved}   \\
+				\cline{1-19}
+				&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{    Signal Region}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}\\
+				\hline
+				$W$+jets&                     71 &          15&                    183 &          26&                     18 &           4&                    268 &          31&                    294 &          35&                     55 &          11&                   1093 &         107&                   2520 &         186&                    215 &          54\\
+				$t\bar{bar}$&                     84 &          16&                    179 &          22&                    346 &          19&                    115 &          24&                    225 &          30&                    500 &          27&                    714 &         106&                   1040 &         144&                   2442 &          86\\
+				Single-$t$&                     13 &           3&                     24 &           6&                     30 &           5&                     23 &           5&                     31 &           6&                     47 &           9&                     66 &          16&                    104 &          24&                    120 &          21\\
+				SM Diboson&                    9.8 &         3.4&                     13 &           4&                    3.3 &         1.1&                     17 &           6&                     16 &           5&                    6.7 &         3.2&                     52 &          19&                     66 &          22&                     14 &           6\\
+				$Z$+jets&                    1.6 &         0.5&                    4.5 &         0.9&                    0.5 &         0.3&                    6.7 &         2.1&                    8.7 &         2.1&                    2.0 &         0.7&                     41 &          10&                     94 &          30&                     12 &           4\\
+				Multijet&\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &                     44 &          19&                     97 &          39&                     54 &          19\\
+				\hline
+				Total&                    178 &          12&                    403 &          19&                    398 &          18&                    431 &          20&                    573 &          23&                    611 &          23&                   2010 &          47&                   3920 &          70&                   2856 &          54\\
+				\hline
+				Observed&\multicolumn{2}{c}{ 176}             &\multicolumn{2}{c}{ 402}             &\multicolumn{2}{c|}{ 398}             &\multicolumn{2}{c}{ 436}             &\multicolumn{2}{c}{ 567}             &\multicolumn{2}{c|}{ 613}             &\multicolumn{2}{c}{2004}             &\multicolumn{2}{c}{3924}             &\multicolumn{2}{c|}{2856}             \\
+				\hline
+				\hline
+			\end{tabular}
+		}
+		\label{tab:yields_VBFWW}
+	\end{center}
+\end{table}
+\begin{table}[tbp]
+	\renewcommand{\arraystretch}{1.25}
+	\caption{Expected and observed yields in signal and control regions for the VBF $WZ$ signal hypothesis.  Yields and uncertainties are evaluated after a background-only fit to the data in all regions indicated above.}
+	\begin{center}
+		\resizebox{\textwidth}{!}{%
+			\begin{tabular}{| c | c@{\ $\pm$\ }c c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c | c@{\ $\pm$\ }c  c@{\ $\pm$\ }c c@{\ $\pm$\ }c |}
+				\hline
+				\hline
+				&\multicolumn{6}{c|}{Boosted, High Purity}  &\multicolumn{6}{c|}{Boosted, Low Purity}  &\multicolumn{6}{c|}{Resolved}   \\
+				\cline{1-19}
+				&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{    Signal Region}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}&\multicolumn{2}{c}{               SR}&\multicolumn{2}{c}{      $W$+jets CR}&\multicolumn{2}{c|}{           Top CR}\\
+				\hline
+				$W$+jets&                     75 &          17&                    187 &          27&                     18 &           5&                    323 &          42&                    302 &          41&                     58 &          12&                    773 &         263&                   2519 &         597&                    196 &          48\\
+				$t\bar{t}$&                    106 &          24&                    175 &          45&                    346 &          36&                    161 &          49&                    224 &          56&                    496 &          52&                    863 &         187&                   1059 &         264&                   2460 &          87\\
+				Single-$t$&                     12 &           6&                     24 &          10&                     31 &          10&                     26 &          11&                     30 &           9&                     47 &          19&                     75 &          38&                    109 &          59&                    120 &          47\\
+				SM Diboson&                     10 &           5&                     11 &           5&                    2.7 &         1.1&                     22 &          10&                     14 &           5&                    5.9 &         4.1&                     37 &          23&                     61 &          27&                     12 &           5\\
+				$Z$+jets&                    1.6 &         1.5&                    4.6 &         2.3&                    0.4 &         0.2&                    7.8 &         6.0&                    8.4 &         3.9&                    1.9 &         1.2&                     53 &          15&                     81 &          39&                     11 &           4\\
+				Multijet&\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c}{   --}             &\multicolumn{2}{c|}{   --}             &                     30 &          28&                     94 &          40&                     56 &          20\\
+				\hline
+				Total&                    205 &          28&                    402 &          52&                    398 &          41&                    540 &          49&                    578 &          47&                    609 &          66&                   1833 &         162&                   3923 &         911&                   2856 &          59\\
+				\hline
+				Observed&\multicolumn{2}{c}{ 201}             &\multicolumn{2}{c}{ 402}             &\multicolumn{2}{c|}{ 398}             &\multicolumn{2}{c}{ 550}             &\multicolumn{2}{c}{ 567}             &\multicolumn{2}{c|}{ 613}             &\multicolumn{2}{c}{1829}             &\multicolumn{2}{c}{3924}             &\multicolumn{2}{c|}{2856}             \\
+				\hline
+				\hline
+			\end{tabular}
+		}
+		\label{tab:yields_VBFWZ}
+	\end{center}
+\end{table}
+
+
+
+
 \noindent
 {\bf Combination}
 \\

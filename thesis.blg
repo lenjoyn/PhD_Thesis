@@ -21,35 +21,35 @@ I'm skipping whatever remains of this entry
 Warning--entry type for "Ionization" isn't style-file defined
 --line 93 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
---line 184 of file bibtex/supportingNote_lvqq.bib
+--line 207 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "ckm_timothy" isn't style-file defined
---line 190 of file bibtex/supportingNote_lvqq.bib
+--line 213 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "MS_all" isn't style-file defined
---line 304 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 455 of file bibtex/supportingNote_lvqq.bib
+--line 327 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 478 of file bibtex/supportingNote_lvqq.bib
  : @article{deBlas:2012qp
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Schnoor:2000941" isn't style-file defined
---line 729 of file bibtex/supportingNote_lvqq.bib
+--line 752 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "NuiTreats" isn't style-file defined
---line 1426 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 1863 of file bibtex/supportingNote_lvqq.bib
+--line 1449 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 1886 of file bibtex/supportingNote_lvqq.bib
  : @article{Ball:2012cx
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 2978 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 3001 of file bibtex/supportingNote_lvqq.bib
  : @article{Gao:2013xoa
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--string name "." is undefined
---line 3177 of file bibtex/supportingNote_lvqq.bib
+--line 3200 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3183 of file bibtex/supportingNote_lvqq.bib
+--line 3206 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3189 of file bibtex/supportingNote_lvqq.bib
+--line 3212 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3195 of file bibtex/supportingNote_lvqq.bib
+--line 3218 of file bibtex/supportingNote_lvqq.bib
 Database file #2: bibtex/ATLAS.bib
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib
@@ -103,6 +103,7 @@ Warning--empty booktitle in Borodin:2015wqa
 Warning--empty author in ATLAS-CONF-2016-035
 Warning--empty author in ATLAS-CONF-2016-091
 Warning--empty publisher in StatisticsData
+Warning--empty journal in minuit
 Warning--empty publisher in profile1
 Warning--empty year in profile1
 Warning--empty publisher in profile2
