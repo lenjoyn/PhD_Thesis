@@ -901,3 +901,15 @@
 \DeclareRobustCommand{\EquationRef}[1]{\Equation~\eqref{#1}}
 \DeclareRobustCommand{\ReferenceRef}[1]{\Reference~\cite{#1}}
 \DeclareRobustCommand{\PageRef}[1]{\Page~\pageref{#1}}
+\DeclareRobustCommand{\muVBSobs}     {\ensuremath{\mu^{\mathrm{obs}}_{\mathrm{EW}\, \VVjj}}\xspace}
+\DeclareRobustCommand{\muVBSobsFid}     {\ensuremath{\mu^{'\, \mathrm{obs}}_{\mathrm{EW}\, \VVjj}}\xspace}
+\DeclareRobustCommand{\NobsVBS}     {\ensuremath{N^{\mathrm{obs}}_{\mathrm{EW}\, \VVjj}}\xspace}
+\DeclareRobustCommand{\NexpVBS}     {\ensuremath{N^{\mathrm{exp}}_{\mathrm{EW}\, \VVjj}}\xspace}
+
+\DeclareRobustCommand{\fidVBSexp}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid, exp}}}\xspace}
+\DeclareRobustCommand{\fidVBSobs}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid, obs}}}\xspace}
+
+\DeclareRobustCommand{\fidVBSBstexp}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid boosted, exp}}}\xspace}
+\DeclareRobustCommand{\fidVBSResexp}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid resolved, exp}}}\xspace}
+\DeclareRobustCommand{\fidVBSBstobs}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid boosted, obs}}}\xspace}
+\DeclareRobustCommand{\fidVBSResobs}     {\ensuremath{\sigma_{\mathrm{EW}\, \VVjj}^{\mathrm{fid resolved, obs}}}\xspace}

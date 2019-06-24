@@ -49,7 +49,7 @@ For the VBF category, the bins with higher $m_{WV}$ have the statistics too low 
  \times\displaystyle\prod_{j=1}^{N_{\theta}}{\rm Nuis}(\theta_j),
  \label{Eq:likelihood}
  \end{eqnarray}
-where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$s are the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation , and they shared between control and signal regions (simultaneously). The $\mu$ to rescale the signal events is also called signal strength which is the primary parameter of interest in the statistical interpretation. The k index in this formula corresponding to the event categories: ggF merged HP, ggF merged LP, ggF resolved, VBF merged HP, VBF merged LP, and VBF resolved regions, and their likelihoods are constructed independent from each other.
+where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$s are the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation , and they shared between control and signal regions (simultaneously). The $\mu$ to rescale the signal events is also called signal strength which is the primary parameter of interest in the statistical interpretation. The k index in this formula corresponds to the event categories: ggF merged HP, ggF merged LP, ggF resolved, VBF merged HP, VBF merged LP, and VBF resolved regions, and their likelihoods are constructed independent from each other.
 \\
 \\{\bf Nuisance Parameters}
 \\
@@ -306,7 +306,7 @@ The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boos
 \end{equation}
 The signal strength,$\mu$, would be common across the likelihoods. For the nuisance parameter terms, if they are from the same source like the uncertainty in object energy measurements, they are also the same among the event categories. In this case, those nuisance parameters are ``correlated''. For the other case, when the nuisance parameters are from an independent source which is not considered in the other category like the multijet uncertainties in the resolved category, it would only make the constraint on the likelihood of this category, and they are called ``decorrelated''.  
 \section{Result}
-After the fitting, the agreement between data and background+signal expectation event numbers should be verified to test whether the ``hypothesis'' of existence or exclusion of signal is correct. The final interpretation is conduced in two ways: the exclusion for setting limits and the significance of a discovery. 
+After the fitting with no signal strength, the agreement between data and background+signal expectation event numbers should be verified to test whether the ``hypothesis'' of existence or exclusion of signal is correct for which the signal strength would be floating to find the maximum likelihood. The final interpretation is conduced in two ways: the exclusion for setting limits and the significance of a discovery. 
 \\
 \\{\bf Methodology for a Discovery (p-Value)}
 \\
@@ -369,6 +369,7 @@ where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a stand
 0 & \hat{\mu} > \mu \\
 -2 \ln \lambda(0) & \hat{\mu} < 0 \\
 \end{cases}
+\label{Eq:Sig_testQ}
 \end{equation}
 For the three cases in the expression, the bottom one is to keep $\mu$ positive to have physical meaning, when $\hat{\mu}$ is smaller than 0. For the other two cases, it is to have the $\mu$ hypothesis at one side for $\mu>\hat{\mu}$ which is to set the exclusion upper limit on the cross-section, and the lower limit is ignored. 
 \\
@@ -381,7 +382,7 @@ This is meaning that if the signal exists with a specific signal strength, $\mu^
 \\
 \\The final result is then interpreted by converting the evaluated $\mu$ into the production cross-section and the decay branch ratio:
 \begin{equation}
-\sigma\times BR=\frac{N^{evt}}{\mathcal{L}\times\mu}
+\sigma\times BR=\frac{\mu\times N^{evt}}{\mathcal{L}}
 \end{equation}  
 with $\mathcal{L}$ as the luminosity
 \\

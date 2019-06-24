@@ -19,37 +19,37 @@ I was expecting a `,' or a `}'---line 76 of file bibtex/supportingNote_lvqq.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--entry type for "Ionization" isn't style-file defined
---line 93 of file bibtex/supportingNote_lvqq.bib
+--line 106 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
---line 207 of file bibtex/supportingNote_lvqq.bib
+--line 220 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "ckm_timothy" isn't style-file defined
---line 213 of file bibtex/supportingNote_lvqq.bib
+--line 226 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "MS_all" isn't style-file defined
---line 327 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 478 of file bibtex/supportingNote_lvqq.bib
+--line 340 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 491 of file bibtex/supportingNote_lvqq.bib
  : @article{deBlas:2012qp
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Schnoor:2000941" isn't style-file defined
---line 752 of file bibtex/supportingNote_lvqq.bib
+--line 765 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "NuiTreats" isn't style-file defined
---line 1449 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 1886 of file bibtex/supportingNote_lvqq.bib
+--line 1462 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 1899 of file bibtex/supportingNote_lvqq.bib
  : @article{Ball:2012cx
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3001 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 3014 of file bibtex/supportingNote_lvqq.bib
  : @article{Gao:2013xoa
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--string name "." is undefined
---line 3200 of file bibtex/supportingNote_lvqq.bib
+--line 3213 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3206 of file bibtex/supportingNote_lvqq.bib
+--line 3219 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3212 of file bibtex/supportingNote_lvqq.bib
+--line 3225 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3218 of file bibtex/supportingNote_lvqq.bib
+--line 3231 of file bibtex/supportingNote_lvqq.bib
 Database file #2: bibtex/ATLAS.bib
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib
@@ -116,4 +116,5 @@ Warning--empty author in ATLAS:2014wva
 Warning--empty journal in ATLAS:2014wva
 Warning--empty publisher in Rindani:2009gm
 Warning--empty journal in Hocker:2007ht
+Warning--empty journal in Aad:2019xxo
 (There were 11 error messages)
