@@ -1,4 +1,5 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+A level-1 auxiliary file: TexFiles/Experiment.aux
 A level-1 auxiliary file: TexFiles/Run3L1Calo.aux
 The style file: unsrt.bst
 Database file #1: bibtex/supportingNote_lvqq.bib
@@ -12,6 +13,20 @@ I was expecting a `,' or a `}'---line 76 of file bibtex/supportingNote_lvqq.bib
  :  journal = "Physical Review Letters"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Warning--entry type for "Ionization" isn't style-file defined
+--line 120 of file bibtex/supportingNote_lvqq.bib
+Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
+--line 234 of file bibtex/supportingNote_lvqq.bib
+Warning--entry type for "MS_all" isn't style-file defined
+--line 354 of file bibtex/supportingNote_lvqq.bib
+Warning--string name "." is undefined
+--line 3227 of file bibtex/supportingNote_lvqq.bib
+Warning--string name "." is undefined
+--line 3233 of file bibtex/supportingNote_lvqq.bib
+Warning--string name "." is undefined
+--line 3239 of file bibtex/supportingNote_lvqq.bib
+Warning--string name "." is undefined
+--line 3245 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "LINAC4" isn't style-file defined
 --line 3268 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "schedule" isn't style-file defined
@@ -20,7 +35,23 @@ Database file #2: bibtex/ATLAS.bib
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib
 Database file #5: bibtex/PubNotes.bib
-Warning--I didn't find a database entry for "Fig:l1calo_scheme"
+Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "hepthesis"
+Warning--empty journal in Mobs:2197559
+Warning--empty author in Radiofrequency:1997424
+Warning--empty journal in Radiofrequency:1997424
+Warning--empty author and editor in Airapetian:391176
+Warning--empty author and editor in CERN-LHCC-97-016
+Warning--empty publisher in magnets
+Warning--empty year in magnets
+Warning--empty author in ATLAS:1996ab
+Warning--empty journal in ATLAS:1996ab
+Warning--empty journal in LArwork
+Warning--empty year in LArwork
+Warning--empty author in trigger_str
+Warning--empty journal in trigger_str
+Warning--empty year in trigger_str
+Warning--empty journal in ATLAS:2019pzw
+Warning--empty journal in Sjostrand:2008vc
 Warning--empty institution in Shochet:1552953
 (There were 2 error messages)

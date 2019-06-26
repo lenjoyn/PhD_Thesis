@@ -1,4 +1,223 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
+
+\bibitem{LHC}
+Oliver~Sim Brüning, Paul Collier, P~Lebrun, Stephen Myers, Ranko Ostojic, John
+  Poole, and Paul Proudlock.
+\newblock {\em {LHC Design Report}}.
+\newblock CERN Yellow Reports: Monographs. CERN, Geneva, 2004.
+
+\bibitem{Ionization}
+CERN.
+\newblock Cern control centre animations 01 "the proton source".
+
+\bibitem{Mobs:2197559}
+Esma Mobs.
+\newblock {The CERN accelerator complex. Complexe des accélérateurs du CERN}.
+\newblock Jul 2016.
+\newblock General Photo.
+
+\bibitem{Radiofrequency:1997424}
+{Radiofrequency cavities}.
+\newblock Sep 2012.
+
+\bibitem{Baird:1017689}
+S~Baird.
+\newblock {Accelerators for pedestrians; rev. version}.
+\newblock Technical Report AB-Note-2007-014. CERN-AB-Note-2007-014.
+  PS-OP-Note-95-17-Rev-2. CERN-PS-OP-Note-95-17-Rev-2, CERN, Geneva, Feb 2007.
+
+\bibitem{alicetdr}
+{ALICE} {TRD} {Technical} {Design} {Report}.
+\newblock CERN/LHCC-2001-021, 03 October 2001.
+
+\bibitem{atlastdr}
+{ATLAS} {Physics} {TDR}: Volume {I}, {Overview}, system and combined
+  performance, 2 August 1999.
+
+\bibitem{cmstdr}
+{CMS} {Physics} {TDR}: Volume {I} ({PTDR1}), {Detector} {Performace} and
+  {Software}, 2 February 2006.
+
+\bibitem{lhcbtdr}
+{LHCb} : {Technical} {Proposal}.
+\newblock CERN-LHCC-98-004, 13 September 2011.
+
+\bibitem{Airapetian:391176}
+{\em {ATLAS detector and physics performance: Technical Design Report, 1}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1999.
+
+\bibitem{Collaboration_2008}
+The~ATLAS Collaboration.
+\newblock The {ATLAS} experiment at the {CERN} large hadron collider.
+\newblock {\em Journal of Instrumentation}, 3(08):S08003--S08003, aug 2008.
+
+\bibitem{pseudorapidity_wiki}
+JabberWok.
+\newblock Pseudorapidity2.png.
+
+\bibitem{CERN-LHCC-97-016}
+{\em {ATLAS inner detector: Technical Design Report, 1}}.
+\newblock Technical Design Report ATLAS. CERN, Geneva, 1997.
+
+\bibitem{PERF-2015-08}
+{ATLAS Collaboration}.
+\newblock {Performance of the ATLAS track reconstruction algorithms in dense
+  environments in LHC Run~2}.
+\newblock {\em Eur. Phys. J. C}, 77:673, 2017.
+
+\bibitem{Collaboration:2285585}
+ATLAS Collaboration.
+\newblock {Technical Design Report for the ATLAS Inner Tracker Pixel Detector}.
+\newblock Technical Report CERN-LHCC-2017-021. ATLAS-TDR-030, CERN, Geneva, Sep
+  2017.
+
+\bibitem{Miucci_2014}
+A~Miucci.
+\newblock The {ATLAS} insertable b-layer project.
+\newblock {\em Journal of Instrumentation}, 9(02):C02018--C02018, feb 2014.
+
+\bibitem{Mindur:2139567}
+Bartosz Mindur.
+\newblock {ATLAS Transition Radiation Tracker (TRT): Straw tubes for tracking
+  and particle identification at the Large Hadron Collider}.
+\newblock Technical Report ATL-INDET-PROC-2016-001, CERN, Geneva, Mar 2016.
+
+\bibitem{magnets}
+Thomas Schörner-Sadenius et~al.
+\newblock {\em The Large Hadron Collider:Harvest of Run 1}.
+
+\bibitem{Aleksa_2008}
+M~Aleksa, F~Bergsma, P~A Giudici, A~Kehrli, M~Losasso, X~Pons, H~Sandaker, P~S
+  Miyagawa, S~W Snow, J~C Hart, and L~Chevalier.
+\newblock Measurement of the {ATLAS} solenoid magnetic field.
+\newblock {\em Journal of Instrumentation}, 3(04):P04003--P04003, apr 2008.
+
+\bibitem{Aad:2008zzm}
+G.~Aad et~al.
+\newblock {The ATLAS Experiment at the CERN Large Hadron Collider}.
+\newblock {\em JINST}, 3:S08003, 2008.
+
+\bibitem{ATLAS:1996ab}
+{ATLAS liquid argon calorimeter: Technical design report}.
+\newblock 1996.
+
+\bibitem{LArwork}
+Paolo Iengo.
+\newblock {The ATLAS Calorimeters}.
+
+\bibitem{Artamonov_2008}
+A~Artamonov, D~Bailey, G~Belanger, M~Cadabeschi, T~Y Chen, V~Epshteyn,
+  P~Gorbounov, K~K Joo, M~Khakzad, V~Khovanskiy, P~Krieger, P~Loch, J~Mayer,
+  E~Neuheimer, F~G Oakham, M~O Neill, R~S Orr, M~Qi, J~Rutherfoord, A~Savine,
+  M~Schram, P~Shatalov, L~Shaver, M~Shupe, G~Stairs, V~Strickland, D~Tompkins,
+  I~Tsukerman, and K~Vincent.
+\newblock The {ATLAS} forward calorimeter.
+\newblock {\em Journal of Instrumentation}, 3(02):P02010--P02010, feb 2008.
+
+\bibitem{MS_all}
+Jochem Snuverink.
+\newblock The atlas muon spectrometer:commissioning and tracking, 2009.
+
+\bibitem{trigger_str}
+{ATLAS trigger system meets the challenges of Run 2}.
+
+\bibitem{Bruschi:2025000}
+Marco Bruschi.
+\newblock {The new ATLAS/LUCID detector}.
+\newblock Technical Report ATL-FWD-PROC-2015-002, CERN, Geneva, Jun 2015.
+
+\bibitem{ATLAS:2019pzw}
+The~ATLAS collaboration.
+\newblock {Luminosity determination in $pp$ collisions at $\sqrt{s}=13$ TeV
+  using the ATLAS detector at the LHC}.
+\newblock 2019.
+
+\bibitem{Pontecorvo:2638061}
+L~Pontecorvo.
+\newblock {Status of the Experiment: Detector and Phase-II}.
+\newblock Technical Report CERN-RRB-2018-075, CERN, Geneva, Sep 2018.
+
+\bibitem{Aaboud:2017all}
+M.~Aaboud et~al.
+\newblock {Performance of the ATLAS Track Reconstruction Algorithms in Dense
+  Environments in LHC Run 2}.
+\newblock {\em Eur. Phys. J.}, C77(10):673, 2017.
+
+\bibitem{ATLAS-CONF-2016-024}
+{ATLAS Collaboration}.
+\newblock {Electron efficiency measurements with the ATLAS detector using the
+  2015 LHC proton--proton collision data}.
+\newblock {ATLAS-CONF-2016-024}, 2016.
+
+\bibitem{ATL-LARG-PUB-2008-002}
+Walter Lampl et~al.
+\newblock {Calorimeter Clustering Algorithms: Description and Performance}.
+\newblock {ATL-LARG-PUB-2008-002}, 2008.
+
+\bibitem{Cornelissen:2008zza}
+Thijs~G. Cornelissen, M.~Elsing, I.~Gavrilenko, J.~F. Laporte, W.~Liebig,
+  M.~Limper, K.~Nikolopoulos, A.~Poppleton, and A.~Salzburger.
+\newblock {The global chi**2 track fitter in ATLAS}.
+\newblock {\em J. Phys. Conf. Ser.}, 119:032013, 2008.
+
+\bibitem{ATLAS-CONF-2012-047}
+{ATLAS Collaboration}.
+\newblock {Improved electron reconstruction in ATLAS using the Gaussian Sum
+  Filter-based model for bremsstrahlung}.
+\newblock {ATLAS-CONF-2012-047}, 2012.
+
+\bibitem{Herde:2059849}
+Hannah Herde.
+\newblock {Muon reconstruction performance in ATLAS at Run-II}.
+\newblock Technical Report ATL-PHYS-PROC-2015-121, CERN, Geneva, Oct 2015.
+
+\bibitem{Atkin:2015msa}
+Ryan Atkin.
+\newblock {Review of jet reconstruction algorithms}.
+\newblock {\em J. Phys. Conf. Ser.}, 645(1):012008, 2015.
+
+\bibitem{Barillari:1112035}
+T~Barillari, E~Bergeaas~Kuutmann, T~Carli, J~Erdmann, P~Giovannini, K~J Grahn,
+  C~Issever, A~Jantsch, A~Kiryunin, K~Lohwasser, A~Maslennikov, S~Menke,
+  H~Oberlack, G~Pospelov, E~Rauter, P~Schacht, F~Spanó, P~Speckmayer,
+  P~Stavina, and P~Strízenec.
+\newblock {Local Hadronic Calibration}.
+\newblock Technical Report ATL-LARG-PUB-2009-001-2. ATL-COM-LARG-2008-006.
+  ATL-LARG-PUB-2009-001, CERN, Geneva, Jun 2008.
+\newblock Due to a report-number conflict with another document, the
+  report-number ATL-LARG-PUB-2009-001-2 has been assigned.
+
+\bibitem{ATLAS-CONF-2014-018}
+{ATLAS Collaboration}.
+\newblock {Tagging and suppression of pileup jets with the ATLAS detector}.
+\newblock {ATLAS-CONF-2014-018}, 2014.
+
+\bibitem{ATL-PHYS-PUB-2015-022}
+{ATLAS Collaboration}.
+\newblock {Expected performance of the ATLAS $b$-tagging algorithms in Run-2}.
+\newblock {ATL-PHYS-PUB-2015-022}, 2015.
+
+\bibitem{Plehn:2008zs}
+Tilman Plehn.
+\newblock {LHC Phenomenology for Physics Hunters}.
+\newblock In {\em {Proceedings of Theoretical Advanced Study Institute in
+  Elementary Particle Physics on The dawn of the LHC era (TASI 2008): Boulder,
+  USA, June 2-27, 2008}}, pages 125--180, 2010.
+
+\bibitem{Sjostrand:2008vc}
+Torbjorn Sjostrand.
+\newblock {PYTHIA 8 Status Report}.
+\newblock pages 726--732, 2008.
+
+\bibitem{Sjostrand:2007gs}
+Torbjorn Sjostrand, Stephen Mrenna, and Peter~Z. Skands.
+\newblock {A Brief Introduction to PYTHIA 8.1}.
+\newblock {\em Comput. Phys. Commun.}, 178:852--867, 2008.
+
+\bibitem{Agostinelli:2002hh}
+S.~Agostinelli et~al.
+\newblock {GEANT4: A Simulation toolkit}.
+\newblock {\em Nucl.Instrum.Meth.}, A506:250--303, 2003.
 
 \bibitem{STELZER20161160}
 Bernd Stelzer.

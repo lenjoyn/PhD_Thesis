@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  26 JUN 2019 20:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  26 JUN 2019 23:41
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1287,7 +1287,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip104
-) (thesis.aux (TexFiles/Run3L1Calo.aux))
+) (thesis.aux (TexFiles/Experiment.aux) (TexFiles/Run3L1Calo.aux))
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
@@ -1411,7 +1411,7 @@ LaTeX Info: Redefining \nameref on input line 41.
 Comment 'mainmatter' writing to comment.cut. Straight input of comment.cut.
 (comment.cut
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 12.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1424,10 +1424,10 @@ File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 
 
 {C:/Users/lenjo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-\openout2 = `TexFiles/Run3L1Calo.aux'.
+\openout2 = `TexFiles/Experiment.aux'.
 
 
-(TexFiles/Run3L1Calo.tex
+(TexFiles/Experiment.tex
 chapter 1.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 1.
 ("C:\Users\lenjo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
@@ -1440,33 +1440,76 @@ Package microtype Info: Loading generic protrusion settings for font family
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 3.
-<Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg, id=31, 215.12
-93pt x 96.47205pt>
-File: Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg Graphic f
-ile (type jpg)
-<use Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg>
-Package pdftex.def Info: Chapter6/The-LHC-upgrade-schedule-and-associated-lumin
-osity.jpg  used on input line 6.
-(pdftex.def)             Requested size: 403.26366pt x 180.84045pt.
-<Chapter6/Schedule_HL.png, id=32, 726.5544pt x 462.0462pt>
-File: Chapter6/Schedule_HL.png Graphic file (type png)
-<use Chapter6/Schedule_HL.png>
-Package pdftex.def Info: Chapter6/Schedule_HL.png  used on input line 7.
-(pdftex.def)             Requested size: 403.26366pt x 256.45277pt.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 4.
+
+<Chapter2/ionization.png, id=71, 642.4pt x 361.35pt>
+File: Chapter2/ionization.png Graphic file (type png)
+<use Chapter2/ionization.png>
+Package pdftex.def Info: Chapter2/ionization.png  used on input line 11.
+(pdftex.def)             Requested size: 358.46039pt x 201.63783pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 9.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 14.
+<Chapter2/pre-acceleration.jpg, id=74, 522.315pt x 365.949pt>
+File: Chapter2/pre-acceleration.jpg Graphic file (type jpg)
+<use Chapter2/pre-acceleration.jpg>
+Package pdftex.def Info: Chapter2/pre-acceleration.jpg  used on input line 20.
+(pdftex.def)             Requested size: 425.66872pt x 298.23184pt.
+<Chapter2/bunch.png, id=79, 280.04625pt x 174.6525pt>
+File: Chapter2/bunch.png Graphic file (type png)
+<use Chapter2/bunch.png>
+Package pdftex.def Info: Chapter2/bunch.png  used on input line 35.
+(pdftex.def)             Requested size: 134.4235pt x 83.83757pt.
 
-
-LaTeX Warning: Reference `Mobs:2197559' on page 1 undefined on input line 15.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 4--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 4--18
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--53
 
  []
 
@@ -1474,71 +1517,614 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.18 \section
-             {Hardware Design of the Run~3 ATLAS Calorimeter Trigger} [1
+l.53 \begin{equation}
+                      [1
 
 
 ]
-Underfull \vbox (badness 1721) has occurred while \output is active []
 
- [2 <./Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg> <./Chap
-ter6/Schedule_HL.png>]
-<Chapter6/L1Calo.png, id=58, 853.1875pt x 602.25pt>
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./Chapter2/ionization.png>] [3 <./Chapter2/pre-acceleration.jpg> <./Chapter
+2/bunch.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+<Chapter2/ATLAS.jpg, id=123, 426.59375pt x 274.02374pt>
+File: Chapter2/ATLAS.jpg Graphic file (type jpg)
+<use Chapter2/ATLAS.jpg>
+Package pdftex.def Info: Chapter2/ATLAS.jpg  used on input line 66.
+(pdftex.def)             Requested size: 358.46039pt x 230.27036pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/coordinate.pdf, id=127, 963.6pt x 542.025pt>
+File: Chapter2/coordinate.pdf Graphic file (type pdf)
+<use Chapter2/coordinate.pdf>
+Package pdftex.def Info: Chapter2/coordinate.pdf  used on input line 79.
+(pdftex.def)             Requested size: 425.66872pt x 239.43459pt.
+
+Underfull \vbox (badness 1292) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [6 <./Chapter2/ATLAS.jpg> <./Chapter2/coordinate.pdf>]
+<Chapter2/pseudorapidity.png, id=163, 271.0125pt x 220.825pt>
+File: Chapter2/pseudorapidity.png Graphic file (type png)
+<use Chapter2/pseudorapidity.png>
+Package pdftex.def Info: Chapter2/pseudorapidity.png  used on input line 92.
+(pdftex.def)             Requested size: 179.22676pt x 146.04146pt.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 100.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 100.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--105
+
+ []
+
+<Chapter2/ID.png, id=169, 404.63672pt x 346.29375pt>
+File: Chapter2/ID.png Graphic file (type png)
+<use Chapter2/ID.png>
+Package pdftex.def Info: Chapter2/ID.png  used on input line 107.
+(pdftex.def)             Requested size: 313.65027pt x 268.433pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[7 <./Chapter2/pseudorapidity.png>]
+<Chapter2/bfield.pdf, id=189, 569.12625pt x 384.43625pt>
+File: Chapter2/bfield.pdf Graphic file (type pdf)
+<use Chapter2/bfield.pdf>
+Package pdftex.def Info: Chapter2/bfield.pdf  used on input line 141.
+(pdftex.def)             Requested size: 268.847pt x 181.61188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 118--150
+
+ []
+
+[8 <./Chapter2/ID.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10 <./Chapter2/bfield.pdf>]
+<Chapter2/calorimeter.png, id=220, 853.1875pt x 574.145pt>
+File: Chapter2/calorimeter.png Graphic file (type png)
+<use Chapter2/calorimeter.png>
+Package pdftex.def Info: Chapter2/calorimeter.png  used on input line 153.
+(pdftex.def)             Requested size: 380.86543pt x 256.3041pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter2/LArshower.png, id=225, 197.23688pt x 228.855pt>
+File: Chapter2/LArshower.png Graphic file (type png)
+<use Chapter2/LArshower.png>
+Package pdftex.def Info: Chapter2/LArshower.png  used on input line 170.
+(pdftex.def)             Requested size: 156.82855pt x 181.97028pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 163--190
+
+ []
+
+[11]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12 <./Chapter2/calorimeter.png>] [13 <./Chapter2/LArshower.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 190.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 190.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 191--196
+
+ []
+
+
+Overfull \hbox (28.9082pt too wide) in paragraph at lines 201--216
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--222
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+<Chapter2/Trigger.png, id=265, 516.05296pt x 411.03563pt>
+File: Chapter2/Trigger.png Graphic file (type png)
+<use Chapter2/Trigger.png>
+Package pdftex.def Info: Chapter2/Trigger.png  used on input line 224.
+(pdftex.def)             Requested size: 358.46039pt x 285.52155pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 231--247
+
+ []
+
+
+Underfull \vbox (badness 1831) has occurred while \output is active []
+
+ [15]
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [16 <./Chapter2/Trigger.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 249--253
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+(TexFiles/Objrec.tex
+<Chapter2/recefficiency.png, id=292, 702.625pt x 567.11874pt>
+File: Chapter2/recefficiency.png Graphic file (type png)
+<use Chapter2/recefficiency.png>
+Package pdftex.def Info: Chapter2/recefficiency.png  used on input line 2.
+(pdftex.def)             Requested size: 268.847pt x 217.00441pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--41
+
+ []
+
+
+Underfull \vbox (badness 2050) has occurred while \output is active []
+
+ [18 <./Chapter2/recefficiency.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Underfull \hbox (badness 10000) in paragraph at lines 45--49
+
+ []
+
+[21]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 50.
+
+("C:\Users\lenjo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
+File: omsppl.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 50.
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--68
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 113--118
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--132
+
+ []
+
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 158--164
+
+ []
+
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 175--178
+
+ []
+
+[28]
+<Chapter2/simulation.png, id=382, 855.195pt x 130.23656pt>
+File: Chapter2/simulation.png Graphic file (type png)
+<use Chapter2/simulation.png>
+Package pdftex.def Info: Chapter2/simulation.png  used on input line 187.
+(pdftex.def)             Requested size: 403.26366pt x 61.4119pt.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 180--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 180--257
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29])
+[30 <./Chapter2/simulation.png>]
+\openout2 = `TexFiles/Run3L1Calo.aux'.
+
+ (TexFiles/Run3L1Calo.tex
+chapter 2.
+<Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg, id=401, 215.1
+293pt x 96.47205pt>
+File: Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg Graphic f
+ile (type jpg)
+<use Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg>
+Package pdftex.def Info: Chapter6/The-LHC-upgrade-schedule-and-associated-lumin
+osity.jpg  used on input line 6.
+(pdftex.def)             Requested size: 403.26366pt x 180.84045pt.
+<Chapter6/Schedule_HL.png, id=402, 726.5544pt x 462.0462pt>
+File: Chapter6/Schedule_HL.png Graphic file (type png)
+<use Chapter6/Schedule_HL.png>
+Package pdftex.def Info: Chapter6/Schedule_HL.png  used on input line 7.
+(pdftex.def)             Requested size: 425.66872pt x 270.70837pt.
+
+LaTeX Warning: Reference `Mobs:2197559' on page 31 undefined on input line 15.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--18
+
+ []
+
+[31
+
+
+
+]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter6/L1Calo.png, id=416, 853.1875pt x 602.25pt>
 File: Chapter6/L1Calo.png Graphic file (type png)
 <use Chapter6/L1Calo.png>
 Package pdftex.def Info: Chapter6/L1Calo.png  used on input line 21.
 (pdftex.def)             Requested size: 403.26366pt x 284.66571pt.
 )
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[3] [4 <./Chapter6/L1Calo.png>]) Processing 'backmatter' comment.
+[33 <./Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg> <./Chap
+ter6/Schedule_HL.png>] [34 <./Chapter6/L1Calo.png>])
+Processing 'backmatter' comment.
 \openout3 = `comment.cut'.
 
+ Comment 'backmatter' writing to comment.cut.
+Straight input of comment.cut. (comment.cut (backmatter.tex [35
 
-Comment 'backmatter' writing to comment.cut. Straight input of comment.cut.
-(comment.cut (backmatter.tex [5
-
-] [6
+] [36
 
 ]
 
-LaTeX Warning: Citation `hepthesis' on page 7 undefined on input line 2.
+LaTeX Warning: Citation `hepthesis' on page 37 undefined on input line 2.
 
-(thesis.bbl [7] [8
+(thesis.bbl [37] [38
 
-]))) [9]
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41])))
+[42]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
- (thesis.aux (TexFiles/Run3L1Calo.aux))
+ (thesis.aux (TexFiles/Experiment.aux) (TexFiles/Run3L1Calo.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 7325608B4D85331B96606DF54F2B6AB2;290.
+(rerunfilecheck)             Checksum: 6F96D39AEE954232885C686B86094D91;986.
 
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 27167 strings out of 492973
- 480637 string characters out of 3126692
- 693438 words of memory out of 3000000
- 30329 multiletter control sequences out of 15000+200000
- 49266 words of font info for 177 fonts, out of 3000000 for 9000
+ 27698 strings out of 492973
+ 488405 string characters out of 3126692
+ 701277 words of memory out of 3000000
+ 30534 multiletter control sequences out of 15000+200000
+ 81372 words of font info for 332 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,12n,80p,9088b,881s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 67i,18n,80p,9088b,880s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc
 }<C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmsy10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/mathpazo/fplmri.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Users/lenjo/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (10 pages, 499592 bytes).
+cm/cmex10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/lenjo/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lenjo/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmb.pfb><C:/Users/lenjo/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/User
+s/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb
+><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/
+fplmri.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/pa
+latino/uplb8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/urw/palatino/uplbi8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (43 pages, 2753658 bytes).
 PDF statistics:
- 124 PDF objects out of 1000 (max. 8388607)
- 23 named destinations out of 1000 (max. 500000)
- 32828 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 546 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 44237 words of extra memory for PDF output out of 51595 (max. 10000000)
 
