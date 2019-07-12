@@ -1,21 +1,27 @@
-chapter 1
+Introduction (what is wrong with the Standard Model)
 "We can't focus on what's going wrong, there's always a way to turn things around." -- Joy, Inside Out
 
-chapter 2
+Experiment (the detector and reconstruction)
 "Adventure is out there!" -Ellie, Up
 
-chapter 3
+Searching strategy for exotic particles
 "The wilderness must be explored!" - Russell, Up
 
-chapter 4
+Statistics
 "You must not let any one define your limits because of where you come from." -Remy, Ratatoullie
 or
 "Luck favors the prepared." -The Incredible
 or
 "The best things happen by chance." -Finding Dory
 
-chapter 5
-"When something is too hard there is always another way." -Finding Dory
+VBS interaction
+"When something is too hard there is always another way." -Charlie, Finding Dory
 
-chapter 6
-“To infinity … and beyond!” –Toy Story
+the LHC & ATLAS L1Calo upgrade
+“To infinity … and beyond!” –Buzz Lightyear (made in Taiwan), Toy Story
+
+Conclusion
+"Git-r-done" -Mater, Cars
+
+
+“Thanks for the adventure. Now go have a new one.” –Ellie, Up

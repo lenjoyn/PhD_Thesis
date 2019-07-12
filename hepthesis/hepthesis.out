@@ -1,0 +1,55 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Features}{}% 2
+\BOOKMARK [1][-]{section.3}{Recommended usage}{}% 3
+\BOOKMARK [1][-]{section.4}{Requirements}{}% 4
+\BOOKMARK [2][-]{subsection.4.1}{Troublesome interactions}{section.4}% 5
+\BOOKMARK [1][-]{section.5}{Class options}{}% 6
+\BOOKMARK [2][-]{subsection.5.1}{oneside ortwoside}{section.5}% 7
+\BOOKMARK [2][-]{subsection.5.2}{bind ornobind orbindnopdf}{section.5}% 8
+\BOOKMARK [2][-]{subsection.5.3}{ams ornoams}{section.5}% 9
+\BOOKMARK [2][-]{subsection.5.4}{alphafoot}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.5}{hidefront orhideback orhidefrontback}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.6}{draft}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.7}{sftitles}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.8}{rmtitles}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.9}{booktabs ornobooktabs}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.10}{hyper}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.11}{hyperpdf}{section.5}% 17
+\BOOKMARK [2][-]{subsection.5.12}{index}{section.5}% 18
+\BOOKMARK [2][-]{subsection.5.13}{titling}{section.5}% 19
+\BOOKMARK [2][-]{subsection.5.14}{a4paper ora4narrow orletterpaper or\203}{section.5}% 20
+\BOOKMARK [1][-]{section.6}{Environments and commands}{}% 21
+\BOOKMARK [2][-]{subsection.6.1}{set\203spacing\173<spacing>\175}{section.6}% 22
+\BOOKMARK [2][-]{subsection.6.2}{set\203extramargins\173<length>\175}{section.6}% 23
+\BOOKMARK [2][-]{subsection.6.3}{title\173<title>\175 and author\173<author>\175}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.4}{frontmatter, mainmatter, appendices and backmatter environments}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.5}{titlepage}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.6}{abstract environment}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.7}{declaration environment}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.8}{acknowledgements environment}{section.6}% 29
+\BOOKMARK [2][-]{subsection.6.9}{preface environment}{section.6}% 30
+\BOOKMARK [2][-]{subsection.6.10}{dedication\173<text>\175}{section.6}% 31
+\BOOKMARK [2][-]{subsection.6.11}{frontquote\173<lang>\175\173<quote>\175\173<who>\175}{section.6}% 32
+\BOOKMARK [2][-]{subsection.6.12}{chapterquote\173<lang>\175\173<quote>\175\173<who>\175}{section.6}% 33
+\BOOKMARK [2][-]{subsection.6.13}{colophon environment}{section.6}% 34
+\BOOKMARK [2][-]{subsection.6.14}{table environment}{section.6}% 35
+\BOOKMARK [2][-]{subsection.6.15}{tabular environment}{section.6}% 36
+\BOOKMARK [2][-]{subsection.6.16}{figure and sidewaysfigure environments}{section.6}% 37
+\BOOKMARK [2][-]{subsection.6.17}{equation and displaymath environments}{section.6}% 38
+\BOOKMARK [2][-]{subsection.6.18}{verysubsection\173<title>\175}{section.6}% 39
+\BOOKMARK [2][-]{subsection.6.19}{Semantic figure widths}{section.6}% 40
+\BOOKMARK [2][-]{subsection.6.20}{Standard in-document reference terms}{section.6}% 41
+\BOOKMARK [1][-]{section.7}{Recommended extra packages}{}% 42
+\BOOKMARK [1][-]{section.8}{An example hepthesis thesis}{}% 43
+\BOOKMARK [2][-]{subsection.8.1}{preamble.tex}{section.8}% 44
+\BOOKMARK [2][-]{subsection.8.2}{thesis.tex}{section.8}% 45
+\BOOKMARK [2][-]{subsection.8.3}{frontmatter.tex}{section.8}% 46
+\BOOKMARK [2][-]{subsection.8.4}{chap1.tex}{section.8}% 47
+\BOOKMARK [2][-]{subsection.8.5}{chap2.tex}{section.8}% 48
+\BOOKMARK [2][-]{subsection.8.6}{backmatter.tex}{section.8}% 49
+\BOOKMARK [1][-]{section.9}{Wishlist / TODO}{}% 50
+\BOOKMARK [1][-]{section.10}{Feedback}{}% 51
+\BOOKMARK [1][-]{section.11}{Acknowledgements}{}% 52
+\BOOKMARK [1][-]{appendix.A}{Using your own derived document class}{}% 53
+\BOOKMARK [1][-]{appendix.B}{Installing personal copies of LaTeX packages}{}% 54
+\BOOKMARK [1][-]{appendix.C}{Distinguishing PS/PDF output in thesis builds}{}% 55

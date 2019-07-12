@@ -1,4 +1,5 @@
 \chapter{Upgrade on the ATLAS Calorimeter Trigger}
+\chapterquote{To infinity … and beyond!}{Buzz Lightyear (made in Taiwan), Toy Story}
 After the LHC operation with $\sqrt{s}=13$ from 2015 to 2018, it is now in the long-shutdown period (LS2) to prepare for the Run~3 operation which will start in 2021. The major upgrades in this period are to enhance the LHC energy for proton-proton collision as well the luminosity. Meanwhile, three main upgrades will be also performed on the ATLAS detector: the new small wheel (NSW) in the muon spectrometer\cite{STELZER20161160}, the fast tracking trigger at HLT\cite{Shochet:1552953}, and the new L1Calo infrastructure. One of the main purposes of the two upgrades is to improve the trigger rate for better recognition on the physical objects. This chapter will be dedicated to the L1Calo Run~3 upgrade from the hardware design, preparation of the software, to expected performance of the new L1Calo infrastructure.   
 \section{LHC Run~3 Upgrade}
 After the operation of Run~2 (2015-2018), the LHC is now undergoing the Long Shutdown period (LS2) during which a couple of upgrades and maintenance will be taken to enhance the LHC performance to prepare for the upcoming operation in 2021. This is to bring the LHC to the design energy of $7~TeV$ for each beam and also enhance the instantaneous luminosity to $2\times10^{34}~cm^{-2}s^{-1}$ with estimated $\sim 70$ pile-ups per bunch crossing which doubles the nominal LHC luminosity. This operation is expected to last for three years delivering the integrated data of $300~fb^{-1}$ by the end of this period. This upgrade plan could also be taken as the preceding work for the High-Luminosity LHC (HL-LHC) which will keep the beams at $7~TeV$, but the instantaneous luminosity will increase to $7.5\times10^{34}~cm^{-2}s^{-1}$ for which the pile-ups will go up to 200 per bunch crossing. The LHC upgrade road map and the estimated instantaneous luminosity could be seen in Fig.~\ref{Fig:LHC_upgrade}.
@@ -15,8 +16,8 @@ After the operation of Run~2 (2015-2018), the LHC is now undergoing the Long Shu
 \\The major upgrade of this project is that the injector of beams will be replaced by the new LINAC4, and the LINAC2 will just retire from 40~years of operation. The major difference between the LINAC2 and LINAC4 is that the LINAC4 will accelerate negatively charged hydrogen ions ($H^{-1}$), and the electrons will be stripped off in the PSB, which design is intended to concentrate the beams with better stability\cite{LINAC4}. Furthermore, the CERN acceleration complex (Fig.~\ref{Mobs:2197559}) will also upgrade the RF cavities for the energy upgrade. For the LHC itself, the upgrade will take place in the magnet systems for which more than 20 magnets will be replaced, and the new superconductor technology will also be employed with the new magnet material which can afford the even higher magnetic field of $\sim 10~Tesla$ (the original material can only take the magnetic field up to $\sim 9~Tesla$). 
 \\
 \\This upgrade project is aiming to refine the present physics results. Firstly, the Higgs boson properties like the couplings to other particles or themselves could be measured with better precision to verify the SM predictions. Secondly, most of the SM interactions have the cross-sections as a function of the collision centre-of-mass energy, and the new operation energy could provide another measurement points. Thirdly, the increase of collected data will benefit the new physics search giving a better separation on the test statistics between hypotheses, and this will enhance the sensitivity to the hidden particles. \cite{Atlas:2019qfx} has summarized all the studies for expected results with the Run~3 LHC data.
-\section{Hardware Design of the Run~3 ATLAS Calorimeter Trigger}
-To incorporate the upcoming LHC upgrades, the ATLAS hardware calorimeter trigger system is scheduled to undergo a series of upgrade to cope with the unprecedented luminosity. The full L1Calo trigger scheme in Run~3 could be seen in Fig.~\ref{Fig:l1calo_scheme}.
+\section{Hardware of the Run~3 ATLAS Calorimeter Trigger}
+To incorporate the upcoming LHC upgrades, the ATLAS hardware calorimeter trigger system is scheduled to undergo a series of upgrade to cope with the unprecedented luminosity in Run~3, and it will also be remained as part of the Run~4 L0 trigger. The full L1Calo trigger scheme in Run~3 could be seen in Fig.~\ref{Fig:l1calo_scheme}.
 \begin{figure}[!h]                
 	\includegraphics[width=0.9\textwidth]{Chapter6/L1Calo.png}
 	\begin{center}
@@ -25,4 +26,221 @@ To incorporate the upcoming LHC upgrades, the ATLAS hardware calorimeter trigger
 	\end{center}
 \end{figure}
 \noindent
-It could be noted that the Run~2 system will still remain in the operation for the tile calorimeter input running in parallel with the new system. This design is due to the reason that the calorimeter readout upgrade will only take place in the LAr detector for which the output signal will be digitized, and the tile detector would still use the legacy analogue system. 
+It could be noted that the Run~2 system will still remain in the operation for the tile calorimeter input running in parallel with the new system and also for the purpose of commissioning. This design is due to the reason that the calorimeter readout upgrade will only take place in the LAr detector for which the output signal will be digitized, and the tile detector would still use the legacy analogue system. The newly digitized signal from the LAr detector will be processed into the trigger-level object, ``supercells'' (a new type of trigger tower), in the ``LAr Digital Processing Blade'' (LDPB) with a granularity of $0.025\times0.1$ for the middle layer and sent to the optical plant once per 25~ns (the LHC collision rate). Before the transmission into the object processors, two others new types of trigger towers will be constructed from supercells as well in LDPB, jTowers and gTowers, within the Data Processing System (DPS) which is part of the LDPB. The calorimeter information is herein duplicated into these three types of trigger towers, and they are distributed by the optical plant to the three feature extractors respectively: supercells to the electron feature extractor (eFex), jTowers to the jet feature extractor (jFex), and gTowers to the global feature extractor (gFex). Those Fex systems are designed as FPGA boards written in the reconstruction algorithms which will then output the physical objects to the L1Topo and L1CTP to make the trigger decision along with the outputs from L1MU. Regarding of the tile detector, the analogue signal is processed by a new processor, ``Tile Rear Extension Module'' (TREX), into ``tTowers'' with the granularity of $0.1\times0.1$, and they will be taken into the Fex's as well. In comparison to the Run~2 trigger system, the reconstruction of physical objects could access a better granularity for the background suppression and also have a longer latency for more complicated algorithms of physical object reconstruction.   
+\\
+\\{\bf eFex and Supercells}
+\\
+\\The eFex is designed to reconstruct the electromagnetic objects like electrons, photons, and taus, with the trigger towers of best granularity, supercells. With respect to the other two trigger tower types (jTowers and gTowers), supercells are constructed within each layer in the LAr calorimeter, and the layer names in each detector region from inside to outside are:
+\begin{itemize}
+	\item Barrel ($0<|\eta|<1.52$): PreSamplerB, EMB1, EMB2, EMB3 
+	\item Barrel ($1.52<|\eta|<3.2$): PreSamplerE, EME1, EME2, EME3, HEC
+	\item Barrel ($3.2<|\eta|$): FCAL1, FCAL2, FCAL3
+\end{itemize}
+Although the hadronic endcap calorimeter still has several layers, the system would still just sum their energy deposit as one entity. Due to the detector structure, some of the layers might not have the full extent within the designated region. In terms of the granularity, the middle two layers (EMB1 and EMB2) have the finest one with $0.025\times 0.1$ in the $\Delta\eta\times\Delta\phi$ plane, while it is $0.1\times0.1$ for the front and back layers (Presampler and EMB3) in the barrel region. However, this supercell arrangement is not employed in the full LAr detector, and the granularity gets more coarse when $|\eta|$ increases. In the forward region, the most coarse granularity would degrade to $0.32\times0.4$ for the back layer of the forward detector (this is a rough number, as the forward supercells are in irregular shapes due to the complicated structure geometry in this region). The comparison between supercells and Run2 trigger towers could be seen in Fig.~\ref{Fig:tt_compar}. Different from the Run~2 trigger towers, the layer information will be kept in Run~3 L1Calo system, and the middle two layers of supercells have finer granularity. This indicates the accessibility to isolation variables with more complicated algorithm. The full detail of the granularity and the coverage of each layer could be found in \cite{Aleksa:1602230}.
+\begin{figure}[!h]                
+	\includegraphics[width=0.35\textwidth]{Chapter6/Run2TT.pdf}
+	\includegraphics[width=0.62\textwidth]{Chapter6/Supercell.png}
+	\begin{center}
+		\caption{The comparison of the Run~2 trigger towers\cite{Aleksa:1602230} and the supercells\cite{Aaboud:2016leb} in the barrel region. One block in the Run~2 trigger tower is corresponding to one square in the front layer of supercells. }
+		\label{Fig:tt_compar}            
+	\end{center}
+\end{figure}
+\noindent
+\\
+\\To evaluated the energy of each supercell, the signal of cells is sent to a processor called ``LATOME'' with an optimal filter (OF). The received analogue LAr cell signal is firstly digitalized through the analogue digital converter (ADC) into the number of ADC counts. The energy is then calibrated by the optimal filter to estimated the measured transverse energy ($E_{T}=E\times\cos\theta$) and also mitigate the noise:
+\begin{equation}
+\label{Eq:get_Et}
+E_{T}=\displaystyle\sum_{i=1}^{i=4}\alpha_{i}S_{i}
+\end{equation}
+\begin{equation}
+\label{Eq:get_tau}
+E_{T}\cdot\tau=\displaystyle\sum_{i=1}^{i=4}\beta_{i}S_{i}
+\end{equation}
+\noindent
+S is taken as the ADC count with the optimal filter coefficients (OFC), $\alpha$ and $\beta$, and $\tau$ is the phase shift along the measured time to ensure the energy is assigned to the appropriate bunch crossing. The i is the index for energy sampling every 25~ns within an active window of 100~ns. It should be noted that although the collision rate of LHC is one bunch crossing per 25~ns, the active window for ``one'' collision is still 100~ns. This means once a channel receives the signal, it will not be available for the following few bunch crossings. In Run~2, the timing assignment was simply applied by checking whether a peak of pulse could be found within the active window\cite{Jongmanns:2661780} (peak finder algorithm):
+\begin{equation}
+S_{i-1}<S_{i}>S_{i+1}\quad 
+\end{equation}
+However, for the search of long-lived particles, they might arrive in the calorimeter after this time window. Therefore, a more flexible algorithm to extend the time window will be implemented in the Run~3,
+\begin{equation}
+\begin{cases}
+-8~ns<t<16~ns & E_{T}\geq 10~GeV \\
+-8~ns<t<8~ns & E_{T}<10~GeV \\
+\end{cases}
+\end{equation}
+Under this case, the new $E_{T}$ measured from Eq.~\ref{Eq:get_tau} is to recover the peak after it is shifted by the OF. Although the sampling period is 25~ns, the sampling window could be delayed by maximally 24~ns with the steps of 1~ns using the PHOS4 chip\cite{Toifl:1999qv}, which can help to achieve the desired temporal resolution. Fig.~\ref{Fig:OFC} is presenting how the OFC shifts the peak of the origin digitalized ADC input from the beam test and the supercell energy efficiency after the new timing cuts from simulation. They are showing that the new algorithms could successfully recover the peak energy and also reach the signal plateau of 3~GeV energy deposit in a supercell.
+\begin{figure}[!h]                
+	\includegraphics[width=0.48\textwidth]{Chapter6/Pulse.png}
+	\includegraphics[width=0.48\textwidth]{Chapter6/TimeWindow.png}
+	\begin{center}
+		\caption{The digitized pulse shape from the ADC and the signal efficiency after the timing window cut. The peak could be seen shifted after the OF is applied, and the timing window properly removes the negative measured energy. }
+		\label{Fig:OFC}            
+	\end{center}
+\end{figure}
+\noindent
+\\
+\\The other correction on the supercells is the ``pedestal correction''. When the LAr cells start to the receive the energy from a bunch train, the cell would deliver strong noise during the first few bunches ($\sim 20$ bunches), and it leads to a high trigger rate beyond the trigger rate budget. The pedestal correction is applied to mitigate the effect by reducing the energy count from the ADC. Fig.~\ref{Fig:pc} is showing the pedestal correction used in the Run~2 operation, while its optimization for Run~3 is still ongoing. Therefore, in the following studies, the first 20 bunches of a bunch train are vetoed in the event selection to remove this noise source. The average noise response (the energy deposit from $pp\to jj$ for which the two jets are with $E_{T}<20~GeV$) for each layer in the Run~3 simulated environment ($\mu\sim80$) could be seen Fig.~\ref{Fig:sc_noise}, and the noise would increase with $|\eta|$ due to the fact that the supercells are larger in the high $|\eta|$ region.
+\begin{figure}[!h]                
+  	\includegraphics[width=0.6\textwidth]{Chapter6/pedestalCorr.png}
+  	\begin{center}
+  		\caption{The pedestal correction as a function of bunch crossings for long bunch trains. The shadowed area is within a bunch train\cite{Jongmanns:2661780}.}
+  		\label{Fig:pc}            
+  	\end{center}
+\end{figure}
+\begin{figure}[!h]                
+	\includegraphics[width=0.6\textwidth]{Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25.eps}
+	\caption{The average $E_{T}$ of supercell layers as a function of $|\eta|$ with the Run~2 like algorithm with peak finder algorithm\cite{Aleksa:1602230}}
+	\label{Fig:sc_noise}            
+\end{figure}
+\noindent
+\\
+\\The calibrated supercells are taken as the input for eFex, and they are reconstructed into electrons/photons, and taus with the coverage of $|\eta|$ up to 2.5. It should be noted that in the hardware trigger level, electrons and photons are reconstructed into the same objects for no track information. The reconstruction is performed from seed-finding in the EMB2 layer with the finest granularity and greatest depth. The energy of tTowers behind the ROI are then added into the reconstruction object in EM layers. With the upgraded system, the algorithms could have more flexibility to explore different cluster shapes and also the isolation variables. Further details will be discussed later. 
+\\
+\\{\bf jFex and jTower}
+\\
+\\jTowers are in a similar format as the Run~2 trigger towers with the same granularity, $0.1\times0.1$, but it is not uniform in the whole detector. The granularity of each regions in the barrel and endcap regions is summarized in Tab.~\ref{Tab:granularity_jT}.
+\begin{table}[h]
+	\caption{The jTower granularity in the barrel and endcap regions}
+	\renewcommand{\arraystretch}{1.3}
+	\centering
+	\begin{tabular}{| c | c | c | c | }
+		\hline
+		\hline
+		Index      &    $|\eta|$        &     $\Delta$     & $\Delta\phi$   \\
+		\hline
+		0          &     0-2.5          & 0.1                          &  0.1                          \\
+		\hline
+		1          &     2.5-3.1           & 0.2                          &  0.2                         \\
+		\hline
+		2      &     3.1-3.2       & 0.1                       &  0.2                       \\
+		\hline
+		\hline
+	\end{tabular}
+	\label{Tab:granularity_jT}
+\end{table}
+
+The construction of the jTowers are firstly performed by defining the static windows for the jTowers sizes and locations. Then, those windows are simply matched to the supercells whose energy is summed over to build the $E_{T}$ of jTowers. No additional selection of supercells is applied. However, for the forward region, this construction can't work because of the irregular shape of supercells, and one supercell might be overlapped with two other supercells in a back layer. In this case, all the supercells are taken as jTowers directly, so the layer information would still be kept. For the input from the tile detector, the tTowers are processed into independent jTowers in the jFex, so there would be two trigger towers at the same location corresponding to EM and hadronic layers. 
+\\
+\\When the jFex is processing the jTowers, it is performed is eight FPGA modules which receive data from each $\phi$-octant respectively covering the full $\eta$ range ($0<|\eta|<4.9$) from the barrel to forward region, and the jTower data is duplicated to the neighbouring FPGAs\cite{Aad:1602235}. This is to properly reconstruct the physical objects (jets or large tau) at the transition region between FPGAs. The final outputs of the jFex are taus with larger ROI, jets, $E^{miss}_{T}$, and the transverse energy scalar sum ($H_{T}$). Different from the Run~2 system, the new system could afford more computing-expensive algorithms for the event-by-event pile-up mitigation.
+\\
+\\{\bf gFex and gTower}
+\\
+\\The gTowers have similar properties as the jTowers, but they are given a even more coarse granularity of $0.2\times0.2$ without the layer information. Furthermore, not like the jTowers constructed from individual supercells in the forward region, the forward layers of supercells are still summer over to construct the jTowers by defining static windows which collect the supercells with their electrodes inside the region. Tab.~\ref{Tab:granularity_gT} is presenting the gTower granularity in the barrel and endcap regions, while the forward region has the $|\eta|$ binning as:
+\begin{equation}
+|\eta| = \left[3.2, 3.5, 4.0, 4.45, 4.9\right]
+\end{equation}
+with equal $\Delta\phi$ as 0.2.
+\begin{table}[h]
+	\caption{The gTower granularity in the barrel and endcap regions}
+	\renewcommand{\arraystretch}{1.3}
+	\centering
+	\begin{tabular}{| c | c | c | c | }
+		\hline
+		\hline
+		Index      &    $|\eta|$        &     $\Delta$     & $\Delta\phi$   \\
+		\hline
+		0          &     0-2.5          & 0.2                          &  0.2                          \\
+		\hline
+		1          &     2.4-2.5           & 0.1                          &  0.2                         \\
+		\hline
+		2      &     2.5-3.1       & 0.2                      &  0.2                       \\
+		\hline 
+		3      &     3.1-3.2       & 0.1                      &  0.2                       \\
+		\hline
+		\hline
+	\end{tabular}
+	\label{Tab:granularity_gT}
+\end{table}
+\noindent
+\\
+\\With the coarse granularity, there would be less input channels to the gFex, so it can afford some more complicated algorithms and increase the region of interest, which is one of the motivation to have the gFex in the Run~3. In the Run~2, the JEM can only handle the ROI for a narrow jet ($R\sim 0.45$), and it is too small for a large-R jet which is an important signature for a wide range of physics analyses. The comparison of the Run~2 and Run~2 trigger level jets could be seen in Fig.~\ref{Fig:ZPrimett}, and the new system could extend the jet reconstruction to contain all the energy deposit for the decays of two close-by hadrons. The other advantage of gFex is that it could allow to have more complicated algorithms than the jFex for the pile-up subtraction. From this view of point, the gFex could be taken as the jFex in the sacrifice of trigger tower position resolution for a more complicated reconstruction of physical objects. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.75\textwidth]{Chapter6/TrigJetRange.png}
+	\begin{center}
+		\caption{The comparison of the Run~2 (red circle) and Run~3 (black circle) L1Calo jets for an HVT $Z'\to t\bar{t}$ event. The Z' boson was given a high mass, so the two top quarks were highly boosted and got close to each other. They would form a large-R jet in the offline reconstruction \cite{Tang:2289434}.  }
+		\label{Fig:ZPrimett}            
+	\end{center}
+\end{figure}
+\noindent
+\\
+\\The processing of gTowers in the gFex is conducted in three FPGAs which are corresponding to three $\eta$ ranges of a full $\phi$ rings,.:
+\begin{itemize}
+	\item FPGA $\#A$: $-2.5<\eta<0$
+	\item FPGA $\#B$: $0<\eta<2.5$
+	\item FPGA $\#C$: $2.5<|\eta|$
+\end{itemize}
+Due to the bandwidth limit for the communication between these FPGAs, no gTower would be duplicated like how the jFex operates. In this case, when reconstruction objects near the border of FPGAs, the gTowers outside the available range should not be considered. Under this case, the reconstruction of gFex jets is still not confirmed yet. The outputs from the gFex are the large-R jets and $E^{miss}_{T}$ with another algorithm different from the jFex one.
+\section{Simulation Software of the Run~3 ATLAS Calorimeter Trigger}
+The general simulation procedure was already introduced in Sec.~\ref{sec:simulation}. However, the Run~3 system is still missing in the simulation chain, so it was built from scratch to study the performance of the new trigger system. The software preparation task will not be only for the trigger decisions in the Run~3 analyses, but the samples with trigger signatures will also be distributed for the proposals of new trigger chains in the Run~3 trigger menu. 
+\\
+\\The trigger simulation receives the digitized data from the LAr detector simulation, so the supercells are already defined at the ESD level. The trigger simulation are performed afterwards in the following procedure:
+\begin{itemize}
+	\item Tower Identification: this process is to define the j/gTower windows in the detector with their locations and granularities through the ATLAS Identifier system.
+	\item Supercell $\&$ Tower matching: as the j/gTowers are constructed from the supercells, this is to pair the j/gTowers with the supercells inside the defined windows.
+	\item Construction of Towers: this is performed event by event to collect the energy deposits from supercells into the j/gTowers
+	\item Event Data Model: this is the format to store the reconstructed objects in the output file including both the hardware level (like tracks, energy cluster, or trigger towers) and physical objects. As new j/gTowers are new objects in the Run~3, an event data model is created to store them.
+	\item Physical Object Reconstruction: the trigger towers are taken into the phyiscal object reconstruction. By now, the baseline electrons from eFex, and small-R jets and $E^{miss}_{T}$ from jFex are already implemented, while the tau reconstruction and gFex objects are still under study. 
+	\item Integration: the last step is to integrate the simulation into the ATLAS simulation chain, $reco\_tf$, with which the output samples contain all the objects for physics studies with trigger objects. 
+\end{itemize}
+\noindent
+\\
+\\This simulation is under the ATLAS official software, Athena, which is a Gaudi-based system\cite{Mato:2010zz}. All the simulation components are c++ based scripts, and the they are converted into python components (functions) under this framework. The simulation parameters are then parsed by joboption scripts which is in the format of python. 
+\subsection{Tower Identification}
+The ATLAS identifier (ID) infrastructure\cite{Schaffer:684167,Arnault:2003pa} is to define and interpret the hardware readout channels for the offline system\footnote{offline means the system is detached from the detector}. It has two components, the dictionary and ID helper. The dictionary is to categorize the hardware readout channels in a hierarchy structure which decompose the ATLAS detector into several levels, and the ID helper is to interpret the dictionary to construct the readout channels into offline software via the detector storage which is shard between events. 
+\\
+\\For the use in the Run~3 L1Calo trigger, the system is deployed to define the jTowers and gTowers, while the supercells are done within the LAr simulation software. However, the identifier system could only be applied on the the readout channels in a regular pattern, so it doesn't extend to the forward region where supercells are in irregular shapes. Therefore, the forward region towers are defined only in the main construction script, and this information not go into the detector storage. 
+\\
+\\{\bf Dictionary}
+\\
+\\The definition dictionary is written in the format of xml, which decomposes the detector in the following order:
+\\
+\\the ATLAS detector $\to$ subdetectors $\to$ detector sides ($+\eta$, $-\eta$) $\to$ region (barrel, endcap) $\to$ sampling layer (EM/Had) $\to$ $\eta$ $\to$ $\phi$
+\\
+\\Under this structure, each of the readout channel is given an unique hash number with a set of indices representing its hardware location within each level. At this stage, the channel could only be recognized by those numbers, and the physical meaning like the real $\eta$, or $\phi$, would still need the further interpretation in the script for a proper construction to make the readout channel into an object (j/gTower in this case). The following is a snippet of how the readout channels are defined in the dictionary:
+\\
+\begin{lstlisting}{listing only}[language=xml]
+<field name="JTsampling" > 
+  <label name="EM"       value="0" /> 
+  <label name="Hadronic" value="1" /> 
+</field> 
+	
+<subregion name="JTower" > 
+  <range field="DetZside"
+      values="negative_lvl1_side positive_lvl1_side" /> 
+  <range field="JTsampling" values="EM Hadronic" /> 
+</subregion> 
+	
+<!-- Up to eta=2.5 --> \\
+<region group="Reg\_JTower" name="JTower\_0" 
+      eta0="0.0" deta="0.1" phi0="0.0" dphi="0.1"> 
+  <reference subregion="JTower" /> 
+  <range field="JTregion" value="0" /> 
+  <range field="JTeta" minvalue="0" maxvalue="24" />
+  <range field="JTphi" minvalue="0" maxvalue="63" 
+      wraparound="TRUE" /> 
+</region>
+	
+\end{lstlisting}
+\noindent
+The first block in the script is to define the two layers of the jTowers, EM and Hadronic layers, and the second block is for the two detector sides. Then, the definition for the central region (region index as 0) granularity and the beginning point of $\eta$ and $\phi$ is shown in the third block, and each tower would be given the $\eta$($\phi$) indices ranged from 0 to 24(63). For the jTowers(gTower), there are three(five) regions defined corresponding to the granularities presented in Tab.~\ref{Tab:granularity_jT}(\ref{Tab:granularity_gT}). The system would then loop through the combinations of those indices to build up the all the trigger towers within the regions and register into the detector storage and assign the unique hash numbers for each trigger tower via the ID helper. 
+\\
+\\{\bf ID Helper}
+\\
+\\The ID helpers is the interface between the dictionary and the user code for the simulation of the ATLAS detector written in the format of C++. For each system, a dedicated helper is customized due to different architectures of the subdetector designs. During the initialization of the identifiers, the helpers would access its corresponding dictionary and assign the hash identifiers for each channel by the set of indices. The identifier is then enumerated and cached for fast conversion. Under this framework, the memory for the cache of Run~2 identifiers is already fixed and filled, and the direct addition of Run~3 identifiers would occupy the memory. In this case, the identifiers would not be properly configured. To add in the new Run~3 trigger tower identifiers, the Run~2 trigger tower caches is expanded by the method in the snippet shown below:
+\\
+\begin{lstlisting}{listing only}
+m_full_region_range = m_dict
+                 ->build_multirange(reg_id,"Reg_Lvl1" ,prefix, "region");
+m_full_tower_range = m_dict
+                 ->build_multirange(reg_id,"Reg_Lvl1" ,prefix, "phi");
+m_full_layer_range = m_dict
+                 ->build_multirange(reg_id,"Reg_Lvl1" ,prefix);
+\end{lstlisting}
+\noindent
+This function is to make the new jTower and gTower identifiers as the extension of the Run~2 trigger towers, so both the Run~2 and Run~3 trigger tower systems could run in parallel. After the identifiers are cached, the users could then access the tower information via the detector store gate (DetStore)\cite{Calafiura:2003gf} in the Athena framework. 
+\\
+\\{\bf Tower Matching and Construction }
+\\
+\\The tower definition is then taken to build up the windows on the calorimeter for which the locations are fixed. The mapping procedure is to provide the map to pair the supercells and trigger towers, and this would then be stored for the energy building of the towers event by event.
+\\
+\\To access the supercell locations, the identifier is also used, but  
