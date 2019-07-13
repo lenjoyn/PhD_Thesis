@@ -19,51 +19,51 @@ I was expecting a `,' or a `}'---line 76 of file bibtex/supportingNote_lvqq.bib
  :  journal = "Physical Review Letters"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 203 of file bibtex/supportingNote_lvqq.bib
+I was expecting a `,' or a `}'---line 220 of file bibtex/supportingNote_lvqq.bib
  :        
  :        title         = "{Technical Design Report for the Phase-I Upgrade of the
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 255 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 272 of file bibtex/supportingNote_lvqq.bib
  : @techreport{Aleksa:1602230
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Ionization" isn't style-file defined
---line 295 of file bibtex/supportingNote_lvqq.bib
+--line 312 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
---line 409 of file bibtex/supportingNote_lvqq.bib
+--line 426 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "ckm_timothy" isn't style-file defined
---line 415 of file bibtex/supportingNote_lvqq.bib
+--line 432 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "MS_all" isn't style-file defined
---line 529 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 680 of file bibtex/supportingNote_lvqq.bib
+--line 546 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 697 of file bibtex/supportingNote_lvqq.bib
  : @article{deBlas:2012qp
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Schnoor:2000941" isn't style-file defined
---line 954 of file bibtex/supportingNote_lvqq.bib
+--line 971 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "NuiTreats" isn't style-file defined
---line 1651 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 2088 of file bibtex/supportingNote_lvqq.bib
+--line 1668 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 2105 of file bibtex/supportingNote_lvqq.bib
  : @article{Ball:2012cx
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3203 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 3220 of file bibtex/supportingNote_lvqq.bib
  : @article{Gao:2013xoa
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--string name "." is undefined
---line 3402 of file bibtex/supportingNote_lvqq.bib
+--line 3419 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3408 of file bibtex/supportingNote_lvqq.bib
+--line 3425 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3414 of file bibtex/supportingNote_lvqq.bib
+--line 3431 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3420 of file bibtex/supportingNote_lvqq.bib
+--line 3437 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "LINAC4" isn't style-file defined
---line 3443 of file bibtex/supportingNote_lvqq.bib
+--line 3460 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "schedule" isn't style-file defined
---line 3475 of file bibtex/supportingNote_lvqq.bib
+--line 3492 of file bibtex/supportingNote_lvqq.bib
 Database file #2: bibtex/ATLAS.bib
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib

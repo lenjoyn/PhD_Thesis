@@ -183,8 +183,7 @@ The general simulation procedure was already introduced in Sec.~\ref{sec:simulat
 	\item Integration: the last step is to integrate the simulation into the ATLAS simulation chain, $reco\_tf$, with which the output samples contain all the objects for physics studies with trigger objects. 
 \end{itemize}
 \noindent
-\\
-\\This simulation is under the ATLAS official software, Athena, which is a Gaudi-based system\cite{Mato:2010zz}. All the simulation components are c++ based scripts, and the they are converted into python components (functions) under this framework. The simulation parameters are then parsed by joboption scripts which is in the format of python. 
+This simulation is under the ATLAS official software, Athena, which is a Gaudi-based system\cite{Mato:2010zz}. All the simulation components are c++ based scripts, and the they are converted into python components (functions) under this framework. The simulation parameters are then parsed by joboption scripts which is in the format of python. 
 \subsection{Tower Identification}
 The ATLAS identifier (ID) infrastructure\cite{Schaffer:684167,Arnault:2003pa} is to define and interpret the hardware readout channels for the offline system\footnote{offline means the system is detached from the detector}. It has two components, the dictionary and ID helper. The dictionary is to categorize the hardware readout channels in a hierarchy structure which decompose the ATLAS detector into several levels, and the ID helper is to interpret the dictionary to construct the readout channels into offline software via the detector storage which is shard between events. 
 \\
@@ -238,9 +237,46 @@ m_full_layer_range = m_dict
 \end{lstlisting}
 \noindent
 This function is to make the new jTower and gTower identifiers as the extension of the Run~2 trigger towers, so both the Run~2 and Run~3 trigger tower systems could run in parallel. After the identifiers are cached, the users could then access the tower information via the detector store gate (DetStore)\cite{Calafiura:2003gf} in the Athena framework. 
+
+\subsection{j/gTower Matching and Construction}
+The tower definition is then taken to build up the windows on the calorimeter for which the locations are fixed. The following snippet is to show how the windows are defined in the software:
 \\
-\\{\bf Tower Matching and Construction }
+\begin{lstlisting}{listing only}
+float jDEta = m_jTowerId->etaGranularity(rid);
+float jDPhi = m_jTowerId->phiGranularity(rid);
+int nTowers = (int)(TMath::Pi()/jDPhi)+1;
+jDPhi = TMath::Pi()/nTowers;
+
+float jEta = (m_jTowerId->eta(jid)+1-0.5)*jDEta*detSide
+                                  +m_jTowerId->eta0(rid)*detSide;
+float jPhi = (m_jTowerId->phi(jid)+1-0.5)*jDPhi+m_jTowerId->phi0(rid);
+if(jPhi>TMath::Pi()) jPhi = jPhi-2*TMath::Pi(); 
+\end{lstlisting}
+\noindent
+\\Firstly, the granularities are taken from the dictionary by the region with $\Delta\phi$ redefined to ensure the number of $\phi$ segments is an integer. Then, the beginning point is used with the granularity to evaluate the centre of trigger towers, and the trigger towers are defined with those information. For the forward region, the j/gTower identifiers are not defined, so another approach is taken. For the jTowers, a simple scheme is deployed to take the forward supercells as individual towers from $|\eta|=3.1$, while forward gTowers are hard-coded to define the edge and granularity of the towers in the simulation software as the following:
 \\
-\\The tower definition is then taken to build up the windows on the calorimeter for which the locations are fixed. The mapping procedure is to provide the map to pair the supercells and trigger towers, and this would then be stored for the energy building of the towers event by event.
+\begin{lstlisting}{listing only}
+float fgT_Etas[5] = {3.2, 3.5, 4.0, 4.45,4.9};
+int nTowers = 17;
+float fgT_dPhi = 2*TMath::Pi()/nTowers;
+\end{lstlisting}
+\noindent
+\\For the supercells, the identifier is also used for the locations of the electrodes, and the following is the snippet for this purpose:
 \\
-\\To access the supercell locations, the identifier is also used, but  
+\begin{lstlisting}{listing only}
+float scEta = dde->eta_raw();
+float scPhi = dde->phi_raw();
+if(fabs(scEta)>3.2) continue;
+if(fabs(fabs(dde->eta_raw())-1.4)<0.001 && m_scid->region(scid) == 0 
+    && m_scid->sampling(scid) == 2){
+  if(scEta > 0) scEta += 0.05;
+  else          scEta -= 0.05;
+}
+
+\end{lstlisting}
+\noindent
+\\It could be noted that the $\eta$ and $\phi$ are taken ``raw'', and that means the locations applied in the study are not calibrated for any misalignment in the reality. The last section of the script is showing a special case that the supercells near the transition region between barrel and endcap regions are on the edge of supercells, and the adjustment is to ensure they could be mapped to the trigger towers beginning at $|\eta|=1.4$.
+\\
+\\After both towers and supercells are defined, the matching is performed by verifying whether the supercells are inside the tower windows. If they are matched, the supercell indices are serialized into a vector as one auxiliary parameter of the towers. Then, the energy of towers is evaluated by simply summing over all the supercells inside the tower window.
+\subsection{Event Data Model for j/gTowers}
+The ATLAS event data model\cite{Buckley:2015tjh} (EDM) is constructed to handle the complexity of physical and detector objects. Each object like electrons, jets, or trigger towers, has one dedicated event data model which is called container. For the new Run~3 towers, the Run~2 trigger tower container could not meet all the requirements for the storage of new variables, so a new container is created for the j/gTowers. 

@@ -54,4 +54,6 @@
 \BOOKMARK [1][-]{section.6.2}{Hardware of the Run 3 ATLAS Calorimeter Trigger}{chapter.6}% 54
 \BOOKMARK [1][-]{section.6.3}{Simulation Software of the Run 3 ATLAS Calorimeter Trigger}{chapter.6}% 55
 \BOOKMARK [2][-]{subsection.6.3.1}{Tower Identification}{section.6.3}% 56
-\BOOKMARK [0][-]{chapter*.120}{Bibliography}{}% 57
+\BOOKMARK [2][-]{subsection.6.3.2}{j/gTower Matching and Construction}{section.6.3}% 57
+\BOOKMARK [2][-]{subsection.6.3.3}{Event Data Model for j/gTowers}{section.6.3}% 58
+\BOOKMARK [0][-]{chapter*.120}{Bibliography}{}% 59

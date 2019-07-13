@@ -682,4 +682,10 @@ P.~Calafiura, C.~G. Leggett, D.~R. Quarrie, H.~Ma, and S.~Rajagopalan.
 \newblock {The StoreGate: A Data model for the Atlas software architecture}.
 \newblock {\em eConf}, C0303241:MOJT008, 2003.
 
+\bibitem{Buckley:2015tjh}
+A.~Buckley, T.~Eifert, M.~Elsing, D.~Gillberg, K.~Koeneke, A.~Krasznahorkay,
+  E.~Moyse, M.~Nowak, S.~Snyder, and P.~van Gemmeren.
+\newblock {Implementation of the ATLAS Run 2 event data model}.
+\newblock {\em J. Phys. Conf. Ser.}, 664(7):072045, 2015.
+
 \end{thebibliography}
