@@ -651,7 +651,10 @@ T.~Toifl, P.~Moreira, A.~Marchioro, and R.~Vari.
 
 \bibitem{Aad:1602235}
 ATLAS collaboration.
-\newblock Technical report.
+\newblock Technical design report for the phase-i upgrade of the atlas tdaq
+  system.
+\newblock (CERN-LHCC-2013-018. ATLAS-TDR-023), Sep 2013.
+\newblock Final version presented to December 2013 LHCC.
 
 \bibitem{Tang:2289434}
 Shaochun Tang, Michael Begel, Hucheng Chen, Kai Chen, Francesco Lanni, Helio
@@ -659,6 +662,12 @@ Shaochun Tang, Michael Begel, Hucheng Chen, Kai Chen, Francesco Lanni, Helio
 \newblock {The development of Global Feature eXtractor (gFEX) - the ATLAS
   calorimeter Level 1 trigger for ATLAS at High Luminosity LHC}.
 \newblock Technical Report ATL-DAQ-PROC-2017-035, CERN, Geneva, Oct 2017.
+
+\bibitem{Stewart:2014ida}
+G.~A. Stewart, W.~B. Breaden-Madden, H.~J. Maddocks, T.~Harenberg, M.~Sandhoff,
+  and B.~Sarrazin.
+\newblock {ATLAS Job Transforms: A Data Driven Workflow Engine}.
+\newblock {\em J. Phys. Conf. Ser.}, 513:032094, 2014.
 
 \bibitem{Mato:2010zz}
 Pere Mato and Eoin Smith.

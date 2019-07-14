@@ -1,52 +1,61 @@
 \babel@toc {english}{}
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction and Motivation}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Standard Model}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking}{7}{section.1.2}
+\contentsline {section}{\numberline {1.1}Standard Model\cite {Griffiths,Perkins}}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}Electroweak Symmetry Breaking}{8}{section.1.2}
 \contentsline {section}{\numberline {1.3}Unsolved Problems in SM}{13}{section.1.3}
 \contentsline {section}{\numberline {1.4}Thesis Overview}{15}{section.1.4}
 \contentsline {chapter}{\numberline {2}Experimental Setup}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}Large Hadron Collider}{16}{section.2.1}
-\contentsline {section}{\numberline {2.2}ATLAS Detector}{19}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}Inner Detector (ID)}{21}{subsection.2.2.1}
-\contentsline {subsection}{\numberline {2.2.2}Calorimeter}{25}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer}{29}{subsection.2.2.3}
+\contentsline {section}{\numberline {2.1}Large Hadron Collider\cite {LHC}}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}ATLAS Detector}{20}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Inner Detector (ID) \cite {CERN-LHCC-97-016}}{21}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Calorimeter}{26}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Muon Spectrometer\cite {MS_all}}{29}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Trigger System}{30}{subsection.2.2.4}
 \contentsline {subsection}{\numberline {2.2.5}Run 2 Operation Overview}{33}{subsection.2.2.5}
 \contentsline {section}{\numberline {2.3}Object Reconstruction}{34}{section.2.3}
 \contentsline {section}{\numberline {2.4}Simulation}{44}{section.2.4}
-\contentsline {chapter}{\numberline {3}Resonance Searching Strategy}{47}{chapter.3}
-\contentsline {section}{\numberline {3.1}Signal Models}{48}{section.3.1}
-\contentsline {section}{\numberline {3.2}Simulation Samples and Derivation}{53}{section.3.2}
-\contentsline {section}{\numberline {3.3}Physical Object Definition}{57}{section.3.3}
-\contentsline {section}{\numberline {3.4}Event Selection}{63}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Trigger}{65}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Event Cleaning and Preselection}{67}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}Parameter of Interest, $m_{WV}$}{68}{subsection.3.4.3}
-\contentsline {subsection}{\numberline {3.4.4}VBF Event Selection}{70}{subsection.3.4.4}
-\contentsline {subsection}{\numberline {3.4.5}Boosted Event Selection}{70}{subsection.3.4.5}
-\contentsline {subsection}{\numberline {3.4.6}Resolved Event Selection}{73}{subsection.3.4.6}
-\contentsline {subsection}{\numberline {3.4.7}Multijet Background Estimation}{77}{subsection.3.4.7}
-\contentsline {section}{\numberline {3.5}Data Background Comparison}{87}{section.3.5}
-\contentsline {chapter}{\numberline {4}Interpretation for Resonance Analysis}{94}{chapter.4}
-\contentsline {section}{\numberline {4.1}Systematic Uncertainties}{95}{section.4.1}
-\contentsline {section}{\numberline {4.2}Likelihood Construction $\&$ Fitting}{96}{section.4.2}
+\contentsline {chapter}{\numberline {3}Resonance Searching Strategy}{46}{chapter.3}
+\contentsline {section}{\numberline {3.1}Signal Models}{47}{section.3.1}
+\contentsline {section}{\numberline {3.2}Simulation Samples and Derivation}{51}{section.3.2}
+\contentsline {section}{\numberline {3.3}Physical Object Definition}{55}{section.3.3}
+\contentsline {section}{\numberline {3.4}Event Selection}{61}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Trigger}{63}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Event Cleaning and Preselection}{65}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Parameter of Interest, $m_{WV}$}{66}{subsection.3.4.3}
+\contentsline {subsection}{\numberline {3.4.4}VBF Event Selection}{67}{subsection.3.4.4}
+\contentsline {subsection}{\numberline {3.4.5}Boosted Event Selection}{69}{subsection.3.4.5}
+\contentsline {subsection}{\numberline {3.4.6}Resolved Event Selection}{70}{subsection.3.4.6}
+\contentsline {subsection}{\numberline {3.4.7}Multijet Background Estimation}{74}{subsection.3.4.7}
+\contentsline {section}{\numberline {3.5}Data Background Comparison}{85}{section.3.5}
+\contentsline {chapter}{\numberline {4}Interpretation for Resonance Analysis}{92}{chapter.4}
+\contentsline {section}{\numberline {4.1}Systematic Uncertainties}{93}{section.4.1}
+\contentsline {section}{\numberline {4.2}Likelihood Construction $\&$ Fitting}{94}{section.4.2}
 \contentsline {section}{\numberline {4.3}Result}{103}{section.4.3}
-\contentsline {section}{\numberline {4.4}Combination of VV/VH/$\ell \ell $/$\ell \mymath {\@Oldnu }\xspace $}{107}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}Combination Strategy}{109}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Result}{113}{subsection.4.4.2}
-\contentsline {chapter}{\numberline {5}Search with Non-Resonance Signatures (Vector Boson Scattering)}{118}{chapter.5}
-\contentsline {section}{\numberline {5.1}Signal Simulation Samples}{119}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Standard Model Vector Boson Scattering}{119}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Anomalous Quadratic Coupling (aQGC)}{121}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}Signal Production}{124}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Interference Effect on the Signal}{125}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Event Selection}{126}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Batman Veto}{126}{subsection.5.2.1}
+\contentsline {section}{\numberline {4.4}Combination of VV/VH/$\ell \ell $/$\ell \mymath {\@Oldnu }\xspace $}{108}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Combination Strategy}{110}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Result}{114}{subsection.4.4.2}
+\contentsline {chapter}{\numberline {5}Search with Non-Resonance Signatures (Vector Boson Scattering)}{119}{chapter.5}
+\contentsline {section}{\numberline {5.1}Signal Simulation Samples}{120}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Standard Model Vector Boson Scattering}{120}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Anomalous Quadratic Coupling (aQGC)}{122}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Signal Production}{125}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Interference Effect on the Signal}{126}{subsection.5.1.4}
+\contentsline {section}{\numberline {5.2}Event Selection}{127}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Batman Veto}{127}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}VBS Event Selection}{127}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Boosted $\&$ Resolved Event Selection}{127}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.3}Boosted $\&$ Resolved Event Selection}{128}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Multivariate Analysis}{129}{section.5.3}
-\contentsline {section}{\numberline {5.4}Background Modeling}{136}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}VBS $m_{jj}$ Modelling}{137}{subsection.5.4.1}
-\contentsline {section}{\numberline {5.5}Statistical Interpretation}{138}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Fitting}{139}{subsection.5.5.1}
+\contentsline {section}{\numberline {5.4}Background Modeling}{135}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}VBS $m_{jj}$ Modelling}{136}{subsection.5.4.1}
+\contentsline {section}{\numberline {5.5}Statistical Interpretation}{139}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Fitting}{140}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Results}{140}{subsection.5.5.2}
+\contentsline {chapter}{\numberline {6}Upgrade on the ATLAS Calorimeter Trigger}{151}{chapter.6}
+\contentsline {section}{\numberline {6.1}LHC Run~3 Upgrade}{152}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hardware of the Run~3 ATLAS Calorimeter Trigger}{154}{section.6.2}
+\contentsline {section}{\numberline {6.3}Simulation Software of the Run~3 ATLAS Calorimeter Trigger}{163}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Tower Identification}{164}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}j/gTower Matching and Construction}{167}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Event Data Model for j/gTowers}{168}{subsection.6.3.3}
+\contentsline {chapter}{Bibliography}{173}{chapter*.122}

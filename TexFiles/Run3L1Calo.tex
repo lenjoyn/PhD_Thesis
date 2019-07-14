@@ -179,8 +179,8 @@ The general simulation procedure was already introduced in Sec.~\ref{sec:simulat
 	\item Supercell $\&$ Tower matching: as the j/gTowers are constructed from the supercells, this is to pair the j/gTowers with the supercells inside the defined windows.
 	\item Construction of Towers: this is performed event by event to collect the energy deposits from supercells into the j/gTowers
 	\item Event Data Model: this is the format to store the reconstructed objects in the output file including both the hardware level (like tracks, energy cluster, or trigger towers) and physical objects. As new j/gTowers are new objects in the Run~3, an event data model is created to store them.
-	\item Physical Object Reconstruction: the trigger towers are taken into the phyiscal object reconstruction. By now, the baseline electrons from eFex, and small-R jets and $E^{miss}_{T}$ from jFex are already implemented, while the tau reconstruction and gFex objects are still under study. 
-	\item Integration: the last step is to integrate the simulation into the ATLAS simulation chain, $reco\_tf$, with which the output samples contain all the objects for physics studies with trigger objects. 
+	\item Physical Object Reconstruction: the trigger towers are taken into the phyiscal object reconstruction. By now, the baseline electrons from eFex, and small-R jets and $E^{miss}_{T}$ from jFex are already implemented, while the tau reconstruction and gFex objects are still under study. This discussion will be in the next section. 
+	\item Integration: the last step is to integrate the simulation into the ATLAS simulation chain, $reco\_tf$\cite{Stewart:2014ida}, with which the output samples contain all the objects for physics studies with trigger objects. 
 \end{itemize}
 \noindent
 This simulation is under the ATLAS official software, Athena, which is a Gaudi-based system\cite{Mato:2010zz}. All the simulation components are c++ based scripts, and the they are converted into python components (functions) under this framework. The simulation parameters are then parsed by joboption scripts which is in the format of python. 
@@ -236,7 +236,7 @@ m_full_layer_range = m_dict
                  ->build_multirange(reg_id,"Reg_Lvl1" ,prefix);
 \end{lstlisting}
 \noindent
-This function is to make the new jTower and gTower identifiers as the extension of the Run~2 trigger towers, so both the Run~2 and Run~3 trigger tower systems could run in parallel. After the identifiers are cached, the users could then access the tower information via the detector store gate (DetStore)\cite{Calafiura:2003gf} in the Athena framework. 
+This function is to make the new jTower and gTower identifiers as the extension of the Run~2 trigger towers, so both the Run~2 and Run~3 trigger tower systems could run in parallel. After the identifiers are cached, the users could then access the tower information via the detector StoreGate (DetStore)\cite{Calafiura:2003gf} in the Athena framework. 
 
 \subsection{j/gTower Matching and Construction}
 The tower definition is then taken to build up the windows on the calorimeter for which the locations are fixed. The following snippet is to show how the windows are defined in the software:
@@ -279,4 +279,54 @@ if(fabs(fabs(dde->eta_raw())-1.4)<0.001 && m_scid->region(scid) == 0
 \\
 \\After both towers and supercells are defined, the matching is performed by verifying whether the supercells are inside the tower windows. If they are matched, the supercell indices are serialized into a vector as one auxiliary parameter of the towers. Then, the energy of towers is evaluated by simply summing over all the supercells inside the tower window.
 \subsection{Event Data Model for j/gTowers}
-The ATLAS event data model\cite{Buckley:2015tjh} (EDM) is constructed to handle the complexity of physical and detector objects. Each object like electrons, jets, or trigger towers, has one dedicated event data model which is called container. For the new Run~3 towers, the Run~2 trigger tower container could not meet all the requirements for the storage of new variables, so a new container is created for the j/gTowers. 
+The ATLAS event data model\cite{Buckley:2015tjh} (EDM) is constructed to store and handle the variables from physical and detector objects. Each type of objects like electrons, jets, or trigger towers, has one dedicated event data model which is called container. For the new Run~3 towers, the Run~2 trigger tower container could not meet all the requirements to store new variables, so a new container is created for the j/gTowers.
+\\
+\\The ATLAS EDM is based on C++ with the feature of data arrays, and the scheme is shown in Fig.~\ref{Fig:edm}. The objects are stored in the data vector with an auxiliary store for the object variables. The content could accessed by a dedicated interface which defines how to dump the object information into the cache for storage, and the output would the simple persistent data in the storage of ROOT format converted from the transient data (the cache) via the StoreGate\cite{Calafiura:2003gf}. The interface could be also used in the opposite way to read the content from the containers.  
+\begin{figure}[!h]                
+	\includegraphics[width=0.75\textwidth]{Chapter6/EDM.png}
+	\begin{center}
+		\caption{The illustration of the ATLAS EDM scheme for the auxiliary store\cite{Buckley:2015tjh}.}
+		\label{Fig:edm}            
+	\end{center}
+\end{figure}
+\noindent
+\\The new container design is following the same structure as the Run~2 trigger tower contain, and the scheme is skimmed to remove the redundant variables. Those variables are used for the LAr detector readout calibration like the bunch crossing index and the information about the pulse peak which are now processed in the supercell construction. As the j/gTowers are now constructed from the supercells, the indices of supercells inside the towers are now also added into the container for the potential use of pulse shape inside the towers. 
+\subsection{Simulation Chain Integration}
+For the study on performance for the physics studies, both of the trigger-level and offline objects are essential to understand the effect from the cut on trigger on the results like the study in Sec.~\ref{Subsec:Trigger_resonance}. Therefore, to prepare the proper sample, the full simulation chain should be performed to all the elements for the trigger performance, and the Run~2 trigger objects are also included for the comparison of the two systems. 
+\\
+\\The simulation is handled by the $reco\_tf$ function built in the Athena framework which is present in the scheme in Fig.~\ref{Fig:reco_tf}. It is in the form as a python script which calls all the default reconstructions within the Athena framework using the configurations corresponding to the Athena version (which is called ``release'' in the term in the ATLAS collaboration). The most important feature in the framework is in the middle block where multiple steps of the reconstruction could be executed sequentially by taking the output file from the last step as a new input. This means although the simulation is complicated as shown in Sec.\ref{sec:simulation}, it could still be completed with a simple command. The other feature of the system is that the completed jobs would send the metadata information like the processed event number, total event weight, or the files from each simulation step, to the ATLAS Metadata Interface (AMI). It also has the feature to add in new algorithms which is not yet implemented by the subcommands, preExec and postExec. The execution order is shown in Fig.~\ref{Fig:exeOrder} where the execute() is to run the default algorithms. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.70\textwidth]{Chapter6/reco_tf.png}
+	\begin{center}
+		\caption{The illustration of the ATLAS simulation flow run by $reco\_tf$ with the Athena framework\cite{Stewart:2014ida}.}
+		\label{Fig:reco_tf}            
+	\end{center}
+\end{figure}
+\begin{figure}[!h]                
+	\includegraphics[width=0.85\textwidth]{Chapter6/exeOrder.png}
+	\begin{center}
+		\caption{The execution order of $reco\_tf$ with its subcommands\cite{Stewart:2014ida}.}
+		\label{Fig:exeOrder}            
+	\end{center}
+\end{figure}
+\\
+\\As the new Run~3 L1Calo simulation is a new component, it is added into the execution with the commands as shown below:
+\begin{lstlisting}{listing only}
+Reco_tf.py \
+--preExec \
+  "from TrigT1CaloFexSim.L1SimulationControlFlags 
+                   import L1Phase1SimFlags as simflags;\ 
+  simflags.CTP.RunCTPEmulation=False; \
+  simflags.Calo.QualBitMask=0x40; \
+  simflags.Calo.SCellType=\"Pulse\";
+  simflags.Calo.ApplySCQual=True" \
+--postInclude \
+  "default:PyJobTransforms/UseFrontier.py" \
+  "TrigT1CaloFexSim/createL1SimulationSequence.py" \
+  "LArROD/LArConfigureCablingSCFolder.py" \
+--postExec \
+ "StreamAOD.ItemList+=["xAOD::JGTowerContainer#JTower","xAOD::JGTowerAuxContainer#JTowerAux."]; \  StreamAOD.ItemList+=["xAOD::JGTowerContainer#GTower","xAOD::JGTowerAuxContainer#GTowerAux."]";
+--autoConfiguration="everything" \
+\end{lstlisting}
+\noindent
+\\The preExec is to set up the Run~3 configuration to run the trigger simulation which already has the supercell component, and the postInclude here has the same function as the postExec with the algorithm components inside job option files (in python format). As the new trigger towers are not configured as the default output, they are added by the postExec to dump both the containers and auxiliary containers into the output AOD files. The last subcommand is to set the simulation to run with the default configuration for the detector geometry and database which has the information like the employed high voltage in calorimeter or the threshold to receive the cell energy. 
