@@ -735,7 +735,7 @@
 }
 %% Alias
 \let\frontquote\pagequote
-
+\let\backquote\pagequote
 
 %% A quote on its own page
 \DeclareRobustCommand{\dedication}[1]{%

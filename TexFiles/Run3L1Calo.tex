@@ -13,13 +13,13 @@ After the operation of Run~2 (2015-2018), the LHC is now undergoing the Long Shu
 \end{figure} 
 \noindent
 \\
-\\The major upgrade of this project is that the injector of beams will be replaced by the new LINAC4, and the LINAC2 will just retire from 40~years of operation. The major difference between the LINAC2 and LINAC4 is that the LINAC4 will accelerate negatively charged hydrogen ions ($H^{-1}$), and the electrons will be stripped off in the PSB, which design is intended to concentrate the beams with better stability\cite{LINAC4}. Furthermore, the CERN acceleration complex (Fig.~\ref{Mobs:2197559}) will also upgrade the RF cavities for the energy upgrade. For the LHC itself, the upgrade will take place in the magnet systems for which more than 20 magnets will be replaced, and the new superconductor technology will also be employed with the new magnet material which can afford the even higher magnetic field of $\sim 10~Tesla$ (the original material can only take the magnetic field up to $\sim 9~Tesla$). 
+\\The major upgrade of this project is that the injector of beams will be replaced by the new LINAC4, and the LINAC2 will just retire from 40~years of operation. The major difference between the LINAC2 and LINAC4 is that the LINAC4 will accelerate negatively charged hydrogen ions ($H^{-1}$), and the electrons will be stripped off in the PSB, which design is intended to concentrate the beams with better stability\cite{LINAC4}. Furthermore, the CERN acceleration complex (Fig.~\ref{Fig:boost}) will also upgrade the RF cavities for the energy upgrade. For the LHC itself, the upgrade will take place in the magnet systems for which more than 20 magnets will be replaced, and the new superconductor technology will also be employed with the new magnet material which can afford the even higher magnetic field of $\sim 10~T$ (the original material can only take the magnetic field up to $\sim 9~T$). 
 \\
 \\This upgrade project is aiming to refine the present physics results. Firstly, the Higgs boson properties like the couplings to other particles or themselves could be measured with better precision to verify the SM predictions. Secondly, most of the SM interactions have the cross-sections as a function of the collision centre-of-mass energy, and the new operation energy could provide another measurement points. Thirdly, the increase of collected data will benefit the new physics search giving a better separation on the test statistics between hypotheses, and this will enhance the sensitivity to the hidden particles. \cite{Atlas:2019qfx} has summarized all the studies for expected results with the Run~3 LHC data.
 \section{Hardware of the Run~3 ATLAS Calorimeter Trigger}
 To incorporate the upcoming LHC upgrades, the ATLAS hardware calorimeter trigger system is scheduled to undergo a series of upgrade to cope with the unprecedented luminosity in Run~3, and it will also be remained as part of the Run~4 L0 trigger. The full L1Calo trigger scheme in Run~3 could be seen in Fig.~\ref{Fig:l1calo_scheme}.
 \begin{figure}[!h]                
-	\includegraphics[width=0.9\textwidth]{Chapter6/L1Calo.png}
+	\includegraphics[width=0.93\textwidth]{Chapter6/L1Calo.png}
 	\begin{center}
 		\caption{The L1Calo hardware scheme in the Run~3 operation\cite{Schwienhorst:2016efd}}
 		\label{Fig:l1calo_scheme}            
@@ -36,7 +36,7 @@ It could be noted that the Run~2 system will still remain in the operation for t
 	\item Barrel ($1.52<|\eta|<3.2$): PreSamplerE, EME1, EME2, EME3, HEC
 	\item Barrel ($3.2<|\eta|$): FCAL1, FCAL2, FCAL3
 \end{itemize}
-Although the hadronic endcap calorimeter still has several layers, the system would still just sum their energy deposit as one entity. Due to the detector structure, some of the layers might not have the full extent within the designated region. In terms of the granularity, the middle two layers (EMB1 and EMB2) have the finest one with $0.025\times 0.1$ in the $\Delta\eta\times\Delta\phi$ plane, while it is $0.1\times0.1$ for the front and back layers (Presampler and EMB3) in the barrel region. However, this supercell arrangement is not employed in the full LAr detector, and the granularity gets more coarse when $|\eta|$ increases. In the forward region, the most coarse granularity would degrade to $0.32\times0.4$ for the back layer of the forward detector (this is a rough number, as the forward supercells are in irregular shapes due to the complicated structure geometry in this region). The comparison between supercells and Run2 trigger towers could be seen in Fig.~\ref{Fig:tt_compar}. Different from the Run~2 trigger towers, the layer information will be kept in Run~3 L1Calo system, and the middle two layers of supercells have finer granularity. This indicates the accessibility to isolation variables with more complicated algorithm. The full detail of the granularity and the coverage of each layer could be found in \cite{Aleksa:1602230}.
+Although the hadronic endcap calorimeter still has several layers, the system would still just sum their energy deposit as one entity. Due to the detector structure, some of the layers might not have the full extent within the designated region. In terms of the granularity, the middle two layers (EMB1 and EMB2) have the finest one with $0.025\times 0.1$ in the $\Delta\eta\times\Delta\phi$ plane, while it is $0.1\times0.1$ for the front and back layers (Presampler and EMB3) in the barrel region. However, this supercell arrangement is not employed in the full LAr detector, and the granularity gets more coarse when $|\eta|$ increases. In the forward region, the most coarse granularity would degrade to $0.32\times0.4$ for the back layer of the forward detector (this is a rough number, as the forward supercells are in irregular shapes due to the complicated structure geometry in this region). The comparison between supercells and Run2 trigger towers could be seen in Fig.~\ref{Fig:tt_compar}. Different from the Run~2 trigger towers, the layer information will be kept in Run~3 L1Calo system, and the middle two layers of supercells have finer granularity. This indicates the accessibility to isolation variables with more complicated algorithm. The full detail of the granularity and the coverage of each layer could be found in \cite{Aleksa:1602230}. This is the key upgrade for the new L1Calo system. In the Run~2 operation, the single electron trigger has taken around $30\%$ of the total output bandwidth, and this limits the bandwidth budget for the other signatures like jets or taus. Therefore, the eFex upgrade is aiming to make better suppression on the background and keeping the same efficiency for physical signal like $Z\to ee$. 
 \begin{figure}[!h]                
 	\includegraphics[width=0.35\textwidth]{Chapter6/Run2TT.pdf}
 	\includegraphics[width=0.62\textwidth]{Chapter6/Supercell.png}
@@ -79,7 +79,7 @@ Under this case, the new $E_{T}$ measured from Eq.~\ref{Eq:get_tau} is to recove
 \end{figure}
 \noindent
 \\
-\\The other correction on the supercells is the ``pedestal correction''. When the LAr cells start to the receive the energy from a bunch train, the cell would deliver strong noise during the first few bunches ($\sim 20$ bunches), and it leads to a high trigger rate beyond the trigger rate budget. The pedestal correction is applied to mitigate the effect by reducing the energy count from the ADC. Fig.~\ref{Fig:pc} is showing the pedestal correction used in the Run~2 operation, while its optimization for Run~3 is still ongoing. Therefore, in the following studies, the first 20 bunches of a bunch train are vetoed in the event selection to remove this noise source. The average noise response (the energy deposit from $pp\to jj$ for which the two jets are with $E_{T}<20~GeV$) for each layer in the Run~3 simulated environment ($\mu\sim80$) could be seen Fig.~\ref{Fig:sc_noise}, and the noise would increase with $|\eta|$ due to the fact that the supercells are larger in the high $|\eta|$ region.
+\\The other correction on the supercells is the ``pedestal correction''. When the LAr cells start to receive the energy from a bunch train, the cell would deliver strong noise during the first few bunches ($\sim 20$ bunches), and it leads to a high trigger rate beyond the trigger rate budget. The pedestal correction is applied to mitigate the effect by reducing the energy count from the ADC. Fig.~\ref{Fig:pc} is showing the pedestal correction used in the Run~2 operation, while its optimization for Run~3 is still ongoing. Therefore, in the following studies, the first 20 bunches of a bunch train are vetoed in the event selection to remove this noise source. The average noise response (the energy deposit from $pp\to jj$ for which the two jets are with $E_{T}<20~GeV$ at truth level) for each layer in the Run~3 simulated environment ($\mu\sim80$) could be seen Fig.~\ref{Fig:sc_noise}, and the noise would increase with $|\eta|$ due to the fact that the supercells are larger in the high $|\eta|$ region.
 \begin{figure}[!h]                
   	\includegraphics[width=0.6\textwidth]{Chapter6/pedestalCorr.png}
   	\begin{center}
@@ -94,7 +94,7 @@ Under this case, the new $E_{T}$ measured from Eq.~\ref{Eq:get_tau} is to recove
 \end{figure}
 \noindent
 \\
-\\The calibrated supercells are taken as the input for eFex, and they are reconstructed into electrons/photons, and taus with the coverage of $|\eta|$ up to 2.5. It should be noted that in the hardware trigger level, electrons and photons are reconstructed into the same objects for no track information. The reconstruction is performed from seed-finding in the EMB2 layer with the finest granularity and greatest depth. The energy of tTowers behind the ROI are then added into the reconstruction object in EM layers. With the upgraded system, the algorithms could have more flexibility to explore different cluster shapes and also the isolation variables. Further details will be discussed later. 
+\\The calibrated supercells are taken as the input for eFex, and they are reconstructed into electrons/photons, and taus with the coverage of $|\eta|$ up to 2.5 (For physics analysis, this is also the $|\eta|$ range for offline electrons due to the coverage of inner detector). It should be noted that in the hardware trigger level, electrons and photons are reconstructed into the same objects for no track information. The reconstruction is performed from seed-finding in the EMB2 layer with the finest granularity and greatest depth. The energy of tTowers behind the ROI are then added into the reconstruction object in EM layers. With the upgraded system, the algorithms could have more flexibility to explore different cluster shapes and also the isolation variables. Further details will be discussed later. 
 \\
 \\{\bf jFex and jTower}
 \\
@@ -121,11 +121,11 @@ Under this case, the new $E_{T}$ measured from Eq.~\ref{Eq:get_tau} is to recove
 
 The construction of the jTowers are firstly performed by defining the static windows for the jTowers sizes and locations. Then, those windows are simply matched to the supercells whose energy is summed over to build the $E_{T}$ of jTowers. No additional selection of supercells is applied. However, for the forward region, this construction can't work because of the irregular shape of supercells, and one supercell might be overlapped with two other supercells in a back layer. In this case, all the supercells are taken as jTowers directly, so the layer information would still be kept. For the input from the tile detector, the tTowers are processed into independent jTowers in the jFex, so there would be two trigger towers at the same location corresponding to EM and hadronic layers. 
 \\
-\\When the jFex is processing the jTowers, it is performed is eight FPGA modules which receive data from each $\phi$-octant respectively covering the full $\eta$ range ($0<|\eta|<4.9$) from the barrel to forward region, and the jTower data is duplicated to the neighbouring FPGAs\cite{Aad:1602235}. This is to properly reconstruct the physical objects (jets or large tau) at the transition region between FPGAs. The final outputs of the jFex are taus with larger ROI, jets, $E^{miss}_{T}$, and the transverse energy scalar sum ($H_{T}$). Different from the Run~2 system, the new system could afford more computing-expensive algorithms for the event-by-event pile-up mitigation.
+\\When the jFex is processing the jTowers, it is performed in eight FPGA modules which receive data from each $\phi$-octant respectively covering the full $\eta$ range ($0<|\eta|<4.9$) from the barrel to forward region, and the jTower data is duplicated to the neighbouring FPGAs\cite{Aad:1602235}. This is to properly reconstruct the physical objects (jets or large tau) at the transition region between FPGAs. The final outputs of the jFex are taus with larger ROI, small-R jets ($R=0.45$), $E^{miss}_{T}$, and the transverse energy scalar sum ($H_{T}$). Different from the Run~2 system, the new system could afford more computing-expensive algorithms for the event-by-event pile-up mitigation. 
 \\
 \\{\bf gFex and gTower}
 \\
-\\The gTowers have similar properties as the jTowers, but they are given a even more coarse granularity of $0.2\times0.2$ without the layer information. Furthermore, not like the jTowers constructed from individual supercells in the forward region, the forward layers of supercells are still summer over to construct the jTowers by defining static windows which collect the supercells with their electrodes inside the region. Tab.~\ref{Tab:granularity_gT} is presenting the gTower granularity in the barrel and endcap regions, while the forward region has the $|\eta|$ binning as:
+\\The gTowers have similar properties as the jTowers, but they are given a even more coarse granularity of $0.2\times0.2$ without the layer information. Furthermore, not like the jTowers constructed from individual supercells in the forward region, the forward layers of supercells are still summed over to construct the jTowers by defining static windows which collect the supercells with their electrodes inside the region. Tab.~\ref{Tab:granularity_gT} is presenting the gTower granularity in the barrel and endcap regions, while the forward region has the $|\eta|$ binning as:
 \begin{equation}
 |\eta| = \left[3.2, 3.5, 4.0, 4.45, 4.9\right]
 \end{equation}
@@ -153,7 +153,7 @@ with equal $\Delta\phi$ as 0.2.
 \end{table}
 \noindent
 \\
-\\With the coarse granularity, there would be less input channels to the gFex, so it can afford some more complicated algorithms and increase the region of interest, which is one of the motivation to have the gFex in the Run~3. In the Run~2, the JEM can only handle the ROI for a narrow jet ($R\sim 0.45$), and it is too small for a large-R jet which is an important signature for a wide range of physics analyses. The comparison of the Run~2 and Run~2 trigger level jets could be seen in Fig.~\ref{Fig:ZPrimett}, and the new system could extend the jet reconstruction to contain all the energy deposit for the decays of two close-by hadrons. The other advantage of gFex is that it could allow to have more complicated algorithms than the jFex for the pile-up subtraction. From this view of point, the gFex could be taken as the jFex in the sacrifice of trigger tower position resolution for a more complicated reconstruction of physical objects. 
+\\With the coarse granularity, there would be less input channels to the gFex, so it can afford some more complicated algorithms and increase the region of interest, which is one of the motivations to have the gFex in the Run~3. In the Run~2, the JEP can only handle the ROI for a narrow jet ($R\sim 0.45$), and it is too small for a large-R jet which is an important signature for a wide range of physics analyses. The comparison of the Run~2 and Run~2 trigger level jets could be seen in Fig.~\ref{Fig:ZPrimett}, and the new system could extend the jet reconstruction to contain all the energy deposit for the decays of two close-by hadrons. The other advantage of gFex is that it could allow to have more complicated algorithms than the jFex for the pile-up subtraction. 
 \begin{figure}[!h]                
 	\includegraphics[width=0.75\textwidth]{Chapter6/TrigJetRange.png}
 	\begin{center}
@@ -329,4 +329,139 @@ Reco_tf.py \
 --autoConfiguration="everything" \
 \end{lstlisting}
 \noindent
-\\The preExec is to set up the Run~3 configuration to run the trigger simulation which already has the supercell component, and the postInclude here has the same function as the postExec with the algorithm components inside job option files (in python format). As the new trigger towers are not configured as the default output, they are added by the postExec to dump both the containers and auxiliary containers into the output AOD files. The last subcommand is to set the simulation to run with the default configuration for the detector geometry and database which has the information like the employed high voltage in calorimeter or the threshold to receive the cell energy. 
+\\The preExec is to set up the Run~3 configuration to run the trigger simulation which already has the supercell component, and the postInclude here has the same function as the postExec with the algorithm components inside job option files (in python format) which is to run the Run~3 trigger simulation. As the new trigger towers are not configured as the default output, they are added by the postExec to dump both the containers and auxiliary containers into the output AOD files. The last subcommand is to set the simulation to run with the default configuration for the detector geometry and database which has the information like the employed high voltage in calorimeter or the threshold to receive the cell energy. 
+\section{Run~3 L1Calo Performance}
+The output trigger towers are then taken into the physical object reconstructions. This study is to follow the Run~2-like algorithms to verify the performance, which will be taken as the baseline reconstruction in the firmware. In the study here, three objects will be discussed, which are electrons, small-R jets, and $E^{miss}_{T}$, and a deeper insight will be given for $E^{miss}_{T}$ reconstruction for which I had a through study on the threshold and performance. 
+\\
+\\The reconstruction of hardware level objects has more constraints than the offline ones. Firstly, the processing of each event must be within the available latency, so a computing-expensive algorithms is not allowed like a machine learning reconstruction with a large-scale structure. Secondly, the hardware limit should also be considered like the communicating between the readout channels which is rather important for the gFex algorithms, as the three FPGAs don't share the signal between each other. Thirdly, the L1Calo objects should still be consistent to the the HLT and offline objects, because the they are taken as the seeds for the HLT reconstruction and required to be matched to offline objects. 
+\\
+\\To investigate the performance of algorithms, two parameters are studied: trigger rate and signal efficiency. The trigger rate is estimated from a minimum bias sample with the luminosity corresponding to the pile-up number as 80 per bunch crossing ($\mu=80$) and $\sqrt{s}=14~TeV$, and it is defined as the following:
+\begin{equation}
+Rate = 40M\times C\times\frac{N^{pass}}{N^{all}}
+\end{equation} 
+The forty million is corresponding to the collision rate of the LHC, but it needs a further correction from C, as not all LHC bunches are filled. The total rate is then given by the corrected rate multiplied by the ratio of events passing the trigger requirement. Each L1Calo item (the objects with corresponding thresholds) should meet their trigger rate budgets in the technical design report which are presented in Tab.~\ref{Tab:trig_rate}. For the trigger efficiency, what is concerned most is the offline threshold giving the efficiency plateau in the turn-of curves instead of the overall efficiency, and a proper algorithm should make a sharp turn-on to the plateau.  
+\begin{table}[h]
+	\caption{The trigger rate budget for the L1Calo items (not all of them)}
+	\renewcommand{\arraystretch}{1.3}
+	\centering
+	\begin{tabular}{| c | c | c | c | }
+		\hline
+		\hline
+		Object           &    L1 threshold~[GeV]    &   offline threshold~[GeV] & Rate~[kHz]   \\
+		\hline
+		electron/photo   &     25                   &   32                      & 14          \\
+		\hline
+		jet              &     100                 & 200                        &  7        \\
+		\hline
+		$E^{miss}_{T}$   &     70                  & 200                      &  13                       \\
+		\hline
+		\hline
+	\end{tabular}
+	\label{Tab:trig_rate}
+\end{table}
+\subsection{Electron/photon}
+Due to the lack of the track information, the photons and electrons (egamma) are reconstructed from the calorimeter energy deposits into the same object at L1Calo level. With respect to the other signatures, the energy deposit from the egamma  showers is relatively narrow, so the region of interest is defined as a small windonw of the size, $3\times2$, on the $\eta-\phi$ plane (as the green area shown in Fig.~\ref{Fig:ele_iso} corresponding to $0.075\times0.2$ for $\Delta\eta\times\Delta\phi$) with the centre cell as a local maximum inside a three by three window. Its energy is given by the summation of energy over all the sampling layer inside this region of both the LAr and tile detectors. However, the electrons are easily faked by the hadronic objects as discussed in Sec.~\ref{sec:multijet_background}, and a simple cut on energy threshold is not enough to reduce the rate from background easily. In this case, the shower shape of the energy distribution is taken from three variables for a further reduction:
+\begin{itemize}
+	\item $R_\eta=1-E_{T}^{3\times2}/E_{T}^{7\times3}$: this variable is defined as as the ratio of energy in green over yellow area in Fig.~\ref{Fig:ele_iso} to ensure the egamma is well-isolated. 
+	\item $R_{had} = E^{Had}_{T}/E^{tot}_{T}$: this is the hadronic energy ratio defined in the blue framed region in Fig.~\ref{Fig:ele_iso}, and it helps to reduce the contamination from the hadronic objects, as they would deposit more energy in the hadronic layers.
+	\item $w_{tot}=\sqrt{\sum_i E^{SC_i}_{T}\times(\eta^{SC_i}-\eta^{SC_{max}})^2/\sum E^{SC_i}_{T}}$: this is to defined the shower distribution within the red framed region in Fig.~\ref{Fig:ele_iso}. 
+\end{itemize}
+The final cuts on the three variables are employed with the energy threshold of 20~GeV for the same rate for Run~2 egamma trigger:
+\begin{itemize}
+	\item $R_\eta<0.12$
+	\item $R_{had}<0.16$
+	\item $w_{tot}<0.02$
+\end{itemize}
+
+\begin{figure}[!h]                
+	\includegraphics[width=0.4\textwidth]{Chapter6/ele_iso.png}
+	\begin{center}
+		\caption{The diagram to illustrate the electron/photon ROI with the areas for the isolation definition.}
+		\label{Fig:ele_iso}            
+	\end{center}
+\end{figure}
+\noindent
+A sample of $Z\to ee$ simulated by Sherpa generator is taken To verify the signal efficiency, . The results are presented in Fig.~\ref{Fig:ele_perf}. The turn-on curves as a function of the leading truth electron $E_T$ with an event-veto of truth electrons in the transition region of $1.37<|\eta|<1.52$ are made from two L1Calo electron $E_{T}$ cuts: 20~$GeV$ giving the same L1Calo rate ($\sim30~kHz$), and 28~$GeV$ giving the same offline plateau as the Run~2 configuration with $1/3$ of the Run~2 single electron trigger rate. The improvement could be seen in comparison to the Run~2 single electron trigger for higher efficiency and sharper turn-on to the efficiency plateau. The signal efficiency could also be seen independent on $|\eta|$ except for the low acceptance in the transition region. This has outperformed the expected performance in the proposed design report. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.45\textwidth]{Chapter6/ele_turnon.png}
+	\includegraphics[width=0.45\textwidth]{Chapter6/ele_eta.png}
+	\begin{center}
+		\caption{The signal efficiency as a function of truth electron $E_{T}$ (left) and $\eta$ (right)}
+		\label{Fig:ele_perf}            
+	\end{center}
+\end{figure}
+\subsection{Small-R Jets}
+The small-R jets are reconstructed from a sliding window algorithm (SLW). Firstly,  the jet seed finding was performed by a $3\times3$ window ($0.3\times0.3$) which went through the jTowers in the LAr detector. The seed is then built if the centre tower is a local maximum, and the energy sum within the window is above $4~GeV$ and also higher than the surrounding region. Then, the jets is constructed as the region of interest defined as $R=0.45$ from the central tower with the energy summed over both LAr and tile detector sampling layers. It should be noted that the L1Calo jets has a different radius from the offline and HLT ones which have the radius of $R=0.4$, because the number of included towers should be an integer with the centre in a chosen tower. The construction steps are presented in Fig.~\ref{Fig:jet_reco} which is also showing another potential algorithm for which the jets are reconstructed from a $9\times9$ square region of interest. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.8\textwidth]{Chapter6/jet_reco.png}
+	\begin{center}
+		\caption{The illustration of how the L1Calo jets are reconstructed.}
+		\label{Fig:jet_reco}            
+	\end{center}
+\end{figure}
+\noindent
+\\
+\\For the jet triggers, two L1Calo items are proposed, a single jet trigger and a three-jet trigger. Both of the triggers are studied with the signal sample of $ZH\to\nu\nu bb$ simulated by Sherpa under the collision environment of $\mu=60$. Although the sample has only two jets from the physical process, the third jet might still be added by the pile-up simulation, so it can also be used for the three-jet trigger study. The performance of these two triggers could be seen in Fig.~\ref{Fig:jet_perf} as turn-on curves of the offline first (for the single-jet trigger) and third (for the three-jet trigger) leading jet $E_{T}$ with the jet $E_{T}$ cuts giving the same trigger rate as Run~2 items. For the single jet trigger (threshold is set at 97~GeV), the simple algorithm of SLW has similar performance to the Run~2 trigger jets and also the anti-$k_{T}$ trigger jets which take the jTowers as entities for anti-$k_T$ algorithm (this algorithm might be too complicated for the hardware based trigger, so it is only used here for the comparison) under the same trigger rate. In terms of the three jet trigger (threshold is set at 26~GeV for the third leading jet), the turn-on curves from the Run~3 jets (both SLW and anti-$k_{T}$) outperform the Run~2 jets for a sharp turn-on and also better efficiency at the turn-on plateau. This is due to the improved granularity from the $0.1\times0.1$ jTowers with respect to the Run~2 JEP towers of $0.2\times0.2$, which helps to resolve jets in the high pile-up environment. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.48\textwidth]{Chapter6/perf_1jet.png}
+	\includegraphics[width=0.48\textwidth]{Chapter6/perf_3jets.png}
+	\begin{center}
+		\caption{The trigger performance for single-jet (left) and three-jet (right) triggers as turn-on curves as functions of offline jet $E_{T}$}
+		\label{Fig:jet_perf}            
+	\end{center}
+\end{figure}
+\subsection{Missing Transverse Energy}
+The missing transverse energy, $E^{miss}_{T}$, is constructed as the vector sum of the jTowers in the jFex, and the same algorithm proposed here will also be potentially implemented with gTowers which will need further optimization. However, most of the energy deposits in the calorimeter are from the pile-ups or electronic noise, so a proper selection on the towers is essential. However, with broadly ranged granularity, a constant threshold is not appropriate, so a tower-dependent threshold scheme is applied. For this purpose, the minimum bias sample is used to understand the noise behaviour in the jTowers. The first step is to get the $E_{T}$ histograms for each jTower and take the root mean square (RMS, $1\sigma$) from this histograms, which will be set as the unit of thresholds on jTowers. Then, the optimization is performed by finding the working point which gives the highest signal efficiency (the same signal sample for jet trigger study) with the trigger rate at $5~kHz$ as the Run~2 $E^{miss}_{T}$ trigger. The working point scan is performed on a three-dimension space constructed by the thresholds on LAr (EM) and tile (Hadronic) sampling layers with one more dimension which levels up the thresholds in the forward region. Fig.~\ref{Fig:thresold_scan_1} is presenting the result of signal efficiency at the trigger rate of $5~kHz$ with the scanning step of $0.5\sigma$ for both LAr and tile towers and $0.5\sigma$ higher threshold in the forward region. After this process, the scheme of thresholds shown in Tab.~\ref{Tab:cuts_met} is chosen to reconstruct the jFex $E^{miss}_{T}$.
+\begin{table}[h]
+	\caption{jTower thresholds for the $E^{miss}_{T}$ reconstruction}
+	\renewcommand{\arraystretch}{1.3}
+	\centering
+	\begin{tabular}{| c | c | c | c | c |  }
+		\hline
+		\hline
+		LAr             &    Tile         &     Forward       & Efficiency & Threshold   \\
+		\hline
+		$>5\sigma$       &    $>5.5\sigma$  &     $>5.5\sigma$   &  $21.62\%$  &  57~GeV  \\
+		\hline
+	\end{tabular}
+	\label{Tab:cuts_met}
+\end{table}
+\begin{figure}[!h]                
+	\includegraphics[width=0.48\textwidth]{Chapter6/efficiency_5kHz_cfg1.png}
+		\begin{center}
+		\caption{The signal efficiency with the trigger rate at $5~kHz$ as a function of thresholds on the LAr (x-axis) and tile (y-axis) $E_{T}$ which are in the unit of $\sigma$. The forward region has the threshold for $0.5\sigma$ higher.}
+		\label{Fig:thresold_scan_1}            
+	\end{center}
+\end{figure}
+\noindent
+\\
+\\To verify the performance for the physics analysis, the $ZH\to\nu\nu bb$ sample is still used. The first verification is for the energy and spatial resolutions with respect to the truth $E^{miss}_{T}$ which are defined as:
+\begin{equation}
+Res_{E_{T}} = \frac{E^{jFex}_{T}-E^{truth}_{T}}{E^{truth}_{T}} \\
+Res_{\phi} = \Delta\phi(E^{jFex}_{T}, E^{truth}_{T})
+\end{equation}
+The results could be seen Fig.~\ref{Fig:res_met} with the other thresholds which also give high efficiency with trigger rate at $5~kHz$, and they are showing great agreement to the Run~2 L1Calo $E^{miss}_{T}$. However, when making the trigger rate comparison to data, a significant inconsistency was found as shown Fig.~\ref{Fig:rate_datamc}. For this case, the Run~2 simulated L1Calo $E^{miss}_{T}$ cannot be used for a proper comparison due to some unknown modelling issue, and, instead, a dataset collected in 2017 with an offline selection of $Z\to\mu\mu$ is used, as muons are invisible for the L1Calo system and make the contribution to L1 $E^{miss}_{T}$. The result is shown in Fig.~\ref{Fig:perf_met}, and a great agreement is observed because of the similar algorithm and the same tower granularity. This is now already taken as the baseline jFex $E^{miss}_{T}$, while the other pile-up dependent algorithms are still under investigation for both jFex and gFex. 
+\begin{figure}[!h]                
+	\includegraphics[width=0.42\textwidth]{Chapter6/res_et.png}
+	\includegraphics[width=0.42\textwidth]{Chapter6/res_phi.png}
+	\begin{center}
+		\caption{The energy (left) and spatial resolution of the reconstructed jFex $E^{miss}_{T}$ in comparison to the simulated Run~2 L1Calo $E^{miss}_{T}$}
+		\label{Fig:res_met}            
+	\end{center}
+\end{figure}
+\begin{figure}[!h]                
+	\includegraphics[width=0.45\textwidth]{Chapter6/rate_datamc.png}
+	\begin{center}
+		\caption{The rate comparison of data and simulated $E^{miss}_{miss}$}
+		\label{Fig:rate_datamc}            
+	\end{center}
+\end{figure}
+\begin{figure}[!h]                
+	\includegraphics[width=0.57\textwidth]{Chapter6/perf_met.png}
+	\begin{center}
+		\caption{The efficiency turn-on curves as a function of truth $E^{miss}_{miss}$ for data and simulated jFex L1Calo $E^{miss}_{miss}$}
+		\label{Fig:perf_met}            
+	\end{center}
+\end{figure}
+\section{Summary}
+The Run~3 L1Calo upgrade plays an important role for the imminent LHC operation to provide the better background suppression and similar signal efficiency with respect to Run~2 under the environment of abundant pile-ups. The new hardware provides a better granularity and a longer latency for the object reconstruction, and it also grants the flexibility to capture some exotic signatures like the long-lived particles. To make the best use of the new hardware calorimeter trigger system, several algorithms for object reconstruction have been tested with the newly integrated trigger tower simulation under the ATLAS software framework, Athena. The preliminary study has shown promising results, and the samples with the new L1Calo physical objects are also under production to prepare for the Run~3 trigger menu. 
