@@ -337,10 +337,28 @@ Daniel Stump, Joey Huston, Jon Pumplin, Wu-Ki Tung, H.~L. Lai, Steve Kuhlmann,
   new physics}.
 \newblock {\em JHEP}, 10:046, 2003.
 
+\bibitem{Czakon:2013goa}
+Michal Czakon, Paul Fiedler, and Alexander Mitov.
+\newblock {The total top quark pair production cross-section at hadron
+  colliders through O($alpha_S^4$)}.
+\newblock 2013.
+
 \bibitem{Lai:2010vv}
 Hung-Liang Lai, Marco Guzzi, Joey Huston, Zhao Li, Pavel~M. Nadolsky, et~al.
 \newblock {New parton distributions for collider physics}.
 \newblock {\em Phys.Rev.}, D82:074024, 2010.
+
+\bibitem{Kidonakis:2011wy}
+Nikolaos Kidonakis.
+\newblock {Next-to-next-to-leading-order collinear and soft gluon corrections
+  for t-channel single top quark production}.
+\newblock {\em Phys. Rev.}, D83:091503, 2011.
+
+\bibitem{Kidonakis:2010ux}
+Nikolaos Kidonakis.
+\newblock {Two-loop soft anomalous dimensions for single top quark associated
+  production with a W- or H-}.
+\newblock {\em Phys. Rev.}, D82:054018, 2010.
 
 \bibitem{Alwall:2014hca}
 J.~Alwall, R.~Frederix, S.~Frixione, V.~Hirschi, F.~Maltoni, O.~Mattelaer,

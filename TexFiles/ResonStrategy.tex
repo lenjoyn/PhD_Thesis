@@ -92,14 +92,14 @@ where $N_{mc}$ is the total event weight from simulation, and $\epsilon$'s stand
 \\
 \\The events of W/Z+jets are simulated by \textsc{SHERPA} v2.2.1\cite{sherpa22_twiki}, with the PDF configuration of \textsc{NNPDF30NNLO}\cite{Ball:2012cx} as the baseline generator, and the simulation uncertainty is taken by the comparison to other generators detailed in next chapter. With the complicated process of hadronisation including the broad range of jet $p_{T}$ and involved quark flavours, the simulation is done respectively with multiple slices of $max(h_{T}, p_{T}(W/Z))$ ($h_{T}$ is the scalar sum of $p_{T}$ from all jets) and different number of bottom and charm quarks. The involved matrix element for the simulation are up to 2 partons at NLO and 4 partons at LO which is followed by merging into the Sherpa parton shower. The resulting cross section for normalisation is estimated to NNLO of QCD.
 \\
-\\$t\bar{t}$ events are generated through \textsc{Powheg-Box}\cite{Alioli:2010xd} v2 with the matrix element calculation provided by \textsc{CT10 PDF}\cite{Gao:2013xoa} with top quark mass set at $172.5GeV$, and the \textsc{HDAMP} parameters for high $p_{T}$ radiation is set at $1.5m_{t}$. Different from \textsc{SHERPA} as a self-contained generator to do parton shower itself, the simulation from \textsc{Powheg-Box} is then interfaced through \textsc{MadSpin}\cite{Artoisenet:2012st} and \textsc{PYTHIA}8.186 tuned by Perugia 2012 (P2012)\cite{mc11ctunes} and \textsc{CTEQ6L1 PDF}\cite{Stump:2003yu} sets for spin correlation preservation of top quark decays and the following parton shower, fragmentation and underlying events. The renormalisation and factorisation scale of the whole process are determined by $\sqrt{m_{t}^2+p^2_{T}(t)}$. The $t\bar{t}$ cross section used for normalisation is calculated using \textsc{TOP++} 2.0 with the precision up to NNLO in QCD. To take in the contribution from soft gluon terms, a re-summation with next-to-next-to-leading logarithmic (NNLL) is applied to make further correction.  
+\\$t\bar{t}$ events are generated through \textsc{Powheg-Box}\cite{Alioli:2010xd} v2 with the matrix element calculation provided by \textsc{CT10 PDF}\cite{Gao:2013xoa} with the top quark mass set at $172.5GeV$, and the \textsc{HDAMP} parameters for high $p_{T}$ radiation is set at $1.5m_{t}$. Different from \textsc{SHERPA} as a self-contained generator to do parton shower itself, the simulation from \textsc{Powheg-Box} is then interfaced through \textsc{MadSpin}\cite{Artoisenet:2012st} and \textsc{PYTHIA}8.186 tuned by Perugia 2012 (P2012)\cite{mc11ctunes} and \textsc{CTEQ6L1 PDF}\cite{Stump:2003yu} sets for spin correlation preservation of top quark decays and the following parton shower, fragmentation and underlying events. The renormalisation and factorisation scale of the whole process are determined by $\sqrt{m_{t}^2+p^2_{T}(t)}$. The $t\bar{t}$ cross section used for normalisation is calculated using \textsc{TOP++} 2.0\cite{Czakon:2013goa} with the precision up to NNLO in QCD. To take in the contribution from soft gluon terms, a re-summation with next-to-next-to-leading logarithmic (NNLL) is applied to make further correction.  
 \\
 \\Single top events are generated through three processes: s-, t- and Wt-channel productions (Feynman diagrams are presented in Fig. \ref{Fig:singletop}). For the simulation of Wt and s-channels, the same recipe from $t\bar{t}$ generation is adopted, while the t-channel one is through \textsc{Powheg-Box} v1 with fixed four-flavor \textsc{CT10f4 PDF}\cite{Lai:2010vv} set but also followed by the same procedure for decay and parton showering from $t\bar{t}$ generation. The renormalisation and factorisation scales are set respectively for the three channels with:
 \begin{itemize}
 	\item s-channel $\&$ Wt-channel: $m_{t}$
 	\item t-channel 4\times$\sqrt{m_{q}^2+p^2_{T}(q)}$ (q is the quark  associated with the single top quark production)
 \end{itemize}
-, and the cross section for each production is calculated separately with the description in 
+, and the cross section for each production is calculated separately with the description in \cite{Kidonakis:2011wy,Kidonakis:2010ux}
 \begin{figure}[htp]
 	\centering
 	\subfloat[t-channel]{\includegraphics[width=.25\textwidth]{Chapter3/t-channel.png}}\hfill
@@ -136,9 +136,10 @@ The generation of $WW/WZ$ events are also through \textsc{SHERPA} v2.2.1 for the
 	\label{Tab:xs_decaywidth}
 \end{table}
 \noindent
-{\bf Derivation}
 \\
-\\To boost the computing power, the analyses are not operated on AODs directly, and, instead, they will be going through the ``derivation'' procedure composed of ``trimming'' and ``slimming'' to drop down variables and events of no interest first\cite{Borodin:2015wqa}, which outputs the data format called derived AOD (DAOD). For the broad variety of analysis types, a couple of derivation schemes are applied, and the analyese with similar final states share the same derivation scheme. 
+\\{\bf Derivation}
+\\
+\\For practical reasons , the analyses were not run on AODs directly. Instead, they went through the ``derivation'' procedure composed of ``trimming'' and ``slimming'' to drop down variables and events of no interest first\cite{Borodin:2015wqa}, which outputs the data format called derived AOD (DAOD). For the broad variety of analysis types, a couple of derivation schemes are applied, and the analyese with similar final states share the same derivation scheme. 
 \\
 \\With the final state of this analysis, ``HIGG5D2'' is chosen with the derivation scheme as the following:
 \begin{itemize}
@@ -147,13 +148,17 @@ The generation of $WW/WZ$ events are also through \textsc{SHERPA} v2.2.1 for the
   \item jet: two small R jets with $p_{T}>20~GeV$, one  small R jet with $p_{T}>100~GeV$, or one large R jet with $p_{T}>150~GeV$
 \end{itemize}
 \section{Physical Object Definition}
-Because the LHC is using protons as the beam source, it leads to the enormous production of hadronic jets. Within the environment, most of other objects suffered great contamination from jet misidentified as other objects. Therefore, the object definitionn for this anlysis is to keep the signal efficiency and significant suppression of misidentification of the intended objects at the same time. 
+Because the LHC is using protons as the beam source, it leads to the enormous production of hadronic jets. Within the environment, most reconstructed objects have the potential to suffer from great contamination from jet misidentified as other objects. Therefore, the object definitionn for this anlysis is to keep the signal efficiency and significant suppression of misidentification of the intended objects at the same time. 
 \\
 \\{\bf Electron}
 \\
 \\The electrons in this analysis are defined as two types, loose and signal, and each event only has exactly one signal lepton without additional loose one. Signal electrons are required to have $p_{T}$ above $27~GeV$ to reach the trigger efficiency turn-on plateau, and $|\eta|<2.47$ is applied on both electron types within the acceptance of inner detector with the crate region vetoed ($1.37<|\eta|<1.52$). The impact parameter requirement is set to only consider the electrons from the primary vertex. The full selection criteria is shown in Tab. \ref{Tab:eledefin}. 
 \\
-\\In addition to the fundamental quality requirement, the overlap removal is applied afterwards to prevent the objects reconstructed from the same detector signature. When an electron shares inner detector tracks with any muon candidate, the electron is discarded. The existence of a nearby jet defined by $0.2<\Delta R(e,j)<min(0.4,0.04+10/p_{T}(e)[GeV])$ also makes the electron removed. The final requirement on electron is that it shall be consistent with the trigger level electron which fired the required electron trigger to suppress the QCD background. 
+\\In addition to the fundamental quality requirement, the overlap removal is applied afterwards to prevent the objects reconstructed from the same detector signature. When an electron shares inner detector tracks with any muon candidate, the electron is discarded. The existence of a nearby jet defined by:
+\begin{itemize}
+	\item $0.2<\Delta R(e,j)<min(0.4,0.04+10/p_{T}(e)[GeV])$
+\end{itemize}
+also makes the electron removed. The final requirement on electron is that it shall be consistent with the trigger level electron which fired the required electron trigger to suppress the QCD background. 
 \begin{table}[htb]
 	\caption{Selection for electron candidates used in the analysis. Veto and signal electrons are defined.}\label{Tab:eledefin}
 	\centering
@@ -318,7 +323,7 @@ The event selection is conducted to maximize the sensitivity by removing backgro
 \label{Eq:significance}
 \sigma_{sig} = \displaystyle\sum_{i}^{N_{bin}}( \frac{s_i}{s_i+b_i+(\Delta_bi)^2})^2
 \end{equation}
-where $s_i$ and $b_i$ are the signal and background event numbers. The cuts on variables would be varied on signal and background samples simultaneously, and the final criteria is given by the combination of cuts giving the best significance. The signal sample applied in the optimization could be either via the medium state of WW or WZ, as they have similar kinematic properties. However, they are still divided into two subchannels with the definitions for dedicated mass windows.  
+where $s_i$ and $b_i$ are the signal and background event numbers, which is conducted in resolved and merged channels respectively due to different kinematic systems. The cuts on variables would be varied on signal and background samples simultaneously, and the final criteria is given by the combination of cuts giving the best significance. The signal sample applied in the optimization could be either via the medium state of WW or WZ, as they have similar kinematic properties. However, they are still divided into two subchannels with the definitions for dedicated mass windows.  
 \\
 \\Then, the events in this analysis are further categorized by jet topologies and VBF jet selection. In general, the VBF categories could gain better sensitivity than the ggF/DY production ones, and the events with fat jets which are called ``boosted'' events are also more sensitive than the resolved signal regions. Fig. \ref{Fig:order} shows how the events are categorized, and the categories with better sensitivity to the signal are given high priorities (boosted $>$ resolved, VBF $>$ ggF/qqF). For the events which fail part of the jet selection, they would go into the control regions to constrain the background contribution from W+jets and $t\bar{t}$ which are the two dominant backgrounds in this analysis. The two control regions are used in the simultaneous fitting to derive the scale factor of background estimation, and the details will be discussed in the next chapter
 \begin{figure}[h]
@@ -365,9 +370,16 @@ The first applied criterion on event selection is the trigger. The recorded data
 \noindent
 \\Three electron triggers are used in electron channel including the unprescaled lowest threshold one to maximize the signal efficiency. The other two triggers are used to select high $\p_{T}$ electrons with looser isolation requirement. The combined performance of the triggers is around $90\%$ efficiency at the turn-on plateau as a function of $p_{T}$.
 \\
-\\In muon channel, both $E_{T}^{miss}$ and muon triggers are used. For the scenario of $p_{T}(\mu\nu)<150~GeV$, the unprescaled lowest threshold muon trigger is used accompanied by the higher threshold one without any isolation requirement. Otherwise, $E^{T}_{miss}$ trigger is chosen for $p_{T}(\mu\nu)>150~GeV$ events because muon trigger can only reach $70\%$ efficiency on the plateau.
+\\In muon channel, both $E_{T}^{miss}$ and muon triggers are used. For the scenario of $p_{T}(\mu\nu)<150~GeV$, the unprescaled lowest threshold muon trigger is used accompanied by the higher threshold one without any isolation requirement. Otherwise, $E^{T}_{miss}$ trigger is chosen for $p_{T}(\mu\nu)>150~GeV$ events, because muon trigger can only reach $70\%$ efficiency on the plateau.
 \\
-\\However, the $E^{miss}_{T}$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in trigger level, trigger level $E_{T}^{miss}$ is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel: a) one muon with $p_{T}>27~GeV$ b) $E^{miss}_{T}>60(100)~GeV$ c) at least 2 signal jets (1 fat jet) selected d) the unprescaled lowest threshold muon trigger is fired. The events are then probed by whether $E^{miss}_{T}$ trigger is fired to give the efficiency. The result for data and simulated $t\bar{t}$ events are shown in Fig. \ref{Fig:eff_met_merged} for boosted channel in Fig. \ref{Fig:eff_met_resolved} for the resolved channel. The efficiency reaches the plateau at $200~GeV$, but $E^{miss}_{T}$ trigger is applied for $p_{T}(\mu\nu)>150~GeV$, so the scaling factor is taken into simulation as the extra event weight to make them consistent. 
+\\However, the $E^{miss}_{T}$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, a ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in trigger level, trigger level $E_{T}^{miss}$ is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel: 
+\begin{itemize}
+	\item[] a) one muon with $p_{T}>27~GeV$
+	\item[] b) $E^{miss}_{T}>60(100)~GeV$
+	\item[] c) at least 2 signal jets (1 fat jet) selected
+	\item[] d) the unprescaled lowest threshold muon trigger is fired
+\end{itemize}
+, and the efficiency is taken as the ratio of the probed events (firing the $E^{miss}_{T}$ trigger) from the tagged events. The result for data and simulated $t\bar{t}$ events are shown in Fig. \ref{Fig:eff_met_merged} for boosted channel and Fig. \ref{Fig:eff_met_resolved} for the resolved channel, and they are presented as a function of $p_{T}(\ell\nu)$. The efficiency reaches the plateau at $200~GeV$, but $E^{miss}_{T}$ trigger is applied for the case of $p_{T}(\mu\nu)>150~GeV$, so the scaling factor is taken into simulation events as the extra event weight to make them consistent. 
 \begin{figure}[ht]
 	\begin{center}
 		\subfloat[]{
@@ -397,7 +409,7 @@ The first applied criterion on event selection is the trigger. The recorded data
 \subsection{Event Cleaning and Preselection}
 After the trigger, the event ``quality is verified by a series of flags in data determining the suitability of an event for physical analyses. The following is the list:
 \begin{itemize}
-	\item {\bf Good Run}: if the detector operates in a proper status without intolerable defects, they go into the good run list (GRL). Only the events contained in the GRL are considered in this analysis. 
+	\item {\bf Good Run}: when the detector operates in a proper status without intolerable defects, the runs go into the good run list (GRL). Only the events contained in the GRL are considered in this analysis. 
 	\item {\bf Primary Vertex}: because all the physical objects are required to origin from the primary vertex, its existence is essential. Events without a proper primary vertex (defined in Sec. \ref{sec:obj rec}) are discarded.
 	\item {\bf Tile Error Veto}: part of the channels in tile detector are broken. If they accept any physical objects, this flag would be marked, and the events are vetoed.
 	\item {\bf LAr Error Veto}: part of the channels in LAr detector are broken. If they accept any physical objects, this flag would be marked, and the events are vetoed.
