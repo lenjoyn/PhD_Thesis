@@ -1,7 +1,7 @@
 \chapter{Interpretation for Resonance Analysis}
 \chapterquote{The best things happen by chance.}{Dory, Finding Dory}
 \label{Ch:resonance_stat}
-After having the $m_{WV}$ distributions from both control and signal regions, the statistic interpretation is applied to verify whether any signal signature is captured in this analysis. It will be going through the following steps:
+After obtaining the $m_{WV}$ distributions from both control and signal regions, a statistical interpretation is used to determine whether any signal signature is captured in this analysis. The statistical analysis uses the following steps:
 
 \begin{itemize}
 	\item{Variation on Histograms}: the systematic uncertainties contributed from the background modelling and experiments are applied in the analysis, and each of them vary the $m_{WV}$ distribution in histograms. They are taken as the inputs with the nominal histogram for the background fitting in the next step.
@@ -12,7 +12,7 @@ After having the $m_{WV}$ distributions from both control and signal regions, th
 \end{itemize}
 The details of each step will be discussed in the following sections with the results from this analysis, and the details of the methodology formalism can be referred to \cite{StatisticsData}.
 \section{Systematic Uncertainties}
-No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent this mistake, both systematic and statistic uncertainties are brought into the consideration for the ground fitting and signal interpretation.
+No measurement and theoretical estimation could be $100\%$ accurate, and the uncertainties could propagate to the $m_{WV}$ histograms. In this case, a bump in data might be due to the uncertainty fluctuation but mistaken as a signal. To prevent such a mistake, both systematic and statistic uncertainties are brought into the consideration for the ground fitting and signal interpretation.
 \\
 \\The following are the systematic uncertainties considered in this analysis and how they are taken into the $m_{WV}$ histograms, and how the estimation of the uncertainties is in \cite{PERF-2016-01,ATL-PHYS-PUB-2015-037,ATLAS:2019pzw,PERF-2016-04,ATLAS-CONF-2014-018,Herde:2059849}.
 \begin{itemize}
@@ -27,14 +27,14 @@ No measurement and theoretical estimation could be $100\%$ accurate, and the unc
 	\item{\bf Multijet Background Modelling}: multijet modelling is sensitive to the lepton isolation criteria and the jet topology. To estimate the uncertainty of this contribution, the fake factors were re-evaluated with loosened and tightened isolations on leptons as well as in the single b-jet control region, and the new fake factors are applied to get the new multijet $m_{WV}$ distribution.
 \end{itemize}
 \section{Likelihood Construction $\&$ Fitting}
-A simultaneous fitting is conducted to adjust the background and signal to agree well with the data in the $m_{WV}$ histogram which is in the binnings of boosted and resolved channels:
+A simultaneous fit is conducted to adjust the background and signal to agree well with the data in the $m_{WV}$ histogram which is in the binnings of boosted (ranged from 500~GeV to 6~TeV) and resolved (ranged from 300~TeV to 2~TeV) channels:
 
 \begin{multline}
-m^{Boosted}_{WV}= 500, 575, 660, 755, 860, 975, 1100, 1235, 1380, 1535, 1700,\\ 1875, 2060, 2255, 2460, 2675, 2900, 3135, 3380, 3800, 6000
+m^{Boosted}_{WV}= [500, 575, 660, 755, 860, 975, 1100, 1235, 1380, 1535, 1700,\\ 1875, 2060, 2255, 2460, 2675, 2900, 3135, 3380, 3800, 6000]
 \end{multline}
 \noindent
 \begin{equation}
-m^{Resolved}_{WV}= 300, 360, 420, 500, 575, 660, 755, 860, 975, 1100, 1500, 2000
+m^{Resolved}_{WV}= [300, 360, 420, 500, 575, 660, 755, 860, 975, 1100, 1500, 2000]
 \end{equation}
 \noindent
 For the VBF category, the bins with higher $m_{WV}$ have the statistics too low for the MC samples, so there is only one bin  for  $m_{WV}>1535~GeV$($1100~GeV$) for the boosted (resolved) region. Then, a maximum likelihood method is performed for the fitting which could be presented in the full form as:
@@ -50,13 +50,13 @@ For the VBF category, the bins with higher $m_{WV}$ have the statistics too low 
  \times\displaystyle\prod_{j=1}^{N_{\theta}}{\rm Nuis}(\theta_j),
  \label{Eq:likelihood}
  \end{eqnarray}
-where $P(a|b)$ is the Poisson probability distribution function (p.d.f.) to observe ``a'' number of events (data) when ``b'' number of events is expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$s are the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation , and they shared between control and signal regions (simultaneously). The $\mu$ to rescale the signal events is also called signal strength which is the primary parameter of interest in the statistical interpretation. The k index in this formula corresponds to the event categories: ggF merged HP, ggF merged LP, ggF resolved, VBF merged HP, VBF merged LP, and VBF resolved regions, and their likelihoods are constructed independent from each other.
+where $P(x|y)$ is the Poisson probability distribution function (p.d.f.) to observe ``x'' number of events (data) when ``y'' number of events are expected from theory (background and signal estimation) in each bin. To properly normalize the background, $\mu$s are the most important parameter in the formula as floating parameters to rescale the event numbers in each region for background estimation , and they shared between control and signal regions (simultaneously). The $\mu$ to rescale the signal events is also called signal strength which is the primary parameter of interest in the statistical interpretation. The k index in this formula corresponds to the event categories: ggF merged HP, ggF merged LP, ggF resolved, VBF merged HP, VBF merged LP, and VBF resolved regions, and their likelihoods are constructed independent from each other.
 \\
 \\{\bf Nuisance Parameters}
 \\
-\\The last term in Eq. \ref{Eq:likelihood} is to take in the consideration of uncertainties mentioned in the last section. They are called ``nuisance parameters''(NP) in the scope of statistics, as they only have the impact on the shape of likelihood which is of the second interest. Our primary parameter of interest (POI) is $\mu$, the scale factor for signal events.
+\\The last term in Eq. \ref{Eq:likelihood} is to take in the consideration of uncertainties mentioned in the last section. They are called ``nuisance parameters'' (NP) in the scope of statistics, as they are of the second interest, and our primary parameter of interest (POI) is $\mu$, the scale factor for signal events.
 \\
-\\There are three types of nuisance parameters based on their impact on the distribution of $m_{WV}$ \cite{NuiTreats}. The following are the treatments to them mostly with the constraint of a Gaussian distribution in this analysis, although the other p.d.f. options are also available. 
+\\There are three types of nuisance parameters based on their impact on the distribution of $m_{WV}$ \cite{NuiTreats}. The following are the treatments to them mostly with the constraint of a Gaussian distribution in this analysis, although the other p.d.f. options are also available. (In the following content, the choice NP contribution to the likelihood is not normalized, because the normalization factors are cancelled out in the form of a ratio in the next step.)
 \begin{itemize}
 	\item Statistical Uncertainty: with the limited event numbers of background estimation, the statistical uncertainties in each bin are taken as extra nuisance parameters. A light Beeston-Barlow method is applied which introduces a new scale factor, $\theta$, on each bin with the constraint of a Gaussian distribution with the default value as 1. These nuisance parameters are then contributed to the likelihood in this expression:
 	\begin{equation}
@@ -125,7 +125,7 @@ However, the phase space of the likelihood is complex constructed with multiple 
 	\end{equation}
 	This variable, $Cov(\theta_i, \theta_j)$, should be close to 0 if $i\neq j$.
 \end{itemize}
-The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boosted and resolved categories which are presented in Fig. \ref{Fig:pull_HVT} with signal strength (signal scale factor) as 0. Fig. \ref{Fig:Cor_HVT} is the correlation matrix of the nuisance parameters applied in the ggF HP boosted region. The normalization factors could be seen over-constrained and over-pulled in the fitting, as the scaling factors are allowed to be pulled to the extreme for better data-background agreement after the fitting. And, it could also be observed that the resolved channel has the NPs pulled and constrained much more than the merged channel, and this is due to the fact that the $m_{WV}$ shape was significantly affected by those variations in the resolved event category, and this could also be seen in Tab. \ref{Tab:lvqq_fittedsf} that the scale factors in the resolved regions have larger deviation from one with respect to the two merged regions. The final yields for the background only fitting are then shown in Tab.~\ref{tab:yields_WW}(WW) and Tab.~\ref{tab:yields_WZ}(WZ) for the ggF/DY event category, and the VBF ones are shown in Tab.~\ref{tab:yields_VBFWW}(WW) and Tab.~\ref{tab:yields_VBFWZ}(WZ). It could be noted that the total uncertainties in event yields are smaller than the ones shown in Sec.~\label{Sec:data_bkg_compar}. The difference here is that the uncertainties in Sec.~\label{Sec:data_bkg_compar} was derived as the quadratic sum over all the uncertainties, but the ones presented in the yields tables are the uncertainties along the statistical uncertainty in the phases space of the likelihood.  
+The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boosted and resolved categories which are presented in Fig. \ref{Fig:pull_HVT} with signal strength (signal scale factor) as 0. Fig. \ref{Fig:Cor_HVT} is the correlation matrix of the nuisance parameters applied in the ggF HP boosted region. The normalization factors could be seen over-constrained and over-pulled in the fitting, as the scaling factors are allowed to be pulled to the extreme for better data-background agreement after the fitting. And, it could also be observed that the resolved channel has the NPs pulled and constrained much more than the merged channel, and this is due to the fact that the $m_{WV}$ shape was significantly affected by those variations in the resolved event category, and this could also be seen in Tab. \ref{Tab:lvqq_fittedsf} that the scale factors in the resolved regions have larger deviation from one with respect to the two merged regions. The final yields for the background only fitting are then shown in Tab.~\ref{tab:yields_WW} (WW) and Tab.~\ref{tab:yields_WZ} (WZ) for the ggF/DY event category, and the VBF ones are shown in Tab.~\ref{tab:yields_VBFWW} (WW) and Tab.~\ref{tab:yields_VBFWZ} (WZ). It could be noted that the total uncertainties in event yields are smaller than the ones shown in Sec.~\ref{Sec:data_bkg_compar}. The difference here is that the uncertainties in Sec.~\ref{Sec:data_bkg_compar} was derived as the quadratic sum over all the uncertainties, but the ones presented in the yields tables are the uncertainties along the statistical uncertainty in the phases space of the likelihood.  
 \begin{figure}[!h]                
 	\includegraphics[width=0.81\textwidth]{Chapter4/NuiPull_ggFHVT2000.png}
 	 \vspace{5mm}
@@ -301,12 +301,13 @@ The pulls are with the signal of ggF 2000$~GeV$ and 500$~GeV$ W' bosons for boos
 \noindent
 {\bf Combination}
 \\
-\\This analysis contains several categories (merged and resolved, or VBF and ggF production), and a combination of them could help to increase the sensitivity to set a more stringent limit by the decrease of distribution width in the test statistics p.d.f. (this will be discussed in the next section). The combination procedure is to simply multiply the likelihoods constructed from different event categories\cite{asymptotics}:
+\\This analysis contains several categories (merged and resolved, or VBF and ggF production), and a combination of them could help to increase the sensitivity to set a more stringent limit by the decrease of distribution width in the test statistic p.d.f. (this will be discussed in the next section). The combination procedure is to simply multiply the likelihoods constructed from different event categories\cite{asymptotics}:
 \begin{equation}
 \mathcal{L}=\displaystyle\prod_{i=1}^{N_{categories}} \mathcal{L}_{i}(\mu, \theta_i)
 \end{equation}
 The signal strength,$\mu$, would be common across the likelihoods. For the nuisance parameter terms, if they are from the same source like the uncertainty in object energy measurements, they are also the same among the event categories. In this case, those nuisance parameters are ``correlated''. For the other case, when the nuisance parameters are from an independent source which is not considered in the other category like the multijet uncertainties in the resolved category, it would only make the constraint on the likelihood of this category, and they are called ``decorrelated''.  
 \section{Result}
+\label{Sec:lvqq_result}
 After the fitting with no signal strength, the agreement between data and background+signal expectation event numbers should be verified to test whether the ``hypothesis'' of existence or exclusion of signal is correct for which the signal strength would be floating to find the maximum likelihood. The final interpretation is conduced in two ways: the exclusion for setting limits and the significance of a discovery. 
 \\
 \\{\bf Methodology for a Discovery (p-Value)}
@@ -315,7 +316,7 @@ After the fitting with no signal strength, the agreement between data and backgr
 \begin{equation}
 \lambda(\mu) = \frac{\mathcal{L}(\mu,\hat{\hat{\theta}})}{\mathcal{L}(\hat{\mu},\hat{\theta})}
 \end{equation}
-where $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with $\hat{\mu}$ and $\hat{\theta}$, while $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with a specific $\mu$ by giving $\hat{\hat{\theta}}$. The test statistics is then constructed as $-2\ln{\lambda(\mu)}$. Following by this, a test statistics\cite{teststats} is built which is given the form:
+where $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with $\hat{\mu}$ and $\hat{\theta}$, while $\mathcal{L}(\hat{\mu},\hat{\theta})$ is the maximized likelihood with a specific $\mu$ by giving $\hat{\hat{\theta}}$. The test statistic is then constructed as $-2\ln{\lambda(\mu)}$. Following by this, a test statistic\cite{teststats} is built which is given the form:
 \begin{equation}
 \label{Eq:testPvalue}
 q_{0} = 
@@ -325,7 +326,7 @@ q_{0} =
 \end{cases}
 \end{equation}
 \noindent
-For the second case of $\hat{\mu}<0$, this is not to reject the background only hypothesis. However, the derivation of a p.d.f. for the test statistics is computationally expensive, so an asymptotic approach is applied. The first step is to apply the Wald approximation, and the test statistics could be simplified to:
+For the second case of $\hat{\mu}<0$, this is not to reject the background only hypothesis. However, the derivation of a p.d.f. for the test statistic is computationally expensive, so an asymptotic approach is applied. The first step is to apply the Wald approximation, and the test statistic can be simplified to:
 \begin{equation}
 \label{Eq:Wald_thr}
 -2\ln(\lambda(\mu))=(\frac{\mu-\hat{\mu}}{\sigma})^2+\mathcal{O}(1/N)
@@ -338,11 +339,11 @@ With an enough event number, the last term in Eq. \ref{Eq:Wald_thr} is negligibl
 \begin{equation}
 \hat{\mu}\sim Gaus(\mu',\sigma)
 \end{equation}
-Then, the probability distribution of the test statistics would be in a ``chi-suqare distribution'' which is written as $f(q_{\mu}|\mu')$ with the non-central parameter as:
+Then, the probability distribution of the test statistic would be in a ``chi-suqare distribution'' which is written as $f(q_{\mu}|\mu')$ with the non-central parameter as:
 \begin{equation}
 \Lambda=(\frac{\mu-\mu'}{\sigma})^2
 \end{equation}
-For a discovery with the test statistics in Eq. \ref{Eq:testPvalue}, $\mu'$ is set to 0, and a ``p-value'' is then defined as:
+For a discovery with the test statistic in Eq. \ref{Eq:testPvalue}, $\mu'$ is set to 0, and a ``p-value'' is then defined as:
 \begin{equation}
 p_{0}=\int_{q_{0,obs}}^{\infty}f(q_{0}|\mu'=0)\operatorname{d}q_{0}
 \end{equation}	 
@@ -350,7 +351,7 @@ where $q_{0,obs}$ is taken at the $\mu$ value which gives the observed event yie
 \begin{equation}
 Z=\Phi^{-1}(1-p_{0})
 \end{equation}
-where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a standard Gaussian. Fig. \ref{Fig:pvalue_hvt} shows the p-value and discovery significance for the ggF HVT signal combined with both resolved and boosted regions. The best significance is given at $800~GeV$ for less than $3\sigma$. In particle physics, the discovery of a new particle could only be claimed with an excess of $5\sigma$ which is tight to avoid the so-called ``type-I error'' defined as making a false discovery. In this case, an exclusion limit should be set to make the claim which mass range there is no signal at a certain confidence level, which will be discussed next. 
+where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a standard Gaussian. Fig. \ref{Fig:pvalue_hvt} shows the p-value and discovery significance for the ggF HVT signal combined with both resolved and boosted regions. The best significance is given at $800~GeV$ for less than $3\sigma$. In particle physics, the discovery of a new particle could only be claimed with an excess of $5\sigma$ which is tight to avoid the so-called ``type-I error'' defined as making a false discovery. In this case, an exclusion limit should be set to make the claim which mass range there is no signal at a certain confidence level. 
 \begin{figure}
 	\includegraphics[width=0.75\textwidth]{Chapter4/VVM_p0_HVTWZ_ggF.eps}
 	\caption{The observed p-value and significance for the W' boson from the ggF production with the combined data of both resolved and merge channels }
@@ -362,7 +363,7 @@ where $\Phi^{-1}$ is the quantile for inverse cumulative distribution of a stand
 \\
 \\Without a significant result ($Z<3\sigma$), an exclusion limit is then set to conclude that a specific range of theoretical hypotheses (i.e. new particles of varied mass range) has no signal which is within the analysis sensitivity (i.e. the particle production cross-section is significant to be measured). 
 \\
-\\In the case of an exclusion, an alternative test statistics is formulated as:
+\\In the case of an exclusion, an alternative test statistic is formulated as:
 \begin{equation}
 \tilde{q}_{\mu} = 
 \begin{cases}
@@ -387,7 +388,7 @@ This is meaning that if the signal exists with a specific signal strength, $\mu^
 \end{equation}  
 with $\mathcal{L}$ as the luminosity
 \\
-\\The results with the combination of all the signal regions are presented in Fig.~ \ref{Fig:limit_ggF} for the ggF category with theoretical cross-section overlaid together , and Fig.~\ref{Fig:limit_VBF} for the VBF category. Because it was observed that the resolved channel has no sensitivity (the upper limit of cross-section is measured to be $\approx10~pb$), so it wasn't taken into the combined result. For the W' boson, Z' boson, and the RS graviton, the theoretical cross-section is overlaid together with the expect and observed limits from the experiment which presents that the measurement has the sensitivity on the mass up to $3~TeV$, and $1.7TeV$ for the HVT bosons and gravitons respectively. And, Fig.~\ref{Fig:limit_comp_lvqq} shows the comparison of power to set a limit on the HVT Z' boson between resolved, merged, and combined channels. For the range of low mass, resolved channel has dominated the sensitivity, while for $m_{WV}>800$, merged channel has made better performance in terms of the the sensitivity.
+\\The results with the combination of all the signal regions are presented in Fig.~ \ref{Fig:limit_ggF} for the ggF category with theoretical cross-section overlaid together , and Fig.~\ref{Fig:limit_VBF} for the VBF category. Because it was observed that the resolved channel has no sensitivity (the upper limit of cross-section is measured to be $\sim10~pb$), so it wasn't taken into the combined result. For the W' boson, Z' boson, and the RS graviton, the theoretical cross-section is overlaid together with the expect and observed limits from the experiment which presents that the measurement has the sensitivity on the mass up to $3~TeV$, and $1.7TeV$ for the HVT bosons and gravitons respectively. And, Fig.~\ref{Fig:limit_comp_lvqq} shows the comparison of power to set a limit on the HVT Z' boson between resolved, merged, and combined channels. For the range of low mass, resolved channel has dominated the sensitivity, while for $m_{WV}>800$, merged channel has made better performance in terms of the the sensitivity.
 
 \begin{figure}[ht]
 	\centering

@@ -1,8 +1,9 @@
 \chapter{Search with Non-Resonance Signatures (Vector Boson Scattering)}
 \chapterquote{When something is too hard, there is always another way.}{Charlie, Finding Dory}
-In addition to the physics with resonance particles, the unknown couplings between SM particles is also a portal to new physics. Its signature would be similar to SM, but it might enhance or reduce (interference) the occurrence rate (cross section) for the physical process of interest. However, the deviation from SM prediction would be marginal, so the test on precision measurement could only be achieved with great amount of data. 
+
+In addition to the physics with resonance particles, unknown couplings between SM particles are also a portal to new physics. Their signature would be similar to SM with enhanced or reduced (interference) occurrence rates (cross section) for the physical process of interest. However, the deviation from SM prediction would be marginal, so tests on precision measurement could only be achieved with large amounts of data. 
 \\
-\\This analysis is aiming for the phenomenology with ``vector boson scattering'' (VBS) which has the signature like VBF with one back-to-back high-mass jet pair accompanied by two SM gauge bosons ($qq \to VVqq$). The phenomenon was predicted by SM and measured in ATLAS Run1 data analysis (2009-2012) with the search for the anomalous quadratic gauge coupling (aQGC), but it doesn't give a promising result\cite{STDM-2014-05} for the existence. This analysis is to extend the search with greater luminosity of data collected in 2015 and 2016 for $36.1fb_{-1}$, and the final state of the dibson system is chosen to be semileptonic. This analysis will focus on one lepton channel ($WV \to l\nu qq$) just like the the resonance search , and the result will be combined with other two semileptonical final states ($ZV \to \nu\nu qq/llqq$) for the statistic interpretation.
+\\This analysis is aiming for the phenomenology with ``vector boson scattering'' (VBS) which has the signature like VBF with one back-to-back high-mass jet pair accompanied by two SM gauge bosons ($qq \to VVqq$). The phenomenon was predicted by SM and measured in ATLAS Run1 data analysis (2009-2012) with the search for the anomalous quadratic gauge coupling (aQGC), but it didn't give a promising result\cite{STDM-2014-05} for the existence. This analysis is to extend the search with greater luminosity of data collected in 2015 and 2016 for $36.1fb^{-1}$, and the final state of the dibson system is chosen to be semileptonic. This analysis will focus on one lepton channel ($WV \to l\nu qq$) just like the the resonance search, and the result will be combined with other two semileptonical final states ($ZV \to \nu\nu qq/llqq$) for the statistic interpretation.
 \\
 \\With the same final state, the object definition was inherited from the resonance search, and the simulation sample and dataset are also reused. However, because the search is aiming for different signal, the optimization was repeated for the thresholds of object and event selection.  The most significant change in this analysis is that although $m_{WV}$ is still reconstructed, it cannot be taken as the discriminant because of no resonance particle in the process. Instead, an algorithm of boosted decision tree (BDT) is performed on the physical object observables, and it would give the output of ``BDT score'' for the discrimination of signal and background.
 \\ 
@@ -11,7 +12,7 @@ In addition to the physics with resonance particles, the unknown couplings betwe
 Two types of signal signature were generated: SM VBS scattering and anomalous quadratic coupling. As this analysis is a general search for the coupling signature, a couple of physical physical processes are involved as the signal. In this case, an approximation of effective field theory (EFT) is applied to simplify the simulation. 
 
 \subsection{Standard Model Vector Boson Scattering}
-Under SM, the vector boson scattering is through the coupling to a variety of bosons including W/Z boson, photon, or Higgs boson. The coupling strength is constrained by Higgs mass, so the measurement could be another test on Higgs naturalness and  Brout-Englert-Higgs Mechanism\cite{PhysRevD.7.3111}. The interactions considered in this analysis are shown in Fig. \ref{Fig:feynmanVBS}  with the order of $\alpha_{EW}^6$ which also considers the decays of bosons into fermions. 
+Under the SM, the vector boson scattering is through the coupling to a variety of bosons including W/Z bosons, photon, or Higgs boson. The coupling strength is constrained by the Higgs mass, so the measurement could be another test on the Higgs naturalness and  Brout-Englert-Higgs Mechanism\cite{PhysRevD.7.3111}. The interactions considered in this analysis are shown in Fig. \ref{Fig:feynmanVBS}  with the order of $\alpha_{EW}^6$ which also considers the decays of bosons into fermions. 
 
 \begin{figure}[tbp]
 	\begin{center}
@@ -42,15 +43,15 @@ For those interactions, only the longitudinal component of bosons is considered,
 \begin{equation}
 |\mathcal{M}|=\frac{g^2}{4m_{W}^{2}}\left[s+t\right]
 \end{equation}
-with the consideration of only the coupling to W boson for simplicity. This implies that the coupling strength will diverge when energy increases, so the unitary of $\rho$ in Eq. \ref{Eq:rho} would be broken due to the enhanced coupling between W and Z bosons. The introduction of the Higgs boson to mediate the boson could put a constraint to prevent the divergence, which makes the coupling magnitude to:
+with the consideration of only the coupling to W bosons for simplicity. This implies that the coupling strength will diverge when the energy increases, so the unitary of $\rho$ in Eq. \ref{Eq:rho} would be broken due to the enhanced coupling between W and Z bosons. The introduction of the Higgs boson to mediate the bosons could provide a constraint to prevent the divergence, which makes the coupling magnitude to:
 \begin{equation}
 |\mathcal{M}|=\frac{g^2m_{H}^2}{4m_{W}^{2}}\left[\frac{t}{t-m_{H}^{2}}+\frac{s}{s-m_{H}^{2}}\right]
 \end{equation} 
-This expression is only valid at the tree level, and the perturbative terms are neglected with the light Higgs boson\cite{Rindani:2009gm}. However, the high order terms would remain if the Higgs mass is above $1.2TeV$ with $\lambda > 4\pi$:
+This expression is hold at the tree level, and the perturbative terms are neglected with the light Higgs boson\cite{Rindani:2009gm}. However, the high order terms would remain if the Higgs mass is above $1.2TeV$ with $\lambda > 4\pi$:
 \begin{equation}
 m^2_{H}=2\lambda\nu^2 > 1.2TeV
 \end{equation}
-with $\nu$ as $246GeV$ measured from the experiments. This would then make the cross-section diverge again which is shown in Fig. \ref{Fig:VBSXS_heavyhiggs}. Therefore, the cross-section measurement of the SM vector boson scattering could be another verification of the existence of high-mass Higgs boson.  
+where $\nu$ is $246GeV$ measured from the experiments. This would then make the cross-section diverge again as shown in Fig. \ref{Fig:VBSXS_heavyhiggs}. Therefore, the cross-section measurement of the SM vector boson scattering could be another verification of the existence of high-mass Higgs boson.  
 
 \begin{figure}[tbp]
 	\begin{center}
@@ -62,7 +63,7 @@ with $\nu$ as $246GeV$ measured from the experiments. This would then make the c
 \noindent
 {\bf Sample Production}
 \\
-\\The signal samples are produced with the setting under SM with Higgs boson mass at $125GeV$. \textsc{MADGRAPH5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca} is the chosen generator interfaced by \textsc{PYTHIA8}\cite{Sjostrand:2007gs} for the fragmentation with the PDF set of \textsc{NNPDF30LO}\cite{Ball:2012cx}. The two outcome bosons are required to be on-shell with mass pole from PDG. 
+\\The signal samples are produced with the setting under SM with Higgs boson mass at $125GeV$. \textsc{MADGRAPH5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca} is the chosen generator interfaced by \textsc{PYTHIA8}\cite{Sjostrand:2007gs} for the fragmentation with the PDF set of \textsc{NNPDF30LO}\cite{Ball:2012cx}. The two medium state bosons are required to be on-shell with the mass pole from PDG. 
 \\
 \\As the generation command in the generator is $pp \to VVjj$, so some of the unwanted interaction would also go into the signal samples. Their coupling is still at the order of $\alpha_{EW}^6$, but no VBS interaction is involved. With the VBS requirement on event selection, the contribution is well-suppressed. 
 \noindent
@@ -75,25 +76,27 @@ With the light mass of the discovered SM Higgs boson, the Higgs naturalness turn
 \end{equation}
 where the extended term, $\sum_{i}\frac{\mathcal{C}_i}{\Lambda_{i}^{d-4}}\mathcal{O}^{d}_{i}$, is contributed from the anomalous couplings. It is constructed by 3 components: $\Lambda$ as the energy scale for where the coupling is significant, $C_{i}$ as the coefficient of this interaction and $O^{d}_i$ is the operator. $d$ is used as the number of dimensions of this coupling. With the constraint of $\Lambda$ in the power of $d-4$\footnote{$d-4$ is applied on the energy scale to keep the dimension consistent in the Lagrangian}, the interactions of higher order could be neglected due to small contribution. When $\Lambda$ goes to $\infty$, that would mean the new physics is unapproachable, and SM would be the only observable phenomenon. This approach has been proven working well to have theoretical agreement to experimental data with the example from Fermi theory. 
 \\
-\\The new physics operator, $\mathcal{O}$, considered here is based on Eboli model\cite{Eboli:2000ad} which formulates the new interactions with the components:
+\\The new physics operators, $\mathcal{O}$, considered here is based on Eboli model\cite{Eboli:2000ad} which formulates the new interactions with the components:
 \begin{itemize}
 	\item{Higgs Field Covariant Derivative}: $D_{\mu}\Phi =(\partial_\mu + igW^j_{\mu}\frac{\sigma^{j}}{2}+ig'B_\mu\frac{1}{2})\Phi $
 	\item{Electroweak W Field Covariant Derivative}: $\hat{W}_{\mu\nu}=\sum_{i}(\partial_\mu W_\nu^i - \partial_\nu W_\mu^i)\frac{\sigma^i}{2}$
 	\item{Electroweak B Field Covariant Derivative}: $B_{\mu\nu} = \partial_\mu B_\nu - \partial_\nu B_\mu$
 \end{itemize}
-The notations used here are the same as the ones used in Chpater 1 with $\sigma^j$ as the Pauli Matrix, and they all have the same dimension of 2:
+The notations used here are the same as the ones used in Chpater 1 with $\sigma^j$ as the Pauli Matrix, and they all have the same dimension of two:
 \begin{equation}
 \left[D_{\mu}\Phi\right]=\left[\hat{W}_{\mu\nu}\right]=\left[B_{\mu\nu}\right]= GeV^2
 \end{equation}
-Then, the choice on 4 of them (the same component could be chosen multiple times) are combined into one individual operator with the dimension of 8. 3 type of operators could be categorized by the combinations:
+Then, the BSM interaction is constructed from four of them (the same component could be chosen multiple times) which are combined into one individual operator with the dimension of eight. three types of operators can then be categorized by the combinations:
 \begin{itemize}
     \item{$D_\mu\Phi$ only}: the operators are only composed of $D_\mu\Phi$ and denoted as $\mathcal{O}^i_S$ with the free parameters $f^i_{S}$. The index ranges from 0 to 2.  
     \item{all the elements}: the operators are the mix with all the components denoted as  $\mathcal{O}^i_M$. The free parameters are denoted as $f^i_{M}$ with the index ranging from 0 to 7.
     \item{combination of the electroweak fields}: the operators have $\hat{W}_{\mu\nu}$ and $B_{\mu\nu}$ which are denoted as $\mathcal{O}_{T}^i$ with the free parameters, $f_T^i$. The index has the range from 0 to 9. 
 \end{itemize}
 \noindent
-\subsection{Signal Production}
-It is impossible to investigate all the possible operators, so only one operator of each category is chosen in the signal, which are $O_{S}^0$, $O_{M}^0$, and $O_{T}^0$ with the free parameter, $f^0_{S}$, $f^0_{M}$,  $f_T^0$, while the other operators are tuned to 0.  The chosen coupling strength for the free parameters in the simulation is summarized in Tab. \ref{Tab:Eboli}.
+\\
+\\{\bf Signal Production}
+\\
+\\It is impossible to investigate all the possible operators, so only one operator of each category is chosen in the signal, which are $O_{S}^0$, $O_{M}^0$, and $O_{T}^0$ with the free parameter, $f^0_{S}$, $f^0_{M}$,  $f_T^0$, while the other operators are tuned to 0.  The chosen coupling strength for the free parameters in the simulation is summarized in Tab. \ref{Tab:Eboli}.
 \\
 \\Similar to the SM VBS signal, the production is also via \textsc{MADGRAPH5\_aMC@NLO v2.3.3}\cite{Alwall:2014hca} interfaced by \textsc{PYTHIA8}\cite{Sjostrand:2007gs} with the PDF set of NNPDF30LO\cite{Ball:2012cx}. 
 \begin{table}[h]
@@ -146,7 +149,7 @@ with $|\mathcal{M}|^2$ as the total amplitude, and $\mathcal{M}_1$ and $\mathcal
 \section{Event Selection}
 In general, the event selection in this analysis has the same scheme as the resonance search including both trigger and event cleaning. However, as the optimization is conducted with SM VBS signal, some cuts are looser due to the similar kinematic properties with respect to the background. For the same reason, the cuts on topological variables employed in resonance search would also remove significant signal, so they are dropped in this analysis.
 \\
-\\Not just the event selection scheme but also the event categorization is adopted here. Three regions are defined with the jet topology as boosted HP, boosted LP, resolved regions (in the order of selection priority) for W+jet control region, top control region, and signal regions (with higher selection priority than the other two). To achieve better sensitivity for aQGC, the dedicated control region is defined with one addition cut in the siganl region with $m^{VBS}_{jj}>1TeV$. 
+\\Not just the event selection scheme but also the event categorization is adopted here from the resonance $WV\to \ell\nu qq$ analysis. Three regions are defined with the jet topology as boosted HP, boosted LP, resolved regions (in the order of selection priority) for W+jet control region, top control region, and signal regions (with higher selection priority than the other two). To achieve better sensitivity for aQGC, the dedicated control region is defined with one addition cut in the siganl region with $m^{VBS}_{jj}>1TeV$. 
 \subsection{Batman Veto}
 In September 2017, a cell saturation problem in high pile-up runs in 2015 and 2016 was reported in the LAr detector endcap (EMEC). This leads to a large number of low $p_{T}$ jets ($p_{T}>20~GeV$) falsely reconstructed at $|\eta|\sim 2.9$ (which is beyond the range where jvt is applicable), and they also made the contribution to $E^{miss}_{T}$ reconstruction. Therefore, the events are removed manually by the event and run numbers. Fig. \ref{Fig:batman_veto} shows the jet $\eta$ distributions before and after the problematic event removal in resolved signal region but with 2 loose lepton selected which is another channel along with this 1 lepton analysis. 
 \begin{figure}[tbp]
@@ -168,7 +171,7 @@ The pair of VBS jets are still chosen to be the one with the highest invariant m
 \subsection{Boosted $\&$ Resolved Event Selection}
 Tab. \ref{tab:SRdefinitionsVBS} and \ref{Tab:SRdefinitions_resolvedVBS} are showing the cuts applied to select the events into both signal and control regions. The measurement on both aQGC and SM cross-section doesn't distinguish the processes of WW or WZ, so only one SR is defined for both boosted and resolved jet topologies.
 \\
-\\In comparison to the resonance search, object selections are kept the same like the $p_{T}$ threshold or lepton isolation requirements. However, $E^{T}_{miss}$ cuts is lowered $80GeV$ to enhance the statistics for the training sample into the multivariable analysis. Furthermore, the topological cuts are also removed from this analysis, because they are too stringent for the signal sample. And, the b-tagging requirement is also changed in the resolved channel with forbidding any b-tagged jet in the events for signal region. 
+\\As compared to the resonance search, object selections are kept the same like the $p_{T}$ threshold or lepton isolation requirements. However, the $E^{T}_{miss}$ cut is lowered to $80GeV$ to enhance the statistics for the training sample into the multivariable analysis. Furthermore, the topological cuts are also removed from this analysis, because they are too stringent for the signal sample. And, the b-tagging requirement is also changed in the resolved channel with forbidding any b-tagged jet in the events for signal region. 
 \\
 \\The definition of W+jet control regions is still defined by the mass side band of the dijet system in resolved channel and failed mass tagging in boosted channel. With the change on number of b-tagged jets, the top control region definition is also simplified as the event with any existence of b-jets.  
 \begin{table}[t]
