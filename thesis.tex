@@ -10,6 +10,8 @@
 \usepackage{enumerate}
 \usepackage{tabularx}
 \usepackage{notoccite}
+\usepackage{rotating}
+\usepackage{lscape}
 \usepackage{listings}
 \lstset{
 	basicstyle=\ttfamily,
@@ -73,9 +75,10 @@
 \end{mainmatter}
 	
 	%% Produce the appendices
-%	\begin{appendices}
-%		\input{appendices}
-%	\end{appendices}
+	\begin{appendices}
+		\input{TexFiles/Appendices/SampleList}
+		\input{TexFiles/Appendices/METTrigger_opt}
+	\end{appendices}
 	
 	%% Produce the un-numbered back matter (e.g. colophon,
 	%% bibliography, tables of figures etc., index...)
