@@ -684,26 +684,26 @@
 %% Makes a thesis title page
 \let\@oldtitlepage\titlepage
 \let\@oldendtitlepage\endtitlepage
-\DeclareRobustCommand{\titlepage}[2][]{%
+\DeclareRobustCommand{\titlepage}[3][]{%
   %\@oldtitlepage%
   \thispagestyle{empty}%
-  \begingroup%
+
   \ifx\@sftitles\@empty\else\sffamily\fi%
   \begin{center}%
-    \vspace*{\frontmattertitleskip}%
+    %\vspace*{\frontmattertitleskip}%
     \begin{doublespace}%
       {\Huge\textbf{\thetitle}}\\%
     \end{doublespace}%
-    \vspace*{3cm}%
+    \vspace*{1cm}%
     {\Large{{\theauthor} \\ {#1}}}\\%
-    \vspace*{8cm}%
-    {#2}%
+    \vspace*{2cm}%
+    {#3}%
   \end{center}%
-  \endgroup%
+
   %\@oldendtitlepage%
   %\cleardoublepage%
 }
-\renewcommand{\maketitle}[1]{\titlepage{}}
+\renewcommand{\maketitle}[2]{\titlepage{}}
 
 
 %% A quote on its own page
