@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  23 JUL 2019 16:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  25 JUL 2019 16:55
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1466,7 +1466,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 fg"
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-<Peterhouse.png, id=298, 2007.5pt x 2360.82pt>
+<Peterhouse.png, id=306, 2007.5pt x 2360.82pt>
 File: Peterhouse.png Graphic file (type png)
 <use Peterhouse.png>
 Package pdftex.def Info: Peterhouse.png  used on input line 13.
@@ -1576,7 +1576,7 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 7.
 
-<Chapter1/quarks.png, id=459, 501.875pt x 333.245pt>
+<Chapter1/quarks.png, id=469, 501.875pt x 333.245pt>
 File: Chapter1/quarks.png Graphic file (type png)
 <use Chapter1/quarks.png>
 Package pdftex.def Info: Chapter1/quarks.png  used on input line 27.
@@ -1694,7 +1694,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--110
 
  []
 
-<Chapter1/elementary_particle.png, id=506, 2007.5pt x 1506.62875pt>
+<Chapter1/elementary_particle.png, id=516, 2007.5pt x 1506.62875pt>
 File: Chapter1/elementary_particle.png Graphic file (type png)
 <use Chapter1/elementary_particle.png>
 Package pdftex.def Info: Chapter1/elementary_particle.png  used on input line 1
@@ -1709,7 +1709,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--124
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./Chapter1/elementary_particle.png>]
-<Chapter1/V.pdf, id=523, 569.12625pt x 548.0475pt>
+<Chapter1/V.pdf, id=533, 569.12625pt x 548.0475pt>
 File: Chapter1/V.pdf Graphic file (type pdf)
 <use Chapter1/V.pdf>
 Package pdftex.def Info: Chapter1/V.pdf  used on input line 135.
@@ -1718,7 +1718,7 @@ Package pdftex.def Info: Chapter1/V.pdf  used on input line 135.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter1/higgs.pdf, id=526, 569.12625pt x 548.0475pt>
+<Chapter1/higgs.pdf, id=536, 569.12625pt x 548.0475pt>
 File: Chapter1/higgs.pdf Graphic file (type pdf)
 <use Chapter1/higgs.pdf>
 Package pdftex.def Info: Chapter1/higgs.pdf  used on input line 149.
@@ -1831,17 +1831,17 @@ chapter 2.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\@ifnextchar' on input line 5.
 
-<Chapter2/ionization.png, id=690, 642.4pt x 361.35pt>
+<Chapter2/ionization.png, id=700, 642.4pt x 361.35pt>
 File: Chapter2/ionization.png Graphic file (type png)
 <use Chapter2/ionization.png>
 Package pdftex.def Info: Chapter2/ionization.png  used on input line 12.
 (pdftex.def)             Requested size: 358.46039pt x 201.63783pt.
-<Chapter2/pre-acceleration.jpg, id=693, 522.315pt x 365.949pt>
+<Chapter2/pre-acceleration.jpg, id=703, 522.315pt x 365.949pt>
 File: Chapter2/pre-acceleration.jpg Graphic file (type jpg)
 <use Chapter2/pre-acceleration.jpg>
 Package pdftex.def Info: Chapter2/pre-acceleration.jpg  used on input line 21.
 (pdftex.def)             Requested size: 425.66872pt x 298.23184pt.
-<Chapter2/bunch.png, id=698, 280.04625pt x 174.6525pt>
+<Chapter2/bunch.png, id=708, 280.04625pt x 174.6525pt>
 File: Chapter2/bunch.png Graphic file (type png)
 <use Chapter2/bunch.png>
 Package pdftex.def Info: Chapter2/bunch.png  used on input line 36.
@@ -1915,7 +1915,7 @@ Underfull \vbox (badness 2285) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [19 <./Chapter2/bunch.png>]
-<Chapter2/ATLAS.jpg, id=738, 426.59375pt x 274.02374pt>
+<Chapter2/ATLAS.jpg, id=748, 426.59375pt x 274.02374pt>
 File: Chapter2/ATLAS.jpg Graphic file (type jpg)
 <use Chapter2/ATLAS.jpg>
 Package pdftex.def Info: Chapter2/ATLAS.jpg  used on input line 67.
@@ -1925,7 +1925,7 @@ Package pdftex.def Info: Chapter2/ATLAS.jpg  used on input line 67.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [20]
-<Chapter2/coordinate.pdf, id=753, 963.6pt x 542.025pt>
+<Chapter2/coordinate.pdf, id=763, 963.6pt x 542.025pt>
 File: Chapter2/coordinate.pdf Graphic file (type pdf)
 <use Chapter2/coordinate.pdf>
 Package pdftex.def Info: Chapter2/coordinate.pdf  used on input line 80.
@@ -1934,7 +1934,7 @@ Package pdftex.def Info: Chapter2/coordinate.pdf  used on input line 80.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/pseudorapidity.png, id=755, 271.0125pt x 220.825pt>
+<Chapter2/pseudorapidity.png, id=765, 271.0125pt x 220.825pt>
 File: Chapter2/pseudorapidity.png Graphic file (type png)
 <use Chapter2/pseudorapidity.png>
 Package pdftex.def Info: Chapter2/pseudorapidity.png  used on input line 93.
@@ -1954,7 +1954,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--106
  []
 
 [21 <./Chapter2/ATLAS.jpg>]
-<Chapter2/ID.png, id=768, 404.63672pt x 346.29375pt>
+<Chapter2/ID.png, id=778, 404.63672pt x 346.29375pt>
 File: Chapter2/ID.png Graphic file (type png)
 <use Chapter2/ID.png>
 Package pdftex.def Info: Chapter2/ID.png  used on input line 108.
@@ -1967,7 +1967,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22 <./Chapter2/coordinate.pdf> <./Chapter2/pseudorapidity.png>]
-<Chapter2/bfield.pdf, id=798, 569.12625pt x 384.43625pt>
+<Chapter2/bfield.pdf, id=808, 569.12625pt x 384.43625pt>
 File: Chapter2/bfield.pdf Graphic file (type pdf)
 <use Chapter2/bfield.pdf>
 Package pdftex.def Info: Chapter2/bfield.pdf  used on input line 142.
@@ -2032,7 +2032,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 [25 <./Chapter2/bfield.pdf>]
-<Chapter2/calorimeter.png, id=830, 853.1875pt x 574.145pt>
+<Chapter2/calorimeter.png, id=840, 853.1875pt x 574.145pt>
 File: Chapter2/calorimeter.png Graphic file (type png)
 <use Chapter2/calorimeter.png>
 Package pdftex.def Info: Chapter2/calorimeter.png  used on input line 154.
@@ -2041,7 +2041,7 @@ Package pdftex.def Info: Chapter2/calorimeter.png  used on input line 154.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Chapter2/LArshower.png, id=835, 197.23688pt x 228.855pt>
+<Chapter2/LArshower.png, id=845, 197.23688pt x 228.855pt>
 File: Chapter2/LArshower.png Graphic file (type png)
 <use Chapter2/LArshower.png>
 Package pdftex.def Info: Chapter2/LArshower.png  used on input line 171.
@@ -2129,7 +2129,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--223
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-<Chapter2/Trigger.png, id=874, 516.05296pt x 411.03563pt>
+<Chapter2/Trigger.png, id=884, 516.05296pt x 411.03563pt>
 File: Chapter2/Trigger.png Graphic file (type png)
 <use Chapter2/Trigger.png>
 Package pdftex.def Info: Chapter2/Trigger.png  used on input line 225.
@@ -2189,7 +2189,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [32]
 (TexFiles/Objrec.tex
-<Chapter2/recefficiency.png, id=900, 702.625pt x 567.11874pt>
+<Chapter2/recefficiency.png, id=910, 702.625pt x 567.11874pt>
 File: Chapter2/recefficiency.png Graphic file (type png)
 <use Chapter2/recefficiency.png>
 Package pdftex.def Info: Chapter2/recefficiency.png  used on input line 2.
@@ -2375,7 +2375,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 175--178
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [43]
-<Chapter2/simulation.png, id=990, 855.195pt x 130.23656pt>
+<Chapter2/simulation.png, id=1000, 855.195pt x 130.23656pt>
 File: Chapter2/simulation.png Graphic file (type png)
 <use Chapter2/simulation.png>
 Package pdftex.def Info: Chapter2/simulation.png  used on input line 187.
@@ -2409,19 +2409,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--7
 
 
 ]
-<Chapter3/DY_X.pdf, id=1011, 614.295pt x 794.97pt>
+<Chapter3/DY_X.pdf, id=1021, 614.295pt x 794.97pt>
 File: Chapter3/DY_X.pdf Graphic file (type pdf)
 <use Chapter3/DY_X.pdf>
 Package pdftex.def Info: Chapter3/DY_X.pdf  used on input line 10.
 (pdftex.def)             Requested size: 134.4235pt x 173.9599pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <10> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 10.
-<Chapter3/ggF_X.pdf, id=1012, 614.295pt x 794.97pt>
+<Chapter3/ggF_X.pdf, id=1022, 614.295pt x 794.97pt>
 File: Chapter3/ggF_X.pdf Graphic file (type pdf)
 <use Chapter3/ggF_X.pdf>
 Package pdftex.def Info: Chapter3/ggF_X.pdf  used on input line 11.
 (pdftex.def)             Requested size: 134.4235pt x 173.9599pt.
-<Chapter3/VBF_X.pdf, id=1013, 614.295pt x 794.97pt>
+<Chapter3/VBF_X.pdf, id=1023, 614.295pt x 794.97pt>
 File: Chapter3/VBF_X.pdf Graphic file (type pdf)
 <use Chapter3/VBF_X.pdf>
 Package pdftex.def Info: Chapter3/VBF_X.pdf  used on input line 12.
@@ -2519,17 +2519,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 86--98
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [52]
-<Chapter3/t-channel.png, id=1146, 156.96141pt x 147.17485pt>
+<Chapter3/t-channel.png, id=1156, 156.96141pt x 147.17485pt>
 File: Chapter3/t-channel.png Graphic file (type png)
 <use Chapter3/t-channel.png>
 Package pdftex.def Info: Chapter3/t-channel.png  used on input line 105.
 (pdftex.def)             Requested size: 112.01843pt x 105.03383pt.
-<Chapter3/Wt-channel.png, id=1147, 191.59077pt x 127.22531pt>
+<Chapter3/Wt-channel.png, id=1157, 191.59077pt x 127.22531pt>
 File: Chapter3/Wt-channel.png Graphic file (type png)
 <use Chapter3/Wt-channel.png>
 Package pdftex.def Info: Chapter3/Wt-channel.png  used on input line 106.
 (pdftex.def)             Requested size: 134.4235pt x 89.26869pt.
-<Chapter3/s-channel.png, id=1148, 176.15813pt x 120.45pt>
+<Chapter3/s-channel.png, id=1158, 176.15813pt x 120.45pt>
 File: Chapter3/s-channel.png Graphic file (type png)
 <use Chapter3/s-channel.png>
 Package pdftex.def Info: Chapter3/s-channel.png  used on input line 107.
@@ -2637,7 +2637,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--257
  []
 
 [58]
-<Chapter3/mass_resolution.pdf, id=1206, 569.12625pt x 541.02126pt>
+<Chapter3/mass_resolution.pdf, id=1216, 569.12625pt x 541.02126pt>
 File: Chapter3/mass_resolution.pdf Graphic file (type pdf)
 <use Chapter3/mass_resolution.pdf>
 Package pdftex.def Info: Chapter3/mass_resolution.pdf  used on input line 284.
@@ -2646,13 +2646,13 @@ Package pdftex.def Info: Chapter3/mass_resolution.pdf  used on input line 284.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [60 <./Chapter3/mass_resolution.pdf, page is rotated 90 degrees>]
-<Chapter3/MassWindow_newWZTagger.pdf, id=1270, 569.12625pt x 410.53375pt>
+<Chapter3/MassWindow_newWZTagger.pdf, id=1280, 569.12625pt x 410.53375pt>
 File: Chapter3/MassWindow_newWZTagger.pdf Graphic file (type pdf)
 <use Chapter3/MassWindow_newWZTagger.pdf>
 Package pdftex.def Info: Chapter3/MassWindow_newWZTagger.pdf  used on input lin
 e 306.
 (pdftex.def)             Requested size: 215.07349pt x 155.13997pt.
-<Chapter3/D2UpperCut_newWZTagger.pdf, id=1271, 569.12625pt x 410.53375pt>
+<Chapter3/D2UpperCut_newWZTagger.pdf, id=1281, 569.12625pt x 410.53375pt>
 File: Chapter3/D2UpperCut_newWZTagger.pdf Graphic file (type pdf)
 <use Chapter3/D2UpperCut_newWZTagger.pdf>
 Package pdftex.def Info: Chapter3/D2UpperCut_newWZTagger.pdf  used on input lin
@@ -2670,7 +2670,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--320
 
 [61 <./Chapter3/MassWindow_newWZTagger.pdf> <./Chapter3/D2UpperCut_newWZTagger.
 pdf>]
-<Chapter3/order.pdf, id=1296, 1027.84pt x 770.88pt>
+<Chapter3/order.pdf, id=1306, 1027.84pt x 770.88pt>
 File: Chapter3/order.pdf Graphic file (type pdf)
 <use Chapter3/order.pdf>
 Package pdftex.def Info: Chapter3/order.pdf  used on input line 331.
@@ -2710,7 +2710,7 @@ s-converted-to.pdf>
 _METcut_data-eps-converted-to.pdf Chapter3/Merged_TrigEff_ptW_METcut_data.eps>
 (epstopdf)             \includegraphics on input line 387.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/Merged_TrigEff_ptW_METcut_data-eps-converted-to.pdf, id=1323, 569.126
+<Chapter3/Merged_TrigEff_ptW_METcut_data-eps-converted-to.pdf, id=1333, 569.126
 25pt x 555.07375pt>
 File: Chapter3/Merged_TrigEff_ptW_METcut_data-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -2731,7 +2731,7 @@ _METcut_ttbar-eps-converted-to.pdf Chapter3/Merged_TrigEff_ptW_METcut_ttbar.eps
 >
 (epstopdf)             \includegraphics on input line 390.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/Merged_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf, id=1324, 569.12
+<Chapter3/Merged_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf, id=1334, 569.12
 625pt x 555.07375pt>
 File: Chapter3/Merged_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -2752,7 +2752,7 @@ tW_METcut_data-eps-converted-to.pdf Chapter3/Resolved_TrigEff_ptW_METcut_data.e
 ps>
 (epstopdf)             \includegraphics on input line 400.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/Resolved_TrigEff_ptW_METcut_data-eps-converted-to.pdf, id=1325, 569.1
+<Chapter3/Resolved_TrigEff_ptW_METcut_data-eps-converted-to.pdf, id=1335, 569.1
 2625pt x 555.07375pt>
 File: Chapter3/Resolved_TrigEff_ptW_METcut_data-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -2760,7 +2760,7 @@ le (type pdf)
 Package pdftex.def Info: Chapter3/Resolved_TrigEff_ptW_METcut_data-eps-converte
 d-to.pdf  used on input line 400.
 (pdftex.def)             Requested size: 179.22676pt x 174.79832pt.
-<Chapter3/Resolved_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf, id=1326, 569.
+<Chapter3/Resolved_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf, id=1336, 569.
 12625pt x 460.72125pt>
 File: Chapter3/Resolved_TrigEff_ptW_METcut_ttbar-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -2794,12 +2794,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
-<Chapter3/neutrinoPz.pdf, id=1386, 569.12625pt x 388.45125pt>
+<Chapter3/neutrinoPz.pdf, id=1396, 569.12625pt x 388.45125pt>
 File: Chapter3/neutrinoPz.pdf Graphic file (type pdf)
 <use Chapter3/neutrinoPz.pdf>
 Package pdftex.def Info: Chapter3/neutrinoPz.pdf  used on input line 438.
 (pdftex.def)             Requested size: 224.03688pt x 152.91791pt.
-<Chapter3/lvjjmass_WmassConstraint.pdf, id=1388, 569.12625pt x 386.44376pt>
+<Chapter3/lvjjmass_WmassConstraint.pdf, id=1398, 569.12625pt x 386.44376pt>
 File: Chapter3/lvjjmass_WmassConstraint.pdf Graphic file (type pdf)
 <use Chapter3/lvjjmass_WmassConstraint.pdf>
 Package pdftex.def Info: Chapter3/lvjjmass_WmassConstraint.pdf  used on input l
@@ -2810,7 +2810,7 @@ ine 446.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [67 <./Chapter3/neutrinoPz.pdf, page is rotated 90 degrees>]
-<Chapter3/VBF700_SignfSpace.pdf, id=1442, 569.12625pt x 409.53pt>
+<Chapter3/VBF700_SignfSpace.pdf, id=1452, 569.12625pt x 409.53pt>
 File: Chapter3/VBF700_SignfSpace.pdf Graphic file (type pdf)
 <use Chapter3/VBF700_SignfSpace.pdf>
 Package pdftex.def Info: Chapter3/VBF700_SignfSpace.pdf  used on input line 459
@@ -2822,7 +2822,7 @@ Package pdftex.def Info: Chapter3/VBF700_SignfSpace.pdf  used on input line 459
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [68 <./Chapter3/lvjjmass_WmassConstraint.pdf>]
-<Chapter3/HPLPdefinitions.pdf, id=1459, 1027.84pt x 770.88pt>
+<Chapter3/HPLPdefinitions.pdf, id=1469, 1027.84pt x 770.88pt>
 File: Chapter3/HPLPdefinitions.pdf Graphic file (type pdf)
 <use Chapter3/HPLPdefinitions.pdf>
 Package pdftex.def Info: Chapter3/HPLPdefinitions.pdf  used on input line 57.
@@ -2838,7 +2838,7 @@ pdf>
 s-converted-to.pdf Chapter3/lvJmass_bveto_e.eps>
 (epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/lvJmass_bveto_e-eps-converted-to.pdf, id=1462, 510.90875pt x 396.4812
+<Chapter3/lvJmass_bveto_e-eps-converted-to.pdf, id=1472, 510.90875pt x 396.4812
 5pt>
 File: Chapter3/lvJmass_bveto_e-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/lvJmass_bveto_e-eps-converted-to.pdf>
@@ -2856,7 +2856,7 @@ Package epstopdf Info: Source file: <Chapter3/lvJmass_bveto_mu.eps>
 ps-converted-to.pdf Chapter3/lvJmass_bveto_mu.eps>
 (epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/lvJmass_bveto_mu-eps-converted-to.pdf, id=1463, 498.86375pt x 398.488
+<Chapter3/lvJmass_bveto_mu-eps-converted-to.pdf, id=1473, 498.86375pt x 398.488
 75pt>
 File: Chapter3/lvJmass_bveto_mu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/lvJmass_bveto_mu-eps-converted-to.pdf>
@@ -2894,7 +2894,7 @@ Package epstopdf Info: Source file: <Chapter3/lvJmass_lowPurity_e.eps>
 e-eps-converted-to.pdf Chapter3/lvJmass_lowPurity_e.eps>
 (epstopdf)             \includegraphics on input line 76.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/lvJmass_lowPurity_e-eps-converted-to.pdf, id=1511, 502.87875pt x 406.
+<Chapter3/lvJmass_lowPurity_e-eps-converted-to.pdf, id=1521, 502.87875pt x 406.
 51875pt>
 File: Chapter3/lvJmass_lowPurity_e-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -2913,7 +2913,7 @@ d-to.pdf>
 mu-eps-converted-to.pdf Chapter3/lvJmass_lowPurity_mu.eps>
 (epstopdf)             \includegraphics on input line 77.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/lvJmass_lowPurity_mu-eps-converted-to.pdf, id=1512, 500.87125pt x 409
+<Chapter3/lvJmass_lowPurity_mu-eps-converted-to.pdf, id=1522, 500.87125pt x 409
 .53pt>
 File: Chapter3/lvJmass_lowPurity_mu-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -2944,12 +2944,12 @@ Underfull \vbox (badness 4353) has occurred while \output is active []
  [72 <./Chapter3/lvJmass_bveto_e-eps-converted-to.pdf> <./Chapter3/lvJmass_bvet
 o_mu-eps-converted-to.pdf> <./Chapter3/lvJmass_lowPurity_e-eps-converted-to.pdf
 > <./Chapter3/lvJmass_lowPurity_mu-eps-converted-to.pdf>]
-<Chapter3/lvjjmass_ggF.pdf, id=1661, 569.12625pt x 546.04pt>
+<Chapter3/lvjjmass_ggF.pdf, id=1671, 569.12625pt x 546.04pt>
 File: Chapter3/lvjjmass_ggF.pdf Graphic file (type pdf)
 <use Chapter3/lvjjmass_ggF.pdf>
 Package pdftex.def Info: Chapter3/lvjjmass_ggF.pdf  used on input line 148.
 (pdftex.def)             Requested size: 224.03688pt x 214.95439pt.
-<Chapter3/lvjjmass_VBF.pdf, id=1662, 569.12625pt x 546.04pt>
+<Chapter3/lvjjmass_VBF.pdf, id=1672, 569.12625pt x 546.04pt>
 File: Chapter3/lvjjmass_VBF.pdf Graphic file (type pdf)
 <use Chapter3/lvjjmass_VBF.pdf>
 Package pdftex.def Info: Chapter3/lvjjmass_VBF.pdf  used on input line 149.
@@ -2973,18 +2973,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--15
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [75]
-<Chapter3/fakefactor_el_medium_highpTW.pdf, id=1775, 569.12625pt x 385.44pt>
+<Chapter3/fakefactor_el_medium_highpTW.pdf, id=1785, 569.12625pt x 385.44pt>
 File: Chapter3/fakefactor_el_medium_highpTW.pdf Graphic file (type pdf)
 <use Chapter3/fakefactor_el_medium_highpTW.pdf>
 Package pdftex.def Info: Chapter3/fakefactor_el_medium_highpTW.pdf  used on inp
 ut line 54.
 (pdftex.def)             Requested size: 179.22676pt x 121.37895pt.
-<Chapter3/fakerate_mu_ewk.pdf, id=1776, 569.12625pt x 385.44pt>
+<Chapter3/fakerate_mu_ewk.pdf, id=1786, 569.12625pt x 385.44pt>
 File: Chapter3/fakerate_mu_ewk.pdf Graphic file (type pdf)
 <use Chapter3/fakerate_mu_ewk.pdf>
 Package pdftex.def Info: Chapter3/fakerate_mu_ewk.pdf  used on input line 55.
 (pdftex.def)             Requested size: 179.22676pt x 121.37895pt.
-<Chapter3/fakerate_el_highPt.pdf, id=1777, 569.12625pt x 388.45125pt>
+<Chapter3/fakerate_el_highPt.pdf, id=1787, 569.12625pt x 388.45125pt>
 File: Chapter3/fakerate_el_highPt.pdf Graphic file (type pdf)
 <use Chapter3/fakerate_el_highPt.pdf>
 Package pdftex.def Info: Chapter3/fakerate_el_highPt.pdf  used on input line 62
@@ -3004,7 +3004,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/electronPt.eps>
 ps-converted-to.pdf Chapter3/MJ_CR/electronPt.eps>
 (epstopdf)             \includegraphics on input line 82.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/electronPt-eps-converted-to.pdf, id=1813, 569.12625pt x 552.062
+<Chapter3/MJ_CR/electronPt-eps-converted-to.pdf, id=1823, 569.12625pt x 552.062
 5pt>
 File: Chapter3/MJ_CR/electronPt-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/electronPt-eps-converted-to.pdf>
@@ -3022,7 +3022,7 @@ o.pdf>
 eps-converted-to.pdf Chapter3/MJ_CR/electronEta.eps>
 (epstopdf)             \includegraphics on input line 83.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/electronEta-eps-converted-to.pdf, id=1814, 569.12625pt x 552.06
+<Chapter3/MJ_CR/electronEta-eps-converted-to.pdf, id=1824, 569.12625pt x 552.06
 25pt>
 File: Chapter3/MJ_CR/electronEta-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/electronEta-eps-converted-to.pdf>
@@ -3040,7 +3040,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/met_el.eps>
 onverted-to.pdf Chapter3/MJ_CR/met_el.eps>
 (epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/met_el-eps-converted-to.pdf, id=1815, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_CR/met_el-eps-converted-to.pdf, id=1825, 569.12625pt x 552.0625pt>
 
 File: Chapter3/MJ_CR/met_el-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/met_el-eps-converted-to.pdf>
@@ -3058,7 +3058,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/dphilepmet_el.eps>
 l-eps-converted-to.pdf Chapter3/MJ_CR/dphilepmet_el.eps>
 (epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/dphilepmet_el-eps-converted-to.pdf, id=1816, 569.12625pt x 552.
+<Chapter3/MJ_CR/dphilepmet_el-eps-converted-to.pdf, id=1826, 569.12625pt x 552.
 0625pt>
 File: Chapter3/MJ_CR/dphilepmet_el-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3081,7 +3081,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/muonPt.eps>
 onverted-to.pdf Chapter3/MJ_CR/muonPt.eps>
 (epstopdf)             \includegraphics on input line 92.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/muonPt-eps-converted-to.pdf, id=1871, 569.12625pt x 546.04pt>
+<Chapter3/MJ_CR/muonPt-eps-converted-to.pdf, id=1881, 569.12625pt x 546.04pt>
 File: Chapter3/MJ_CR/muonPt-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/muonPt-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter3/MJ_CR/muonPt-eps-converted-to.pdf  used on in
@@ -3098,7 +3098,7 @@ f>
 converted-to.pdf Chapter3/MJ_CR/muonEta.eps>
 (epstopdf)             \includegraphics on input line 93.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/muonEta-eps-converted-to.pdf, id=1872, 569.12625pt x 546.04pt>
+<Chapter3/MJ_CR/muonEta-eps-converted-to.pdf, id=1882, 569.12625pt x 546.04pt>
 File: Chapter3/MJ_CR/muonEta-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/muonEta-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter3/MJ_CR/muonEta-eps-converted-to.pdf  used on i
@@ -3115,7 +3115,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/met_mu.eps>
 onverted-to.pdf Chapter3/MJ_CR/met_mu.eps>
 (epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/met_mu-eps-converted-to.pdf, id=1873, 569.12625pt x 546.04pt>
+<Chapter3/MJ_CR/met_mu-eps-converted-to.pdf, id=1883, 569.12625pt x 546.04pt>
 File: Chapter3/MJ_CR/met_mu-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter3/MJ_CR/met_mu-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter3/MJ_CR/met_mu-eps-converted-to.pdf  used on in
@@ -3132,7 +3132,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_CR/dphilepmet_mu.eps>
 u-eps-converted-to.pdf Chapter3/MJ_CR/dphilepmet_mu.eps>
 (epstopdf)             \includegraphics on input line 95.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_CR/dphilepmet_mu-eps-converted-to.pdf, id=1874, 569.12625pt x 546.
+<Chapter3/MJ_CR/dphilepmet_mu-eps-converted-to.pdf, id=1884, 569.12625pt x 546.
 04pt>
 File: Chapter3/MJ_CR/dphilepmet_mu-eps-converted-to.pdf Graphic file (type pdf)
 
@@ -3155,34 +3155,34 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [79 <./Chapter3/MJ_CR/muonPt-eps-converted-to.pdf> <./Chapter3/MJ_CR/muonEta-e
 ps-converted-to.pdf> <./Chapter3/MJ_CR/met_mu-eps-converted-to.pdf> <./Chapter3
 /MJ_CR/dphilepmet_mu-eps-converted-to.pdf>] [80]
-<Chapter3/MJ_VR/lep1pt_Loose_el_highWpt.pdf, id=1982, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_VR/lep1pt_Loose_el_highWpt.pdf, id=1992, 569.12625pt x 552.0625pt>
 
 File: Chapter3/MJ_VR/lep1pt_Loose_el_highWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lep1pt_Loose_el_highWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/lep1pt_Loose_el_highWpt.pdf  used on in
 put line 117.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/lep1eta_Loose_el_highWpt.pdf, id=1983, 569.12625pt x 552.0625pt
+<Chapter3/MJ_VR/lep1eta_Loose_el_highWpt.pdf, id=1993, 569.12625pt x 552.0625pt
 >
 File: Chapter3/MJ_VR/lep1eta_Loose_el_highWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lep1eta_Loose_el_highWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/lep1eta_Loose_el_highWpt.pdf  used on i
 nput line 118.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/met_Loose_el_highWpt.pdf, id=1984, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_VR/met_Loose_el_highWpt.pdf, id=1994, 569.12625pt x 552.0625pt>
 File: Chapter3/MJ_VR/met_Loose_el_highWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/met_Loose_el_highWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/met_Loose_el_highWpt.pdf  used on input
  line 119.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf, id=1985, 569.12625pt x 552.062
+<Chapter3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf, id=1995, 569.12625pt x 552.062
 5pt>
 File: Chapter3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf  used o
 n input line 120.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/lvjjmass_Loose_el_highWpt.pdf, id=1986, 569.12625pt x 552.0625p
+<Chapter3/MJ_VR/lvjjmass_Loose_el_highWpt.pdf, id=1996, 569.12625pt x 552.0625p
 t>
 File: Chapter3/MJ_VR/lvjjmass_Loose_el_highWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lvjjmass_Loose_el_highWpt.pdf>
@@ -3198,33 +3198,33 @@ LaTeX Warning: Float too large for page by 31.94304pt on input line 125.
 Chapter3/MJ_VR/met_Loose_el_highWpt.pdf, page is rotated 90 degrees> <./Chapter
 3/MJ_VR/dphilepmet_Loose_el_highWpt.pdf, page is rotated 90 degrees> <./Chapter
 3/MJ_VR/lvjjmass_Loose_el_highWpt.pdf, page is rotated 90 degrees>]
-<Chapter3/MJ_VR/lep1pt_Loose_el_lowWpt.pdf, id=2211, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_VR/lep1pt_Loose_el_lowWpt.pdf, id=2221, 569.12625pt x 552.0625pt>
 File: Chapter3/MJ_VR/lep1pt_Loose_el_lowWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lep1pt_Loose_el_lowWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/lep1pt_Loose_el_lowWpt.pdf  used on inp
 ut line 129.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/lep1eta_Loose_el_lowWpt.pdf, id=2212, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_VR/lep1eta_Loose_el_lowWpt.pdf, id=2222, 569.12625pt x 552.0625pt>
 
 File: Chapter3/MJ_VR/lep1eta_Loose_el_lowWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lep1eta_Loose_el_lowWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/lep1eta_Loose_el_lowWpt.pdf  used on in
 put line 130.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/met_Loose_el_lowWpt.pdf, id=2213, 569.12625pt x 552.0625pt>
+<Chapter3/MJ_VR/met_Loose_el_lowWpt.pdf, id=2223, 569.12625pt x 552.0625pt>
 File: Chapter3/MJ_VR/met_Loose_el_lowWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/met_Loose_el_lowWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/met_Loose_el_lowWpt.pdf  used on input 
 line 131.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/dphilepmet_Loose_el_lowWpt.pdf, id=2214, 569.12625pt x 552.0625
+<Chapter3/MJ_VR/dphilepmet_Loose_el_lowWpt.pdf, id=2224, 569.12625pt x 552.0625
 pt>
 File: Chapter3/MJ_VR/dphilepmet_Loose_el_lowWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/dphilepmet_Loose_el_lowWpt.pdf>
 Package pdftex.def Info: Chapter3/MJ_VR/dphilepmet_Loose_el_lowWpt.pdf  used on
  input line 132.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/MJ_VR/lvjjmass_Loose_el_lowWpt.pdf, id=2215, 569.12625pt x 552.0625pt
+<Chapter3/MJ_VR/lvjjmass_Loose_el_lowWpt.pdf, id=2225, 569.12625pt x 552.0625pt
 >
 File: Chapter3/MJ_VR/lvjjmass_Loose_el_lowWpt.pdf Graphic file (type pdf)
 <use Chapter3/MJ_VR/lvjjmass_Loose_el_lowWpt.pdf>
@@ -3252,7 +3252,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt.eps
 _mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt-eps-converted-to.pdf, id=2441, 569.1262
+<Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt-eps-converted-to.pdf, id=2451, 569.1262
 5pt x 546.04pt>
 File: Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3272,7 +3272,7 @@ s-converted-to.pdf>
 e_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt-eps-converted-to.pdf, id=2442, 569.126
+<Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt-eps-converted-to.pdf, id=2452, 569.126
 25pt x 546.04pt>
 File: Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3291,7 +3291,7 @@ nverted-to.pdf>
 _highWpt-eps-converted-to.pdf Chapter3/MJ_VR/met_Loose_mu_highWpt.eps>
 (epstopdf)             \includegraphics on input line 142.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/met_Loose_mu_highWpt-eps-converted-to.pdf, id=2443, 569.12625pt
+<Chapter3/MJ_VR/met_Loose_mu_highWpt-eps-converted-to.pdf, id=2453, 569.12625pt
  x 546.04pt>
 File: Chapter3/MJ_VR/met_Loose_mu_highWpt-eps-converted-to.pdf Graphic file (ty
 pe pdf)
@@ -3312,7 +3312,7 @@ oose_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt
 .eps>
 (epstopdf)             \includegraphics on input line 143.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt-eps-converted-to.pdf, id=2444, 569.
+<Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt-eps-converted-to.pdf, id=2454, 569.
 12625pt x 546.04pt>
 File: Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -3333,7 +3333,7 @@ se_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt.eps
 >
 (epstopdf)             \includegraphics on input line 144.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt-eps-converted-to.pdf, id=2445, 569.12
+<Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt-eps-converted-to.pdf, id=2455, 569.12
 625pt x 546.04pt>
 File: Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -3362,7 +3362,7 @@ converted-to.pdf>
 _mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt.eps>
 (epstopdf)             \includegraphics on input line 151.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt-eps-converted-to.pdf, id=2507, 569.12625
+<Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt-eps-converted-to.pdf, id=2517, 569.12625
 pt x 546.04pt>
 File: Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt-eps-converted-to.pdf Graphic file (
 type pdf)
@@ -3382,7 +3382,7 @@ Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt.eps
 e_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt.eps>
 (epstopdf)             \includegraphics on input line 152.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt-eps-converted-to.pdf, id=2508, 569.1262
+<Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt-eps-converted-to.pdf, id=2518, 569.1262
 5pt x 546.04pt>
 File: Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt-eps-converted-to.pdf Graphic file 
 (type pdf)
@@ -3401,7 +3401,7 @@ verted-to.pdf>
 _lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/met_Loose_mu_lowWpt.eps>
 (epstopdf)             \includegraphics on input line 153.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/met_Loose_mu_lowWpt-eps-converted-to.pdf, id=2509, 569.12625pt 
+<Chapter3/MJ_VR/met_Loose_mu_lowWpt-eps-converted-to.pdf, id=2519, 569.12625pt 
 x 546.04pt>
 File: Chapter3/MJ_VR/met_Loose_mu_lowWpt-eps-converted-to.pdf Graphic file (typ
 e pdf)
@@ -3422,7 +3422,7 @@ oose_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt.e
 ps>
 (epstopdf)             \includegraphics on input line 154.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt-eps-converted-to.pdf, id=2510, 569.1
+<Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt-eps-converted-to.pdf, id=2520, 569.1
 2625pt x 546.04pt>
 File: Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt-eps-converted-to.pdf Graphic fi
 le (type pdf)
@@ -3442,7 +3442,7 @@ s-converted-to.pdf>
 se_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt.eps>
 (epstopdf)             \includegraphics on input line 155.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt-eps-converted-to.pdf, id=2511, 569.126
+<Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt-eps-converted-to.pdf, id=2521, 569.126
 25pt x 546.04pt>
 File: Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt-eps-converted-to.pdf Graphic file
  (type pdf)
@@ -3470,31 +3470,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--165
 
 
 ]
-<Chapter3/HighPurityCR_36fb/VVM_3_el.pdf, id=2587, 569.12625pt x 552.0625pt>
+<Chapter3/HighPurityCR_36fb/VVM_3_el.pdf, id=2597, 569.12625pt x 552.0625pt>
 File: Chapter3/HighPurityCR_36fb/VVM_3_el.pdf Graphic file (type pdf)
 <use Chapter3/HighPurityCR_36fb/VVM_3_el.pdf>
 Package pdftex.def Info: Chapter3/HighPurityCR_36fb/VVM_3_el.pdf  used on input
  line 169.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/HighPurityCR_36fb/VVM_3_mu.pdf, id=2588, 569.12625pt x 552.0625pt>
+<Chapter3/HighPurityCR_36fb/VVM_3_mu.pdf, id=2598, 569.12625pt x 552.0625pt>
 File: Chapter3/HighPurityCR_36fb/VVM_3_mu.pdf Graphic file (type pdf)
 <use Chapter3/HighPurityCR_36fb/VVM_3_mu.pdf>
 Package pdftex.def Info: Chapter3/HighPurityCR_36fb/VVM_3_mu.pdf  used on input
  line 170.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/LowPurityCR_36fb/VVM_12_el.pdf, id=2589, 569.12625pt x 552.0625pt>
+<Chapter3/LowPurityCR_36fb/VVM_12_el.pdf, id=2599, 569.12625pt x 552.0625pt>
 File: Chapter3/LowPurityCR_36fb/VVM_12_el.pdf Graphic file (type pdf)
 <use Chapter3/LowPurityCR_36fb/VVM_12_el.pdf>
 Package pdftex.def Info: Chapter3/LowPurityCR_36fb/VVM_12_el.pdf  used on input
  line 171.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/LowPurityCR_36fb/VVM_12_mu.pdf, id=2590, 569.12625pt x 552.0625pt>
+<Chapter3/LowPurityCR_36fb/VVM_12_mu.pdf, id=2600, 569.12625pt x 552.0625pt>
 File: Chapter3/LowPurityCR_36fb/VVM_12_mu.pdf Graphic file (type pdf)
 <use Chapter3/LowPurityCR_36fb/VVM_12_mu.pdf>
 Package pdftex.def Info: Chapter3/LowPurityCR_36fb/VVM_12_mu.pdf  used on input
  line 172.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf, id=2591, 569.12625pt x 552.0625pt>
+<Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf, id=2601, 569.12625pt x 552.0625pt>
 File: Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf>
 Package pdftex.def Info: Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf  used on inpu
@@ -3511,7 +3511,7 @@ onverted-to.pdf>
 /VVM_5_mu-eps-converted-to.pdf Chapter3/ResolvedCR/ggF36fb/VVM_5_mu.eps>
 (epstopdf)             \includegraphics on input line 174.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/ggF36fb/VVM_5_mu-eps-converted-to.pdf, id=2592, 569.12625p
+<Chapter3/ResolvedCR/ggF36fb/VVM_5_mu-eps-converted-to.pdf, id=2602, 569.12625p
 t x 546.04pt>
 File: Chapter3/ResolvedCR/ggF36fb/VVM_5_mu-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3523,31 +3523,31 @@ pdf  used on input line 174.
 
 LaTeX Warning: Float too large for page by 44.04024pt on input line 177.
 
-<Chapter3/HighPurityCR_36fb/VVM_2_el.pdf, id=2593, 569.12625pt x 552.0625pt>
+<Chapter3/HighPurityCR_36fb/VVM_2_el.pdf, id=2603, 569.12625pt x 552.0625pt>
 File: Chapter3/HighPurityCR_36fb/VVM_2_el.pdf Graphic file (type pdf)
 <use Chapter3/HighPurityCR_36fb/VVM_2_el.pdf>
 Package pdftex.def Info: Chapter3/HighPurityCR_36fb/VVM_2_el.pdf  used on input
  line 183.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/HighPurityCR_36fb/VVM_2_mu.pdf, id=2594, 569.12625pt x 552.0625pt>
+<Chapter3/HighPurityCR_36fb/VVM_2_mu.pdf, id=2604, 569.12625pt x 552.0625pt>
 File: Chapter3/HighPurityCR_36fb/VVM_2_mu.pdf Graphic file (type pdf)
 <use Chapter3/HighPurityCR_36fb/VVM_2_mu.pdf>
 Package pdftex.def Info: Chapter3/HighPurityCR_36fb/VVM_2_mu.pdf  used on input
  line 184.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/LowPurityCR_36fb/VVM_13_el.pdf, id=2595, 569.12625pt x 552.0625pt>
+<Chapter3/LowPurityCR_36fb/VVM_13_el.pdf, id=2605, 569.12625pt x 552.0625pt>
 File: Chapter3/LowPurityCR_36fb/VVM_13_el.pdf Graphic file (type pdf)
 <use Chapter3/LowPurityCR_36fb/VVM_13_el.pdf>
 Package pdftex.def Info: Chapter3/LowPurityCR_36fb/VVM_13_el.pdf  used on input
  line 185.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/LowPurityCR_36fb/VVM_13_mu.pdf, id=2596, 569.12625pt x 552.0625pt>
+<Chapter3/LowPurityCR_36fb/VVM_13_mu.pdf, id=2606, 569.12625pt x 552.0625pt>
 File: Chapter3/LowPurityCR_36fb/VVM_13_mu.pdf Graphic file (type pdf)
 <use Chapter3/LowPurityCR_36fb/VVM_13_mu.pdf>
 Package pdftex.def Info: Chapter3/LowPurityCR_36fb/VVM_13_mu.pdf  used on input
  line 186.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf, id=2597, 569.12625pt x 552.0625pt>
+<Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf, id=2607, 569.12625pt x 552.0625pt>
 File: Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf>
 Package pdftex.def Info: Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf  used on inpu
@@ -3564,7 +3564,7 @@ onverted-to.pdf>
 /VVM_6_mu-eps-converted-to.pdf Chapter3/ResolvedCR/ggF36fb/VVM_6_mu.eps>
 (epstopdf)             \includegraphics on input line 188.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/ggF36fb/VVM_6_mu-eps-converted-to.pdf, id=2598, 569.12625p
+<Chapter3/ResolvedCR/ggF36fb/VVM_6_mu-eps-converted-to.pdf, id=2608, 569.12625p
 t x 546.04pt>
 File: Chapter3/ResolvedCR/ggF36fb/VVM_6_mu-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3575,31 +3575,31 @@ pdf  used on input line 188.
 
 LaTeX Warning: Float too large for page by 44.04024pt on input line 191.
 
-<Chapter3/VBF36fbHP/VVM_3_el.pdf, id=2599, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VVM_3_el.pdf, id=2609, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VVM_3_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VVM_3_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VVM_3_el.pdf  used on input line 19
 6.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbHP/VVM_3_mu.pdf, id=2600, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VVM_3_mu.pdf, id=2610, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VVM_3_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VVM_3_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VVM_3_mu.pdf  used on input line 19
 7.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VVM_12_el.pdf, id=2601, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VVM_12_el.pdf, id=2611, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VVM_12_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VVM_12_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VVM_12_el.pdf  used on input line 1
 98.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VVM_12_mu.pdf, id=2602, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VVM_12_mu.pdf, id=2612, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VVM_12_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VVM_12_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VVM_12_mu.pdf  used on input line 1
 99.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf, id=2603, 569.12625pt x 552.0625pt>
+<Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf, id=2613, 569.12625pt x 552.0625pt>
 File: Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf>
 Package pdftex.def Info: Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf  used on inpu
@@ -3616,7 +3616,7 @@ onverted-to.pdf>
 /VVM_5_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VVM_5_mu.eps>
 (epstopdf)             \includegraphics on input line 201.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/VBF36fb/VVM_5_mu-eps-converted-to.pdf, id=2604, 569.12625p
+<Chapter3/ResolvedCR/VBF36fb/VVM_5_mu-eps-converted-to.pdf, id=2614, 569.12625p
 t x 546.04pt>
 File: Chapter3/ResolvedCR/VBF36fb/VVM_5_mu-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3643,31 +3643,31 @@ M_3_mu.pdf, page is rotated 90 degrees> <./Chapter3/VBF36fbLP/VVM_12_el.pdf, pa
 ge is rotated 90 degrees> <./Chapter3/VBF36fbLP/VVM_12_mu.pdf, page is rotated 
 90 degrees> <./Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf, page is rotated 90 deg
 rees> <./Chapter3/ResolvedCR/VBF36fb/VVM_5_mu-eps-converted-to.pdf>]
-<Chapter3/VBF36fbHP/VBFmass_3_el.pdf, id=3310, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VBFmass_3_el.pdf, id=3320, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VBFmass_3_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VBFmass_3_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VBFmass_3_el.pdf  used on input lin
 e 209.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbHP/VBFmass_3_mu.pdf, id=3311, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VBFmass_3_mu.pdf, id=3321, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VBFmass_3_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VBFmass_3_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VBFmass_3_mu.pdf  used on input lin
 e 210.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VBFmass_12_el.pdf, id=3312, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VBFmass_12_el.pdf, id=3322, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VBFmass_12_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VBFmass_12_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VBFmass_12_el.pdf  used on input li
 ne 211.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VBFmass_12_mu.pdf, id=3313, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VBFmass_12_mu.pdf, id=3323, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VBFmass_12_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VBFmass_12_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VBFmass_12_mu.pdf  used on input li
 ne 212.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/VBF36fb/VBFmass_5_el.pdf, id=3314, 569.12625pt x 552.0625p
+<Chapter3/ResolvedCR/VBF36fb/VBFmass_5_el.pdf, id=3324, 569.12625pt x 552.0625p
 t>
 File: Chapter3/ResolvedCR/VBF36fb/VBFmass_5_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/VBF36fb/VBFmass_5_el.pdf>
@@ -3687,7 +3687,7 @@ ps-converted-to.pdf>
 >
 (epstopdf)             \includegraphics on input line 214.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu-eps-converted-to.pdf, id=3315, 569.12
+<Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu-eps-converted-to.pdf, id=3325, 569.12
 625pt x 546.04pt>
 File: Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -3699,31 +3699,31 @@ Package pdftex.def Info: Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu-eps-converted
 
 LaTeX Warning: Float too large for page by 45.38304pt on input line 217.
 
-<Chapter3/VBF36fbHP/VVM_2_el.pdf, id=3316, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VVM_2_el.pdf, id=3326, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VVM_2_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VVM_2_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VVM_2_el.pdf  used on input line 22
 2.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbHP/VVM_2_mu.pdf, id=3317, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VVM_2_mu.pdf, id=3327, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VVM_2_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VVM_2_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VVM_2_mu.pdf  used on input line 22
 3.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VVM_13_el.pdf, id=3318, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VVM_13_el.pdf, id=3328, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VVM_13_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VVM_13_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VVM_13_el.pdf  used on input line 2
 24.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VVM_13_mu.pdf, id=3319, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VVM_13_mu.pdf, id=3329, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VVM_13_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VVM_13_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VVM_13_mu.pdf  used on input line 2
 25.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf, id=3320, 569.12625pt x 552.0625pt>
+<Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf, id=3330, 569.12625pt x 552.0625pt>
 File: Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf>
 Package pdftex.def Info: Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf  used on inpu
@@ -3740,7 +3740,7 @@ onverted-to.pdf>
 /VVM_6_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VVM_6_mu.eps>
 (epstopdf)             \includegraphics on input line 227.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/VBF36fb/VVM_6_mu-eps-converted-to.pdf, id=3321, 569.12625p
+<Chapter3/ResolvedCR/VBF36fb/VVM_6_mu-eps-converted-to.pdf, id=3331, 569.12625p
 t x 546.04pt>
 File: Chapter3/ResolvedCR/VBF36fb/VVM_6_mu-eps-converted-to.pdf Graphic file (t
 ype pdf)
@@ -3762,31 +3762,31 @@ ted 90 degrees> <./Chapter3/VBF36fbHP/VVM_2_mu.pdf, page is rotated 90 degrees>
 BF36fbLP/VVM_13_mu.pdf, page is rotated 90 degrees> <./Chapter3/ResolvedCR/VBF3
 6fb/VVM_6_el.pdf, page is rotated 90 degrees> <./Chapter3/ResolvedCR/VBF36fb/VV
 M_6_mu-eps-converted-to.pdf>]
-<Chapter3/VBF36fbHP/VBFmass_2_el.pdf, id=3793, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VBFmass_2_el.pdf, id=3803, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VBFmass_2_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VBFmass_2_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VBFmass_2_el.pdf  used on input lin
 e 234.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbHP/VBFmass_2_mu.pdf, id=3794, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbHP/VBFmass_2_mu.pdf, id=3804, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbHP/VBFmass_2_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbHP/VBFmass_2_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbHP/VBFmass_2_mu.pdf  used on input lin
 e 235.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VBFmass_13_el.pdf, id=3795, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VBFmass_13_el.pdf, id=3805, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VBFmass_13_el.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VBFmass_13_el.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VBFmass_13_el.pdf  used on input li
 ne 236.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/VBF36fbLP/VBFmass_13_mu.pdf, id=3796, 569.12625pt x 552.0625pt>
+<Chapter3/VBF36fbLP/VBFmass_13_mu.pdf, id=3806, 569.12625pt x 552.0625pt>
 File: Chapter3/VBF36fbLP/VBFmass_13_mu.pdf Graphic file (type pdf)
 <use Chapter3/VBF36fbLP/VBFmass_13_mu.pdf>
 Package pdftex.def Info: Chapter3/VBF36fbLP/VBFmass_13_mu.pdf  used on input li
 ne 237.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
-<Chapter3/ResolvedCR/VBF36fb/VBFmass_6_el.pdf, id=3797, 569.12625pt x 552.0625p
+<Chapter3/ResolvedCR/VBF36fb/VBFmass_6_el.pdf, id=3807, 569.12625pt x 552.0625p
 t>
 File: Chapter3/ResolvedCR/VBF36fb/VBFmass_6_el.pdf Graphic file (type pdf)
 <use Chapter3/ResolvedCR/VBF36fb/VBFmass_6_el.pdf>
@@ -3806,7 +3806,7 @@ ps-converted-to.pdf>
 >
 (epstopdf)             \includegraphics on input line 239.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu-eps-converted-to.pdf, id=3798, 569.12
+<Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu-eps-converted-to.pdf, id=3808, 569.12
 625pt x 546.04pt>
 File: Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -3879,13 +3879,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--116
 
  []
 
-<Chapter4/NuiPull_ggFHVT2000.png, id=4093, 896.22328pt x 570.25546pt>
+<Chapter4/NuiPull_ggFHVT2000.png, id=4103, 896.22328pt x 570.25546pt>
 File: Chapter4/NuiPull_ggFHVT2000.png Graphic file (type png)
 <use Chapter4/NuiPull_ggFHVT2000.png>
 Package pdftex.def Info: Chapter4/NuiPull_ggFHVT2000.png  used on input line 13
 0.
 (pdftex.def)             Requested size: 362.93866pt x 230.92609pt.
-<Chapter4/NuiPull_ggFHVT500.png, id=4094, 593.59265pt x 360.22078pt>
+<Chapter4/NuiPull_ggFHVT500.png, id=4104, 593.59265pt x 360.22078pt>
 File: Chapter4/NuiPull_ggFHVT500.png Graphic file (type png)
 <use Chapter4/NuiPull_ggFHVT500.png>
 Package pdftex.def Info: Chapter4/NuiPull_ggFHVT500.png  used on input line 132
@@ -3902,7 +3902,7 @@ d-to.pdf>
 gF-eps-converted-to.pdf Chapter4/CorrMatrix_WW_HP_ggF.eps>
 (epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/CorrMatrix_WW_HP_ggF-eps-converted-to.pdf, id=4095, 569.12625pt x 514
+<Chapter4/CorrMatrix_WW_HP_ggF-eps-converted-to.pdf, id=4105, 569.12625pt x 514
 .92375pt>
 File: Chapter4/CorrMatrix_WW_HP_ggF-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -3963,7 +3963,7 @@ Package epstopdf Info: Source file: <Chapter4/VVM_p0_HVTWZ_ggF.eps>
 ps-converted-to.pdf Chapter4/VVM_p0_HVTWZ_ggF.eps>
 (epstopdf)             \includegraphics on input line 356.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VVM_p0_HVTWZ_ggF-eps-converted-to.pdf, id=4166, 569.12625pt x 480.796
+<Chapter4/VVM_p0_HVTWZ_ggF-eps-converted-to.pdf, id=4176, 569.12625pt x 480.796
 25pt>
 File: Chapter4/VVM_p0_HVTWZ_ggF-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VVM_p0_HVTWZ_ggF-eps-converted-to.pdf>
@@ -4013,7 +4013,7 @@ Package epstopdf Info: Source file: <Chapter4/GGFWWHVT.eps>
 rted-to.pdf Chapter4/GGFWWHVT.eps>
 (epstopdf)             \includegraphics on input line 395.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWWHVT-eps-converted-to.pdf, id=4194, 569.12625pt x 384.43625pt>
+<Chapter4/GGFWWHVT-eps-converted-to.pdf, id=4204, 569.12625pt x 384.43625pt>
 File: Chapter4/GGFWWHVT-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWWHVT-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/GGFWWHVT-eps-converted-to.pdf  used on input 
@@ -4029,7 +4029,7 @@ Package epstopdf Info: Source file: <Chapter4/GGFWZHVT.eps>
 rted-to.pdf Chapter4/GGFWZHVT.eps>
 (epstopdf)             \includegraphics on input line 396.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWZHVT-eps-converted-to.pdf, id=4195, 569.12625pt x 384.43625pt>
+<Chapter4/GGFWZHVT-eps-converted-to.pdf, id=4205, 569.12625pt x 384.43625pt>
 File: Chapter4/GGFWZHVT-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWZHVT-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/GGFWZHVT-eps-converted-to.pdf  used on input 
@@ -4045,7 +4045,7 @@ Package epstopdf Info: Source file: <Chapter4/GGFWWNWA.eps>
 rted-to.pdf Chapter4/GGFWWNWA.eps>
 (epstopdf)             \includegraphics on input line 397.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWWNWA-eps-converted-to.pdf, id=4196, 569.12625pt x 384.43625pt>
+<Chapter4/GGFWWNWA-eps-converted-to.pdf, id=4206, 569.12625pt x 384.43625pt>
 File: Chapter4/GGFWWNWA-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWWNWA-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/GGFWWNWA-eps-converted-to.pdf  used on input 
@@ -4061,7 +4061,7 @@ Package epstopdf Info: Source file: <Chapter4/GGFWWRSG.eps>
 rted-to.pdf Chapter4/GGFWWRSG.eps>
 (epstopdf)             \includegraphics on input line 398.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWWRSG-eps-converted-to.pdf, id=4197, 569.12625pt x 384.43625pt>
+<Chapter4/GGFWWRSG-eps-converted-to.pdf, id=4207, 569.12625pt x 384.43625pt>
 File: Chapter4/GGFWWRSG-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWWRSG-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/GGFWWRSG-eps-converted-to.pdf  used on input 
@@ -4077,7 +4077,7 @@ Package epstopdf Info: Source file: <Chapter4/VBFWWHVT.eps>
 rted-to.pdf Chapter4/VBFWWHVT.eps>
 (epstopdf)             \includegraphics on input line 404.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VBFWWHVT-eps-converted-to.pdf, id=4198, 569.12625pt x 384.43625pt>
+<Chapter4/VBFWWHVT-eps-converted-to.pdf, id=4208, 569.12625pt x 384.43625pt>
 File: Chapter4/VBFWWHVT-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VBFWWHVT-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/VBFWWHVT-eps-converted-to.pdf  used on input 
@@ -4093,7 +4093,7 @@ Package epstopdf Info: Source file: <Chapter4/VBFWZHVT.eps>
 rted-to.pdf Chapter4/VBFWZHVT.eps>
 (epstopdf)             \includegraphics on input line 405.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VBFWZHVT-eps-converted-to.pdf, id=4199, 569.12625pt x 384.43625pt>
+<Chapter4/VBFWZHVT-eps-converted-to.pdf, id=4209, 569.12625pt x 384.43625pt>
 File: Chapter4/VBFWZHVT-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VBFWZHVT-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/VBFWZHVT-eps-converted-to.pdf  used on input 
@@ -4109,13 +4109,13 @@ Package epstopdf Info: Source file: <Chapter4/VBFWWNWA.eps>
 rted-to.pdf Chapter4/VBFWWNWA.eps>
 (epstopdf)             \includegraphics on input line 406.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VBFWWNWA-eps-converted-to.pdf, id=4200, 569.12625pt x 384.43625pt>
+<Chapter4/VBFWWNWA-eps-converted-to.pdf, id=4210, 569.12625pt x 384.43625pt>
 File: Chapter4/VBFWWNWA-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VBFWWNWA-eps-converted-to.pdf>
 Package pdftex.def Info: Chapter4/VBFWWNWA-eps-converted-to.pdf  used on input 
 line 406.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
-<Chapter4/limit_ResMerComb.png, id=4201, 415.92891pt x 346.29375pt>
+<Chapter4/limit_ResMerComb.png, id=4211, 415.92891pt x 346.29375pt>
 File: Chapter4/limit_ResMerComb.png Graphic file (type png)
 <use Chapter4/limit_ResMerComb.png>
 Package pdftex.def Info: Chapter4/limit_ResMerComb.png  used on input line 412.
@@ -4171,7 +4171,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [108 <./Chapter4/GGFWWHVT-eps-converted-to.pdf> <./Chapter4/GGFWZHVT-eps-conver
 ted-to.pdf> <./Chapter4/GGFWWNWA-eps-converted-to.pdf> <./Chapter4/GGFWWRSG-eps
 -converted-to.pdf>]
-<Chapter4/Comb_scheme.png, id=4273, 253.69781pt x 143.78719pt>
+<Chapter4/Comb_scheme.png, id=4283, 253.69781pt x 143.78719pt>
 File: Chapter4/Comb_scheme.png Graphic file (type png)
 <use Chapter4/Comb_scheme.png>
 Package pdftex.def Info: Chapter4/Comb_scheme.png  used on input line 11.
@@ -4185,17 +4185,17 @@ Overfull \hbox (52.52872pt too wide) in paragraph at lines 20--44
  [] 
  []
 
-<Chapter4/vvbb_limit.png, id=4336, 296.60812pt x 223.20891pt>
+<Chapter4/vvbb_limit.png, id=4346, 296.60812pt x 223.20891pt>
 File: Chapter4/vvbb_limit.png Graphic file (type png)
 <use Chapter4/vvbb_limit.png>
 Package pdftex.def Info: Chapter4/vvbb_limit.png  used on input line 94.
 (pdftex.def)             Requested size: 152.34343pt x 114.64903pt.
-<Chapter4/lvbb_limit.png, id=4337, 298.11375pt x 222.8325pt>
+<Chapter4/lvbb_limit.png, id=4347, 298.11375pt x 222.8325pt>
 File: Chapter4/lvbb_limit.png Graphic file (type png)
 <use Chapter4/lvbb_limit.png>
 Package pdftex.def Info: Chapter4/lvbb_limit.png  used on input line 95.
 (pdftex.def)             Requested size: 152.34343pt x 113.87088pt.
-<Chapter4/llbb_limit.png, id=4338, 293.22047pt x 219.06844pt>
+<Chapter4/llbb_limit.png, id=4348, 293.22047pt x 219.06844pt>
 File: Chapter4/llbb_limit.png Graphic file (type png)
 <use Chapter4/llbb_limit.png>
 Package pdftex.def Info: Chapter4/llbb_limit.png  used on input line 95.
@@ -4244,7 +4244,7 @@ pdf>
 s-converted-to.pdf Chapter4/VBFWWWZHVT_COMB.eps>
 (epstopdf)             \includegraphics on input line 117.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VBFWWWZHVT_COMB-eps-converted-to.pdf, id=4371, 569.12625pt x 412.5412
+<Chapter4/VBFWWWZHVT_COMB-eps-converted-to.pdf, id=4381, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/VBFWWWZHVT_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VBFWWWZHVT_COMB-eps-converted-to.pdf>
@@ -4262,7 +4262,7 @@ pdf>
 s-converted-to.pdf Chapter4/VBFWWZZNWA_COMB.eps>
 (epstopdf)             \includegraphics on input line 118.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/VBFWWZZNWA_COMB-eps-converted-to.pdf, id=4372, 569.12625pt x 412.5412
+<Chapter4/VBFWWZZNWA_COMB-eps-converted-to.pdf, id=4382, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/VBFWWZZNWA_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/VBFWWZZNWA_COMB-eps-converted-to.pdf>
@@ -4280,7 +4280,7 @@ pdf>
 s-converted-to.pdf Chapter4/GGFALLHVTW_COMB.eps>
 (epstopdf)             \includegraphics on input line 127.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFALLHVTW_COMB-eps-converted-to.pdf, id=4376, 569.12625pt x 412.5412
+<Chapter4/GGFALLHVTW_COMB-eps-converted-to.pdf, id=4386, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/GGFALLHVTW_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFALLHVTW_COMB-eps-converted-to.pdf>
@@ -4298,7 +4298,7 @@ pdf>
 s-converted-to.pdf Chapter4/GGFALLHVTZ_COMB.eps>
 (epstopdf)             \includegraphics on input line 128.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFALLHVTZ_COMB-eps-converted-to.pdf, id=4377, 569.12625pt x 412.5412
+<Chapter4/GGFALLHVTZ_COMB-eps-converted-to.pdf, id=4387, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/GGFALLHVTZ_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFALLHVTZ_COMB-eps-converted-to.pdf>
@@ -4316,7 +4316,7 @@ pdf>
 s-converted-to.pdf Chapter4/GGFWWZZNWA_COMB.eps>
 (epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWWZZNWA_COMB-eps-converted-to.pdf, id=4378, 569.12625pt x 412.5412
+<Chapter4/GGFWWZZNWA_COMB-eps-converted-to.pdf, id=4388, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/GGFWWZZNWA_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWWZZNWA_COMB-eps-converted-to.pdf>
@@ -4334,7 +4334,7 @@ pdf>
 s-converted-to.pdf Chapter4/GGFWWZZRSG_COMB.eps>
 (epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFWWZZRSG_COMB-eps-converted-to.pdf, id=4379, 569.12625pt x 412.5412
+<Chapter4/GGFWWZZRSG_COMB-eps-converted-to.pdf, id=4389, 569.12625pt x 412.5412
 4pt>
 File: Chapter4/GGFWWZZRSG_COMB-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFWWZZRSG_COMB-eps-converted-to.pdf>
@@ -4352,7 +4352,7 @@ to.pdf>
 -eps-converted-to.pdf Chapter4/GGFALLHVTV_compare.eps>
 (epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/GGFALLHVTV_compare-eps-converted-to.pdf, id=4380, 569.12625pt x 412.5
+<Chapter4/GGFALLHVTV_compare-eps-converted-to.pdf, id=4390, 569.12625pt x 412.5
 4124pt>
 File: Chapter4/GGFALLHVTV_compare-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/GGFALLHVTV_compare-eps-converted-to.pdf>
@@ -4417,7 +4417,7 @@ pdf>
 s-converted-to.pdf Chapter4/Coupling_hf_all.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/Coupling_hf_all-eps-converted-to.pdf, id=4492, 569.12625pt x 385.44pt
+<Chapter4/Coupling_hf_all-eps-converted-to.pdf, id=4502, 569.12625pt x 385.44pt
 >
 File: Chapter4/Coupling_hf_all-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/Coupling_hf_all-eps-converted-to.pdf>
@@ -4435,7 +4435,7 @@ pdf>
 s-converted-to.pdf Chapter4/Coupling_lg_all.eps>
 (epstopdf)             \includegraphics on input line 172.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter4/Coupling_lg_all-eps-converted-to.pdf, id=4493, 569.12625pt x 385.44pt
+<Chapter4/Coupling_lg_all-eps-converted-to.pdf, id=4503, 569.12625pt x 385.44pt
 >
 File: Chapter4/Coupling_lg_all-eps-converted-to.pdf Graphic file (type pdf)
 <use Chapter4/Coupling_lg_all-eps-converted-to.pdf>
@@ -4481,27 +4481,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--11
 
 
 ]
-<Chapter5/feynVBS2.pdf, id=4541, 421.575pt x 295.1025pt>
+<Chapter5/feynVBS2.pdf, id=4551, 421.575pt x 295.1025pt>
 File: Chapter5/feynVBS2.pdf Graphic file (type pdf)
 <use Chapter5/feynVBS2.pdf>
 Package pdftex.def Info: Chapter5/feynVBS2.pdf  used on input line 21.
 (pdftex.def)             Requested size: 134.4235pt x 94.097pt.
-<Chapter5/feynVBS3.pdf, id=4542, 421.575pt x 299.1175pt>
+<Chapter5/feynVBS3.pdf, id=4552, 421.575pt x 299.1175pt>
 File: Chapter5/feynVBS3.pdf Graphic file (type pdf)
 <use Chapter5/feynVBS3.pdf>
 Package pdftex.def Info: Chapter5/feynVBS3.pdf  used on input line 24.
 (pdftex.def)             Requested size: 134.4235pt x 95.37723pt.
-<Chapter5/feynVBS4.pdf, id=4543, 422.57875pt x 294.09875pt>
+<Chapter5/feynVBS4.pdf, id=4553, 422.57875pt x 294.09875pt>
 File: Chapter5/feynVBS4.pdf Graphic file (type pdf)
 <use Chapter5/feynVBS4.pdf>
 Package pdftex.def Info: Chapter5/feynVBS4.pdf  used on input line 27.
 (pdftex.def)             Requested size: 134.4235pt x 93.55257pt.
-<Chapter5/feynVBS1.pdf, id=4544, 420.57124pt x 297.11pt>
+<Chapter5/feynVBS1.pdf, id=4554, 420.57124pt x 297.11pt>
 File: Chapter5/feynVBS1.pdf Graphic file (type pdf)
 <use Chapter5/feynVBS1.pdf>
 Package pdftex.def Info: Chapter5/feynVBS1.pdf  used on input line 30.
 (pdftex.def)             Requested size: 134.4235pt x 94.96379pt.
-<Chapter5/feynVBS5.pdf, id=4545, 422.57875pt x 294.09875pt>
+<Chapter5/feynVBS5.pdf, id=4555, 422.57875pt x 294.09875pt>
 File: Chapter5/feynVBS5.pdf Graphic file (type pdf)
 <use Chapter5/feynVBS5.pdf>
 Package pdftex.def Info: Chapter5/feynVBS5.pdf  used on input line 33.
@@ -4511,7 +4511,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [121 <./Chapter5/feynVBS2.pdf> <./Chapter5/feynVBS3.pdf> <./Chapter5/feynVBS4.
 pdf> <./Chapter5/feynVBS1.pdf> <./Chapter5/feynVBS5.pdf>]
-<Chapter5/VBSXS_heavyhiggs.png, id=4581, 396.35577pt x 421.9514pt>
+<Chapter5/VBSXS_heavyhiggs.png, id=4591, 396.35577pt x 421.9514pt>
 File: Chapter5/VBSXS_heavyhiggs.png Graphic file (type png)
 <use Chapter5/VBSXS_heavyhiggs.png>
 Package pdftex.def Info: Chapter5/VBSXS_heavyhiggs.png  used on input line 58.
@@ -4558,27 +4558,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--119
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124]
-<Chapter5/feynQCD2.pdf, id=4616, 421.575pt x 303.1325pt>
+<Chapter5/feynQCD2.pdf, id=4626, 421.575pt x 303.1325pt>
 File: Chapter5/feynQCD2.pdf Graphic file (type pdf)
 <use Chapter5/feynQCD2.pdf>
 Package pdftex.def Info: Chapter5/feynQCD2.pdf  used on input line 125.
 (pdftex.def)             Requested size: 134.4235pt x 96.65747pt.
-<Chapter5/feynQCD3.pdf, id=4617, 421.575pt x 300.12125pt>
+<Chapter5/feynQCD3.pdf, id=4627, 421.575pt x 300.12125pt>
 File: Chapter5/feynQCD3.pdf Graphic file (type pdf)
 <use Chapter5/feynQCD3.pdf>
 Package pdftex.def Info: Chapter5/feynQCD3.pdf  used on input line 128.
 (pdftex.def)             Requested size: 134.4235pt x 95.6973pt.
-<Chapter5/feynQCD4.pdf, id=4618, 421.575pt x 293.095pt>
+<Chapter5/feynQCD4.pdf, id=4628, 421.575pt x 293.095pt>
 File: Chapter5/feynQCD4.pdf Graphic file (type pdf)
 <use Chapter5/feynQCD4.pdf>
 Package pdftex.def Info: Chapter5/feynQCD4.pdf  used on input line 131.
 (pdftex.def)             Requested size: 134.4235pt x 93.45688pt.
-<Chapter5/feynQCD1.pdf, id=4619, 421.575pt x 293.095pt>
+<Chapter5/feynQCD1.pdf, id=4629, 421.575pt x 293.095pt>
 File: Chapter5/feynQCD1.pdf Graphic file (type pdf)
 <use Chapter5/feynQCD1.pdf>
 Package pdftex.def Info: Chapter5/feynQCD1.pdf  used on input line 134.
 (pdftex.def)             Requested size: 134.4235pt x 93.45688pt.
-<Chapter5/feynQCD5.pdf, id=4620, 421.575pt x 299.1175pt>
+<Chapter5/feynQCD5.pdf, id=4630, 421.575pt x 299.1175pt>
 File: Chapter5/feynQCD5.pdf Graphic file (type pdf)
 <use Chapter5/feynQCD5.pdf>
 Package pdftex.def Info: Chapter5/feynQCD5.pdf  used on input line 137.
@@ -4592,7 +4592,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--153
 Underfull \vbox (badness 2980) has occurred while \output is active []
 
  [125]
-<Chapter5/SR_EtaTagResJet_BatmanVeto.pdf, id=4631, 1450.8433pt x 628.47028pt>
+<Chapter5/SR_EtaTagResJet_BatmanVeto.pdf, id=4641, 1450.8433pt x 628.47028pt>
 File: Chapter5/SR_EtaTagResJet_BatmanVeto.pdf Graphic file (type pdf)
 <use Chapter5/SR_EtaTagResJet_BatmanVeto.pdf>
 Package pdftex.def Info: Chapter5/SR_EtaTagResJet_BatmanVeto.pdf  used on input
@@ -4622,7 +4622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--240
 
  []
 
-<Chapter5/DT.png, id=4710, 476.53032pt x 403.13109pt>
+<Chapter5/DT.png, id=4720, 476.53032pt x 403.13109pt>
 File: Chapter5/DT.png Graphic file (type png)
 <use Chapter5/DT.png>
 Package pdftex.def Info: Chapter5/DT.png  used on input line 250.
@@ -4713,7 +4713,7 @@ ed-to.pdf>
 ged-eps-converted-to.pdf Chapter5/overtrain_BDTG_merged.eps>
 (epstopdf)             \includegraphics on input line 377.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter5/overtrain_BDTG_merged-eps-converted-to.pdf, id=4757, 569.12625pt x 42
+<Chapter5/overtrain_BDTG_merged-eps-converted-to.pdf, id=4767, 569.12625pt x 42
 0.57124pt>
 File: Chapter5/overtrain_BDTG_merged-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -4734,7 +4734,7 @@ inEven_merged-eps-converted-to.pdf Chapter5/overtrain_BDTG_trainEven_merged.eps
 >
 (epstopdf)             \includegraphics on input line 378.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter5/overtrain_BDTG_trainEven_merged-eps-converted-to.pdf, id=4758, 569.12
+<Chapter5/overtrain_BDTG_trainEven_merged-eps-converted-to.pdf, id=4768, 569.12
 625pt x 420.57124pt>
 File: Chapter5/overtrain_BDTG_trainEven_merged-eps-converted-to.pdf Graphic fil
 e (type pdf)
@@ -4753,7 +4753,7 @@ rted-to.pdf>
 olved-eps-converted-to.pdf Chapter5/overtrain_BDTG_resolved.eps>
 (epstopdf)             \includegraphics on input line 379.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter5/overtrain_BDTG_resolved-eps-converted-to.pdf, id=4759, 569.12625pt x 
+<Chapter5/overtrain_BDTG_resolved-eps-converted-to.pdf, id=4769, 569.12625pt x 
 420.57124pt>
 File: Chapter5/overtrain_BDTG_resolved-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -4774,7 +4774,7 @@ inEven_resolved-eps-converted-to.pdf Chapter5/overtrain_BDTG_trainEven_resolved
 .eps>
 (epstopdf)             \includegraphics on input line 380.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter5/overtrain_BDTG_trainEven_resolved-eps-converted-to.pdf, id=4760, 569.
+<Chapter5/overtrain_BDTG_trainEven_resolved-eps-converted-to.pdf, id=4770, 569.
 12625pt x 420.57124pt>
 File: Chapter5/overtrain_BDTG_trainEven_resolved-eps-converted-to.pdf Graphic f
 ile (type pdf)
@@ -4800,37 +4800,37 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 392.
 
-<Chapter5/boosted_mjj_tag.pdf, id=4772, 569.12625pt x 534.99875pt>
+<Chapter5/boosted_mjj_tag.pdf, id=4782, 569.12625pt x 534.99875pt>
 File: Chapter5/boosted_mjj_tag.pdf Graphic file (type pdf)
 <use Chapter5/boosted_mjj_tag.pdf>
 Package pdftex.def Info: Chapter5/boosted_mjj_tag.pdf  used on input line 396.
 (pdftex.def)             Requested size: 268.847pt x 252.73926pt.
 [135]
-<Chapter5/2para_msigJJ50to60.pdf, id=4781, 569.12625pt x 546.04pt>
+<Chapter5/2para_msigJJ50to60.pdf, id=4791, 569.12625pt x 546.04pt>
 File: Chapter5/2para_msigJJ50to60.pdf Graphic file (type pdf)
 <use Chapter5/2para_msigJJ50to60.pdf>
 Package pdftex.def Info: Chapter5/2para_msigJJ50to60.pdf  used on input line 42
 9.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_msigJJ60to70.pdf, id=4782, 569.12625pt x 546.04pt>
+<Chapter5/2para_msigJJ60to70.pdf, id=4792, 569.12625pt x 546.04pt>
 File: Chapter5/2para_msigJJ60to70.pdf Graphic file (type pdf)
 <use Chapter5/2para_msigJJ60to70.pdf>
 Package pdftex.def Info: Chapter5/2para_msigJJ60to70.pdf  used on input line 43
 0.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_msigJJ100to150.pdf, id=4783, 569.12625pt x 546.04pt>
+<Chapter5/2para_msigJJ100to150.pdf, id=4793, 569.12625pt x 546.04pt>
 File: Chapter5/2para_msigJJ100to150.pdf Graphic file (type pdf)
 <use Chapter5/2para_msigJJ100to150.pdf>
 Package pdftex.def Info: Chapter5/2para_msigJJ100to150.pdf  used on input line 
 431.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_msigJJ150to200.pdf, id=4784, 569.12625pt x 546.04pt>
+<Chapter5/2para_msigJJ150to200.pdf, id=4794, 569.12625pt x 546.04pt>
 File: Chapter5/2para_msigJJ150to200.pdf Graphic file (type pdf)
 <use Chapter5/2para_msigJJ150to200.pdf>
 Package pdftex.def Info: Chapter5/2para_msigJJ150to200.pdf  used on input line 
 432.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_msigJJ200to300.pdf, id=4785, 569.12625pt x 546.04pt>
+<Chapter5/2para_msigJJ200to300.pdf, id=4795, 569.12625pt x 546.04pt>
 File: Chapter5/2para_msigJJ200to300.pdf Graphic file (type pdf)
 <use Chapter5/2para_msigJJ200to300.pdf>
 Package pdftex.def Info: Chapter5/2para_msigJJ200to300.pdf  used on input line 
@@ -4843,49 +4843,49 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 rain_BDTG_trainEven_merged-eps-converted-to.pdf> <./Chapter5/overtrain_BDTG_res
 olved-eps-converted-to.pdf> <./Chapter5/overtrain_BDTG_trainEven_resolved-eps-c
 onverted-to.pdf>]
-<Chapter5/2para_50to60.pdf, id=4823, 569.12625pt x 546.04pt>
+<Chapter5/2para_50to60.pdf, id=4833, 569.12625pt x 546.04pt>
 File: Chapter5/2para_50to60.pdf Graphic file (type pdf)
 <use Chapter5/2para_50to60.pdf>
 Package pdftex.def Info: Chapter5/2para_50to60.pdf  used on input line 440.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_60to70.pdf, id=4824, 569.12625pt x 546.04pt>
+<Chapter5/2para_60to70.pdf, id=4834, 569.12625pt x 546.04pt>
 File: Chapter5/2para_60to70.pdf Graphic file (type pdf)
 <use Chapter5/2para_60to70.pdf>
 Package pdftex.def Info: Chapter5/2para_60to70.pdf  used on input line 441.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_100to150.pdf, id=4825, 569.12625pt x 546.04pt>
+<Chapter5/2para_100to150.pdf, id=4835, 569.12625pt x 546.04pt>
 File: Chapter5/2para_100to150.pdf Graphic file (type pdf)
 <use Chapter5/2para_100to150.pdf>
 Package pdftex.def Info: Chapter5/2para_100to150.pdf  used on input line 442.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_150to200.pdf, id=4826, 569.12625pt x 546.04pt>
+<Chapter5/2para_150to200.pdf, id=4836, 569.12625pt x 546.04pt>
 File: Chapter5/2para_150to200.pdf Graphic file (type pdf)
 <use Chapter5/2para_150to200.pdf>
 Package pdftex.def Info: Chapter5/2para_150to200.pdf  used on input line 443.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/2para_200to300.pdf, id=4827, 569.12625pt x 546.04pt>
+<Chapter5/2para_200to300.pdf, id=4837, 569.12625pt x 546.04pt>
 File: Chapter5/2para_200to300.pdf Graphic file (type pdf)
 <use Chapter5/2para_200to300.pdf>
 Package pdftex.def Info: Chapter5/2para_200to300.pdf  used on input line 444.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
-<Chapter5/resolved_mjj_tag_sub.pdf, id=4828, 569.12625pt x 534.99875pt>
+<Chapter5/resolved_mjj_tag_sub.pdf, id=4838, 569.12625pt x 534.99875pt>
 File: Chapter5/resolved_mjj_tag_sub.pdf Graphic file (type pdf)
 <use Chapter5/resolved_mjj_tag_sub.pdf>
 Package pdftex.def Info: Chapter5/resolved_mjj_tag_sub.pdf  used on input line 
 450.
 (pdftex.def)             Requested size: 201.63182pt x 189.53812pt.
-<Chapter5/lvjjmass_sub.pdf, id=4829, 569.12625pt x 534.99875pt>
+<Chapter5/lvjjmass_sub.pdf, id=4839, 569.12625pt x 534.99875pt>
 File: Chapter5/lvjjmass_sub.pdf Graphic file (type pdf)
 <use Chapter5/lvjjmass_sub.pdf>
 Package pdftex.def Info: Chapter5/lvjjmass_sub.pdf  used on input line 450.
 (pdftex.def)             Requested size: 201.63182pt x 189.53812pt.
-<Chapter5/boosted_mjj_tag_sub.pdf, id=4830, 569.12625pt x 534.99875pt>
+<Chapter5/boosted_mjj_tag_sub.pdf, id=4840, 569.12625pt x 534.99875pt>
 File: Chapter5/boosted_mjj_tag_sub.pdf Graphic file (type pdf)
 <use Chapter5/boosted_mjj_tag_sub.pdf>
 Package pdftex.def Info: Chapter5/boosted_mjj_tag_sub.pdf  used on input line 4
 51.
 (pdftex.def)             Requested size: 201.63182pt x 189.53812pt.
-<Chapter5/lvJmass_sub.pdf, id=4831, 569.12625pt x 534.99875pt>
+<Chapter5/lvJmass_sub.pdf, id=4841, 569.12625pt x 534.99875pt>
 File: Chapter5/lvJmass_sub.pdf Graphic file (type pdf)
 <use Chapter5/lvJmass_sub.pdf>
 Package pdftex.def Info: Chapter5/lvJmass_sub.pdf  used on input line 452.
@@ -4899,37 +4899,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 458--481
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [137 <./Chapter5/boosted_mjj_tag.pdf, page is rotated 90 degrees>]
-<Chapter5/BDT_1lep_HP_WCR_prefit.pdf, id=4889, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_HP_WCR_prefit.pdf, id=4899, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_HP_WCR_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_HP_WCR_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_HP_WCR_prefit.pdf  used on input lin
 e 494.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_HP_WCR_postfit.pdf, id=4890, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_HP_WCR_postfit.pdf, id=4900, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_HP_WCR_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_HP_WCR_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_HP_WCR_postfit.pdf  used on input li
 ne 494.
 (pdftex.def)             Requested size: 188.19016pt x 212.09204pt.
-<Chapter5/BDT_1lep_LP_WCR_prefit.pdf, id=4891, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_LP_WCR_prefit.pdf, id=4901, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_LP_WCR_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_LP_WCR_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_LP_WCR_prefit.pdf  used on input lin
 e 495.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_LP_WCR_postfit.pdf, id=4892, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_LP_WCR_postfit.pdf, id=4902, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_LP_WCR_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_LP_WCR_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_LP_WCR_postfit.pdf  used on input li
 ne 496.
 (pdftex.def)             Requested size: 188.19016pt x 212.09204pt.
-<Chapter5/BDT_1lep_res_WCR_prefit.pdf, id=4893, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_res_WCR_prefit.pdf, id=4903, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_res_WCR_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_res_WCR_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_res_WCR_prefit.pdf  used on input li
 ne 497.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_res_WCR_postfit.pdf, id=4894, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_res_WCR_postfit.pdf, id=4904, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_res_WCR_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_res_WCR_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_res_WCR_postfit.pdf  used on input l
@@ -4939,37 +4939,37 @@ ine 498.
 
 LaTeX Warning: Float too large for page by 55.24614pt on input line 503.
 
-<Chapter5/BDT_1lep_HP_CRTop_prefit.pdf, id=4895, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_HP_CRTop_prefit.pdf, id=4905, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_HP_CRTop_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_HP_CRTop_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_HP_CRTop_prefit.pdf  used on input l
 ine 506.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_HP_CRTop_postfit.pdf, id=4896, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_HP_CRTop_postfit.pdf, id=4906, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_HP_CRTop_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_HP_CRTop_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_HP_CRTop_postfit.pdf  used on input 
 line 506.
 (pdftex.def)             Requested size: 188.19016pt x 212.09204pt.
-<Chapter5/BDT_1lep_LP_CRTop_prefit.pdf, id=4897, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_LP_CRTop_prefit.pdf, id=4907, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_LP_CRTop_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_LP_CRTop_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_LP_CRTop_prefit.pdf  used on input l
 ine 507.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_LP_CRTop_postfit.pdf, id=4898, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_LP_CRTop_postfit.pdf, id=4908, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_LP_CRTop_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_LP_CRTop_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_LP_CRTop_postfit.pdf  used on input 
 line 508.
 (pdftex.def)             Requested size: 188.19016pt x 212.09204pt.
-<Chapter5/BDT_1lep_res_CRTop_prefit.pdf, id=4899, 569.12625pt x 546.04pt>
+<Chapter5/BDT_1lep_res_CRTop_prefit.pdf, id=4909, 569.12625pt x 546.04pt>
 File: Chapter5/BDT_1lep_res_CRTop_prefit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_res_CRTop_prefit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_res_CRTop_prefit.pdf  used on input 
 line 509.
 (pdftex.def)             Requested size: 188.19016pt x 180.56035pt.
-<Chapter5/BDT_1lep_res_CRTop_postfit.pdf, id=4900, 569.12625pt x 641.39626pt>
+<Chapter5/BDT_1lep_res_CRTop_postfit.pdf, id=4910, 569.12625pt x 641.39626pt>
 File: Chapter5/BDT_1lep_res_CRTop_postfit.pdf Graphic file (type pdf)
 <use Chapter5/BDT_1lep_res_CRTop_postfit.pdf>
 Package pdftex.def Info: Chapter5/BDT_1lep_res_CRTop_postfit.pdf  used on input
@@ -4978,13 +4978,13 @@ Package pdftex.def Info: Chapter5/BDT_1lep_res_CRTop_postfit.pdf  used on input
 
 LaTeX Warning: Float too large for page by 55.24614pt on input line 515.
 
-<Chapter5/ranking_data_1lepCR.pdf, id=4902, 569.12625pt x 653.44125pt>
+<Chapter5/ranking_data_1lepCR.pdf, id=4912, 569.12625pt x 653.44125pt>
 File: Chapter5/ranking_data_1lepCR.pdf Graphic file (type pdf)
 <use Chapter5/ranking_data_1lepCR.pdf>
 Package pdftex.def Info: Chapter5/ranking_data_1lepCR.pdf  used on input line 5
 23.
 (pdftex.def)             Requested size: 250.92021pt x 288.09334pt.
-<Chapter5/corr_data_1lepCR.pdf, id=4903, 569.12625pt x 546.04pt>
+<Chapter5/corr_data_1lepCR.pdf, id=4913, 569.12625pt x 546.04pt>
 File: Chapter5/corr_data_1lepCR.pdf Graphic file (type pdf)
 <use Chapter5/corr_data_1lepCR.pdf>
 Package pdftex.def Info: Chapter5/corr_data_1lepCR.pdf  used on input line 524.
@@ -5019,13 +5019,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 485--528
 Underfull \vbox (badness 5331) has occurred while \output is active []
 
  [138]
-<Chapter5/Muhat_VBS_channels_obs.pdf, id=4916, 569.12625pt x 408.52625pt>
+<Chapter5/Muhat_VBS_channels_obs.pdf, id=4926, 569.12625pt x 408.52625pt>
 File: Chapter5/Muhat_VBS_channels_obs.pdf Graphic file (type pdf)
 <use Chapter5/Muhat_VBS_channels_obs.pdf>
 Package pdftex.def Info: Chapter5/Muhat_VBS_channels_obs.pdf  used on input lin
 e 607.
 (pdftex.def)             Requested size: 284.52756pt x 204.24391pt.
-<Chapter5/Global_SoverB_2016.pdf, id=4917, 569.12625pt x 546.04pt>
+<Chapter5/Global_SoverB_2016.pdf, id=4927, 569.12625pt x 546.04pt>
 File: Chapter5/Global_SoverB_2016.pdf Graphic file (type pdf)
 <use Chapter5/Global_SoverB_2016.pdf>
 Package pdftex.def Info: Chapter5/Global_SoverB_2016.pdf  used on input line 61
@@ -5094,7 +5094,7 @@ ted 90 degrees>] [149 <./Chapter5/Muhat_VBS_channels_obs.pdf, page is rotated 9
 
 (TexFiles/Run3L1Calo.tex
 chapter 6.
-<Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg, id=6138, 215.
+<Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg, id=6148, 215.
 1293pt x 96.47205pt>
 File: Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg Graphic f
 ile (type jpg)
@@ -5102,7 +5102,7 @@ ile (type jpg)
 Package pdftex.def Info: Chapter6/The-LHC-upgrade-schedule-and-associated-lumin
 osity.jpg  used on input line 7.
 (pdftex.def)             Requested size: 403.26366pt x 180.84045pt.
-<Chapter6/Schedule_HL.png, id=6139, 726.5544pt x 462.0462pt>
+<Chapter6/Schedule_HL.png, id=6149, 726.5544pt x 462.0462pt>
 File: Chapter6/Schedule_HL.png Graphic file (type png)
 <use Chapter6/Schedule_HL.png>
 Package pdftex.def Info: Chapter6/Schedule_HL.png  used on input line 8.
@@ -5132,7 +5132,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [151]
-<Chapter6/L1Calo.png, id=6160, 853.1875pt x 602.25pt>
+<Chapter6/L1Calo.png, id=6171, 853.1875pt x 602.25pt>
 File: Chapter6/L1Calo.png Graphic file (type png)
 <use Chapter6/L1Calo.png>
 Package pdftex.def Info: Chapter6/L1Calo.png  used on input line 22.
@@ -5152,12 +5152,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [152 <./Chapter6/The-LHC-upgrade-schedule-and-associated-luminosity.jpg> <./Ch
 apter6/Schedule_HL.png>] [153 <./Chapter6/L1Calo.png>]
-<Chapter6/Run2TT.pdf, id=6179, 474.77374pt x 532.99126pt>
+<Chapter6/Run2TT.pdf, id=6190, 474.77374pt x 532.99126pt>
 File: Chapter6/Run2TT.pdf Graphic file (type pdf)
 <use Chapter6/Run2TT.pdf>
 Package pdftex.def Info: Chapter6/Run2TT.pdf  used on input line 41.
 (pdftex.def)             Requested size: 156.82855pt x 176.05844pt.
-<Chapter6/Supercell.png, id=6180, 330.48468pt x 206.27063pt>
+<Chapter6/Supercell.png, id=6191, 330.48468pt x 206.27063pt>
 File: Chapter6/Supercell.png Graphic file (type png)
 <use Chapter6/Supercell.png>
 Package pdftex.def Info: Chapter6/Supercell.png  used on input line 42.
@@ -5172,17 +5172,17 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [154]
 [155 <./Chapter6/Run2TT.pdf> <./Chapter6/Supercell.png>]
-<Chapter6/Pulse.png, id=6232, 317.31047pt x 210.7875pt>
+<Chapter6/Pulse.png, id=6243, 317.31047pt x 210.7875pt>
 File: Chapter6/Pulse.png Graphic file (type png)
 <use Chapter6/Pulse.png>
 Package pdftex.def Info: Chapter6/Pulse.png  used on input line 73.
 (pdftex.def)             Requested size: 215.07349pt x 142.87688pt.
-<Chapter6/TimeWindow.png, id=6233, 323.33296pt x 217.1864pt>
+<Chapter6/TimeWindow.png, id=6244, 323.33296pt x 217.1864pt>
 File: Chapter6/TimeWindow.png Graphic file (type png)
 <use Chapter6/TimeWindow.png>
 Package pdftex.def Info: Chapter6/TimeWindow.png  used on input line 74.
 (pdftex.def)             Requested size: 215.07349pt x 144.4669pt.
-<Chapter6/pedestalCorr.png, id=6236, 435.50203pt x 321.82735pt>
+<Chapter6/pedestalCorr.png, id=6247, 435.50203pt x 321.82735pt>
 File: Chapter6/pedestalCorr.png Graphic file (type png)
 <use Chapter6/pedestalCorr.png>
 Package pdftex.def Info: Chapter6/pedestalCorr.png  used on input line 84.
@@ -5200,8 +5200,8 @@ COND-MC12-HPS-19-60-25-eps-converted-to.pdf Chapter6/noise_tot_plot_OFLCOND-MC1
 2-HPS-19-60-25.eps>
 (epstopdf)             \includegraphics on input line 91.
 Package epstopdf Info: Output file is already uptodate.
-<Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-converted-to.pdf, id=623
-9, 569.12625pt x 450.68375pt>
+<Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-converted-to.pdf, id=625
+0, 569.12625pt x 450.68375pt>
 File: Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-converted-to.pdf Gr
 aphic file (type pdf)
 <use Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-converted-to.pdf>
@@ -5209,22 +5209,37 @@ Package pdftex.def Info: Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-
 converted-to.pdf  used on input line 91.
 (pdftex.def)             Requested size: 268.847pt x 212.90793pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--121
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--121
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--121
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--121
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--129
 
  []
 
@@ -5240,23 +5255,8 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [157 <./Chapter6/Pulse.png> <./Chapter6/TimeWindow.png>] [158 <./Chapter6/pedes
 talCorr.png> <./Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-19-60-25-eps-converted
--to.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 122--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--129
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 122--129
-
- []
-
-[159]
-<Chapter6/TrigJetRange.png, id=6286, 324.46219pt x 252.945pt>
+-to.pdf>] [159]
+<Chapter6/TrigJetRange.png, id=6297, 324.46219pt x 252.945pt>
 File: Chapter6/TrigJetRange.png Graphic file (type png)
 <use Chapter6/TrigJetRange.png>
 Package pdftex.def Info: Chapter6/TrigJetRange.png  used on input line 158.
@@ -5271,18 +5271,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--167
 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [160]
 Underfull \hbox (badness 10000) in paragraph at lines 174--177
 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [161 <./Chapter6/TrigJetRange.png>]
+[161 <./Chapter6/TrigJetRange.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [162]
@@ -5335,160 +5329,207 @@ Underfull \hbox (badness 10000) in paragraph at lines 223--230
 
  []
 
-[164]
+
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [164]
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [165]
 Underfull \hbox (badness 10000) in paragraph at lines 242--244
 
  []
 
-[165]
-Underfull \hbox (badness 10000) in paragraph at lines 255--258
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--266
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
 
  []
 
 [166]
-Underfull \hbox (badness 10000) in paragraph at lines 277--281
+Underfull \hbox (badness 10000) in paragraph at lines 264--267
 
  []
 
-<Chapter6/EDM.png, id=6382, 371.13657pt x 177.66376pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--282
+
+ []
+
+<Chapter6/EDM.png, id=6393, 371.13657pt x 177.66376pt>
 File: Chapter6/EDM.png Graphic file (type png)
 <use Chapter6/EDM.png>
-Package pdftex.def Info: Chapter6/EDM.png  used on input line 286.
+Package pdftex.def Info: Chapter6/EDM.png  used on input line 287.
 (pdftex.def)             Requested size: 336.05533pt x 160.87454pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 282--294
+Underfull \hbox (badness 10000) in paragraph at lines 283--295
 
  []
 
-[167]
-<Chapter6/reco_tf.png, id=6404, 400.11984pt x 338.01282pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [167]
+[168 <./Chapter6/EDM.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--302
+
+ []
+
+[169]
+<Chapter6/reco_tf.png, id=6430, 400.11984pt x 338.01282pt>
 File: Chapter6/reco_tf.png Graphic file (type png)
 <use Chapter6/reco_tf.png>
-Package pdftex.def Info: Chapter6/reco_tf.png  used on input line 299.
+Package pdftex.def Info: Chapter6/reco_tf.png  used on input line 322.
 (pdftex.def)             Requested size: 313.65027pt x 264.9796pt.
-<Chapter6/exeOrder.png, id=6407, 588.32297pt x 78.6689pt>
+<Chapter6/exeOrder.png, id=6433, 588.32297pt x 78.6689pt>
 File: Chapter6/exeOrder.png Graphic file (type png)
 <use Chapter6/exeOrder.png>
-Package pdftex.def Info: Chapter6/exeOrder.png  used on input line 306.
+Package pdftex.def Info: Chapter6/exeOrder.png  used on input line 329.
 (pdftex.def)             Requested size: 380.86543pt x 50.9289pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--314
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 295--314
-
- []
-
-[168 <./Chapter6/EDM.png>] [169 <./Chapter6/reco_tf.png>] [170 <./Chapter6/exeO
-rder.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 334--339
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 334--339
-
- []
-
-
-Underfull \vbox (badness 2591) has occurred while \output is active []
-
- [171]
-Underfull \vbox (badness 1281) has occurred while \output is active []
-
- [172]
-<Chapter6/ele_iso.png, id=6458, 343.2825pt x 385.8164pt>
-File: Chapter6/ele_iso.png Graphic file (type png)
-<use Chapter6/ele_iso.png>
-Package pdftex.def Info: Chapter6/ele_iso.png  used on input line 377.
-(pdftex.def)             Requested size: 179.22676pt x 201.4322pt.
-<Chapter6/ele_turnon.png, id=6460, 470.50781pt x 339.14203pt>
-File: Chapter6/ele_turnon.png Graphic file (type png)
-<use Chapter6/ele_turnon.png>
-Package pdftex.def Info: Chapter6/ele_turnon.png  used on input line 386.
-(pdftex.def)             Requested size: 201.63182pt x 145.33661pt.
-<Chapter6/ele_eta.png, id=6461, 477.28313pt x 363.60844pt>
-File: Chapter6/ele_eta.png Graphic file (type png)
-<use Chapter6/ele_eta.png>
-Package pdftex.def Info: Chapter6/ele_eta.png  used on input line 387.
-(pdftex.def)             Requested size: 201.63182pt x 153.60776pt.
-
-[173 <./Chapter6/ele_iso.png>]
-<Chapter6/jet_reco.png, id=6469, 402.75468pt x 298.49016pt>
-File: Chapter6/jet_reco.png Graphic file (type png)
-<use Chapter6/jet_reco.png>
-Package pdftex.def Info: Chapter6/jet_reco.png  used on input line 396.
-(pdftex.def)             Requested size: 358.46039pt x 265.66449pt.
-<Chapter6/perf_1jet.png, id=6471, 348.92859pt x 249.93375pt>
-File: Chapter6/perf_1jet.png Graphic file (type png)
-<use Chapter6/perf_1jet.png>
-Package pdftex.def Info: Chapter6/perf_1jet.png  used on input line 406.
-(pdftex.def)             Requested size: 215.07349pt x 154.05728pt.
-<Chapter6/perf_3jets.png, id=6472, 341.77687pt x 251.81578pt>
-File: Chapter6/perf_3jets.png Graphic file (type png)
-<use Chapter6/perf_3jets.png>
-Package pdftex.def Info: Chapter6/perf_3jets.png  used on input line 407.
-(pdftex.def)             Requested size: 215.07349pt x 158.46417pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 394--413
-
- []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[174 <./Chapter6/ele_turnon.png> <./Chapter6/ele_eta.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--343
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--343
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [175 <./Chapter6/jet_reco.png>]
-<Chapter6/efficiency_5kHz_cfg1.png, id=6485, 429.85594pt x 278.16422pt>
+ [170]
+Underfull \vbox (badness 4699) has occurred while \output is active []
+
+ [171 <./Chapter6/reco_tf.png> <./Chapter6/exeOrder.png>] [172]
+<Chapter6/ele_iso.png, id=6473, 343.2825pt x 385.8164pt>
+File: Chapter6/ele_iso.png Graphic file (type png)
+<use Chapter6/ele_iso.png>
+Package pdftex.def Info: Chapter6/ele_iso.png  used on input line 381.
+(pdftex.def)             Requested size: 179.22676pt x 201.4322pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter6/ele_turnon.png, id=6476, 470.50781pt x 339.14203pt>
+File: Chapter6/ele_turnon.png Graphic file (type png)
+<use Chapter6/ele_turnon.png>
+Package pdftex.def Info: Chapter6/ele_turnon.png  used on input line 390.
+(pdftex.def)             Requested size: 201.63182pt x 145.33661pt.
+<Chapter6/ele_eta.png, id=6477, 477.28313pt x 363.60844pt>
+File: Chapter6/ele_eta.png Graphic file (type png)
+<use Chapter6/ele_eta.png>
+Package pdftex.def Info: Chapter6/ele_eta.png  used on input line 391.
+(pdftex.def)             Requested size: 201.63182pt x 153.60776pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [173]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<Chapter6/jet_reco.png, id=6486, 402.75468pt x 298.49016pt>
+File: Chapter6/jet_reco.png Graphic file (type png)
+<use Chapter6/jet_reco.png>
+Package pdftex.def Info: Chapter6/jet_reco.png  used on input line 400.
+(pdftex.def)             Requested size: 358.46039pt x 265.66449pt.
+<Chapter6/perf_1jet.png, id=6488, 348.92859pt x 249.93375pt>
+File: Chapter6/perf_1jet.png Graphic file (type png)
+<use Chapter6/perf_1jet.png>
+Package pdftex.def Info: Chapter6/perf_1jet.png  used on input line 410.
+(pdftex.def)             Requested size: 215.07349pt x 154.05728pt.
+<Chapter6/perf_3jets.png, id=6489, 341.77687pt x 251.81578pt>
+File: Chapter6/perf_3jets.png Graphic file (type png)
+<use Chapter6/perf_3jets.png>
+Package pdftex.def Info: Chapter6/perf_3jets.png  used on input line 411.
+(pdftex.def)             Requested size: 215.07349pt x 158.46417pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--417
+
+ []
+
+[174 <./Chapter6/ele_iso.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[175 <./Chapter6/ele_turnon.png> <./Chapter6/ele_eta.png>]
+<Chapter6/efficiency_5kHz_cfg1.png, id=6502, 429.85594pt x 278.16422pt>
 File: Chapter6/efficiency_5kHz_cfg1.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg1.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg1.png  used on input line 
-430.
+434.
 (pdftex.def)             Requested size: 215.07349pt x 139.17938pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 414--439
-
- []
-
-[176 <./Chapter6/perf_1jet.png> <./Chapter6/perf_3jets.png>]
-<Chapter6/res_et.png, id=6494, 418.56375pt x 257.83829pt>
-File: Chapter6/res_et.png Graphic file (type png)
-<use Chapter6/res_et.png>
-Package pdftex.def Info: Chapter6/res_et.png  used on input line 445.
-(pdftex.def)             Requested size: 188.19016pt x 115.92386pt.
-<Chapter6/res_phi.png, id=6495, 364.36125pt x 228.47859pt>
-File: Chapter6/res_phi.png Graphic file (type png)
-<use Chapter6/res_phi.png>
-Package pdftex.def Info: Chapter6/res_phi.png  used on input line 446.
-(pdftex.def)             Requested size: 188.19016pt x 118.00769pt.
-<Chapter6/rate_datamc.png, id=6496, 472.38985pt x 322.58015pt>
-File: Chapter6/rate_datamc.png Graphic file (type png)
-<use Chapter6/rate_datamc.png>
-Package pdftex.def Info: Chapter6/rate_datamc.png  used on input line 453.
-(pdftex.def)             Requested size: 201.63182pt x 137.68787pt.
-<Chapter6/perf_met.png, id=6497, 353.06906pt x 261.60234pt>
-File: Chapter6/perf_met.png Graphic file (type png)
-<use Chapter6/perf_met.png>
-Package pdftex.def Info: Chapter6/perf_met.png  used on input line 460.
-(pdftex.def)             Requested size: 255.40532pt x 189.2397pt.
- [177 <./Chapter6/efficiency_5kHz_cfg1.png>]
+ [176 <./Chapter6/jet_reco.png> <./Chapter6/perf_1jet.png> <./Chapter6/perf_3je
+ts.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [178 <./Chapter6/res_et.png> <./Chapter6/res_phi.png> <./Chapter6/rate_datamc
-.png>] [179 <./Chapter6/perf_met.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [177]
+<Chapter6/res_et.png, id=6516, 418.56375pt x 257.83829pt>
+File: Chapter6/res_et.png Graphic file (type png)
+<use Chapter6/res_et.png>
+Package pdftex.def Info: Chapter6/res_et.png  used on input line 448.
+(pdftex.def)             Requested size: 215.07349pt x 132.48328pt.
+<Chapter6/res_phi.png, id=6517, 364.36125pt x 228.47859pt>
+File: Chapter6/res_phi.png Graphic file (type png)
+<use Chapter6/res_phi.png>
+Package pdftex.def Info: Chapter6/res_phi.png  used on input line 449.
+(pdftex.def)             Requested size: 215.07349pt x 134.86394pt.
+<Chapter6/rate_datamc.png, id=6518, 472.38985pt x 322.58015pt>
+File: Chapter6/rate_datamc.png Graphic file (type png)
+<use Chapter6/rate_datamc.png>
+Package pdftex.def Info: Chapter6/rate_datamc.png  used on input line 456.
+(pdftex.def)             Requested size: 201.63182pt x 137.68787pt.
+<Chapter6/perf_met.png, id=6519, 353.06906pt x 261.60234pt>
+File: Chapter6/perf_met.png Graphic file (type png)
+<use Chapter6/perf_met.png>
+Package pdftex.def Info: Chapter6/perf_met.png  used on input line 463.
+(pdftex.def)             Requested size: 255.40532pt x 189.2397pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [178 <./Chapter6/efficiency_5kHz_cfg1.png>] [179 <./Chapter6/res_et.png> <./Ch
+apter6/res_phi.png> <./Chapter6/rate_datamc.png>] [180 <./Chapter6/perf_met.png
+>]
 \openout2 = `TexFiles/Conclusion.aux'.
 
- (TexFiles/Conclusion.tex
+
+(TexFiles/Conclusion.tex
 chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 3--12
@@ -5510,25 +5551,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--12
 
  []
 
-[180
+[181
 
 
 
-] [181] [182
+] [182] [183
 
 ])) Processing 'appendices' comment.
 \openout3 = `comment.cut'.
 
 
 Comment 'appendices' writing to comment.cut. Straight input of comment.cut.
-(comment.cut (TexFiles/Appendices/SampleList.tex [183
+(comment.cut (TexFiles/Appendices/SampleList.tex [184
 
-
-] [184
 
 ]
 chapter A.
-[185] [186] [187] [188] [189] [190] [191] [192] [193
+[185
+
+] [186] [187] [188] [189] [190] [191] [192] [193
 
 
 ]
@@ -5562,7 +5603,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 1.
 
-<Chapter6/efficiency_5kHz_cfg0.png, id=6629, 436.63126pt x 276.6586pt>
+<Chapter6/efficiency_5kHz_cfg0.png, id=6646, 436.63126pt x 276.6586pt>
 File: Chapter6/efficiency_5kHz_cfg0.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg0.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg0.png  used on input line 
@@ -5573,25 +5614,25 @@ File: Chapter6/efficiency_5kHz_cfg1.png Graphic file (type png)
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg1.png  used on input line 
 6.
 (pdftex.def)             Requested size: 179.22676pt x 115.97928pt.
-<Chapter6/efficiency_5kHz_cfg2.png, id=6630, 423.83344pt x 273.64734pt>
+<Chapter6/efficiency_5kHz_cfg2.png, id=6647, 423.83344pt x 273.64734pt>
 File: Chapter6/efficiency_5kHz_cfg2.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg2.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg2.png  used on input line 
 7.
 (pdftex.def)             Requested size: 179.22676pt x 115.7161pt.
-<Chapter6/efficiency_5kHz_cfg3.png, id=6631, 449.05266pt x 278.91704pt>
+<Chapter6/efficiency_5kHz_cfg3.png, id=6648, 449.05266pt x 278.91704pt>
 File: Chapter6/efficiency_5kHz_cfg3.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg3.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg3.png  used on input line 
 8.
 (pdftex.def)             Requested size: 179.22676pt x 111.32225pt.
-<Chapter6/efficiency_5kHz_cfg4.png, id=6632, 419.31656pt x 269.13046pt>
+<Chapter6/efficiency_5kHz_cfg4.png, id=6649, 419.31656pt x 269.13046pt>
 File: Chapter6/efficiency_5kHz_cfg4.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg4.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg4.png  used on input line 
 9.
 (pdftex.def)             Requested size: 179.22676pt x 115.03394pt.
-<Chapter6/efficiency_5kHz_cfg5.png, id=6633, 431.73798pt x 271.0125pt>
+<Chapter6/efficiency_5kHz_cfg5.png, id=6650, 431.73798pt x 271.0125pt>
 File: Chapter6/efficiency_5kHz_cfg5.png Graphic file (type png)
 <use Chapter6/efficiency_5kHz_cfg5.png>
 Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg5.png  used on input line 
@@ -5601,17 +5642,17 @@ Package pdftex.def Info: Chapter6/efficiency_5kHz_cfg5.png  used on input line
 g2.png> <./Chapter6/efficiency_5kHz_cfg3.png> <./Chapter6/efficiency_5kHz_cfg4.
 png> <./Chapter6/efficiency_5kHz_cfg5.png>]
 chapter C.
-<Chapter6/FCAL1.png, id=6650, 370.76016pt x 454.32234pt>
+<Chapter6/FCAL1.png, id=6667, 370.76016pt x 454.32234pt>
 File: Chapter6/FCAL1.png Graphic file (type png)
 <use Chapter6/FCAL1.png>
 Package pdftex.def Info: Chapter6/FCAL1.png  used on input line 19.
 (pdftex.def)             Requested size: 425.66872pt x 521.61395pt.
-<Chapter6/FCAL2.png, id=6651, 380.54672pt x 481.8pt>
+<Chapter6/FCAL2.png, id=6668, 380.54672pt x 481.8pt>
 File: Chapter6/FCAL2.png Graphic file (type png)
 <use Chapter6/FCAL2.png>
 Package pdftex.def Info: Chapter6/FCAL2.png  used on input line 24.
 (pdftex.def)             Requested size: 425.66872pt x 538.94331pt.
-<Chapter6/FCAL3.png, id=6652, 398.99063pt x 465.99094pt>
+<Chapter6/FCAL3.png, id=6669, 398.99063pt x 465.99094pt>
 File: Chapter6/FCAL3.png Graphic file (type png)
 <use Chapter6/FCAL3.png>
 Package pdftex.def Info: Chapter6/FCAL3.png  used on input line 29.
@@ -5666,7 +5707,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [221] [222
 
 ] (thesis.lof
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1824) has occurred while \output is active []
 
  [223]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -5680,22 +5721,35 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [226]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [227])
+ [227]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [228]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [229])
 \tf@lof=\write7
 \openout7 = `thesis.lof'.
 
 
-[228] (thesis.lot
+[230] (thesis.lot
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [229
+ [231
 
-])
+]
+[232]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [233]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [234])
 \tf@lot=\write8
 \openout8 = `thesis.lot'.
 
 ))
-[230]
+[235]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 92.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
  (thesis.aux (TexFiles/Introduction.aux) (TexFiles/Experiment.aux)
@@ -5703,15 +5757,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 92.
 ) (TexFiles/Run3L1Calo.aux) (TexFiles/Conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 92.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 92.
+Package rerunfilecheck Info: File `thesis.out' has not changed.
+(rerunfilecheck)             Checksum: 31CA381957502F83CC01AF4FF8E03A24;5429.
 
-
-Package rerunfilecheck Warning: File `thesis.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `thesis.out':
-(rerunfilecheck)             Before: 41A3E37FB34D7F9C11A5A4C4420B532B;5320
-(rerunfilecheck)             After:  31CA381957502F83CC01AF4FF8E03A24;5429.
 
 LaTeX Warning: There were undefined references.
 
@@ -5720,144 +5768,39 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 31966 strings out of 492973
- 575930 string characters out of 3126692
- 842316 words of memory out of 3000000
- 33411 multiletter control sequences out of 15000+200000
- 139779 words of font info for 588 fonts, out of 3000000 for 9000
+ 31945 strings out of 492973
+ 575483 string characters out of 3126692
+ 842416 words of memory out of 3000000
+ 33414 multiletter control sequences out of 15000+200000
+ 140087 words of font info for 592 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,90p,9088b,1412s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{table.caption.88} has been referenced but does no
-t exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.85} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.84} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.81} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.72} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.63} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.51} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.44} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.42} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.38} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.32} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.24} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.19} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.16} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.2} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.94} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.93} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.78} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.77} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.70} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.69} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.68} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.67} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.64} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.53} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.46} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.43} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.39} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.29} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.21} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.3} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.1} has been referenced but does not 
-exist, replaced by a fixed one
-
- <C:\Users\lenjo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-tt1200.pk>{C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/bas
-e/8r.enc}<C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmbx10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lenjo/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lenjo/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/
-Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr12.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lenjo/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmb.pfb><C:/Users/lenjo/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/lenjo
-/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/Us
-ers/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmri.
-pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatino/
-uplb8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/pa
-latino/uplbi8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (244 pages, 14507005 bytes).
+ 67i,19n,90p,9088b,2150s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\lenjo\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ectt1200.pk>{C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/b
+ase/8r.enc}<C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/lenjo/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/lenjo/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C
+:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lenjo/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmb.pfb><C:/Users/lenjo/AppData
+/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmbi.pfb><C:/Users/len
+jo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr.pfb><C:/
+Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/mathpazo/fplmr
+i.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/palatin
+o/uplb8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/
+palatino/uplbi8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesis.pdf (249 pages, 14549388 bytes).
 PDF statistics:
- 7261 PDF objects out of 7423 (max. 8388607)
- 963 named destinations out of 1000 (max. 500000)
- 73347 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 7416 PDF objects out of 7423 (max. 8388607)
+ 933 named destinations out of 1000 (max. 500000)
+ 73363 words of extra memory for PDF output out of 74296 (max. 10000000)
 

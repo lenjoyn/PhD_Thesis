@@ -58,14 +58,14 @@
 \contentsline {section}{\numberline {6.3}Simulation Software of the Run~3 ATLAS Calorimeter Trigger}{162}{section.6.3}
 \contentsline {subsection}{\numberline {6.3.1}Tower Identification}{163}{subsection.6.3.1}
 \contentsline {subsection}{\numberline {6.3.2}j/gTower Matching and Construction}{166}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Event Data Model for j/gTowers}{167}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Simulation Chain Integration}{168}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.3}Event Data Model for j/gTowers}{168}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Simulation Chain Integration}{169}{subsection.6.3.4}
 \contentsline {section}{\numberline {6.4}Run~3 L1Calo Performance}{171}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Electron/photon}{172}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.1}Electron/photon}{173}{subsection.6.4.1}
 \contentsline {subsection}{\numberline {6.4.2}Small-R Jets}{174}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Missing Transverse Energy}{176}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Summary}{178}{section.6.5}
-\contentsline {chapter}{\numberline {7}Thesis Remarks}{180}{chapter.7}
+\contentsline {subsection}{\numberline {6.4.3}Missing Transverse Energy}{177}{subsection.6.4.3}
+\contentsline {section}{\numberline {6.5}Summary}{179}{section.6.5}
+\contentsline {chapter}{\numberline {7}Thesis Remarks}{181}{chapter.7}
 \contentsline {chapter}{\numberline {A}Sample List}{185}{appendix.A}
 \contentsline {section}{\numberline {A.1}Background Samples}{185}{section.A.1}
 \contentsline {section}{\numberline {A.2}Signal Samples for Resonance Search}{193}{section.A.2}
@@ -74,4 +74,4 @@
 \contentsline {chapter}{\numberline {C}Supercells in the ATLAS Forward Region}{205}{appendix.C}
 \contentsline {chapter}{Bibliography}{211}{chapter*.154}
 \contentsline {chapter}{List of figures}{223}{chapter*.155}
-\contentsline {chapter}{List of tables}{229}{chapter*.156}
+\contentsline {chapter}{List of tables}{231}{chapter*.156}
