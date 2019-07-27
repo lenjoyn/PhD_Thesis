@@ -99,7 +99,7 @@ where $N_{mc}$ is the total event weight from simulation, and $\epsilon$'s stand
 	\item s-channel $\&$ Wt-channel: $m_{t}$
 	\item t-channel 4\times$\sqrt{m_{q}^2+p^2_{T}(q)}$ (q is the quark  associated with the single top quark production)
 \end{itemize}
-, and the cross section for each production is calculated separately with the description in \cite{Kidonakis:2011wy,Kidonakis:2010ux}
+The cross section for each production is calculated separately with the description in \cite{Kidonakis:2011wy,Kidonakis:2010ux}.
 \begin{figure}[htp]
 	\centering
 	\subfloat[t-channel]{\includegraphics[width=.25\textwidth]{Chapter3/t-channel.png}}\hfill
@@ -139,7 +139,7 @@ The generation of $WW/WZ$ events are also through \textsc{SHERPA} v2.2.1 for the
 \\
 \\{\bf Derivation}
 \\
-\\For practical reasons , the analyses were not run on AODs directly. Instead, they went through the ``derivation'' procedure composed of ``trimming'' and ``slimming'' to drop down variables and events of no interest first\cite{Borodin:2015wqa}, which outputs the data format called derived AOD (DAOD). For the broad variety of analysis types, a couple of derivation schemes are applied, and the analyese with similar final states share the same derivation scheme. 
+\\For practical reasons, the analyses were not run on AODs directly. Instead, they went through the ``derivation'' procedure composed of ``trimming'' and ``slimming'' to drop down variables and events of no interest first\cite{Borodin:2015wqa}, which outputs the data format called derived AOD (DAOD). For the broad variety of analysis types, a couple of derivation schemes are applied, and the analyese with similar final states share the same derivation scheme. 
 \\
 \\With the final state of this analysis, ``HIGG5D2'' is chosen with the derivation scheme as the following:
 \begin{itemize}
@@ -148,7 +148,7 @@ The generation of $WW/WZ$ events are also through \textsc{SHERPA} v2.2.1 for the
   \item jet: two small R jets with $p_{T}>20~GeV$, one  small R jet with $p_{T}>100~GeV$, or one large R jet with $p_{T}>150~GeV$
 \end{itemize}
 \section{Physical Object Definition}
-Because the LHC is using protons as the beam source, it leads to the enormous production of hadronic jets. Within the environment, most reconstructed objects have the potential to suffer from great contamination from jet misidentified as other objects. Therefore, the object definitionn for this anlysis is to keep the signal efficiency and significant suppression of misidentification of the intended objects at the same time. 
+Because the LHC is using protons as the beam source, it leads to the enormous production of hadronic jets. Within the environment, most reconstructed objects have the potential to suffer from great contamination from jet misidentified as other objects. Therefore, the object definition for this analysis is to keep the signal efficiency and significant suppression of misidentification of the intended objects at the same time. 
 \\
 \\{\bf Electron}
 \\
@@ -156,7 +156,7 @@ Because the LHC is using protons as the beam source, it leads to the enormous pr
 \\
 \\In addition to the fundamental quality requirement, the overlap removal is applied afterwards to prevent the objects reconstructed from the same detector signature. When an electron shares inner detector tracks with any muon candidate, the electron is discarded. The existence of a nearby jet defined by:
 \begin{itemize}
-	\item $0.2<\Delta R(e,j)<min(0.4,0.04+10/p_{T}(e)[GeV])$
+	\item $0.2<\Delta R(e,j)<min(0.4,0.04+10~GeV/p_{T}(e)$
 \end{itemize}
 also makes the electron removed. The final requirement on electron is that it shall be consistent with the trigger level electron which fired the required electron trigger to suppress the QCD background. 
 \begin{table}[htb]
@@ -372,14 +372,14 @@ The first applied criterion on event selection is the trigger. The recorded data
 \\
 \\In muon channel, both $E_{T}^{miss}$ and muon triggers are used. For the scenario of $p_{T}(\mu\nu)<150~GeV$, the unprescaled lowest threshold muon trigger is used accompanied by the higher threshold one without any isolation requirement. Otherwise, $E^{T}_{miss}$ trigger is chosen for $p_{T}(\mu\nu)>150~GeV$ events, because muon trigger can only reach $70\%$ efficiency on the plateau.
 \\
-\\However, the $E^{miss}_{T}$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, a ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in trigger level, trigger level $E_{T}^{miss}$ is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel: 
+\\However, the $E^{miss}_{T}$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, a ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in trigger level, trigger level $E_{T}^{miss}$ is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel:
 \begin{itemize}
 	\item[] a) one muon with $p_{T}>27~GeV$
 	\item[] b) $E^{miss}_{T}>60(100)~GeV$
 	\item[] c) at least 2 signal jets (1 fat jet) selected
 	\item[] d) the unprescaled lowest threshold muon trigger is fired
 \end{itemize}
-, and the efficiency is taken as the ratio of the probed events (firing the $E^{miss}_{T}$ trigger) from the tagged events. The result for data and simulated $t\bar{t}$ events are shown in Fig. \ref{Fig:eff_met_merged} for boosted channel and Fig. \ref{Fig:eff_met_resolved} for the resolved channel, and they are presented as a function of $p_{T}(\ell\nu)$. The efficiency reaches the plateau at $200~GeV$, but $E^{miss}_{T}$ trigger is applied for the case of $p_{T}(\mu\nu)>150~GeV$, so the scaling factor is taken into simulation events as the extra event weight to make them consistent. 
+The efficiency is taken as the ratio of the probed events (firing the $E^{miss}_{T}$ trigger) from the tagged events. The result for data and simulated $t\bar{t}$ events are shown in Fig. \ref{Fig:eff_met_merged} for boosted channel and Fig. \ref{Fig:eff_met_resolved} for the resolved channel, and they are presented as a function of $p_{T}(\ell\nu)$. The efficiency reaches the plateau at $200~GeV$, but $E^{miss}_{T}$ trigger is applied for the case of $p_{T}(\mu\nu)>150~GeV$, so the scaling factor is taken into simulation events as the extra event weight to make them consistent. 
 \begin{figure}[ht]
 	\begin{center}
 		\subfloat[]{
