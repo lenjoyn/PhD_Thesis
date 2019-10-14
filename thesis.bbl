@@ -203,6 +203,12 @@ M.~Aaboud et~al.
   Environments in LHC Run 2}.
 \newblock {\em Eur. Phys. J.}, C77(10):673, 2017.
 
+\bibitem{Aaboud:2016rmg}
+the ATLAS~Collaboration.
+\newblock {Reconstruction of primary vertices at the ATLAS experiment in Run 1
+  proton–proton collisions at the LHC}.
+\newblock {\em Eur. Phys. J.}, C77(5):332, 2017.
+
 \bibitem{ATLAS-CONF-2016-024}
 {ATLAS Collaboration}.
 \newblock {Electron efficiency measurements with the ATLAS detector using the
@@ -225,6 +231,12 @@ Thijs~G. Cornelissen, M.~Elsing, I.~Gavrilenko, J.~F. Laporte, W.~Liebig,
 \newblock {Improved electron reconstruction in ATLAS using the Gaussian Sum
   Filter-based model for bremsstrahlung}.
 \newblock {ATLAS-CONF-2012-047}, 2012.
+
+\bibitem{ATL-PHYS-PUB-2015-041}
+{ATLAS Collaboration}.
+\newblock {Electron identification measurements in ATLAS using $\sqrt{s} =
+  13\;\mbox{TeV}$ data with $50\;\mbox{ns}$ bunch spacing}.
+\newblock {ATL-PHYS-PUB-2015-041}, 2015.
 
 \bibitem{Herde:2059849}
 Hannah Herde.
@@ -280,7 +292,7 @@ S.~Agostinelli et~al.
 \newblock {\em Nucl.Instrum.Meth.}, A506:250--303, 2003.
 
 \bibitem{NWAInterference}
-Georg~Weiglein Elina~Fuchs, Silja~Thewes.
+G.~Weiglein E.~Fuchs, S.~Thewes.
 
 \bibitem{Pappadopulo:2014qza}
 Duccio Pappadopulo, Andrea Thamm, Riccardo Torre, and Andrea Wulzer.
@@ -374,6 +386,13 @@ Mikhail Borodin, Kaushik De, Jose~Garcia Navarro, Dmitry Golubkov, Alexei
 \newblock {Unified System for Processing Real and Simulated Data in the ATLAS
   Experiment}.
 \newblock 2015.
+
+\bibitem{ATLAS:2010vza}
+the ATLAS~Collaboration.
+\newblock {Data-Quality Requirements and Event Cleaning for Jets and Missing
+  Transverse Energy Reconstruction with the ATLAS Detector in Proton-Proton
+  Collisions at a Center-of-Mass Energy of $sqrt{s}=7$ TeV}.
+\newblock 2010.
 
 \bibitem{ATLAS-CONF-2016-035}
 {Jet mass reconstruction with the ATLAS Detector in early Run 2 data}.

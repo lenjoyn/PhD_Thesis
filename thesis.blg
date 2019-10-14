@@ -9,57 +9,57 @@ A level-1 auxiliary file: TexFiles/Conclusion.aux
 The style file: unsrt.bst
 Database file #1: bibtex/supportingNote_lvqq.bib
 Warning--entry type for "SMParticle" isn't style-file defined
---line 27 of file bibtex/supportingNote_lvqq.bib
-Unbalanced braces---line 73 of file bibtex/supportingNote_lvqq.bib
+--line 46 of file bibtex/supportingNote_lvqq.bib
+Unbalanced braces---line 102 of file bibtex/supportingNote_lvqq.bib
  : 
  : }
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 91 of file bibtex/supportingNote_lvqq.bib
+I was expecting a `,' or a `}'---line 120 of file bibtex/supportingNote_lvqq.bib
  :  
  :  journal = "Physical Review Letters"
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 287 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 316 of file bibtex/supportingNote_lvqq.bib
  : @techreport{Aleksa:1602230
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Ionization" isn't style-file defined
---line 327 of file bibtex/supportingNote_lvqq.bib
+--line 356 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
---line 441 of file bibtex/supportingNote_lvqq.bib
+--line 470 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "ckm_timothy" isn't style-file defined
---line 447 of file bibtex/supportingNote_lvqq.bib
+--line 476 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "MS_all" isn't style-file defined
---line 575 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 726 of file bibtex/supportingNote_lvqq.bib
+--line 604 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 755 of file bibtex/supportingNote_lvqq.bib
  : @article{deBlas:2012qp
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Schnoor:2000941" isn't style-file defined
---line 1000 of file bibtex/supportingNote_lvqq.bib
+--line 1029 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "NuiTreats" isn't style-file defined
---line 1697 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 2134 of file bibtex/supportingNote_lvqq.bib
+--line 1726 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 2163 of file bibtex/supportingNote_lvqq.bib
  : @article{Ball:2012cx
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3249 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 3278 of file bibtex/supportingNote_lvqq.bib
  : @article{Gao:2013xoa
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--string name "." is undefined
---line 3448 of file bibtex/supportingNote_lvqq.bib
+--line 3477 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3454 of file bibtex/supportingNote_lvqq.bib
+--line 3483 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3460 of file bibtex/supportingNote_lvqq.bib
-Warning--string name "." is undefined
---line 3466 of file bibtex/supportingNote_lvqq.bib
-Warning--entry type for "LINAC4" isn't style-file defined
 --line 3489 of file bibtex/supportingNote_lvqq.bib
+Warning--string name "." is undefined
+--line 3495 of file bibtex/supportingNote_lvqq.bib
+Warning--entry type for "LINAC4" isn't style-file defined
+--line 3518 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "schedule" isn't style-file defined
---line 3521 of file bibtex/supportingNote_lvqq.bib
+--line 3550 of file bibtex/supportingNote_lvqq.bib
 Database file #2: bibtex/ATLAS.bib
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib
@@ -72,7 +72,6 @@ Repeated entry---line 6236 of file bibtex/ConfNotes.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Database file #5: bibtex/PubNotes.bib
-Warning--I didn't find a database entry for ""
 Warning--I didn't find a database entry for "hepthesis"
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Perkins
@@ -111,6 +110,7 @@ Warning--empty journal in Pappadopulo:2014qza
 Warning--empty journal in Gao:2013xoa
 Warning--empty journal in Czakon:2013goa
 Warning--empty booktitle in Borodin:2015wqa
+Warning--empty journal in ATLAS:2010vza
 Warning--empty author in ATLAS-CONF-2016-035
 Warning--empty author in ATLAS-CONF-2016-091
 Warning--empty publisher in StatisticsData
