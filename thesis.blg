@@ -6,61 +6,64 @@ A level-1 auxiliary file: TexFiles/ResonStat.aux
 A level-1 auxiliary file: TexFiles/VBSStrategy.aux
 A level-1 auxiliary file: TexFiles/Run3L1Calo.aux
 A level-1 auxiliary file: TexFiles/Conclusion.aux
-The style file: unsrt.bst
+The style file: utphy.bst
 Database file #1: bibtex/supportingNote_lvqq.bib
-Warning--entry type for "SMParticle" isn't style-file defined
---line 46 of file bibtex/supportingNote_lvqq.bib
-Unbalanced braces---line 102 of file bibtex/supportingNote_lvqq.bib
- : 
- : }
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 120 of file bibtex/supportingNote_lvqq.bib
- :  
- :  journal = "Physical Review Letters"
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 316 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 334 of file bibtex/supportingNote_lvqq.bib
  : @techreport{Aleksa:1602230
  :                           ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Ionization" isn't style-file defined
---line 356 of file bibtex/supportingNote_lvqq.bib
+--line 374 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "pseudorapidity_wiki" isn't style-file defined
---line 470 of file bibtex/supportingNote_lvqq.bib
+--line 481 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "ckm_timothy" isn't style-file defined
---line 476 of file bibtex/supportingNote_lvqq.bib
+--line 487 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "MS_all" isn't style-file defined
---line 604 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 755 of file bibtex/supportingNote_lvqq.bib
+--line 621 of file bibtex/supportingNote_lvqq.bib
+I was expecting a `,' or a `}'---line 736 of file bibtex/supportingNote_lvqq.bib
+ :  
+ :  month         = "Jun",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 769 of file bibtex/supportingNote_lvqq.bib
  : @article{deBlas:2012qp
  :                       ,
 I'm skipping whatever remains of this entry
 Warning--entry type for "Schnoor:2000941" isn't style-file defined
---line 1029 of file bibtex/supportingNote_lvqq.bib
+--line 1055 of file bibtex/supportingNote_lvqq.bib
+I was expecting a `,' or a `}'---line 1449 of file bibtex/supportingNote_lvqq.bib
+ :       
+ :       key            = "1204180",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--entry type for "NuiTreats" isn't style-file defined
---line 1726 of file bibtex/supportingNote_lvqq.bib
-Repeated entry---line 2163 of file bibtex/supportingNote_lvqq.bib
+--line 1742 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 2179 of file bibtex/supportingNote_lvqq.bib
  : @article{Ball:2012cx
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 3278 of file bibtex/supportingNote_lvqq.bib
+Repeated entry---line 3277 of file bibtex/supportingNote_lvqq.bib
  : @article{Gao:2013xoa
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--string name "." is undefined
---line 3477 of file bibtex/supportingNote_lvqq.bib
+--line 3474 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3483 of file bibtex/supportingNote_lvqq.bib
+--line 3480 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3489 of file bibtex/supportingNote_lvqq.bib
+--line 3487 of file bibtex/supportingNote_lvqq.bib
 Warning--string name "." is undefined
---line 3495 of file bibtex/supportingNote_lvqq.bib
+--line 3494 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "LINAC4" isn't style-file defined
---line 3518 of file bibtex/supportingNote_lvqq.bib
+--line 3509 of file bibtex/supportingNote_lvqq.bib
 Warning--entry type for "schedule" isn't style-file defined
---line 3550 of file bibtex/supportingNote_lvqq.bib
+--line 3540 of file bibtex/supportingNote_lvqq.bib
 Database file #2: bibtex/ATLAS.bib
+I was expecting a `,' or a `}'---line 10249 of file bibtex/ATLAS.bib
+ :  
+ :  reportNumber   = "CERN-EP-2018-179",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Database file #3: bibtex/CMS.bib
 Database file #4: bibtex/ConfNotes.bib
 Repeated entry---line 5788 of file bibtex/ConfNotes.bib
@@ -72,64 +75,27 @@ Repeated entry---line 6236 of file bibtex/ConfNotes.bib
  :                             ,
 I'm skipping whatever remains of this entry
 Database file #5: bibtex/PubNotes.bib
-Warning--I didn't find a database entry for "hepthesis"
+Warning--I didn't find a database entry for "Aad:2008zzm"
+Warning--I didn't find a database entry for "ATLAS:2019pzw"
 Warning--empty publisher in Griffiths
 Warning--empty publisher in Perkins
-Too many commas in name 1 of "Guralnik, G.; Hagen, C. R.; Kibble, T. W. B." for entry Hagen
-while executing---line 944 of file unsrt.bst
-Warning--empty journal in BenA
-Warning--empty year in BenA
-Too many commas in name 1 of "Hayakawa, T.; Ichihara, E.; Inoue, K.; Ishihara, K.; Ishino, H.; et al." for entry SuperK
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Hayakawa, T.; Ichihara, E.; Inoue, K.; Ishihara, K.; Ishino, H.; et al." for entry SuperK
-while executing---line 944 of file unsrt.bst
-Too many commas in name 1 of "Hayakawa, T.; Ichihara, E.; Inoue, K.; Ishihara, K.; Ishino, H.; et al." for entry SuperK
-while executing---line 944 of file unsrt.bst
-Warning--empty journal in SuperK
-Warning--empty year in SuperK
-Warning--empty journal in Mobs:2197559
-Warning--empty author in Radiofrequency:1997424
-Warning--empty journal in Radiofrequency:1997424
-Warning--empty author and editor in Airapetian:391176
-Warning--empty author and editor in CERN-LHCC-97-016
+Warning--empty pages in Englert
+Warning--empty pages in Higgs
+Warning--empty pages in Hagen
+Warning--empty pages in WILLIAMS201582
 Warning--empty publisher in magnets
-Warning--empty year in magnets
-Warning--empty author in ATLAS:1996ab
-Warning--empty journal in ATLAS:1996ab
-Warning--empty journal in LArwork
-Warning--empty year in LArwork
-Warning--empty author in trigger_str
-Warning--empty journal in trigger_str
-Warning--empty year in trigger_str
-Warning--empty journal in ATLAS:2019pzw
-Warning--empty journal in Sjostrand:2008vc
-Warning--empty title in NWAInterference
-Warning--empty journal in NWAInterference
-Warning--empty year in NWAInterference
-Warning--empty journal in Pappadopulo:2014qza
-Warning--empty journal in Gao:2013xoa
-Warning--empty journal in Czakon:2013goa
+Warning--empty year in Barillari:1112035
+Warning--empty pages in mc11ctunes
 Warning--empty booktitle in Borodin:2015wqa
-Warning--empty journal in ATLAS:2010vza
-Warning--empty author in ATLAS-CONF-2016-035
-Warning--empty author in ATLAS-CONF-2016-091
+Warning--empty pages in ATLAS-CONF-2016-035
+Warning--empty pages in ATLAS-CONF-2016-091
 Warning--empty publisher in StatisticsData
-Warning--empty journal in minuit
+Warning--empty publisher in minuit
 Warning--empty publisher in profile1
-Warning--empty year in profile1
 Warning--empty publisher in profile2
-Warning--empty year in profile2
-Warning--empty journal in pn
+Warning--empty pages in pn
 Warning--empty publisher in teststats
-Warning--empty journal in EXOT-2016-10
-Warning--empty journal in EXOT-2016-06
-Warning--empty author in ATLAS:2014wva
-Warning--empty journal in ATLAS:2014wva
 Warning--empty publisher in Rindani:2009gm
-Warning--empty journal in Hocker:2007ht
-Warning--empty journal in Aad:2019xxo
 Warning--empty institution in Shochet:1552953
 Warning--empty institution in Aleksa:1602230
-Warning--empty journal in Aad:1602235
-Warning--there's a number but no volume in Aad:1602235
-(There were 12 error messages)
+(There were 9 error messages)

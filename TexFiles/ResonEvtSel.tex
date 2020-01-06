@@ -1,5 +1,5 @@
 \subsection{Boosted Event Selection}
-In the boosted channel, the most important selection above the others is that at least one large R jet fulfils the W/Z boson $80\%$ efficiency working points. Then, those events are further categorized into high purity and low purity regions determined by whether the 50$\%$ working point is passsed. The full selection could be seen in Tab.~\ref{tab:SRdefinitions}
+In the boosted channel, the most important selection above the others is that at least one large R jet fulfils the W/Z boson $80\%$ efficiency tagging working points. Then, those events are further categorized into high purity and low purity regions determined by whether the 50$\%$ tagging working points are passed. The full selection is seen in Tab.~\ref{tab:SRdefinitions}. It should be noted that W and Z boson taggers are applied respectively in signal regions to separate the $W\to J$ and $Z\to J$ events, which gives the WW and WZ signal regions for each signal region category. 
 
 \begin{table}[t]
 	\caption{Summary of the selection criteria in the definition of the signal region (SR), $W$+jets control region ($W$ CR) and $t\bar{t}$ control region ($t\bar{t}$ CR), in the high-purity (HP) and low-purity (LP) categories.  } \label{tab:SRdefinitions}
@@ -44,18 +44,18 @@ In the boosted channel, the most important selection above the others is that at
 	\end{center}
 \end{table}
 \noindent
-\\For the leptonically decayed system, the requirement is that exactly one signal is selected with $E^{miss}_{T}$ above $100GeV$ to suppress the multijet background. The additional requirements on the system is two topological cuts on kinetic properties: 
+\\For the other boson system which decays leptonically, the requirement is that exactly one signal lepton is selected with $E^{miss}_{T}$ above $100~GeV$ to suppress the multijet background. The additional requirements on the leptonical decay system is two topological cuts with the study on the simulation samples: 
 \begin{itemize}
-	\item (a) $E^{miss}_{T}/p_{T}(e,\nu)>0.2$
-	\item (b) $p_{T}(e,\nu)>0.2/m{WV}>0.3(0.4)$ for VBF (ggF) category
+	\item[] (a) $E^{miss}_{T}/p_{T}(e,\nu)>0.2$
+	\item[] (b) $p_{T}(\ell,\nu)/m_{WV}>0.3(0.4)$ for VBF (ggF) category
 \end{itemize}
-(a) is only for the electron channel to reduced multijet background further in the concern of the jet-faked electrons, while (b) is to lower the SM background contribution for the energy balance between the leptonically and hadronically decayed systems. These criteria are consistent across signal and control regions. 
+(a) is only for the electron channel to reduce multijet background of which electrons and $\met$ are irrelevant, so the events tend to have smaller ratio of $met$ over $p_{T}(e,\nu)$ (transverse vector sum of $met$ and electron $p_T$). For the case of (b), because the two reconstructed bosons in SM background events are not correlated, the ratio of $p_{T}(ell, \nu)$ over $m_{WV}$ has smaller number. Therefore, the cut is deployed to suppress the SM background contribution.\cite{EXOT-2016-28} These criteria are consistent across signal and control regions. 
 \\
-\\On the side of the hadronically decayed boson is only the large R jet. In addition to the requirement in the last section, the high purity regions (HP) (for both signal and control regions) demand the fat jet boson-tagged at $50\%$ WP, and it is the most sensitive region to signal. Events with fat jets failing $50\%$ but passing $80\%$ WPs go into the low purity region (LP). By doing this , the combined sensitivity of the HP and LP signal regions is improved by around $~10\%$. If the fat jet only fails mass cut and pass the $D_{2}^{\beta=1}$ of boson tagging, this event would not be discarded but be chosen into W+jet control region instead. Finally, $p_{T}$ of the fat jet is also required to be above $0.3(0.4)m_{WV}$ for the energy balance in VBF(ggF) category. The event categorization of signal and W+jet control regions for both high and low purity categories is illustrated in Fig.~\ref{Fig:HPLPdefinitions}.
+\\On the side of the hadronically decayed boson is only the large R jet. In addition to the requirement in the last section, the high purity regions (HP) (for both signal and control regions) demand the fat jet boson-tagged at $50\%$ WP, and it is the most sensitive region to signal. Events with fat jets failing $50\%$ but passing $80\%$ WPs go into the low purity region (LP). By doing this, the combined sensitivity of the HP and LP signal regions is improved by around $~10\%$.\cite{EXOT-2016-28} If the fat jet only fails mass cut and pass the $D_{2}^{\beta=1}$ of boson tagging, this event would not be discarded but chosen into W+jet control region instead. Finally, $p_{T}$ of the fat jet is also required to be above $0.3(0.4)m_{WV}$ for the energy balance in VBF(ggF) category. The event categorization of signal and W+jet control regions for both high and low purity categories is illustrated in Fig.~\ref{Fig:HPLPdefinitions}.
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.8\hsize]{Chapter3/HPLPdefinitions}
-	\caption{Definitions of signal region (SR) and $W$+jets control region (WR) for the event with the large-R jet of $\pt=1\,\TeV$ based on fat jet boson tagging and number of b-tagged jets }
+	\caption{Definitions of signal region (SR) and $W$+jets control region (CR) for the event with the large-R jet of $\pt=1\,\TeV$ based on fat jet boson tagging parameters, $D_{2}^{\beta=1}$ and fat jet mass. }
 	\label{Fig:HPLPdefinitions}
 \end{figure}
 \noindent
@@ -67,7 +67,8 @@ To reduce the $t\bar{t}$ background contribution, the subjets associated to the 
 		\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvJmass_bveto_e.eps}}
 		\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvJmass_bveto_mu.eps}}
 	\end{center}
-	\caption{The $m_{WV}$ distributions in the HP signal region for (a) electron and (b) muon channel, with the integrated luminosity of $36.5~fb^{-1}$. The HVT $WZ$ signals with $m=1.0TeV$, $1.5TeV$, $2.0TeV$, $2.6TeV$ and $3.0TeV$ are overlaid scaled to $100 ~\times$ cross section}
+	\caption{The $m_{WV}$ distribution (denoted as m(VV) in the plots) in the HP signal region for (a) electron and (b) muon channels for SM background from simulation which is normalized to the integrated luminosity of $36.5~fb^{-1}$.The HVT $WZ$ signals with mass of $1.0~TeV$, $1.5~TeV$, $2.0~TeV$, $2.6~TeV$ and $3.0~TeV$ are overlaid and
+		scaled to $100 ~\times$ the cross section.}
 	\label{Fig:HighPuritySR}
 \end{figure}
 
@@ -75,16 +76,16 @@ To reduce the $t\bar{t}$ background contribution, the subjets associated to the 
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvJmass_lowPurity_e.eps}}
 	\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvJmass_lowPurity_mu.eps}}
-	\caption{The $m_{WV}$ distribution in the LP signal region for (a) electron and (b) muon channel, with the integrated luminosity of $36.5~fb^{-1}$.The HVT $WZ$ signals with $m=1.0TeV$, $1.5TeV$, $2.0TeV$, $2.6TeV$ and $3.0TeV$ are overlaid 
-	scaled to $100 ~\times$ cross section.}
+	\caption{The $m_{WV}$ distribution (denoted as m(VV) in the plots) in the LP signal region for (a) electron and (b) muon channels for SM background from simulation which is normalized to the integrated luminosity of $36.5~fb^{-1}$.The HVT $WZ$ signals with mass of $1.0~TeV$, $1.5~TeV$, $2.0~TeV$, $2.6~TeV$ and $3.0~TeV$ are overlaid and
+	scaled to $100 ~\times$ the cross section.}
 	\label{Fig:LowPuritySR}
 \end{figure}
 %
 
 \subsection{Resolved Event Selection}
-The resolved channel has a lower sensitivity than the boosted channel, but it still helps to recover the events lost in the lower energy regime. If the event has no fat jet fulfilling the selection criteria, it goes to the resolved category. The full selection for both resolved signal and control regions can be seen in Tab.~\ref{Tab:SRdefinitions_resolved}
+The resolved channel has a lower sensitivity than the boosted channel, but it still helps to recover the events lost in the lower energy regime. If the event has no fat jet fulfilling the selection criteria, it goes to the resolved category. The full selection for resolved signal and control regions can be seen in Tab.~\ref{Tab:SRdefinitions_resolved}. 
 \begin{table}[t]
-	\caption{Summary of the selection criteria of of the  the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\bar{t}$ control region (TR). } \label{Tab:SRdefinitions_resolved}
+	\caption{Summary of the selection criteria of the resolved analysis for the $WW$ and $WZ$ signal regions (SR), $W$+jets control region (WR) and $ t\bar{t}$ control region (TR). } \label{Tab:SRdefinitions_resolved}
 	\begin{center}
 		\resizebox{\textwidth}{!}{
 			\begin{tabular}{|l|l|c|c|c|c|}
@@ -130,16 +131,16 @@ The resolved channel has a lower sensitivity than the boosted channel, but it st
 	\end{center}
 \end{table}
 \noindent
-As in the boosted channel, the leptonically decaying W boson has a signal lepton fulfilling the object definition of the last section. However, the $E_{T}^{miss}$ cut here is lowered to $60~GeV$ for the less energetic system as compared to the boosted channel. For the energy balance, the ratio between $p_{T}(l,\nu)$ and $m_{WV}$ shall be be over 0.3 (0.35) for VBF (ggF) category. 
+\\As in the boosted channel, the leptonically decaying W boson has a signal lepton fulfilling the object definition of the last section. However, the $E_{T}^{miss}$ cut here is lowered to $60~GeV$ for the less energetic system as compared to the boosted channel. For the energy balance, the ratio between $p_{T}(l,\nu)$ and $m_{WV}$ shall be over 0.3 (0.35) for VBF (ggF) category. 
 \\
-\\On the hadronic side, the two signal jets are selected after VBF jets, and they are required to have $p_{T}$ above $60~GeV$ ($45~GeV$) for the leading (subleading) one to suppress the SM background. As they are decayed from W or Z boson, their combined mass is required to be within the dedicated mass windows, which are $[66, 94]~GeV$ for the WW signal region and $[82, 106]~GeV$ for the WZ signal region. Because the same top control region is used to make constraint in both of the two signal regions, the mass window is set at $[66,106]~GeV$ as the OR condition of W and Z mass windows. Events with a dijet mass which falls into the side band region ($[0,66]~GeV$ or $[106,200]~GeV$) are taken into the W+jet control region. The energy balance requirement here is the same as the leptonic system: $p_{T}(jj)/m_{WV}>0.3(0.35)$ for the VBF (ggF) category. The two selected jets in the W(Z) mass window are allowed to have one(two) of them b-tagged. The existence of any additional b-tagged jets would then make the event go into the top control region.  
+\\On the hadronic side, the two signal jets are selected after VBF jets, and they are required to have $p_{T}$ above $60~GeV$ ($45~GeV$) for the leading (subleading) one to suppress the SM background. Similar to the boosted event selection, to recognize the boson which decays to the two jets, two mass windows are applied respectively to select WW and WZ signal regions, which are $[66, 94]~GeV$ for WW signal region ($W\to jj$) and $[82, 106]~GeV$ for the WZ signal region ($Z\to jj$). The top control regions don't have the WW and WZ regions separated, so the mass window is applied with $[66,106]~GeV$ as the OR condition of W and Z mass windows. Events with a dijet mass which falls into the side band region of W and Z boson mass ($[0,66]~GeV$ or $[106,200]~GeV$) are taken into the W+jet control region. The energy balance requirement here is the same as the leptonic system: $p_{T}(jj)/m_{WV}>0.3(0.35)$ for the VBF (ggF) category. The two selected jets in the W(Z) mass window are allowed to have one(two) of them b-tagged. The existence of any additional b-tagged jets would then make the event go into the top control region.  
 \\
-\\Different from the boosted channel, the resolved channel has the abundant background contribution from multijet events (details in next section), so a series of topological cuts are applied on the signature topology to further suppress with the optimization by the study on the dijet MC samples, which are listed below:
+\\Different from the boosted channel, the resolved channel has the abundant background contribution from multijet events (details in next section), so they are suppressed by a series of topological cuts with the optimization by the study on the dijet MC samples, which are listed below \cite{EXOT-2016-28}:
 \begin{itemize}
 	\item $\Delta\phi(j,l)>1.0$
-	\item $\Delta\phi(j,E^{miss}_{T})>1.0$
+	\item $\Delta\phi(j,\met)>1.0$
 	\item $\Delta\phi(j,j)<1.5$
-	\item $\Delta\phi(l,E^{T}_{miss})<1.5$
+	\item $\Delta\phi(l,\met)<1.5$
 \end{itemize}
 \noindent
 \\Fig.~\ref{Fig:ResolvedSR} is the $m_{WV}$ distributions for comparison of signal and background in resolved signal regions for ggF and VBF categories respectively. The signal samples are with lower mass, because resolved channel has better sensitivity to them. 
@@ -147,7 +148,7 @@ As in the boosted channel, the leptonically decaying W boson has a signal lepton
 	\centering
 	\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvjjmass_ggF}}
 	\subfloat[]{\includegraphics[width=0.5\hsize]{Chapter3/lvjjmass_VBF}}
-	\caption{The $m_{WV}$ distribution in the resolved signal region for (a) ggF and (b) VBF channel, with the integrated luminosity of $36.5~fb^{-1}$.The HVT $WZ$ signals with $m=300GeV$ (red), $500GeV$ (violet) and $700GeV$ (blue) are overlaid 
-		scaled to $100 ~\times$ cross section.}
+	\caption{The $m_{WV}$ (denoted as m(VV) in the plots) distribution in the resolved signal region for (a) ggF and (b) VBF channels for SM background from simulation which is normalized to the integrated luminosity of $36.5~fb^{-1}$.The HVT $WZ$ signals with mass of $300~GeV$, $500~GeV$, and $700~GeV$ are overlaid and
+		scaled to $100 ~\times$ the cross section..}
 	\label{Fig:ResolvedSR}
 \end{figure}

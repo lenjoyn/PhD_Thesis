@@ -1,7 +1,8 @@
 \chapter{Resonance Searching Strategy}
 \chapterquote{The wilderness must be explored!}{Russell, Up}
 The search for resonance signatures is applying a general strategy with three benchmarks for exotic particles of different spins: the narrow-width-approximation scalar boson (NWA, spin=0), the heavy vector triplet (HVT W', Z' bosons, spin=1), and the Randall-Sundrum graviton (RSG, spin=2).
-In the study in this thesis, $WW$ and $WZ$ are the two medium states of interest through the production of gluon-gluon fusion (ggF), Drell-Yan process (DY), or vector boson fusion (VBF). The vector boson fusion is the fusion process of two vector bosons ($W$ or $Z$) emitted from two incoming quarks, and the two quarks are then scattered into two energetic jets with a wide $\eta$ separation and high invariant mass. The production processes could be seen in Fig. \ref{Fig:Xprod} as Feynman diagrams, and it should be noted that DY and ggF are indistinguishable from detector signatures. The strategy herein considers only final states in which one $W$ boson decays leptonically ($W\rightarrow l\nu$) into an electron or muon accompanied by a neutrino of the corresponding flavour, while the other boson,$W$ or $Z$, is chosen to decay hadronically into two quarks reconstructed into two $R=0.4$ jets or one $R=1.0$ jet ($W/Z\rightarrow jj$ or $W/Z\rightarrow J$). The events with W bosons decayed into taus are not considered in this analysis. The benefit of choosing this final state is to have the high branching ratio from the hadronic decay and suppress the QCD contamination by the leptonic decay. This study is conducted to search for particles in a wide mass range from $300~GeV$ to $5~TeV$. If the mass of a resonance particle is high enough ($m>1~TeV$), the bosons would be highly boosted. In this scenario, the two quarks decayed from boosted bosons get too close to each other which is beyond the resolution of anti-$k_{T}$ algorithm with $R=0.4$, so they are not resolved as two jets, and a larger cone of $R=1.0$ is applied to collect their signatures into a single fat jet. 
+\\
+\\In the study of this thesis, $WW$ and $WZ$ are the two medium states of interest through the production of gluon-gluon fusion (ggF), Drell-Yan process (DY), or vector boson fusion (VBF). The vector boson fusion is the fusion process of two vector bosons ($W$ or $Z$) emitted from two incoming quarks, and the two quarks are then scattered into two energetic jets with a wide $\eta$ separation and high invariant mass, which is taken as the key signature to select VBF events (details in event selected section). The production processes could be seen in Fig. \ref{Fig:Xprod} as Feynman diagrams, and it should be noted that DY and ggF are indistinguishable from detector signatures. The strategy herein considers only final states in which one $W$ boson decays leptonically ($W\rightarrow l\nu$) into an electron or muon accompanied by a neutrino of the corresponding flavour, while the other boson,$W$ or $Z$, is chosen to decay hadronically into two quarks reconstructed into two $R=0.4$ jets or one $R=1.0$ jet ($W/Z\rightarrow jj$ or $W/Z\rightarrow J$). The events with W bosons decayed into taus are not considered in this analysis. The benefit of choosing this final state is to have the high branching ratio from the hadronic decay and suppress the QCD contamination by the leptonic decay. This study is conducted to search for particles in a wide mass range from $300~GeV$ to $5~TeV$. If the mass of a resonance particle is high enough ($m>1~TeV$), the bosons would be highly boosted. In this scenario, the two quarks decayed from boosted bosons get too close to each other which is beyond the resolution of anti-$k_{T}$ algorithm with $R=0.4$, so they are not resolved as two jets, and a larger cone of $R=1.0$ is applied to collect their signatures into a single fat jet. 
 \\
 \\This search was performed with the $36.1fb^{-1}$ data collected by the ATLAS detector in 2015 and 2016 with pp collisions at $\sqrt{s}=13~TeV$ (s is a Mandelstam variable meaning the square energy sum of the two quarks involved in a collision). 
 
@@ -85,6 +86,7 @@ Each SM background process and each signal sample are simulated by the procedure
 N_{yield} = \mathcal{L}\times \sigma \times \epsilon_{rec} \times \epsilon_{iso} \times \epsilon_{trigger} \times \epsilon_{b-tagging} \times \epsilon_{prw} / N_{mc}
 \end{equation}
 where $N_{mc}$ is the total event weight from simulation, $\sigma$ is the cross-section for the interaction, and $\epsilon$'s stand for the scaling factors of different contributions like trigger or reconstruction efficiency. $\mathcal{L}$ and $\sigma$ are the integrated luminosity and cross-section of the interaction.
+\\
 \\
 \\{\bf Background Simulation}
 \\
@@ -265,7 +267,7 @@ Here, $m^{trk}$ is the reconstructed mass of the tracks taken as massless partic
 \begin{equation}
 m^{comb} = \frac{\sigma_{{calo}}^{-2} m^{{calo}} + \sigma_{{TA}}^{-2} m^{{TA}} }{\sigma_{{calo}}^{-2} + \sigma_{{TA}}^{-2}}
 \end{equation}
-with $\sigma_{{calo}}^{-2}$ and $\sigma_{{TA}}^{-2}$ as pre-estimated mass resolutions for  the calorimeter and track-assisted mass which are assumed to be uncorrelated. From Fig. \ref{Fig:combinedmassperformance}, it could be seen that the calorimeter mass has better performance in the low $p_{T}(W)$ regime benefited from the great energy resolution, but it is degraded as $p_{T}(W)$ increases, while the track-assisted mass performed in an opposite way. The combined mass takes the merits of these two mass definitions and provide the best mass resolution ($\sim10\% (15\%)$ at jet $p_{T}=1~TeV(2.5~TeV)$). It is taken as the nominal fat jet mass in this analysis with the selection of $m^{comb}>50~GeV$. The jet $p_{T}$ is the corrected by $p_{T}^{comb}=p_{T}^{calo}\times m^{comb}/m^{calo}$ 
+with $\sigma_{{calo}}$ and $\sigma_{{TA}}$ as pre-estimated mass resolutions for  the calorimeter and track-assisted mass which are assumed to be uncorrelated. From Fig. \ref{Fig:combinedmassperformance}, it could be seen that the calorimeter mass has better performance in the low $p_{T}(W)$ regime benefited from the great energy resolution, but it is degraded as $p_{T}(W)$ increases, while the track-assisted mass performed in an opposite way. The combined mass takes the merits of these two mass definitions and provide the best mass resolution ($\sim10\% (15\%)$ at jet $p_{T}=1~TeV(2.5~TeV)$). It is taken as the nominal fat jet mass in this analysis with the selection of $m^{comb}>50~GeV$. The jet $p_{T}$ is the corrected by $p_{T}^{comb}=p_{T}^{calo}\times m^{comb}/m^{calo}$ 
 
 \begin{table}[h]
 	\caption{Selection for large-R jets}\label{Tab:Jdefinit}
@@ -291,7 +293,7 @@ with $\sigma_{{calo}}^{-2}$ and $\sigma_{{TA}}^{-2}$ as pre-estimated mass resol
 	\end{center}
 \end{figure}
 \noindent
-However, the combined mass is still not proficient to select the W/Z decayed fat jets precisely, so the substructure of jets is needed to improve the boson tagging. This extra information is extracted with the subjets of $R=0.2$ from a $k_{T}$ algorithm performed on the clusters used to reconstruct small-R jets. Those tiny jets are then taken as the new entities to be ``ghost-associated'' with the fat jets through the $anti-k_{T}$ algorithm with the threshold on $p_{T}$, $p_{T}^{R=0.2}/p_{T}^{R=1.0}>0.05$. The jet substructure information could then be given by the discriminant, $D^{\beta =1}_{2}$, for the W/Z boson recognition\cite{Larkoski:2014gra} which is defined as:
+However, the combined mass is still not proficient to select the W/Z decayed fat jets precisely, so the substructure of jets is needed to improve the boson tagging. This extra information is extracted with the subjets of $R=0.2$ from a $k_{T}$ algorithm performed on the clusters used to reconstruct small-R jets. Those tiny jets are then taken as the new entities to be ``ghost-associated'' with the fat jets, which mean the $anti-k_{T}$ algorithm is performed on the $R=0.2$ subjects $p_{T}$ selected by the threshould, $p_{T}^{R=0.2}/p_{T}^{R=1.0}>0.05$, for a re-clustering. The jet substructure information could then be given by the discriminant, $D^{\beta =1}_{2}$, for the W/Z boson recognition\cite{Larkoski:2014gra} which is defined as:
 \begin{equation}
 D^{\beta =1}_{2} = \frac{e^{\beta}_{3}}{e^{\beta}_2} 
 \end{equation}
@@ -302,7 +304,7 @@ e^{\beta}_{2} = \frac{1}{(p_{T}^{jet})^2}\displaystyle\sum\limits_{i<j\in J}p_{T
 \begin{equation}
 e^{\beta}_{3} = \frac{1}{(p_{T}^{jet})^3}\displaystyle\sum\limits_{i<j<k\in J}p_{T}^{i}p_{T}^{j}p_{T}^{k}(\Delta R_{ij}\Delta R_{jk}\Delta R_{ik})^{\beta}
 \end{equation}
-where $\Delta R$ is the distance between two $R=0.2$ jets with i, j, and k as the indices for subjets. The boson tagging requirement is then done by a 2D cut on both $D^{\beta =1}_{2}$ and $m^{comb}$ as a function of $p_{T}$ shown in Fig. \ref{Fig:newWZtaggerWP} with two working points, $50\%$ and $80\%$, for the tagging efficiency. The curves are smoothed, but the cuts are applied in different bins.
+where $\Delta R$ is the distance between two $R=0.2$ jets with i, j, and k as the indices for subjets. The boson tagging requirement is then done by a 2D cut on both $D^{\beta =1}_{2}$ and $m^{comb}$ as a function of $p_{T}$ shown in Fig. \ref{Fig:newWZtaggerWP} with two working points (WPs), $50\%$ and $80\%$, for the tagging efficiency. The curves are smoothed, but the cuts are applied in different bins.
 \begin{figure}[ht]
 	\begin{center}
 		\subfloat[]{
@@ -323,7 +325,8 @@ where $\Delta R$ is the distance between two $R=0.2$ jets with i, j, and k as th
 \\
 \\The cut on $E^{miss}_{T}$ will be discussed in the next section.   
 \section{Event Selection}
-The event selection in this analysis is performed to define signal regions which is expected to be enriched with events of new-physics-like (signal-like) detector signatures as well as the control regions enriched with the SM events which is to give constrains in the SM background contributions in signal regions when the simultaneous fit is performed(details in the next chapter). For this analysis, two control regions are defined corresponding to two dominant background, W+jets and $t\bar{t}$ interactions, whose events are orthogonal to each other.  
+The event selection in this analysis is performed to define signal regions which is expected to be enriched with events of new-physics-like (signal-like) detector signatures as well as the control regions enriched with the SM events which is to give constrains in the SM background contributions in signal regions when the simultaneous fit is performed(details in the next chapter). For this analysis, two control regions are defined corresponding to two dominant background, W+jets (WR) and $t\bar{t}$ (TR) interactions, whose events are orthogonal to each other.  
+\\
 \\
 \\As discussed before, the signal regions are defined into four categories by production channels (VBF and ggF/DY) and jet topologies (single merged jets or two resolved jets): VBF merged, VBF resolved, ggF/DY merged, and ggF/DY resolved, and they are defined as the following:
 \begin{itemize}
@@ -333,19 +336,19 @@ The event selection in this analysis is performed to define signal regions which
 	\item Resolved: no fat jet is found. 
 \end{itemize}
 By this definition, the four categories are orthogonal to each other, and the category priority is given as:
-VBF merged $\to$ VBF resolved $\to$ ggF merged $\to$ ggF resolved. This scheme is performed to give the category with less background contamination higher priority.
+VBF merged $\to$ VBF resolved $\to$ ggF merged $\to$ ggF resolved. This scheme is performed to give the category with less background contamination higher priority. Furthermore, each categories have WW and WZ signal regions due to different charges of signal particles ($W'\to WZ$, and $G/H/Z' \to WW$) which are selected by the mass of hadronically decayed bosons. For WW signal regions, the fat jet or the dijet system should have the mass in the W mass window, while they are in the Z mass window for the WZ signal region. (It should be noted that WW and WZ signal regions are not orthogonal to each other).  
 \\
-\\If a event fails the signal region selection and passes either  the control region selections, it would be recycled into the control regions. Then, the same event categorisation is performed in control region which gives each signal category has corresponding control regions. The priority of event categorisation for both signal and control could be seen in Fig.~\ref{Fig:order}.
+\\If a event fails the signal region selection and passes either  the control region selections, it would be recycled into the control regions. Then, the same event categorisation is performed in control regions , which gives each signal category a corresponding control region. The priority of event categorisation for both signal and control could be seen in Fig.~\ref{Fig:order}.
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.7\hsize]{Chapter3/order}
+	\includegraphics[width=0.75\hsize]{Chapter3/order}
 	\caption{Illustration on the priority of event categorisation for both signal and control regions.}
 	\label{Fig:order}
 \end{figure}
 
 \subsection{Trigger}
 \label{Subsec:Trigger_resonance}
-The first applied criterion on event selection is the trigger. The recorded data is a broad collection of different physical signatures, and our final state only accounts for a small fraction of them. Because of the increasing luminosity provided by LHC, the trigger thresholds were enhanced in 2016 to reduce the trigger rate. For the MC samples, the run number is randomly generated, and the events shall only pass the triggers available in the random run number. The full trigger set used in this analysis is shown in Tab. \ref{tab:triggers}
+The first applied criterion on event selection is the trigger. The recorded data is a broad collection of different physical signatures, and our final state only accounts for a small fraction of them, so the trigger is used to choose the events with signatures of interest. Hereby, the chosen triggers for this analysis are single electron triggers, single muon triggers, and $\met$ triggers. Because of the increasing luminosity provided by LHC, the trigger thresholds were enhanced in 2016 to reduce the trigger rate. For the MC samples, the run number is randomly generated, and the events shall only pass the triggers available in the random run number. The full trigger set used in this analysis is shown in Tab. \ref{tab:triggers}
 \begin{table}[h]
 	\caption{The list of triggers used in the analysis. } \label{tab:triggers}
 	
@@ -378,27 +381,27 @@ The first applied criterion on event selection is the trigger. The recorded data
 	
 \end{table}
 \noindent
-\\Three electron triggers are used in electron channel including the unprescaled lowest threshold one to maximize the signal efficiency. The other two triggers are used to select high $\p_{T}$ electrons with looser isolation requirement. The combined performance of the triggers is around $90\%$ efficiency at the turn-on plateau as a function of $p_{T}$.
+\\Three electron triggers are used in electron channel including the unprescaled lowest threshold one to maximize the signal efficiency. The other two triggers are used to select high $\p_{T}$ electrons with looser isolation requirement. The combined performance of the triggers is around $90\%$ efficiency at the turn-on plateau as a function of $p_{T}$, which was studied by a dedicated $Z\to ee$ sample\cite{Aad:2019wsl}.
 \\
-\\In muon channel, both $E_{T}^{miss}$ and muon triggers are used. For the scenario of $p_{T}(\mu\nu)<150~GeV$, the unprescaled lowest threshold muon trigger is used accompanied by the higher threshold one without any isolation requirement. Otherwise, $E^{T}_{miss}$ trigger is chosen for $p_{T}(\mu\nu)>150~GeV$ events, because muon trigger can only reach $70\%$ efficiency on the plateau.
+\\In muon channel, $\met$ and muons triggers are both used, which depends on the transverse momentum sum of muon and $\met$ denoted as $p_{T}(\mu\nu)$. For the scenario of $p_{T}(\mu\nu)<150~GeV$, two unprescaled single muon triggers are used with the logic of ``OR'': one for single isolated muons passing the lowest threshold, and another one with for single muon passing a higher threshold without the requirement on isolation. Otherwise, $\met$ triggers are chosen for events with $p_{T}(\mu\nu)>150~GeV$, because the combined performance of muon triggers can only reach $70\%$ efficiency on the plateau with the study on signal samples.
 \\
-\\However, the $E^{miss}_{T}$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, a ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in trigger level, trigger level $E_{T}^{miss}$ is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel:
+\\However, the $\met$ cut in this analysis is below the plateau, so there might be the inconsistency between data and simulation in terms of the efficiency. Therefore, a ``tag and probe'' method is applied to study the trigger efficiency as a function of $p_{T}(\mu\nu)$ (because muons are invisible in the L1Calo system, so $\met$ in the hardware trigger level is actually $p_{T}(\mu\nu)$). This study is performed on boosted and resolved channels respectively. The tagged events are required to fulfil the following conditions for the resolved (boosted) channel:
 \begin{itemize}
 	\item[] a) one muon with $p_{T}>27~GeV$
-	\item[] b) $E^{miss}_{T}>60(100)~GeV$
-	\item[] c) at least 2 signal jets (1 fat jet) selected
-	\item[] d) the unprescaled lowest threshold muon trigger is fired
+	\item[] b) at least 2 signal jets (1 fat jet) selected for resolved (boosted) category
+	\item[] c) the unprescaled lowest threshold muon trigger is fired
+	\item[] d) $p_{T}(\mu\nu)>75GeV$
 \end{itemize}
-The efficiency is taken as the ratio of the probed events (firing the $E^{miss}_{T}$ trigger) from the tagged events. The result for data and simulated $t\bar{t}$ events are shown in Fig. \ref{Fig:eff_met_merged} for boosted channel and Fig. \ref{Fig:eff_met_resolved} for the resolved channel, and they are presented as a function of $p_{T}(\ell\nu)$. The efficiency reaches the plateau at $200~GeV$, but $E^{miss}_{T}$ trigger is applied for the case of $p_{T}(\mu\nu)>150~GeV$, so the scaling factor is taken into simulation events as the extra event weight to make them consistent. 
+Then, the probe is performed by the selection on the tagged events by whether the events pass the $\met$ trigger. The efficiency is therefore taken as the ratio of probed event number over the tagged event number. The result for data and simulated $t\bar{t}$ events are shown in Fig.~\ref{Fig:eff_met_merged} for boosted channel and Fig.~\ref{Fig:eff_met_resolved} for the resolved channel. They are presented as a function of $p_{T}(\ell\nu)$, and it could be seen that the efficiency reaches the $100\%$ plateau at $pT(\mu\nu)\sim200~GeV$. However, $E^{miss}_{T}$ trigger is applied for the case of $p_{T}(\mu\nu)>150~GeV$, and there is the efficiency discrepancy between data and simulation sample. To recover the discrepancy, the scaling factor is applied as an extra weight on simulated events for a proper modelling of background estimation from simulation. In the concern of the orthogonality, signal regions are a small fraction of events used in this study, so the interference is negligible. 
 \begin{figure}[ht]
 	\begin{center}
 		\subfloat[]{
-			\includegraphics[width=0.48\hsize]{Chapter3/Merged_TrigEff_ptW_METcut_data.eps}
+			\includegraphics[width=0.48\hsize]{Chapter3/Merged_TrigEff_ptW_data.eps}
 		}
 		\subfloat[]{
-			\includegraphics[width=0.48\hsize]{Chapter3/Merged_TrigEff_ptW_METcut_ttbar.eps}
+			\includegraphics[width=0.48\hsize]{Chapter3/Merged_TrigEff_ptW_ttbar.eps}
 		}
-		\caption{The upper plot is $p_{T}(\mu\nu)$ distribution of tagged (real) and probed events in boosted channel for data (a) and $t\bar{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mu\nu)$}
+		\caption{The upper plot is $p_{T}(\mu\nu)$ distribution of tagged (real) and probed (dotted) events in boosted channel for data (a) and $t\bar{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mu\nu)$}
 		\label{Fig:eff_met_merged}
 	\end{center}
 \end{figure}
@@ -406,39 +409,46 @@ The efficiency is taken as the ratio of the probed events (firing the $E^{miss}_
 \begin{figure}[ht]
 	\begin{center}
 		\subfloat[]{
-			\includegraphics[width=0.4\hsize]{Chapter3/Resolved_TrigEff_ptW_METcut_data.eps}
+			\includegraphics[width=0.48\hsize]{Chapter3/Resolved_TrigEff_ptW_data.eps}
 		}
 		\subfloat[]{
-			\includegraphics[width=0.48\hsize]{Chapter3/Resolved_TrigEff_ptW_METcut_ttbar-eps-converted-to}
+			\includegraphics[width=0.48\hsize]{Chapter3/Resolved_TrigEff_ptW_ttbar.eps}
 		}
-		\caption{The upper plot is $p_{T}(\mu\nu)$ distribution of tagged (real) and probed events in resolved channel for data (a) and $t\bar{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mu\nu)$}
+		\caption{The upper plot is $p_{T}(\mu\nu)$ distribution of tagged (real) and probed (dotted) events in resolved channel for data (a) and $t\bar{t}$ events (b). The lower plots is the efficiency as a function of $p_{T}(\mu\nu)$}
 		\label{Fig:eff_met_resolved}
 	\end{center}
 \end{figure}
 \noindent
 \subsection{Event Cleaning and Preselection}
-After the trigger, the event ``quality is verified by a series of flags in data determining the suitability of an event for physical analyses. The following is the list:
+After the trigger, the event ``quality'' is verified by a series of flags in data determining the suitability of an event for physical analyses. The following is the list:
 \begin{itemize}
-	\item {\bf Good Run}: when the detector operates in a proper status without intolerable defects, the runs go into the good run list (GRL). Only the events contained in the GRL are considered in this analysis. 
+	\item {\bf Good Run}: when the detector operates in a proper status without intolerable defects like dead channels in the colorimeter covering a significant region, the runs go into the good run list (GRL). Only the events contained in the GRL are considered in this analysis. 
 	\item {\bf Primary Vertex}: because all the physical objects are required to origin from the primary vertex, its existence is essential. Events without a proper primary vertex (defined in Sec. \ref{sec:obj rec}) are discarded.
 	\item {\bf Tile Error Veto}: part of the channels in tile detector are broken. If they accept any physical objects, this flag would be marked, and the events are vetoed.
 	\item {\bf LAr Error Veto}: part of the channels in LAr detector are broken. If they accept any physical objects, this flag would be marked, and the events are vetoed.
 	\item {\bf SCT Error Veto}: part of the channels in SCT detector are broken. If they accept any physical objects, this flag would be marked, and the events are vetoed.
-	\item {\bf Core Error Veto}: during data-taking periods, the atlas central DAQ system might suffer from some glitches which broke the data recording, and the flag is marked for events. They are also vetoed in this analysis. 
+	\item {\bf Core Error Veto}: during data-taking periods, the ATLAS central DAQ system might suffer from some glitches which broke the data recording, and the flag is marked for events. They are also vetoed in this analysis. 
 \end{itemize}
-\subsection{Parameter of Interest, $m_{WV}$}
+\subsection{Reconstructed Mass of Signal Objects, $m_{WV}$}
 \label{Subsec:mwv}
-This analysis is searching for the mass resonance of exotic particles, so it is the discriminant to seek for the signal. (i.e. $m_WV$ distribution is the input for statistic interpretation.) However, the longitudinal $p_{T}$ of neutrinos in the final state could not be measured, so the mass resolution is poor to spot the signal spike. Therefore, $p_{z}(\nu)$ is solved with the assumption that $W\rightarrow l\nu$ is the $E^{miss}_{T}$ contribution in all the events although it is not held true in every event. Firstly, the equation of energy conservation of $W$ boson decay can be written down as:
+This analysis is searching for the mass resonance of exotic particles. If there is the existence of signal particles with the narrow width assumption applied in this analysis, a peak should be spotted in the mass spectrum of reconstructed from signal objects (two jets, one lepton, and one neutrino) denoted as $m_{WV}$.  Therefore, $m_{WV}$ is taken as the discriminant to input to the statistic interpretation which will be discussed in the next chapter. However, the longitudinal momenta of neutrinos, $p_{z}^\nu$, are not measured, so the mass resolution is degraded. To improve it, $p_{z}^{\nu}$ is solved with the assumption that all neutrinos are coming from the process, $W\rightarrow l\nu$, so $\met$ could be taken equally as transverse component of neutrino momentum, $p_{T}^\nu$. Therefore, the equation of energy conservation of $W$ boson decays can be written down as:
 \begin{equation}
-m^2_W = m_{l}^{2} + 2E_{l}\sqrt{ p_{T,\nu}^2 + p_{z,\nu}^{2} }  - 2 \vec{p}_{{T},l} \cdot \vec{p}_{T, \nu} - 2 p_{z, l} p_{z,\nu}
+m^2_W = m_{l}^{2} + 2E^{l}\sqrt{ {p_{T}^\nu}^2 + {p_{z}^\nu}^{2} }  - 2 \vec{p}_{T}^l \cdot \vec{p}_{T}^\nu - 2 {p_{z}^l}{p_{z}^\nu}
+\end{equation}
+with the four-vector of leptons as $(m_{l}, p_{T}^l, p_{z}^l)$ where $m_{l}$ and $p_{T}^l$ could be written as:
+\begin{equation}
+p_{T}^l=\sqrt{{p_{x}^l}^{2}+{p_{y}^l}^{2} }
 \end{equation}
 \noindent
-In SM, W bosons have the mass of $80~GeV$, so $m_{l}$ for electrons and muons is negligible. This leads to the quadratic equation of $p_{z}^\nu$:
 \begin{equation}
-4p_{{T}, l}^{2} p_{z,\nu}^{2} - 4 \left( m_{W}^{2} + 2 \vec{p}_{{T}, l} \cdot \vec{p}_{{T},\nu} \right) p_{z,l} p_{z, \nu} - \left( m_{W}^{2} + 2\vec{p}_{{T}, l} \cdot \vec{p}_{{T},\nu}  \right)^{2} +4p_l^{2} p_{{T},\nu}^{2} = 0
+m_{l} =\sqrt{{E^l}^2-{p^l_T}^2-{p^l_z}^2}
+\end{equation}
+In SM, W bosons have the mass of $80~GeV$ ($m_W$), so $m_{l}$ for electrons and muons is negligible. This leads to the quadratic equation with $p_{z}^\nu$:
+\begin{equation}
+4{p_T^l}^{2} {p_T^\nu}^{2} - 4 \left( m_{W}^{2} + 2 \vec{p}_{T}^l \cdot \vec{p}_{T}^\nu \right) p_{z}^l p_z^\nu - \left( m_{W}^{2} + 2\vec{p}_{T}^l \cdot \vec{p}_{T}^\nu  \right)^{2} +4{p_T^l}^{2} {p_{T}^\nu}^{2} = 0
 \end{equation}
 \noindent
-If the solutions are complex, only the real terms are taken into this analysis, and the imaginary term is discarded. To determine which solution from the real terms to use, the resolution is compared with the absolute value of solutions (bigger one and smaller one) defined as:
+If the solutions are complex, only the real terms are taken into this analysis, and the imaginary term is discarded. If both solutions are real, the resolutions are compared with the absolute value of solutions (bigger one and smaller ones) to determine which solution to use. It is defined as:
 \begin{equation}
 \sigma = \frac{p_z^{truth}-p_z^{\nu}}{p_z^{truth}}
 \end{equation}
@@ -447,28 +457,36 @@ with $p_z^{truth}$ as the neutrino longitudinal momentum at generator level (MC 
 \begin{figure}
 	\centering
     \includegraphics[width=0.5\hsize]{Chapter3/neutrinoPz}
-    \caption{The $p_{z}^\nu$ resolution with absolute values of the solutions, bigger and smaller one. }
+    \caption{The $p_{z}^\nu$ resolution with absolute values of the solutions, bigger (blue) and smaller (red) one. }
     \label{Fig:netrinoPz}
 \end{figure}
 \noindent
-In addition to the correction on the leptonically decayed W boson, the other further improvement on $m_{WV}$ reconstruction is also made by $p_{T}(j,j)$ of the two resolved signal jets by the correction of $p_{T}^{corr}=p_{T}(j,j)\times \frac{m_{V}}{m_{jj}}$ (For WW, $m_V$ is taken as W boson mass, while it is Z boson mass for WZ medium state). The improvement of the ``mass-constraint'' correction could be seen in Fig. \ref{Fig:WHadmassConst} for $\approx 20\%$ better $m_{WV}$ resolution. 
+The similar assumption is also made on the hadronically decayed objects. The two selected signal jets are also assumed to always originate from a W or Z boson, so the reconstructed mass of two selected signal jets, $m_V$, is supposed to be $sim$80~GeV ($sim$91~GeV) for W (Z) boson. Therefore, the invariant mass and transverse momentum of this di-jet system, $m_{jj}$ and $p_T(j,j)$, are taken to correct the transverse momentum of the di-jet system, $p_{T}^{corr}$:
+\begin{equation}
+p_{T}^{corr}=p_{T}(j,j)\times \frac{m_{V}}{m_{jj}}
+\end{equation}
+With the two corrected boson systems ($W\to \ell\nu$ with $p_{z}^{\nu}$ correction and $m_W$, and $V\to jj$ with $p_{T}^{corr}$ and $m_V$), the invariant mass of the diboson system, $m_{WV}$, is evaluated. A comparison for the evaluations with and without this ``mass-constraint'' correction could be seen in Fig. \ref{Fig:WHadmassConst} with NWA Higgs boson samples of 300~GeV, 500~GeV, and 700~GeV, and the ones with this correction has a better resolution.  
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\hsize]{Chapter3/lvjjmass_WmassConstraint}
+	\includegraphics[width=0.6\hsize]{Chapter3/lvjjmass_WmassConstraint.png}
 	\caption{$m_{WV}$ distributions for $gg \rightarrow H \rightarrow WW$ signals at $m=300~GeV$ (solid), 500~GeV (dashed) and 700~GeV (dot), with (red) and without (blue) $W$-mass constraint to $W \rightarrow jj$ system.}\label{Fig:WHadmassConst}
 \end{figure}
 \noindent
 \subsection{VBF Event Selection}
-As VBF signal regions have better sensitivity than ggF/DY ones, the selection criteria play an important role in this analysis. The optimization on the selection is conducted in three steps. First, all VBF events are required to have at least 4(2) jets in the resolved (boosted) channel. Second, the the two jets in the dijet system are supposed to be the pair with the highest mass, opposite $\eta$ signs, and not b-tagged. This pair was chosen prior to the $W/Z\rightarrow jj$ signal jet selection and removed from signal jet candidates. Then, the optimization is performed on a 2-dimensional phase space constructed by $\Delta\eta(j,j)$ and $m(j,j)$ which are two most evident signatures of this production process. The performance of the cuts on the two variables is determined by signal significance in Eq. \ref{Eq:significance}. Fig. \ref{Fig:VBFOptimization} shows the result of the optimization performed on the signal sample with $700~GeV$ HVT, and the best significance could be achieved by:
+As VBF signal regions have better sensitivity than ggF/DY ones, the selection criteria play an important role in this analysis. The optimization on the selection is conducted in three steps. First, all VBF events are required to have at least 4(2) jets in the resolved (boosted) channel. Second, the two jets in the dijet system are chosen as the pair with the highest mass, opposite $\eta$ signs, and not b-tagged. This pair was chosen prior to the $W/Z\rightarrow jj$ signal jet selection and removed from signal jet candidates. Then, the optimization is performed on a 2-dimensional phase space constructed by $\Delta\eta(j,j)$ and $m(j,j)$ which are two most evident signatures of this production process. The performance of the cuts on the two variables is determined by signal significance, $\sigma$, which is evaluated on the $m_{WV}$ distribution which is defined as:
+\begin{equation}
+\sigma^2=\displaystyle\sum^{N^{bin}}_i\left(\frac{s_i}{s_i+b_i+({\Delta b_i})^2}\right)^2
+\end{equation}
+Here, $s_i$ and $b_i$ are the signal and background event numbers in the $m_WV$ distribution with the binnings shown in Eq.~\ref{Eq:boosted_mbin} and \ref{Eq:resolved_mbin}, and $\Delta$ is set at $1.5\%$ taken as the hypothesised systematic uncertainty. Fig. \ref{Fig:VBFOptimization} shows the result of the optimization performed on the signal sample with $700~GeV$ HVT, and the best significance could be achieved by:
 \begin{itemize}
 	\item {\bf $m_{jj}^{VBF}> 770~GeV$}
 	\item {\bf $\Delta\eta(jj)>4.7$}
 \end{itemize}
-The other reason to choose this set of cuts is to make it consistent with $WZ/ZZ \rightarrow lljj/\nu\nu jj$ analysis\cite{EXOT-2016-29} for the combination in next chapter. 
+The other reason to choose this set of cuts is to make it consistent with $WZ/ZZ \rightarrow lljj/\nu\nu jj$ analysis\cite{EXOT-2016-29} for the combination in next chapter. In the following of this thesis, the reconstructed mass of two VBF jets is denoted as $m^{VBF}$. 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=0.7\textwidth]{Chapter3/VBF700_SignfSpace}
-	\caption{The signal significance for the VBF $WW$ signal as a function of the VBF cuts $\Delta \eta(j_1,j_2)$ and $m(jj)$ for signal mass 700~GeV (right). The black outlined bins are those whose values vary from the maximum by less than 5\%.}
+	\caption{The signal significance for the VBF $WW$ signal as a function of the VBF cuts on $\Delta \eta(j_1,j_2)$ (which is shown as DY(jj) in the plot) and $m(jj)$ for signal mass 700~GeV respectively. The black outlined bins are those whose values vary from the maximum by less than 5\%.}
 	\label{Fig:VBFOptimization}
 \end{figure}
 \input{TexFiles/ResonEvtSel}
