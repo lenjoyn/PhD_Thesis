@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  6 JAN 2020 15:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  5 FEB 2020 10:48
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -2728,11 +2728,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [66]
 Package epstopdf Info: Source file: <Chapter3/Merged_TrigEff_ptW_data.eps>
-(epstopdf)                    date: 2019-10-17 01:15:24
+(epstopdf)                    date: 2019-10-16 18:15:24
 (epstopdf)                    size: 20740 bytes
 (epstopdf)             Output file: <Chapter3/Merged_TrigEff_ptW_data-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-10-17 01:16:21
+(epstopdf)                    date: 2019-10-16 18:16:21
 (epstopdf)                    size: 13556 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/Merged_TrigEff_ptW
 _data-eps-converted-to.pdf Chapter3/Merged_TrigEff_ptW_data.eps>
@@ -2747,11 +2747,11 @@ Package pdftex.def Info: Chapter3/Merged_TrigEff_ptW_data-eps-converted-to.pdf
  used on input line 400.
 (pdftex.def)             Requested size: 215.07349pt x 209.76138pt.
 Package epstopdf Info: Source file: <Chapter3/Merged_TrigEff_ptW_ttbar.eps>
-(epstopdf)                    date: 2019-10-17 01:14:46
+(epstopdf)                    date: 2019-10-16 18:14:46
 (epstopdf)                    size: 20387 bytes
 (epstopdf)             Output file: <Chapter3/Merged_TrigEff_ptW_ttbar-eps-conv
 erted-to.pdf>
-(epstopdf)                    date: 2019-10-17 01:16:23
+(epstopdf)                    date: 2019-10-16 18:16:23
 (epstopdf)                    size: 13619 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/Merged_TrigEff_ptW
 _ttbar-eps-converted-to.pdf Chapter3/Merged_TrigEff_ptW_ttbar.eps>
@@ -2766,11 +2766,11 @@ Package pdftex.def Info: Chapter3/Merged_TrigEff_ptW_ttbar-eps-converted-to.pdf
   used on input line 403.
 (pdftex.def)             Requested size: 215.07349pt x 209.76138pt.
 Package epstopdf Info: Source file: <Chapter3/Resolved_TrigEff_ptW_data.eps>
-(epstopdf)                    date: 2019-10-17 01:15:26
+(epstopdf)                    date: 2019-10-16 18:15:26
 (epstopdf)                    size: 21291 bytes
 (epstopdf)             Output file: <Chapter3/Resolved_TrigEff_ptW_data-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2019-10-17 01:16:24
+(epstopdf)                    date: 2019-10-16 18:16:24
 (epstopdf)                    size: 13822 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/Resolved_TrigEff_p
 tW_data-eps-converted-to.pdf Chapter3/Resolved_TrigEff_ptW_data.eps>
@@ -2785,11 +2785,11 @@ Package pdftex.def Info: Chapter3/Resolved_TrigEff_ptW_data-eps-converted-to.pd
 f  used on input line 413.
 (pdftex.def)             Requested size: 215.07349pt x 209.76138pt.
 Package epstopdf Info: Source file: <Chapter3/Resolved_TrigEff_ptW_ttbar.eps>
-(epstopdf)                    date: 2019-10-17 01:14:40
+(epstopdf)                    date: 2019-10-16 18:14:40
 (epstopdf)                    size: 20884 bytes
 (epstopdf)             Output file: <Chapter3/Resolved_TrigEff_ptW_ttbar-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2019-10-17 01:16:26
+(epstopdf)                    date: 2019-10-16 18:16:26
 (epstopdf)                    size: 13808 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/Resolved_TrigEff_p
 tW_ttbar-eps-converted-to.pdf Chapter3/Resolved_TrigEff_ptW_ttbar.eps>
@@ -2861,11 +2861,11 @@ File: Chapter3/HPLPdefinitions.pdf Graphic file (type pdf)
 Package pdftex.def Info: Chapter3/HPLPdefinitions.pdf  used on input line 57.
 (pdftex.def)             Requested size: 358.46039pt x 268.8475pt.
 Package epstopdf Info: Source file: <Chapter3/lvJmass_bveto_e.eps>
-(epstopdf)                    date: 2018-12-15 21:38:12
+(epstopdf)                    date: 2018-12-15 13:38:12
 (epstopdf)                    size: 123597 bytes
 (epstopdf)             Output file: <Chapter3/lvJmass_bveto_e-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2018-12-20 06:49:16
+(epstopdf)                    date: 2018-12-19 22:49:16
 (epstopdf)                    size: 41518 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/lvJmass_bveto_e-ep
 s-converted-to.pdf Chapter3/lvJmass_bveto_e.eps>
@@ -2879,11 +2879,11 @@ Package pdftex.def Info: Chapter3/lvJmass_bveto_e-eps-converted-to.pdf  used on
  input line 67.
 (pdftex.def)             Requested size: 224.03688pt x 173.8594pt.
 Package epstopdf Info: Source file: <Chapter3/lvJmass_bveto_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:38:11
+(epstopdf)                    date: 2018-12-15 13:38:11
 (epstopdf)                    size: 128541 bytes
 (epstopdf)             Output file: <Chapter3/lvJmass_bveto_mu-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2018-12-20 06:49:18
+(epstopdf)                    date: 2018-12-19 22:49:18
 (epstopdf)                    size: 44030 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/lvJmass_bveto_mu-e
 ps-converted-to.pdf Chapter3/lvJmass_bveto_mu.eps>
@@ -2917,11 +2917,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <Chapter3/lvJmass_lowPurity_e.eps>
-(epstopdf)                    date: 2018-12-15 21:38:11
+(epstopdf)                    date: 2018-12-15 13:38:11
 (epstopdf)                    size: 127698 bytes
 (epstopdf)             Output file: <Chapter3/lvJmass_lowPurity_e-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-12-20 06:49:20
+(epstopdf)                    date: 2018-12-19 22:49:20
 (epstopdf)                    size: 41423 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/lvJmass_lowPurity_
 e-eps-converted-to.pdf Chapter3/lvJmass_lowPurity_e.eps>
@@ -2936,11 +2936,11 @@ Package pdftex.def Info: Chapter3/lvJmass_lowPurity_e-eps-converted-to.pdf  use
 d on input line 77.
 (pdftex.def)             Requested size: 224.03688pt x 181.10806pt.
 Package epstopdf Info: Source file: <Chapter3/lvJmass_lowPurity_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:38:10
+(epstopdf)                    date: 2018-12-15 13:38:10
 (epstopdf)                    size: 137078 bytes
 (epstopdf)             Output file: <Chapter3/lvJmass_lowPurity_mu-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2018-12-20 06:49:21
+(epstopdf)                    date: 2018-12-19 22:49:21
 (epstopdf)                    size: 45063 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/lvJmass_lowPurity_
 mu-eps-converted-to.pdf Chapter3/lvJmass_lowPurity_mu.eps>
@@ -3041,11 +3041,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 pdf>]
 [83 <./Chapter3/fakerate_el_highPt.pdf, page is rotated 90 degrees>]
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/electronPt.eps>
-(epstopdf)                    date: 2018-12-15 21:22:30
+(epstopdf)                    date: 2018-12-15 13:22:30
 (epstopdf)                    size: 38960 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/electronPt-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2018-12-21 07:27:19
+(epstopdf)                    date: 2018-12-20 23:27:19
 (epstopdf)                    size: 19647 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/electronPt-e
 ps-converted-to.pdf Chapter3/MJ_CR/electronPt.eps>
@@ -3059,11 +3059,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/electronPt-eps-converted-to.pdf  used o
 n input line 99.
 (pdftex.def)             Requested size: 201.63182pt x 195.58342pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/electronEta.eps>
-(epstopdf)                    date: 2018-12-15 21:22:29
+(epstopdf)                    date: 2018-12-15 13:22:29
 (epstopdf)                    size: 29780 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/electronEta-eps-converted-t
 o.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:21
+(epstopdf)                    date: 2018-12-20 23:27:21
 (epstopdf)                    size: 14367 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/electronEta-
 eps-converted-to.pdf Chapter3/MJ_CR/electronEta.eps>
@@ -3077,11 +3077,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/electronEta-eps-converted-to.pdf  used
 on input line 100.
 (pdftex.def)             Requested size: 201.63182pt x 195.58342pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/met_el.eps>
-(epstopdf)                    date: 2018-12-15 21:22:29
+(epstopdf)                    date: 2018-12-15 13:22:29
 (epstopdf)                    size: 35869 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/met_el-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-12-21 07:27:22
+(epstopdf)                    date: 2018-12-20 23:27:22
 (epstopdf)                    size: 18399 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/met_el-eps-c
 onverted-to.pdf Chapter3/MJ_CR/met_el.eps>
@@ -3095,11 +3095,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/met_el-eps-converted-to.pdf  used on in
 put line 101.
 (pdftex.def)             Requested size: 201.63182pt x 195.58342pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/dphilepmet_el.eps>
-(epstopdf)                    date: 2018-12-15 21:22:30
+(epstopdf)                    date: 2018-12-15 13:22:30
 (epstopdf)                    size: 27636 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/dphilepmet_el-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:24
+(epstopdf)                    date: 2018-12-20 23:27:24
 (epstopdf)                    size: 14289 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/dphilepmet_e
 l-eps-converted-to.pdf Chapter3/MJ_CR/dphilepmet_el.eps>
@@ -3114,11 +3114,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/dphilepmet_el-eps-converted-to.pdf  use
 d on input line 102.
 (pdftex.def)             Requested size: 201.63182pt x 195.58342pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/muonPt.eps>
-(epstopdf)                    date: 2018-12-15 21:22:29
+(epstopdf)                    date: 2018-12-15 13:22:29
 (epstopdf)                    size: 39378 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/muonPt-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-12-21 07:27:25
+(epstopdf)                    date: 2018-12-20 23:27:25
 (epstopdf)                    size: 19585 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/muonPt-eps-c
 onverted-to.pdf Chapter3/MJ_CR/muonPt.eps>
@@ -3131,11 +3131,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/muonPt-eps-converted-to.pdf  used on in
 put line 109.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/muonEta.eps>
-(epstopdf)                    date: 2018-12-15 21:22:29
+(epstopdf)                    date: 2018-12-15 13:22:29
 (epstopdf)                    size: 40012 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/muonEta-eps-converted-to.pd
 f>
-(epstopdf)                    date: 2018-12-21 07:27:27
+(epstopdf)                    date: 2018-12-20 23:27:27
 (epstopdf)                    size: 20556 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/muonEta-eps-
 converted-to.pdf Chapter3/MJ_CR/muonEta.eps>
@@ -3148,11 +3148,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/muonEta-eps-converted-to.pdf  used on i
 nput line 110.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/met_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:22:29
+(epstopdf)                    date: 2018-12-15 13:22:29
 (epstopdf)                    size: 43722 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/met_mu-eps-converted-to.pdf
 >
-(epstopdf)                    date: 2018-12-21 07:27:29
+(epstopdf)                    date: 2018-12-20 23:27:29
 (epstopdf)                    size: 21394 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/met_mu-eps-c
 onverted-to.pdf Chapter3/MJ_CR/met_mu.eps>
@@ -3165,11 +3165,11 @@ Package pdftex.def Info: Chapter3/MJ_CR/met_mu-eps-converted-to.pdf  used on in
 put line 111.
 (pdftex.def)             Requested size: 201.63182pt x 193.44978pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_CR/dphilepmet_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:22:30
+(epstopdf)                    date: 2018-12-15 13:22:30
 (epstopdf)                    size: 54058 bytes
 (epstopdf)             Output file: <Chapter3/MJ_CR/dphilepmet_mu-eps-converted
 -to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:30
+(epstopdf)                    date: 2018-12-20 23:27:30
 (epstopdf)                    size: 27850 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_CR/dphilepmet_m
 u-eps-converted-to.pdf Chapter3/MJ_CR/dphilepmet_mu.eps>
@@ -3274,11 +3274,11 @@ LaTeX Warning: Float too large for page by 31.94304pt on input line 152.
 
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt.eps
 >
-(epstopdf)                    date: 2018-12-15 21:22:38
+(epstopdf)                    date: 2018-12-15 13:22:38
 (epstopdf)                    size: 36525 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:32
+(epstopdf)                    date: 2018-12-20 23:27:32
 (epstopdf)                    size: 17549 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lep1pt_Loose
 _mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1pt_Loose_mu_highWpt.eps>
@@ -3294,11 +3294,11 @@ o.pdf  used on input line 156.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt.ep
 s>
-(epstopdf)                    date: 2018-12-15 21:22:39
+(epstopdf)                    date: 2018-12-15 13:22:39
 (epstopdf)                    size: 35130 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:34
+(epstopdf)                    date: 2018-12-20 23:27:34
 (epstopdf)                    size: 17167 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lep1eta_Loos
 e_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt.eps>
@@ -3313,11 +3313,11 @@ Package pdftex.def Info: Chapter3/MJ_VR/lep1eta_Loose_mu_highWpt-eps-converted-
 to.pdf  used on input line 157.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/met_Loose_mu_highWpt.eps>
-(epstopdf)                    date: 2018-12-15 21:22:38
+(epstopdf)                    date: 2018-12-15 13:22:38
 (epstopdf)                    size: 46143 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/met_Loose_mu_highWpt-eps-co
 nverted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:36
+(epstopdf)                    date: 2018-12-20 23:27:36
 (epstopdf)                    size: 23850 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/met_Loose_mu
 _highWpt-eps-converted-to.pdf Chapter3/MJ_VR/met_Loose_mu_highWpt.eps>
@@ -3333,11 +3333,11 @@ df  used on input line 158.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt
 .eps>
-(epstopdf)                    date: 2018-12-15 21:22:40
+(epstopdf)                    date: 2018-12-15 13:22:40
 (epstopdf)                    size: 41650 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:37
+(epstopdf)                    date: 2018-12-20 23:27:37
 (epstopdf)                    size: 22469 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/dphilepmet_L
 oose_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/dphilepmet_Loose_mu_highWpt
@@ -3354,11 +3354,11 @@ ed-to.pdf  used on input line 159.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt.e
 ps>
-(epstopdf)                    date: 2018-12-15 21:22:37
+(epstopdf)                    date: 2018-12-15 13:22:37
 (epstopdf)                    size: 33735 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:39
+(epstopdf)                    date: 2018-12-20 23:27:39
 (epstopdf)                    size: 16767 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lvjjmass_Loo
 se_mu_highWpt-eps-converted-to.pdf Chapter3/MJ_VR/lvjjmass_Loose_mu_highWpt.eps
@@ -3378,11 +3378,11 @@ LaTeX Warning: Float too large for page by 25.82663pt on input line 163.
 
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt.eps>
 
-(epstopdf)                    date: 2018-12-15 21:22:38
+(epstopdf)                    date: 2018-12-15 13:22:38
 (epstopdf)                    size: 26365 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt-eps-
 converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:33:14
+(epstopdf)                    date: 2018-12-20 23:33:14
 (epstopdf)                    size: 13964 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lep1pt_Loose
 _mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt.eps>
@@ -3398,11 +3398,11 @@ Package pdftex.def Info: Chapter3/MJ_VR/lep1pt_Loose_mu_lowWpt-eps-converted-to
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt.eps
 >
-(epstopdf)                    date: 2018-12-15 21:22:39
+(epstopdf)                    date: 2018-12-15 13:22:39
 (epstopdf)                    size: 36344 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt-eps
 -converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:41
+(epstopdf)                    date: 2018-12-20 23:27:41
 (epstopdf)                    size: 17458 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lep1eta_Loos
 e_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt.eps>
@@ -3417,11 +3417,11 @@ Package pdftex.def Info: Chapter3/MJ_VR/lep1eta_Loose_mu_lowWpt-eps-converted-t
 o.pdf  used on input line 168.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/met_Loose_mu_lowWpt.eps>
-(epstopdf)                    date: 2018-12-15 21:22:38
+(epstopdf)                    date: 2018-12-15 13:22:38
 (epstopdf)                    size: 50496 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/met_Loose_mu_lowWpt-eps-con
 verted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:42
+(epstopdf)                    date: 2018-12-20 23:27:42
 (epstopdf)                    size: 19864 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/met_Loose_mu
 _lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/met_Loose_mu_lowWpt.eps>
@@ -3437,11 +3437,11 @@ f  used on input line 169.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt.
 eps>
-(epstopdf)                    date: 2018-12-15 21:22:39
+(epstopdf)                    date: 2018-12-15 13:22:39
 (epstopdf)                    size: 42183 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt-
 eps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:44
+(epstopdf)                    date: 2018-12-20 23:27:44
 (epstopdf)                    size: 22502 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/dphilepmet_L
 oose_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/dphilepmet_Loose_mu_lowWpt.e
@@ -3458,11 +3458,11 @@ d-to.pdf  used on input line 170.
 (pdftex.def)             Requested size: 192.66844pt x 184.85127pt.
 Package epstopdf Info: Source file: <Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt.ep
 s>
-(epstopdf)                    date: 2018-12-15 21:22:37
+(epstopdf)                    date: 2018-12-15 13:22:37
 (epstopdf)                    size: 36986 bytes
 (epstopdf)             Output file: <Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt-ep
 s-converted-to.pdf>
-(epstopdf)                    date: 2018-12-21 07:27:45
+(epstopdf)                    date: 2018-12-20 23:27:45
 (epstopdf)                    size: 17425 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/MJ_VR/lvjjmass_Loo
 se_mu_lowWpt-eps-converted-to.pdf Chapter3/MJ_VR/lvjjmass_Loose_mu_lowWpt.eps>
@@ -3520,11 +3520,11 @@ Package pdftex.def Info: Chapter3/ResolvedCR/ggF36fb/VVM_5_el.pdf  used on inpu
 t line 189.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/ggF36fb/VVM_5_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:28:02
+(epstopdf)                    date: 2018-12-15 13:28:02
 (epstopdf)                    size: 35125 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/ggF36fb/VVM_5_mu-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-12-24 05:55:14
+(epstopdf)                    date: 2018-12-23 21:55:14
 (epstopdf)                    size: 17063 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/ggF36fb
 /VVM_5_mu-eps-converted-to.pdf Chapter3/ResolvedCR/ggF36fb/VVM_5_mu.eps>
@@ -3573,11 +3573,11 @@ Package pdftex.def Info: Chapter3/ResolvedCR/ggF36fb/VVM_6_el.pdf  used on inpu
 t line 203.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/ggF36fb/VVM_6_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:28:01
+(epstopdf)                    date: 2018-12-15 13:28:01
 (epstopdf)                    size: 34628 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/ggF36fb/VVM_6_mu-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-12-24 06:11:35
+(epstopdf)                    date: 2018-12-23 22:11:35
 (epstopdf)                    size: 16616 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/ggF36fb
 /VVM_6_mu-eps-converted-to.pdf Chapter3/ResolvedCR/ggF36fb/VVM_6_mu.eps>
@@ -3625,11 +3625,11 @@ Package pdftex.def Info: Chapter3/ResolvedCR/VBF36fb/VVM_5_el.pdf  used on inpu
 t line 216.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/VBF36fb/VVM_5_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:29:00
+(epstopdf)                    date: 2018-12-15 13:29:00
 (epstopdf)                    size: 39566 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/VBF36fb/VVM_5_mu-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-12-24 06:32:43
+(epstopdf)                    date: 2018-12-23 22:32:43
 (epstopdf)                    size: 17425 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/VBF36fb
 /VVM_5_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VVM_5_mu.eps>
@@ -3713,11 +3713,11 @@ input line 229.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu.e
 ps>
-(epstopdf)                    date: 2018-12-15 21:29:01
+(epstopdf)                    date: 2018-12-15 13:29:01
 (epstopdf)                    size: 47266 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-24 06:32:47
+(epstopdf)                    date: 2018-12-23 22:32:47
 (epstopdf)                    size: 22321 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/VBF36fb
 /VBFmass_5_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VBFmass_5_mu.eps
@@ -3767,11 +3767,11 @@ Package pdftex.def Info: Chapter3/ResolvedCR/VBF36fb/VVM_6_el.pdf  used on inpu
 t line 242.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/VBF36fb/VVM_6_mu.eps>
-(epstopdf)                    date: 2018-12-15 21:29:00
+(epstopdf)                    date: 2018-12-15 13:29:00
 (epstopdf)                    size: 37032 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/VBF36fb/VVM_6_mu-eps-c
 onverted-to.pdf>
-(epstopdf)                    date: 2018-12-24 06:40:22
+(epstopdf)                    date: 2018-12-23 22:40:22
 (epstopdf)                    size: 16695 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/VBF36fb
 /VVM_6_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VVM_6_mu.eps>
@@ -3832,11 +3832,11 @@ input line 254.
 (pdftex.def)             Requested size: 192.66844pt x 186.89008pt.
 Package epstopdf Info: Source file: <Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu.e
 ps>
-(epstopdf)                    date: 2018-12-15 21:29:01
+(epstopdf)                    date: 2018-12-15 13:29:01
 (epstopdf)                    size: 45878 bytes
 (epstopdf)             Output file: <Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2018-12-24 06:40:28
+(epstopdf)                    date: 2018-12-23 22:40:28
 (epstopdf)                    size: 22137 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter3/ResolvedCR/VBF36fb
 /VBFmass_6_mu-eps-converted-to.pdf Chapter3/ResolvedCR/VBF36fb/VBFmass_6_mu.eps
@@ -3940,11 +3940,11 @@ Package pdftex.def Info: Chapter4/NuiPull_ggFHVT500.png  used on input line 141
 .
 (pdftex.def)             Requested size: 362.93866pt x 220.2565pt.
 Package epstopdf Info: Source file: <Chapter4/CorrMatrix_WW_HP_ggF.eps>
-(epstopdf)                    date: 2018-12-15 21:39:22
+(epstopdf)                    date: 2018-12-15 13:39:22
 (epstopdf)                    size: 215749 bytes
 (epstopdf)             Output file: <Chapter4/CorrMatrix_WW_HP_ggF-eps-converte
 d-to.pdf>
-(epstopdf)                    date: 2019-05-30 22:42:14
+(epstopdf)                    date: 2019-05-30 15:42:14
 (epstopdf)                    size: 60781 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/CorrMatrix_WW_HP_g
 gF-eps-converted-to.pdf Chapter4/CorrMatrix_WW_HP_ggF.eps>
@@ -3998,11 +3998,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [112]
 Package epstopdf Info: Source file: <Chapter4/VVM_p0_HVTWZ_ggF.eps>
-(epstopdf)                    date: 2018-12-15 21:39:23
+(epstopdf)                    date: 2018-12-15 13:39:23
 (epstopdf)                    size: 12285 bytes
 (epstopdf)             Output file: <Chapter4/VVM_p0_HVTWZ_ggF-eps-converted-to
 .pdf>
-(epstopdf)                    date: 2019-06-04 05:25:43
+(epstopdf)                    date: 2019-06-03 22:25:43
 (epstopdf)                    size: 10812 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VVM_p0_HVTWZ_ggF-e
 ps-converted-to.pdf Chapter4/VVM_p0_HVTWZ_ggF.eps>
@@ -4052,10 +4052,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--401
  []
 
 Package epstopdf Info: Source file: <Chapter4/GGFWWHVT.eps>
-(epstopdf)                    date: 2019-06-09 07:25:03
+(epstopdf)                    date: 2019-06-09 00:25:03
 (epstopdf)                    size: 21761 bytes
 (epstopdf)             Output file: <Chapter4/GGFWWHVT-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:25:11
+(epstopdf)                    date: 2019-06-09 00:25:11
 (epstopdf)                    size: 16364 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWWHVT-eps-conve
 rted-to.pdf Chapter4/GGFWWHVT.eps>
@@ -4068,10 +4068,10 @@ Package pdftex.def Info: Chapter4/GGFWWHVT-eps-converted-to.pdf  used on input
 line 404.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/GGFWZHVT.eps>
-(epstopdf)                    date: 2019-06-09 07:21:17
+(epstopdf)                    date: 2019-06-09 00:21:17
 (epstopdf)                    size: 21815 bytes
 (epstopdf)             Output file: <Chapter4/GGFWZHVT-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:23:55
+(epstopdf)                    date: 2019-06-09 00:23:55
 (epstopdf)                    size: 16484 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWZHVT-eps-conve
 rted-to.pdf Chapter4/GGFWZHVT.eps>
@@ -4084,10 +4084,10 @@ Package pdftex.def Info: Chapter4/GGFWZHVT-eps-converted-to.pdf  used on input
 line 405.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/GGFWWNWA.eps>
-(epstopdf)                    date: 2019-06-09 07:21:25
+(epstopdf)                    date: 2019-06-09 00:21:25
 (epstopdf)                    size: 17155 bytes
 (epstopdf)             Output file: <Chapter4/GGFWWNWA-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:23:56
+(epstopdf)                    date: 2019-06-09 00:23:56
 (epstopdf)                    size: 14315 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWWNWA-eps-conve
 rted-to.pdf Chapter4/GGFWWNWA.eps>
@@ -4100,10 +4100,10 @@ Package pdftex.def Info: Chapter4/GGFWWNWA-eps-converted-to.pdf  used on input
 line 406.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/GGFWWRSG.eps>
-(epstopdf)                    date: 2019-06-09 07:21:38
+(epstopdf)                    date: 2019-06-09 00:21:38
 (epstopdf)                    size: 21539 bytes
 (epstopdf)             Output file: <Chapter4/GGFWWRSG-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:23:58
+(epstopdf)                    date: 2019-06-09 00:23:58
 (epstopdf)                    size: 16361 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWWRSG-eps-conve
 rted-to.pdf Chapter4/GGFWWRSG.eps>
@@ -4116,10 +4116,10 @@ Package pdftex.def Info: Chapter4/GGFWWRSG-eps-converted-to.pdf  used on input
 line 407.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/VBFWWHVT.eps>
-(epstopdf)                    date: 2019-06-09 07:19:43
+(epstopdf)                    date: 2019-06-09 00:19:43
 (epstopdf)                    size: 17967 bytes
 (epstopdf)             Output file: <Chapter4/VBFWWHVT-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:23:59
+(epstopdf)                    date: 2019-06-09 00:23:59
 (epstopdf)                    size: 14866 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VBFWWHVT-eps-conve
 rted-to.pdf Chapter4/VBFWWHVT.eps>
@@ -4132,10 +4132,10 @@ Package pdftex.def Info: Chapter4/VBFWWHVT-eps-converted-to.pdf  used on input
 line 413.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/VBFWZHVT.eps>
-(epstopdf)                    date: 2019-06-09 07:19:53
+(epstopdf)                    date: 2019-06-09 00:19:53
 (epstopdf)                    size: 17988 bytes
 (epstopdf)             Output file: <Chapter4/VBFWZHVT-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:24:01
+(epstopdf)                    date: 2019-06-09 00:24:01
 (epstopdf)                    size: 14871 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VBFWZHVT-eps-conve
 rted-to.pdf Chapter4/VBFWZHVT.eps>
@@ -4148,10 +4148,10 @@ Package pdftex.def Info: Chapter4/VBFWZHVT-eps-converted-to.pdf  used on input
 line 414.
 (pdftex.def)             Requested size: 224.03688pt x 151.33737pt.
 Package epstopdf Info: Source file: <Chapter4/VBFWWNWA.eps>
-(epstopdf)                    date: 2019-06-09 07:20:13
+(epstopdf)                    date: 2019-06-09 00:20:13
 (epstopdf)                    size: 16636 bytes
 (epstopdf)             Output file: <Chapter4/VBFWWNWA-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-06-09 07:24:02
+(epstopdf)                    date: 2019-06-09 00:24:02
 (epstopdf)                    size: 14308 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VBFWWNWA-eps-conve
 rted-to.pdf Chapter4/VBFWWNWA.eps>
@@ -4282,11 +4282,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [120]
 Package epstopdf Info: Source file: <Chapter4/VBFWWWZHVT_COMB.eps>
-(epstopdf)                    date: 2019-06-12 06:41:07
+(epstopdf)                    date: 2019-06-11 23:41:07
 (epstopdf)                    size: 21066 bytes
 (epstopdf)             Output file: <Chapter4/VBFWWWZHVT_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 20:46:57
+(epstopdf)                    date: 2019-06-12 13:46:57
 (epstopdf)                    size: 10873 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VBFWWWZHVT_COMB-ep
 s-converted-to.pdf Chapter4/VBFWWWZHVT_COMB.eps>
@@ -4300,11 +4300,11 @@ Package pdftex.def Info: Chapter4/VBFWWWZHVT_COMB-eps-converted-to.pdf  used on
  input line 117.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/VBFWWZZNWA_COMB.eps>
-(epstopdf)                    date: 2019-06-12 06:42:44
+(epstopdf)                    date: 2019-06-11 23:42:44
 (epstopdf)                    size: 18748 bytes
 (epstopdf)             Output file: <Chapter4/VBFWWZZNWA_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 20:46:58
+(epstopdf)                    date: 2019-06-12 13:46:58
 (epstopdf)                    size: 10400 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/VBFWWZZNWA_COMB-ep
 s-converted-to.pdf Chapter4/VBFWWZZNWA_COMB.eps>
@@ -4318,11 +4318,11 @@ Package pdftex.def Info: Chapter4/VBFWWZZNWA_COMB-eps-converted-to.pdf  used on
  input line 118.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/GGFALLHVTW_COMB.eps>
-(epstopdf)                    date: 2019-06-12 07:30:15
+(epstopdf)                    date: 2019-06-12 00:30:15
 (epstopdf)                    size: 24204 bytes
 (epstopdf)             Output file: <Chapter4/GGFALLHVTW_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 21:34:32
+(epstopdf)                    date: 2019-06-12 14:34:32
 (epstopdf)                    size: 11315 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFALLHVTW_COMB-ep
 s-converted-to.pdf Chapter4/GGFALLHVTW_COMB.eps>
@@ -4336,11 +4336,11 @@ Package pdftex.def Info: Chapter4/GGFALLHVTW_COMB-eps-converted-to.pdf  used on
  input line 127.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/GGFALLHVTZ_COMB.eps>
-(epstopdf)                    date: 2019-06-12 07:30:31
+(epstopdf)                    date: 2019-06-12 00:30:31
 (epstopdf)                    size: 24243 bytes
 (epstopdf)             Output file: <Chapter4/GGFALLHVTZ_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 21:34:35
+(epstopdf)                    date: 2019-06-12 14:34:35
 (epstopdf)                    size: 11308 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFALLHVTZ_COMB-ep
 s-converted-to.pdf Chapter4/GGFALLHVTZ_COMB.eps>
@@ -4354,11 +4354,11 @@ Package pdftex.def Info: Chapter4/GGFALLHVTZ_COMB-eps-converted-to.pdf  used on
  input line 128.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/GGFWWZZNWA_COMB.eps>
-(epstopdf)                    date: 2019-06-12 06:42:17
+(epstopdf)                    date: 2019-06-11 23:42:17
 (epstopdf)                    size: 19098 bytes
 (epstopdf)             Output file: <Chapter4/GGFWWZZNWA_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 22:02:43
+(epstopdf)                    date: 2019-06-12 15:02:43
 (epstopdf)                    size: 10491 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWWZZNWA_COMB-ep
 s-converted-to.pdf Chapter4/GGFWWZZNWA_COMB.eps>
@@ -4372,11 +4372,11 @@ Package pdftex.def Info: Chapter4/GGFWWZZNWA_COMB-eps-converted-to.pdf  used on
  input line 134.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/GGFWWZZRSG_COMB.eps>
-(epstopdf)                    date: 2019-06-12 06:41:59
+(epstopdf)                    date: 2019-06-11 23:41:59
 (epstopdf)                    size: 22120 bytes
 (epstopdf)             Output file: <Chapter4/GGFWWZZRSG_COMB-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-12 22:02:45
+(epstopdf)                    date: 2019-06-12 15:02:45
 (epstopdf)                    size: 11297 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFWWZZRSG_COMB-ep
 s-converted-to.pdf Chapter4/GGFWWZZRSG_COMB.eps>
@@ -4390,11 +4390,11 @@ Package pdftex.def Info: Chapter4/GGFWWZZRSG_COMB-eps-converted-to.pdf  used on
  input line 135.
 (pdftex.def)             Requested size: 224.03688pt x 162.4012pt.
 Package epstopdf Info: Source file: <Chapter4/GGFALLHVTV_compare.eps>
-(epstopdf)                    date: 2019-06-13 06:33:39
+(epstopdf)                    date: 2019-06-12 23:33:39
 (epstopdf)                    size: 24136 bytes
 (epstopdf)             Output file: <Chapter4/GGFALLHVTV_compare-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2019-06-13 06:52:53
+(epstopdf)                    date: 2019-06-12 23:52:53
 (epstopdf)                    size: 11304 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/GGFALLHVTV_compare
 -eps-converted-to.pdf Chapter4/GGFALLHVTV_compare.eps>
@@ -4446,11 +4446,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [124 <./Chapter4/GGFALLHVTV_compare-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <Chapter4/Coupling_hf_all.eps>
-(epstopdf)                    date: 2019-06-13 06:34:00
+(epstopdf)                    date: 2019-06-12 23:34:00
 (epstopdf)                    size: 62839 bytes
 (epstopdf)             Output file: <Chapter4/Coupling_hf_all-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-13 06:57:24
+(epstopdf)                    date: 2019-06-12 23:57:24
 (epstopdf)                    size: 22524 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/Coupling_hf_all-ep
 s-converted-to.pdf Chapter4/Coupling_hf_all.eps>
@@ -4464,11 +4464,11 @@ Package pdftex.def Info: Chapter4/Coupling_hf_all-eps-converted-to.pdf  used on
  input line 171.
 (pdftex.def)             Requested size: 224.03688pt x 151.73251pt.
 Package epstopdf Info: Source file: <Chapter4/Coupling_lg_all.eps>
-(epstopdf)                    date: 2019-06-13 06:34:13
+(epstopdf)                    date: 2019-06-12 23:34:13
 (epstopdf)                    size: 51763 bytes
 (epstopdf)             Output file: <Chapter4/Coupling_lg_all-eps-converted-to.
 pdf>
-(epstopdf)                    date: 2019-06-13 06:57:27
+(epstopdf)                    date: 2019-06-12 23:57:27
 (epstopdf)                    size: 19627 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter4/Coupling_lg_all-ep
 s-converted-to.pdf Chapter4/Coupling_lg_all.eps>
@@ -4750,11 +4750,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 342--377
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package epstopdf Info: Source file: <Chapter5/overtrain_BDTG_merged.eps>
-(epstopdf)                    date: 2018-11-09 19:39:44
+(epstopdf)                    date: 2018-11-09 11:39:44
 (epstopdf)                    size: 25847 bytes
 (epstopdf)             Output file: <Chapter5/overtrain_BDTG_merged-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2019-03-30 08:38:22
+(epstopdf)                    date: 2019-03-30 00:38:22
 (epstopdf)                    size: 19193 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter5/overtrain_BDTG_mer
 ged-eps-converted-to.pdf Chapter5/overtrain_BDTG_merged.eps>
@@ -4770,11 +4770,11 @@ sed on input line 380.
 (pdftex.def)             Requested size: 179.22676pt x 132.44214pt.
 Package epstopdf Info: Source file: <Chapter5/overtrain_BDTG_trainEven_merged.e
 ps>
-(epstopdf)                    date: 2018-11-09 19:39:43
+(epstopdf)                    date: 2018-11-09 11:39:43
 (epstopdf)                    size: 26065 bytes
 (epstopdf)             Output file: <Chapter5/overtrain_BDTG_trainEven_merged-e
 ps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-30 08:38:23
+(epstopdf)                    date: 2019-03-30 00:38:23
 (epstopdf)                    size: 19132 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter5/overtrain_BDTG_tra
 inEven_merged-eps-converted-to.pdf Chapter5/overtrain_BDTG_trainEven_merged.eps
@@ -4790,11 +4790,11 @@ Package pdftex.def Info: Chapter5/overtrain_BDTG_trainEven_merged-eps-converted
 -to.pdf  used on input line 381.
 (pdftex.def)             Requested size: 179.22676pt x 132.44214pt.
 Package epstopdf Info: Source file: <Chapter5/overtrain_BDTG_resolved.eps>
-(epstopdf)                    date: 2018-11-09 19:39:47
+(epstopdf)                    date: 2018-11-09 11:39:47
 (epstopdf)                    size: 26326 bytes
 (epstopdf)             Output file: <Chapter5/overtrain_BDTG_resolved-eps-conve
 rted-to.pdf>
-(epstopdf)                    date: 2019-03-30 08:38:25
+(epstopdf)                    date: 2019-03-30 00:38:25
 (epstopdf)                    size: 19116 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter5/overtrain_BDTG_res
 olved-eps-converted-to.pdf Chapter5/overtrain_BDTG_resolved.eps>
@@ -4810,11 +4810,11 @@ Package pdftex.def Info: Chapter5/overtrain_BDTG_resolved-eps-converted-to.pdf
 (pdftex.def)             Requested size: 179.22676pt x 132.44214pt.
 Package epstopdf Info: Source file: <Chapter5/overtrain_BDTG_trainEven_resolved
 .eps>
-(epstopdf)                    date: 2018-11-09 19:39:45
+(epstopdf)                    date: 2018-11-09 11:39:45
 (epstopdf)                    size: 28823 bytes
 (epstopdf)             Output file: <Chapter5/overtrain_BDTG_trainEven_resolved
 -eps-converted-to.pdf>
-(epstopdf)                    date: 2019-03-30 08:38:26
+(epstopdf)                    date: 2019-03-30 00:38:26
 (epstopdf)                    size: 19797 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter5/overtrain_BDTG_tra
 inEven_resolved-eps-converted-to.pdf Chapter5/overtrain_BDTG_trainEven_resolved
@@ -5260,11 +5260,11 @@ Package pdftex.def Info: Chapter6/pedestalCorr.png  used on input line 84.
 (pdftex.def)             Requested size: 268.847pt x 198.67151pt.
 Package epstopdf Info: Source file: <Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-1
 9-60-25.eps>
-(epstopdf)                    date: 2019-07-02 21:39:02
+(epstopdf)                    date: 2019-07-02 14:39:02
 (epstopdf)                    size: 22326 bytes
 (epstopdf)             Output file: <Chapter6/noise_tot_plot_OFLCOND-MC12-HPS-1
 9-60-25-eps-converted-to.pdf>
-(epstopdf)                    date: 2019-07-03 01:02:48
+(epstopdf)                    date: 2019-07-02 18:02:48
 (epstopdf)                    size: 22118 bytes
 (epstopdf)             Command: <epstopdf --outfile=Chapter6/noise_tot_plot_OFL
 COND-MC12-HPS-19-60-25-eps-converted-to.pdf Chapter6/noise_tot_plot_OFLCOND-MC1
@@ -5834,7 +5834,7 @@ palatino/uplbi8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (259 pages, 14989580 bytes).
+Output written on thesis.pdf (259 pages, 14989565 bytes).
 PDF statistics:
  7778 PDF objects out of 8907 (max. 8388607)
  956 named destinations out of 1000 (max. 500000)
