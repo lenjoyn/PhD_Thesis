@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  5 FEB 2020 10:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730 64-bit) (preloaded format=pdflatex 2018.8.11)  5 FEB 2020 11:11
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -1472,7 +1472,7 @@ File: Peterhouse.png Graphic file (type png)
 Package pdftex.def Info: Peterhouse.png  used on input line 13.
 (pdftex.def)             Requested size: 142.26378pt x 167.29158pt.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 19.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
  [1
 
 
@@ -1482,40 +1482,40 @@ e.png>] [2
 
 ]
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 19.
-
-Underfull \hbox (badness 10000) in paragraph at lines 19--22
-
- []
-
-[3] [4
-
-] [5] [6
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 18.
+ [3] [4
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 31--34
+
+ []
+
+[5] [6
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 41--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 41--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 41--51
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--50
+Underfull \hbox (badness 10000) in paragraph at lines 41--51
 
  []
 
 [7] [8
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 56.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 57.
 
 ("C:\Users\lenjo\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1cmss.fd"
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -1524,7 +1524,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-Package tocbasic Info: character protrusion at toc deactivated on input line 56
+Package tocbasic Info: character protrusion at toc deactivated on input line 57
 .
 
 (thesis.toc [9]
@@ -5806,7 +5806,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  31973 strings out of 492973
  575699 string characters out of 3126692
- 844108 words of memory out of 3000000
+ 843108 words of memory out of 3000000
  33429 multiletter control sequences out of 15000+200000
  139555 words of font info for 585 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -5834,7 +5834,7 @@ palatino/uplbi8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/urw/palatino/uplr8a.pfb><C:/Users/lenjo/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesis.pdf (259 pages, 14989565 bytes).
+Output written on thesis.pdf (259 pages, 14989423 bytes).
 PDF statistics:
  7778 PDF objects out of 8907 (max. 8388607)
  956 named destinations out of 1000 (max. 500000)
